@@ -123,7 +123,7 @@ BTC: bc1pe89mlgpmyw2qyww2lded8635rcax2zwwnqxc2rzxj4g5ht2yk6gqvpw2lw
 
 ## License
 
-CC BY-SA 4.0 — Ayit Tarter & Druhahsh Ahale (AyitLabs)
+CC BY-SA 4.0 — Ayit Tarter & Adam Tarter (AyitLabs)
 
 ---
 
