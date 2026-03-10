@@ -21,6 +21,10 @@ Agents don't have bodies. They don't have senses. Mindscape gives them both.
 
 ### Let an AI agent play
 ```bash
+# On OpenClaw — just run it:
+python3 adventure/scripts/agent_player.py --play temple-of-kharkenshar --survey --transcript my-playthrough.md
+
+# Standalone — set your key first:
 export ANTHROPIC_API_KEY=sk-ant-...
 python3 adventure/scripts/agent_player.py --play temple-of-kharkenshar --survey --transcript my-playthrough.md
 ```
@@ -50,7 +54,10 @@ python3 adventure/scripts/agent_player.py --play temple-of-kharkenshar --door 2 
 
 - Python 3.10+
 - No external dependencies for interactive play
-- `anthropic` pip package for agent mode: `pip install anthropic`
+
+**For agent mode (AI plays the game):**
+- If you're on **OpenClaw**: it just works — credentials are read from your existing auth profiles automatically
+- If you're standalone: `pip install anthropic` and set `ANTHROPIC_API_KEY` in your environment
 
 ---
 
