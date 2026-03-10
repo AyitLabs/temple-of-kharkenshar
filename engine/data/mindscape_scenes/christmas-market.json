@@ -1,0 +1,78 @@
+{
+  "id": "christmas-market",
+  "name": "Christmas Market",
+  "description": "A German Weihnachtsmarkt — wooden stalls glowing under string lights, mulled wine steam, roasted almonds, pine boughs, and the crunch of fresh snow underfoot.",
+  "smell": {
+    "scene_id": "christmas-market",
+    "compounds": ["cinnamaldehyde", "eugenol", "citral", "ethanol", "pyrazine", "alpha-pinene", "vanillin", "caramel", "beeswax", "wood-smoke"]
+  },
+  "sight": {
+    "scene_id": "christmas-market"
+  },
+  "sound": {
+    "scene_id": "christmas-market"
+  },
+  "environment": {
+    "temperature_c": -3,
+    "humidity_pct": 70,
+    "wind_speed_kmh": 5,
+    "time_of_day": "evening",
+    "weather": "light_snow",
+    "indoor": false,
+    "touch": {
+      "surface_textures": ["crunching packed snow underfoot compressing to ice", "rough wooden stall counter dusted with powdered sugar", "hot ceramic Glühwein mug almost too hot for bare hands", "smooth roasted almonds still warm through the paper cone", "pine bough needles pricking your wrist as you brush past", "knitted wool gloves damp from snowflakes melting on contact"],
+      "air_feel": "Biting cold at -3°C, the kind that stings the bridge of your nose, tightens your cheeks, and makes your eyes water. Each breath is sharp and clean going in, visible and warm going out. Wind chill at 5 km/h drops the effective temperature further on exposed skin. But the air between the stalls is sheltered and noticeably warmer — your body registers the five-degree difference as relief.",
+      "thermal_notes": "At -3°C, exposed skin loses heat rapidly through convection. Metal surfaces (stall hardware, lamp poles) are dangerous to bare hands — thermal conductivity of steel means it pulls heat from skin at roughly 50 W/m²K, enough to sting on contact. The ceramic Glühwein mug is a poor conductor, so it insulates: hot enough to warm your palms without burning. Snow crunches because at this temperature the ice crystals are rigid enough to fracture rather than melt under pressure.",
+      "key_tactile_moments": [
+        "Wrapping both hands around the Glühwein mug — the heat seeping into frozen fingers, the ache of warming capillaries",
+        "A snowflake landing on your eyelash and melting into a cold pinpoint of water",
+        "The crunch of fresh snow underfoot — that specific sub-zero compression sound you feel through your boots",
+        "Biting into a roasted almond and feeling the caramel shell crack between your teeth, the nut warm and soft inside"
+      ]
+    }
+  },
+  "cross_sensory_bridges": [
+    "The cold is what makes every warm thing vivid — mulled wine steam is visible because it's freezing, spices travel sharper through cold dry air, and every light source feels like a small hearth.",
+    "Snow muffles sound and amplifies smell — the crunch underfoot is intimate, while cinnamon and roasted sugar carry impossibly far in still winter air.",
+    "Everything glows the same amber — the string lights, the mulled wine, the roasted almonds — as if warmth itself has a color and the market is made of it."
+  ],
+  "mood": ["nostalgic", "warm-despite-cold", "enchanted", "generous", "childlike"],
+  "prose": "The Christmas market exists inside a contradiction: it is bitterly cold and impossibly warm at the same time.\n\nThe light arrives first, always. Hundreds of string lights — incandescent, not LED, because this market has opinions about light — drape between wooden stalls and turn the falling snow into slow-motion sparks. Each stall is its own hearth: amber light pouring from the open front, steam rising through it, everything glowing from within. The Rathaus behind the market is lit blue and white and it looks painted on, a backdrop for a scene too perfect to be accidental.\n\nThe cold carries sound differently. Snow absorbs the high frequencies, so everything you hear has had its edges rounded — voices are warm, laughter is padded, the brass quartet on the church steps plays through cotton wool. The crunch of packed snow under boots provides the rhythm section. Wooden spoons stir copper pots of Glühwein and the stirring sound is somehow the coziest noise in the world. Someone is singing. Everyone is murmuring.\n\nBut the smell — the smell is why you came back. Cinnamaldehyde and clove and orange peel rising in clouds of mulled wine steam. Roasted almonds doing their caramel-pyrazine alchemy in a slowly turning copper drum, the sugar browning past sweet into something deeper and almost savory. Pine boughs nailed over every stall entrance releasing alpha-pinene every time someone brushes past. Beeswax candles. Wood smoke from the Bratwurst grill mixing with the cold air's own mineral blankness. And the cold itself acts as a delivery system — every exhale is visible, every warm scent punches through the frozen air with startling clarity.\n\nYou hold the Glühwein mug in both hands. The ceramic is almost too hot. The spice-steam fogs your glasses. The world goes soft. This is the point.",
+  "positions": [
+    {
+      "name": "the approach through the square",
+      "prose": "You see the market before you reach it — a low amber constellation hovering at street level, warm light caught in its own steam and the falling snow. The cold is serious, biting at your ears and the bridge of your nose, but that's what makes the first tendril of roasted-almond sweetness so arresting when it finds you. Caramel and pyrazine riding the frozen air like a summons. The sound is still distant: a blurred warmth, a collective murmur, the ghost of brass. Snow crunches under your boots in that specific pitch that means it's well below zero. Each step closer trades cold-silence for warm-noise, and you can feel the boundary approaching.",
+      "smell_emphasis": ["pyrazine", "caramel"],
+      "cross_sensory": "The glow, the first smell, the muffled brass — all promise the same thing: warmth is close.",
+      "touch_notes": "The cold is serious — it bites at your ears, tightens the skin across your cheekbones, makes your fingertips numb inside your gloves. Snow crunches under each boot with that below-zero crispness. Snowflakes land on your coat and don't melt immediately — the fabric is cold enough to preserve them as tiny crystal structures for a breath before body heat dissolves them."
+    },
+    {
+      "name": "the Glühwein stand",
+      "prose": "Steam pours from the copper pot in a continuous column, lit amber from below, and it carries everything: cinnamaldehyde so strong it stings the back of your sinuses, clove's eugenol warmth, the bright citral sharpness of orange peel curling in the heat. The vendor ladles wine into a ceramic mug and the sound of pouring liquid in cold air is impossibly clear. You wrap both hands around it and the heat is a shock — your frozen fingers ache as they warm, and the ache is the same color as the wine, deep red going orange at the edges. The first sip burns and blooms simultaneously, cinnamon and star anise and cheap red wine transformed by heat into something ancient and necessary.",
+      "smell_emphasis": ["cinnamaldehyde", "eugenol", "citral", "ethanol"],
+      "cross_sensory": "The steam you see, the spice you smell, and the burn you taste are all the same heat experienced three ways.",
+      "touch_notes": "The ceramic mug is almost too hot — your frozen fingers ache as the blood vessels expand and warmth returns, a deep throbbing that is pain and relief simultaneously. The steam dampens your face. The first sip burns your upper lip and the heat spreads down your throat and into your chest like a small internal fire. Your hands won't release the mug."
+    },
+    {
+      "name": "the roasted almond cart",
+      "prose": "The copper drum turns slowly and the almonds inside tumble with a sound like quiet applause. Sugar melts on their surfaces, browning through stages — first sweet, then caramel, then the deep toasted-nut pyrazine that reaches three stalls in every direction. The heat shimmer above the drum warps the string lights behind it. A fine sugar-smoke rises and catches the light like the snow does, and for a moment you can't tell which is falling and which is rising. The vendor scoops a paper cone full and the almonds crackle as they cool in the night air, each one still radiating heat through the paper into your palm. You eat one and the crunch is violent in the muffled snow-quiet of the market.",
+      "smell_emphasis": ["pyrazine", "caramel", "vanillin"],
+      "cross_sensory": "The turning drum's rhythm, the browning sugar's smell, and the amber light all rotate together in slow, warm circles.",
+      "touch_notes": "The paper cone is warm in your palm, the almonds radiating heat through the paper. Each almond has a thin, glassy caramel shell that cracks under your teeth with a satisfying snap, giving way to the softer, warmer nut inside. Sugar crystals stick to your gloves and your lips. The heat from the copper drum is a warm zone you step into and out of."
+    },
+    {
+      "name": "between the wooden stalls",
+      "prose": "Pine boughs frame every entrance and you walk through a corridor of alpha-pinene — sharp, green, almost cold-smelling even though it's coming from a living thing. Beeswax candles gutter on wooden shelves between hand-carved ornaments, and their honey-warm scent sits underneath the pine like a bass note. The stalls create a wind-sheltered alley and the temperature jumps five degrees; your cheeks flush with the sudden comparative warmth. Voices are close here, German and English tangled together, and someone's child is singing a carol slightly off-key with complete conviction. Snow collects on the stall roofs in a thick white brow, and meltwater drips at the edges where the heat leaks up.",
+      "smell_emphasis": ["alpha-pinene", "beeswax", "vanillin"],
+      "cross_sensory": "Pine and beeswax bracket the smell spectrum — one sharp, one sweet — while the sheltered warmth makes your body believe it's indoors.",
+      "touch_notes": "Pine needles catch your sleeve and prick through the fabric — a tiny sharp reminder of the living thing nailed above the entrance. The stalls create a windbreak and the temperature jumps perceptibly — your cheeks flush with the sudden comparative warmth. Wooden ornaments are smooth and light in your hands, hand-carved, the grain visible under the paint."
+    },
+    {
+      "name": "the church steps, looking back",
+      "prose": "From the steps you see the whole market at once and it's absurd — a tiny village of light and steam set against the dark buildings of a real city, snow falling through it like a special effect. The brass quartet behind you is playing Stille Nacht and the notes drift down into the market and dissolve in the crowd-murmur. The cold has reclaimed you up here on the exposed stone, and it makes the market's warmth look almost edible. You can smell everything from this slight elevation: wood smoke and mulled wine and roasted sugar and pine, layered in the cold air like geological strata, each scent a different temperature. Your mug is empty now and cooling in your hands. The ceramic still holds the ghost of cinnamon. Below you, the market glows like something you'll remember exactly as it was, for the rest of your life.",
+      "smell_emphasis": ["wood-smoke", "cinnamaldehyde", "alpha-pinene", "pyrazine"],
+      "cross_sensory": "Distance gives you the market as a single object — one glow, one murmur, one scent-cloud — instead of a hundred competing stalls.",
+      "touch_notes": "The church steps are stone — cold radiating through your boots and into your feet, pulling heat out faster than the wooden market stalls did. The wind is unbroken up here and it cuts across your exposed face. The empty mug is cooling rapidly in your hands, the ceramic dropping from warm to ambient in minutes. Your fingers tighten around it anyway, holding the memory of warmth."
+    }
+  ]
+}

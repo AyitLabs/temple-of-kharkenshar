@@ -1,0 +1,78 @@
+{
+  "id": "abandoned-factory",
+  "name": "Abandoned Factory",
+  "description": "A decommissioned industrial plant reclaimed by weather and time — shattered skylights, rusted machinery frozen mid-task, pigeon colonies in the rafters, and the smell of decades of slow chemical decay.",
+  "smell": {
+    "scene_id": "abandoned-factory",
+    "compounds": ["iron-oxide", "wet-concrete", "pigeon-guano", "mold", "machine-grease", "creosote", "rain-petrichor", "decayed-wood", "dust"]
+  },
+  "sight": {
+    "scene_id": "abandoned-factory"
+  },
+  "sound": {
+    "scene_id": "abandoned-factory"
+  },
+  "environment": {
+    "temperature_c": 12,
+    "humidity_pct": 78,
+    "wind_speed_kmh": 8,
+    "time_of_day": "afternoon",
+    "weather": "overcast",
+    "indoor": true,
+    "touch": {
+      "surface_textures": ["rough rusted steel that leaves orange-red oxide on your palms", "cracked concrete floor buckled and weed-split", "flaking paint in thick brittle layers that crumble under pressure", "cold standing water pooled in machinery depressions", "greasy machine bearings still slick after decades", "swollen moisture-warped paper dissolving at the edges"],
+      "air_feel": "Cold and damp at 12°C, 78% humidity. The air moves in slow drafts through broken skylights — you feel it on your neck and ears as the wind shifts, a spectral touch from different directions. The concrete and steel radiate cold. Standing water adds a clammy layer to the air near the floor.",
+      "thermal_notes": "Concrete's thermal conductivity (~1.7 W/mK) makes the floor a constant cold sink underfoot. Steel machinery, with its much higher conductivity (~50 W/mK), feels dramatically colder to the touch than the concrete despite being the same temperature — the metal pulls heat from your hand fast enough to ache. Rust has lower conductivity than bare steel, so heavily oxidized surfaces feel marginally less cold. The wind through broken skylights creates localized wind chill zones that your body maps by feel as you walk.",
+      "key_tactile_moments": [
+        "Gripping a rusted ladder rung and feeling the oxide grind under your palm like fine sandpaper, then looking at your hand and seeing it stained the color of dried blood",
+        "Stepping on a concrete section that shifts under your weight — the subtle lurch of a floor losing its structural argument with time",
+        "The wind pushing through a broken skylight and touching your face with cold, damp air that carries the temperature of the outside world",
+        "Standing water soaking through your boot sole where the concrete has cracked and pooled"
+      ]
+    }
+  },
+  "cross_sensory_bridges": [
+    "Rust is the factory's true language — you see it on every surface, smell its mineral bleed in the air, and taste iron on your tongue when you breathe too deep.",
+    "The wind through broken skylights is both sound and touch — you hear it moan through steel trusses and feel it push the cold damp air against exposed skin.",
+    "Everything here is in the process of becoming something else: metal becoming oxide, wood becoming soil, silence becoming echo. Decay has its own synesthesia."
+  ],
+  "mood": ["desolate", "reverent", "archaeological", "melancholic", "vast"],
+  "prose": "The factory has been dying for thirty years and it's beautiful.\n\nLight enters through shattered skylights in cathedral shafts — dusty, particulate-heavy columns of grey-white that land on the factory floor like spotlights on an empty stage. The machines sit where they stopped: a stamping press mid-descent, conveyor belts sagging with accumulated weight of nothing, control panels with dials frozen at their last readings. Rust has rewritten every surface in a palette from burnt orange to deep arterial red, and where rain has pooled on the floor, the water is the color of old blood. Graffiti blazes on the far wall — electric blues and magentas that are the only colors under forty years old.\n\nThe sound is architectural. Wind enters through every broken pane and plays the building like an instrument — low moans through the steel roof trusses, a whistling soprano where a window frame has become a reed. Pigeons explode from the rafters in sudden percussion, wings slapping air, then settle back to their cooing baseline. Water drips from three different heights and each drop hits a different surface — puddle, steel, concrete — creating an arrhythmic clock that measures nothing. Your footsteps echo longer than they should, the concrete floor and distant walls bouncing sound back at you with a delay that makes the space feel twice its size.\n\nThe smell is slow chemistry. Iron oxide dominates — that mineral, almost bloody scent of rust actively consuming steel. Wet concrete exhales its alkaline breath wherever rain has reached. Pigeon guano adds an acrid ammonia bite from the colonies above. Beneath it all, the fossil smells: machine grease gone rancid in the bearings of equipment that will never turn again, creosote from the railroad ties that once fed the loading dock, and the sweet must of wood framing that is slowly, patiently, returning to soil.\n\nNothing here is in a hurry. Even the collapse takes decades.",
+  "positions": [
+    {
+      "name": "the loading dock entrance",
+      "prose": "The roll-up door is jammed at hip height, forcing you to duck into a breath of air that hits like a wall of mineral cold. The first thing you smell is wet concrete and old diesel — the loading dock's floor still carries petroleum stains that rain reactivates into dark rainbow puddles. Daylight enters horizontally under the stuck door, casting long shadows from every bolt and rivet into the interior darkness. A pigeon startles and the wing-beats echo through the empty bay like applause in a vacant theater. The concrete under your feet is cracked and buckled, weeds forcing through with a patience that has already won.",
+      "smell_emphasis": ["wet-concrete", "machine-grease", "rain-petrichor"],
+      "cross_sensory": "The horizontal light, the echo, and the cold mineral air all announce the same thing: you are entering a space that has forgotten what warmth and purpose feel like.",
+      "touch_notes": "You duck under the jammed door and the cold air hits you like a wall. The concrete floor is cracked and uneven, each step slightly uncertain. The loading dock's steel threshold is ice-cold through your soles. Weeds brush your ankles where they've broken through the floor. The air is damp and still and presses cold against every inch of exposed skin."
+    },
+    {
+      "name": "the main production floor",
+      "prose": "The scale hits you physically — a cathedral of industry with a hundred-foot ceiling and no walls you can reach in a single echo. Light falls through broken skylights in visible columns, each one illuminating a different ruin: a press frozen mid-stroke here, a conveyor belt sagging into a rust-orange smile there. The air is cold and tastes of iron — every breath deposits a faint metallic film on your tongue. Pigeons murmur from the upper darkness like monks at vespers, their guano streaking the machines below in white and grey. The wind finds channels between the equipment and produces sounds that are almost musical, almost words, almost the memory of the workers who once shouted over these machines.",
+      "smell_emphasis": ["iron-oxide", "dust", "pigeon-guano", "mold"],
+      "cross_sensory": "The columns of light are visible paths through the factory's smell-map — step into one and you taste dust and height; step out and the iron and mold close back around you.",
+      "touch_notes": "The floor is vast and uneven — concrete cracked into tectonic plates that shift slightly underfoot. Touch a machine surface and rust comes away on your hand, gritty and orange, smelling of iron. The steel is cold enough to ache after a few seconds of contact. Standing in a shaft of skylight, the air is marginally warmer — solar radiation on your face, a small kindness in the general chill."
+    },
+    {
+      "name": "the foreman's office",
+      "prose": "A glass-walled box suspended above the production floor, half its windows punched out by weather or vandals. Papers still sit on the desk, swollen with moisture into soft sculptures of their former selves. The chair is pushed back as if someone just left, but the calendar on the wall says 1994. Mold has colonized every paper surface — you smell it before you see it, a sweet-sour mustiness that thickens as you step inside. The plywood walls have delaminated into wavy layers, each one exhaling the ghost of formaldehyde and wood glue. From here you can see the entire production floor below, and the wind through the broken office windows creates a Doppler effect with the factory's own drafts — two wind-systems meeting in your ears.",
+      "smell_emphasis": ["mold", "decayed-wood", "dust"],
+      "cross_sensory": "The mold on the papers, the warped plywood, and the view of the rusting floor below are all the same story told in smell, touch, and sight — time digesting what humans abandoned.",
+      "touch_notes": "The plywood walls are soft with moisture — press a finger and it sinks in, the laminated layers separating like wet cardboard. The papers on the desk are swollen to twice their thickness, soft as cloth, disintegrating at the edges. The chair's vinyl seat is cold and cracked, splitting to reveal yellow foam underneath. Wind through the broken windows pushes against your face from two directions simultaneously."
+    },
+    {
+      "name": "the paint shop",
+      "prose": "The air changes here — sharper, more chemical, as if this room is still exhaling the solvents it swallowed for decades. Paint has dripped and pooled and hardened into stalagmites beneath the spray nozzles, frozen waterfalls of industrial grey and safety yellow now flaking into the standing water that covers the floor. Your footsteps splash and the echo is wetter here, shorter, absorbed by the water and the acoustic dampening panels peeling from the walls like dead skin. Creosote from the wooden ventilation ducts adds a tarry undertone that sticks to the back of your throat. The overhead spray arms point downward like skeletal fingers, and where light reaches them, each drip-tip holds a single bead of water that magnifies the rust beneath.",
+      "smell_emphasis": ["creosote", "machine-grease", "iron-oxide", "wet-concrete"],
+      "cross_sensory": "This room never stopped outgassing — the smell is trapped in standing water, in peeling panels, in hardened paint, and every splash of your footstep releases another decade.",
+      "touch_notes": "Standing water covers the floor and your boots splash with each step, the water cold and oily, leaving a chemical sheen on the leather. The acoustic panels peel from the walls like dead skin — touch one and it crumbles, releasing trapped moisture and thirty years of absorbed solvent. The hardened paint stalagmites are brittle and break with a dry snap. Everything is slick, cold, and vaguely adhesive."
+    },
+    {
+      "name": "the roof, through the access ladder",
+      "prose": "The ladder rungs are cold and rough with rust that leaves orange-red on your palms — you can smell it on your own hands now, intimate and ferric, like holding a bloody coin. You emerge onto the roof and the wind takes everything: the factory's stale interior climate stripped away in one gust replaced by rain-washed air and petrichor from the scrubland below. The skylights are shattered holes in a tar-and-gravel surface, and looking down through them you see the production floor from the pigeons' perspective — tiny light-columns, vast shadows, your own footprints visible in the dust thirty feet below. The city hums on the horizon. Up here the factory's smell is just one note in a larger chord: rust and rain and the green vegetal push of the weeds that have colonized every crack in the roof membrane.",
+      "smell_emphasis": ["iron-oxide", "rain-petrichor", "dust"],
+      "cross_sensory": "Climbing from interior to roof is a sensory reset — the rust on your hands is the last trace of the enclosed world below, carried into open air that immediately begins to erase it.",
+      "touch_notes": "The ladder rungs are rough with rust — each grip leaves orange-red oxide on your palms, gritty and metallic. Your hands ache from the cold steel's conductivity. On the roof, the wind hits you fully for the first time and the temperature feels ten degrees colder than inside. The tar-and-gravel surface is soft and uneven underfoot, the membrane cracking in places. You smell the rust on your own hands — intimate, ferric, the factory clinging to your skin."
+    }
+  ]
+}

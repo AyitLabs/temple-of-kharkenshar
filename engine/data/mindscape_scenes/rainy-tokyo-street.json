@@ -1,0 +1,62 @@
+{
+  "id": "rainy-tokyo-street",
+  "name": "Rainy Tokyo Street",
+  "description": "A narrow Shinjuku side street at night in the rain — neon reflections in puddles, the hiss of tires, ramen steam escaping through sliding doors, umbrellas bumping.",
+  "smell": {
+    "compounds": ["dashi", "tonkotsu", "sesame_oil", "petrichor", "diesel", "cigarette"]
+  },
+  "sight": {},
+  "sound": {},
+  "environment": {
+    "temperature_c": 12,
+    "humidity_pct": 95,
+    "wind_speed_kmh": 5,
+    "time_of_day": "night",
+    "weather": "rain",
+    "indoor": false,
+    "touch": {
+      "surface_textures": ["wet tile sidewalk slippery under shoe soles", "transparent plastic umbrella handle slick with rain", "warm ceramic ramen bowl radiating heat through both palms", "cold metal stair railing at the station exit beaded with rain", "steamed-up glass window warm on the inside cool on the outside"],
+      "air_feel": "Cold rain at 12°C with 95% humidity — the air is saturated and heavy, pressing moisture into every layer of clothing. Rain hits exposed skin with a steady cold percussion. Stepping inside the ramen shop inverts everything: the air is warm, thick with steam, and your glasses fog instantly from the temperature differential.",
+      "thermal_notes": "Rain at 12°C strips body heat through conduction — water conducts heat 25x faster than air, so wet clothing becomes a cooling system. The ramen shop's interior at roughly 28°C creates a 16-degree swing that your body registers as a full-system relief. The ceramic bowl conducts heat steadily — hot enough to warm your hands without burning, the thermal sweet spot of fired clay. The broth inside is 85°C+ and the steam carries that heat to your face in a warm, wet envelope.",
+      "key_tactile_moments": [
+        "The ramen shop's sliding door opening and the wall of warm, humid air hitting your rain-cold face — the most dramatic thermal transition of the night",
+        "Rain drumming on your umbrella, transmitted through the handle as a constant fine vibration into your wrist",
+        "The ceramic bowl cupped in both hands, the heat seeping into rain-chilled fingers, almost too hot but you don't let go",
+        "Your glasses fogging opaque the instant you step inside — temporary blindness as a tactile event, the warm moisture coating the lenses"
+      ]
+    }
+  },
+  "cross_sensory_bridges": [
+    "The neon bleeds into the rain and the rain bleeds into the puddles and the puddles hold the neon — a closed loop of colored light and water.",
+    "What you see falling is what you hear hissing on asphalt is what washes the air clean enough to smell the ramen three doors down.",
+    "The rain connects everything: it's the visual static, the broadband hiss, and the reason every scent is amplified tonight."
+  ],
+  "mood": ["melancholy", "cinematic", "neon", "wet", "intimate", "urban"],
+  "prose": "",
+  "positions": [
+    {
+      "name": "the station exit",
+      "prose": "You emerge from the station into a wall of wet sound. Rain hammers the corrugated awning overhead with metallic authority. Below, the sidewalk is a mirror — wet tiles reflecting the green cross of a pharmacy sign, the red kanji of a pachinko parlor, the white fluorescent spill from a convenience store. The air hits you: cold, damp, carrying diesel from the bus lane and something savory from the ventilation fan of an invisible kitchen. People stream past with transparent umbrellas, each one a lens magnifying the neon above. The city is louder in the rain, and brighter, and more fragrant — water turns up every dial.",
+      "cross_sensory": "The rain is the unifier here — it makes the lights reflect, the sounds louder, the smells sharper. One phenomenon, three amplifications.",
+      "touch_notes": "The rain hits your umbrella with a constant drumming that vibrates down the handle into your hand. The station exit's metal railing is cold and wet, beaded with condensation. The sidewalk is slick underfoot — wet tile over concrete, treacherous at speed. Umbrellas bump and scrape against each other in the crowd, each contact a small jolt of someone else's trajectory."
+    },
+    {
+      "name": "the narrow alley",
+      "prose": "You turn into a side street barely wide enough for two umbrellas. The neon narrows to a single line of pink script running vertically up a ramen shop sign. The alley walls compress the rain-sound into something more intimate — individual drops audible now, tapping on air conditioning units and dripping from tangled power lines overhead. Steam billows from a kitchen exhaust, catching the pink neon and turning it into a warm, rose-colored fog. The smell hits: pork bone broth, rich and fatty and insistent, cutting through the rain-washed air like a hand grabbing your coat. A bicycle leans against a wall, its bell reflecting a tiny pink oval of neon in the rain.",
+      "cross_sensory": "The pink neon and the ramen steam and the broth smell are all part of the same invitation — the sign is just the visual translation of what your nose already knows.",
+      "touch_notes": "The alley walls press close and the rain falls differently here — filtered through power lines and air conditioners into irregular fat drops that land on your shoulders and neck with cold precision. The ground is uneven, puddles filling every depression. The kitchen exhaust steam is warm on your face, a pocket of heat in the cold rain. Your wet sleeve brushes the alley wall and comes away damp with urban grime."
+    },
+    {
+      "name": "the ramen counter",
+      "prose": "You slide the door open — that particular shoji sound, wood in wood — and the sensory environment inverts completely. The rain becomes muffled background percussion. The light shifts from neon-cold to incandescent-warm, a dozen bare bulbs reflected in the stainless steel counter. Steam rises from every bowl, and the sound is all kitchen: the rhythmic thock of a knife, the hiss of noodles hitting boiling water, the ceramic click of bowls being set down. The air is thick with tonkotsu — hours of rendered pork bone — layered with soy, sesame, the sharp bite of pickled ginger. Your glasses fog instantly. For a moment you're blind, and the smell and sound carry everything.",
+      "cross_sensory": "The transition from outside to inside is a complete sensory reset: cold to warm, neon to incandescent, rain-sound to kitchen-sound, wet asphalt to pork broth. Your body relaxes across all senses simultaneously.",
+      "touch_notes": "The sliding door is smooth wood in a wooden track — that satisfying shoji friction. The warm air hits your cold face like a compress. Your glasses fog completely and you're blind for ten seconds, navigating by sound and the warmth gradient. The counter stool is warm vinyl. Your wet jacket steams slightly in the heated air. The ceramic bowl arrives and you wrap both hands around it and the heat is a slow, deep ache of returning circulation."
+    },
+    {
+      "name": "eating, window seat",
+      "prose": "From the window seat, you watch the rain through steam-fogged glass. The neon outside is reduced to soft colored blurs — pink, blue, green — smeared by condensation. Your bowl steams in front of you, the broth's surface reflecting the warm overhead bulb as a perfect amber circle. The slurp of noodles from the man beside you is the loudest sound — deliberate, appreciative, rhythmic. The rain on the window is a gentle, continuous static, a counterpoint to the kitchen clatter behind you. You taste what you've been smelling for the last five minutes, and the circle closes: what the air promised, the broth delivers.",
+      "cross_sensory": "Inside and outside coexist through the window — you see the rain you can no longer hear clearly, smell the broth instead of the petrichor, and the warm light on your bowl is the opposite of the cold neon outside. Two worlds, one sheet of glass.",
+      "touch_notes": "The window glass is warm on your side, cool on the rain side — you can feel both temperatures if you press your palm flat against it. Condensation streaks the inside surface. The noodles are hot and slippery between chopsticks, the broth almost too hot on your lips. The counter is smooth laminate, warm and dry, and after the cold wet world outside, the simple dryness of an indoor surface feels like luxury."
+    }
+  ]
+}

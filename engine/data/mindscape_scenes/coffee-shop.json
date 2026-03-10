@@ -1,0 +1,88 @@
+{
+  "id": "coffee-shop",
+  "name": "Coffee Shop",
+  "description": "A neighborhood café on a weekday morning — espresso machines, quiet conversation, morning light through steam.",
+  "smell": {
+    "scene_id": "coffee-shop",
+    "compounds": ["furfuryl mercaptan", "2-furfurylthiol", "vanillin", "cinnamaldehyde", "pyrazines", "diacetyl", "caramel", "guaiacol", "linalool", "ethyl butyrate"]
+  },
+  "sight": {
+    "scene_id": "coffee_shop"
+  },
+  "sound": {
+    "scene_id": "coffee_shop_morning"
+  },
+  "environment": {
+    "temperature_c": 23,
+    "humidity_pct": 55,
+    "wind_speed_kmh": 0,
+    "time_of_day": "morning",
+    "weather": "clear",
+    "indoor": true,
+    "touch": {
+      "surface_textures": ["warm ceramic cup glazed smooth", "rough reclaimed-wood tabletop", "cool metal chair legs", "slightly sticky counter surface", "soft paper sleeve around takeaway cup"],
+      "air_feel": "Warm and faintly humid from constant steam. A subtle thermal gradient — warmer near the espresso machine, cooler by the door. Each time the door opens, a brief blade of cool morning air cuts through.",
+      "thermal_notes": "The ceramic cup conducts heat quickly to your palms — that's the point, the warmth is part of the experience. The wooden table is a poor conductor, feels neutral. Metal chair legs feel cold even at room temperature because metal's high thermal conductivity pulls heat from skin rapidly. The steam from your cup warms your face by convection — a personal microclimate.",
+      "key_tactile_moments": [
+        "Wrapping both hands around the cup — ceramic transferring heat through palms",
+        "The gritty resistance of sugar granules under your fingertip on the counter",
+        "The brief shock of cold air when the door opens, then the warm air closing back",
+        "The textured grip of the paper sleeve, its slight compression under your squeeze"
+      ]
+    }
+  },
+  "cross_sensory_bridges": [
+    "Steam is the bridge — you see it rising from cups as visible convection, hear the espresso machine that pressurized the water to create it, and smell the volatile compounds it carries. One physical process (water at 93°C extracting soluble compounds under 9 bars of pressure) produces three sensory outputs.",
+    "The warmth of the morning light through the window and the warmth of the coffee smell are perceptually fused — both amber, both comforting — but physically unrelated. The light is electromagnetic radiation at 3000-4000K color temperature; the smell is volatile organic compounds at parts-per-billion concentration. Your brain links them because warmth is warmth.",
+    "The espresso machine's sounds map directly to smell events: the grinder's roar releases the most volatile compounds (you smell fresh grounds), the extraction's hiss carries less aroma (compounds dissolving into water), and the steaming wand's shriek creates the dairy-sweet diacetyl note of heated milk proteins.",
+    "The café's ambient noise — conversation, music, cup-on-saucer — creates an acoustic texture that is the auditory equivalent of the scent's complexity. Both are layered, neither is dominant, and both say 'public but comfortable.'"
+  ],
+  "mood": ["warm", "routine", "comforting", "focused", "communal"],
+  "prose": "The café runs on a simple thermodynamic transaction: cold water in, hot coffee out, and everything you experience is a byproduct of that conversion.\n\nThe light arrives from two directions. Morning sun through the east-facing window — low, golden, hitting the steam above every cup and making each one a small lighthouse of illuminated vapor. And the warmer, yellower light of Edison bulbs hanging from the ceiling on cloth-wrapped cord, their filaments visible, their color temperature designed to make everything look like an oil painting. Where the two lights meet — at the counter, at the window tables — the shadows go soft and the whole space acquires a diffused amber glow that makes 7:30 AM feel like it's already forgiven you for being awake.\n\nThe sound is a carefully layered composition, though no one composed it. The espresso machine provides the rhythm section: the grinder's brief, violent roar (five seconds, exactly, for a double shot), then the pressurized extraction (a mechanical breathing, hydraulic and precise, 25-30 seconds), then the steaming wand's ascending shriek as milk proteins denature and foam. Between extractions: the tap of the portafilter against the knock box — a percussive reset. Over this, human sounds — conversation at a volume that creates privacy through density, the scratch of a pen, laptop keys, a spoon circling the inside of a ceramic cup in a small bright spiral of sound. Music plays from a speaker you can't locate — something acoustic, guitar and voice, mixed low enough to be texture rather than content.\n\nAnd the smell. Coffee is one of the most chemically complex aromas in human experience — over 800 volatile compounds, and the nose can distinguish dozens of them simultaneously. Furfuryl mercaptan is the molecule most responsible for what you recognize as 'coffee smell' — sulfurous, roasted, produced during the Maillard reaction when green beans are heated past 200°C. Pyrazines add the nutty, earthy depth. Guaiacol contributes a smoky note from the lignin in the bean's cell walls breaking down. Vanillin — the same compound aging paper produces — provides sweetness. Cinnamaldehyde adds warmth. And when milk is steamed, the lactose breaks down into caramel compounds and diacetyl (the butter molecule), adding a dairy sweetness that softens the roast's edge. The 55% humidity and 23°C temperature are ideal for scent propagation — warm enough for volatiles to stay airborne, humid enough to prevent nasal dryness. The whole room is a delivery system.\n\nYou take the first sip. It's bitter and sweet and hot and the cup warms your hands and the morning has officially begun.",
+  "positions": [
+    {
+      "name": "the sidewalk outside",
+      "prose": "Coffee finds you before you open the door. The café's ventilation pushes roasted-bean volatiles through a vent above the entrance — furfuryl mercaptan, the sulfur-containing molecule that makes coffee smell specifically like coffee, detectable by the human nose at extraordinarily low concentrations. It mixes with the cool morning air, car exhaust, the mineral scent of concrete after a cold night. Through the glass, warm yellow light glows against the grey morning like a promise. You can hear a muffled espresso machine doing its work — the pressurized hiss of extraction, then the sharp clatter of the portafilter being knocked clean against the waste drawer. The door opens for someone leaving, trailing a scarf and a cloud of warm coffee-scented air, and for two seconds every sense spikes: the full volume of steaming milk, the bright interior light, the wall of heat and aroma. Then the door closes and it's back to promises and traces. Your hand is already reaching for the handle.",
+      "smell_emphasis": ["furfuryl mercaptan", "pyrazines"],
+      "cross_sensory": "The café leaks its sensory signature through every crack — scent through the vents, sound through the door, light through the window — each one a partial message that only completes when you step inside.",
+      "touch_notes": "The door handle is cool metal — stainless steel, high conductivity. Pulling it open, a wave of warm air hits your face and hands, a thermal contrast that feels like stepping into an embrace."
+    },
+    {
+      "name": "the counter",
+      "prose": "Inside, the espresso machine dominates the visual and acoustic landscape. It's a commercial two-group — chrome, brass accents, pressure gauges trembling — and the barista works it with the unconscious precision of muscle memory. The grinder roars for five seconds and the smell peaks: fresh grounds are the most volatile state of coffee, hundreds of compounds off-gassing simultaneously before oxidation dulls them. The portafilter clicks into the group head and extraction begins — a pressurized hiss, and a thin stream of dark liquid appears, thickening into a caramel-colored flow with a crema that means the oils are properly emulsified. The steaming wand screams into a pitcher of milk, and the pitch rises as the foam builds — you can hear the texture changing. The counter is ground zero for scent: a stratified column of aroma rising from the machine — bitter roast at the base, caramel sweetness in the middle, dairy warmth at the top where the steam carries diacetyl and lactones. Morning light hits the steam column and makes it a visible pillar of coffee-scented air, swirling with convective currents.",
+      "smell_emphasis": ["furfuryl mercaptan", "guaiacol", "pyrazines", "diacetyl", "caramel"],
+      "cross_sensory": "The espresso machine is the heart of this place — everything you see, hear, and smell radiates outward from it in concentric waves. It is a single device producing three simultaneous sensory outputs from one physical process: forcing hot water through ground coffee under pressure.",
+      "touch_notes": "The counter is slightly sticky — a film of coffee oils and sugar residue. The air near the machine is noticeably warmer and more humid. If you lean close, the steam dampens your face."
+    },
+    {
+      "name": "your table by the window",
+      "prose": "Settled in with your cup, the senses recalibrate to a slower frequency. The espresso machine is background now — still present but demoted to rhythm section, its cycles marking time rather than commanding attention. The sound at your table is more intimate: laptop keys, quiet conversation in which you catch only vowels, the scratch of a pen in a notebook, a spoon circling ceramic in a small bright ring of sound. Music threads through at a volume designed to fill silence without creating content — acoustic guitar, a voice that might be singing in Portuguese. Your coffee sends its private column of steam upward into the morning light; the smell is yours now, specific — the particular roast you ordered, the vanillin you added, the ethyl butyrate fruitiness of the medium roast's origin, the warmth rising into your face as a personal microclimate. The reclaimed-wood table is rough under your forearms, warm from the room. The window to your left shows the street in soft focus through condensation — morning pedestrians moving at a different speed than you are now. A milk-and-cinnamon sweetness lingers from whatever the previous person ordered. Time slows to the pace of sipping, and every sip is a small thermal event that resets your hands and mouth and nose.",
+      "smell_emphasis": ["vanillin", "linalool", "cinnamaldehyde", "ethyl butyrate"],
+      "cross_sensory": "At the table, all senses reach the same conclusion: stay. The warm light, the gentle sound, the coffee's rising steam — three channels delivering one message at the speed of morning.",
+      "touch_notes": "The ceramic cup is warm in your hands — you feel the heat through the glaze, a steady conduction that cools very slowly as you drink. The rough wood table catches on your sleeve. The chair, if it's a wooden one, is hard and warm; if metal, perpetually cool at the back of your thighs."
+    },
+    {
+      "name": "the back corner, afternoon",
+      "prose": "By afternoon, the café has changed key. The morning rush is over and the sound has thinned: fewer espresso cycles, more laptop fans, the occasional phone notification pinging through the quiet. The light has shifted — the morning's golden east-light is gone, replaced by a diffused afternoon glow from the north-facing windows, cooler and more even. The smell has matured: less fresh-ground intensity, more of the ambient base layer that the morning's extraction has deposited on every surface. Caramel and guaiacol have settled into the upholstery and the wood and the air itself. Your second (third?) cup has a different character — you're no longer discovering the smell, you're living inside it. The back corner is the quietest zone, furthest from the machine, where the acoustic energy has spent itself against walls and bodies and furniture. Here, the café's sensory identity has been filtered into its gentlest form: warm light, soft sound, a faint coffee sweetness that is no longer a scent but a condition of the air itself. Your laptop screen is the brightest thing. You have been here for hours and will stay for more.",
+      "smell_emphasis": ["guaiacol", "caramel", "vanillin"],
+      "cross_sensory": "Distance from the machine softens everything equally — sound, smell, and the thermal gradient all diminish together, creating a pocket of muted, comfortable sensory experience that enables concentration.",
+      "touch_notes": "The wooden chair has warmed to your body temperature. The table surface has small coffee ring stains you can feel with a fingertip. The air is dryer back here, further from the steam source."
+    }
+  ],
+  "why_chains": {
+    "coffee_aroma_complexity": "Coffee contains over 800 volatile compounds produced during roasting via the Maillard reaction (amino acids + reducing sugars at 150-200°C), Strecker degradation (amino acid decomposition), and caramelization (sugar pyrolysis above 170°C). Furfuryl mercaptan, the most characteristic 'coffee' molecule, forms when furfural reacts with hydrogen sulfide during roasting. This chemical complexity is why coffee smells different from any single compound.",
+    "espresso_extraction_physics": "Espresso extraction forces 93°C water through finely-ground coffee at 9 bars of pressure (9 atmospheres) for 25-30 seconds. The pressure emulsifies oils that would otherwise not dissolve, creating the crema (a colloidal foam of CO2, water, and coffee oils). This emulsion carries flavor compounds that drip coffee cannot access, which is why espresso smells richer.",
+    "milk_steaming_chemistry": "The steaming wand heats milk to 60-70°C, denaturing whey proteins (which trap air as foam) and breaking lactose into glucose and galactose (increasing perceived sweetness by ~2x). Diacetyl — the butter-smell molecule — is produced as a byproduct of lactose degradation. The ascending pitch of the steaming wand correlates with increasing foam density as more air is incorporated.",
+    "steam_visibility": "Coffee steam is visible because the beverage's temperature (85-93°C) is far above the ambient dew point. The water vapor immediately condenses on room-temperature air molecules, forming microscopic droplets that scatter visible light (Mie scattering). These droplets also carry dissolved volatile compounds — the visible steam is literally the smell made visible."
+  },
+  "sensory_archaeology": {
+    "smell_sources": "Every coffee scent traces to one of three thermal reactions during roasting: Maillard (nutty, roasty pyrazines), caramelization (sweet, brown-sugar caramel compounds), or pyrolysis (smoky guaiacol from lignin). The barista's skill is in controlling which reactions dominate. What you smell is a record of the temperature curve the beans experienced, carried to your nose by steam.",
+    "sound_shaping": "The café's acoustic character comes from its surface mix. Hard surfaces (tile counter, glass window, ceramic cups) reflect high frequencies, keeping conversations bright and present. Soft surfaces (upholstered seats, bodies, wooden tables) absorb mid-range, preventing the space from becoming echoey. The result is an RT60 (reverberation time) of roughly 0.5 seconds — short enough for clarity, long enough for warmth. This wasn't designed; it evolved from thousands of cafés optimizing for comfort.",
+    "light_behavior": "Morning east-light through the window has a color temperature of ~4000-5000K (warm white), while the Edison bulbs add ~2200K (amber). Where they overlap, the mixed light creates the characteristic café warmth. Steam scatters both light sources, creating localized glowing volumes above each cup. The condensation on the window acts as a diffuser, softening the outside world into an impressionist backdrop."
+  },
+  "reconciliation": {
+    "shared_cause_heat": "Heat is the unifying physics. The same thermal energy that roasts the beans (creating aroma compounds), heats the water (enabling extraction), produces steam (making scent visible and audible), and warms the cup (providing the tactile comfort of hot ceramic in cold hands). Every sensory experience in the café is a downstream consequence of heating water and beans.",
+    "shared_cause_extraction": "The espresso machine performs one physical operation — forcing hot pressurized water through ground coffee — and produces simultaneous outputs in every sensory channel: the hiss of pressurized water (sound), the dark stream of crema-topped liquid (sight), the volatile cloud above the cup (smell), the heat of the cup (touch). One cause, four senses, experienced as a single event called 'coffee.'",
+    "shared_cause_congregation": "The social dimension shapes every sense. More people means more body heat (raising temperature), more exhalations (raising humidity and CO2), more conversation (raising the noise floor), and more espresso orders (raising the scent density). The café's sensory character is directly proportional to how many people chose to be here this morning."
+  }
+}

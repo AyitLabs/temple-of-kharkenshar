@@ -1,0 +1,3105 @@
+[
+  {
+    "id": "polished_steel",
+    "name": "Polished Steel",
+    "category": "metal",
+    "subcategory": "ferrous",
+    "base_color": {
+      "primary": "silver-grey",
+      "variants": [
+        "blue-grey",
+        "white-grey"
+      ],
+      "hex_approx": "#C0C0C0"
+    },
+    "reflectance": {
+      "type": "specular",
+      "diffuse": 0.1,
+      "specular": 0.9,
+      "roughness": 0.05
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "mirror-smooth",
+        "cold",
+        "precise"
+      ],
+      "pattern": "uniform",
+      "scale": "smooth"
+    },
+    "surface_state": "polished",
+    "light_interactions": {
+      "under_warm_light": "reflects amber highlight on silver surface; warm light bends and pools on the metal",
+      "under_cool_light": "sharp blue-white reflections; the steel becomes a cold mirror",
+      "under_dim_light": "faint gleam traces the surface; barely visible but catches any light source",
+      "specular_highlight": "blinding point of reflected light, hard-edged and precise"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "surgical precision in metal form",
+        "a mirror that gives nothing back but light itself",
+        "cold to the eye before you ever touch it"
+      ]
+    },
+    "notes": "High specularity. Almost perfect reflector in visible range."
+  },
+  {
+    "id": "copper",
+    "name": "Copper",
+    "category": "metal",
+    "subcategory": "non-ferrous",
+    "base_color": {
+      "primary": "warm orange-brown",
+      "variants": [
+        "salmon",
+        "rose-gold",
+        "ruddy"
+      ],
+      "hex_approx": "#B87333"
+    },
+    "reflectance": {
+      "type": "specular",
+      "diffuse": 0.2,
+      "specular": 0.8,
+      "roughness": 0.1
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "warm",
+        "lustrous",
+        "rich"
+      ],
+      "pattern": "uniform",
+      "scale": "smooth"
+    },
+    "surface_state": "polished",
+    "light_interactions": {
+      "under_warm_light": "glows like a living thing \u2014 warm light on copper is almost too beautiful, all honey and fire",
+      "under_cool_light": "the warmth fights the cool; copper goes salmon-pink, slightly alien",
+      "under_dim_light": "a dull warm gleam, like embers banked for the night",
+      "specular_highlight": "blazing orange-gold point of light, warm even as reflection"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "warm metal that seems to generate its own light",
+        "the color of pennies and old church roofs",
+        "something ancient about its warmth \u2014 it was humanity's first metal"
+      ]
+    },
+    "notes": "Absorbs blue, reflects red/orange strongly. Tarnishes to green patina."
+  },
+  {
+    "id": "gold",
+    "name": "Gold",
+    "category": "metal",
+    "subcategory": "precious",
+    "base_color": {
+      "primary": "yellow-gold",
+      "variants": [
+        "warm yellow",
+        "deep gold",
+        "pale gold"
+      ],
+      "hex_approx": "#FFD700"
+    },
+    "reflectance": {
+      "type": "specular",
+      "diffuse": 0.15,
+      "specular": 0.85,
+      "roughness": 0.05
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "lustrous",
+        "warm",
+        "opulent"
+      ],
+      "pattern": "uniform",
+      "scale": "smooth"
+    },
+    "surface_state": "polished",
+    "light_interactions": {
+      "under_warm_light": "incandescent \u2014 gold under warm light is almost overwhelming in its richness",
+      "under_cool_light": "slightly greenish gold, still warm but cooler, more platinum-like",
+      "under_dim_light": "deep warm gleam that seems to hold light longer than other metals",
+      "specular_highlight": "blazing yellow-white point, warm and commanding"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "wealth made material, light made solid",
+        "the warmth that never tarnishes",
+        "catching every photon and returning it richer"
+      ]
+    },
+    "notes": "Does not oxidize. Absorbs blue/violet, reflects everything else. Unique yellow reflectance."
+  },
+  {
+    "id": "rusted_iron",
+    "name": "Rusted Iron",
+    "category": "metal",
+    "subcategory": "ferrous",
+    "base_color": {
+      "primary": "orange-brown",
+      "variants": [
+        "dark rust",
+        "flaky red",
+        "black-brown"
+      ],
+      "hex_approx": "#8B4513"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.8,
+      "specular": 0.1,
+      "roughness": 0.9
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "rough",
+        "flaky",
+        "pitted",
+        "textured"
+      ],
+      "pattern": "organic_irregular",
+      "scale": "granular"
+    },
+    "surface_state": "rusted",
+    "light_interactions": {
+      "under_warm_light": "the rust comes alive \u2014 deep orange and brown, textural, almost edible",
+      "under_cool_light": "rust goes dark and grim, more brown than orange, industrial decay",
+      "under_dim_light": "dark mass with occasional glints where the original metal peeks through",
+      "specular_highlight": "almost none \u2014 light is absorbed and scattered by the rough surface"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "time eating metal in slow motion",
+        "the color of blood dried in sun",
+        "rough enough to catch on fabric, on skin, on memory"
+      ]
+    },
+    "notes": "Iron oxide (Fe2O3). Extremely rough surface scatters light diffusely."
+  },
+  {
+    "id": "brushed_aluminum",
+    "name": "Brushed Aluminum",
+    "category": "metal",
+    "subcategory": "non-ferrous",
+    "base_color": {
+      "primary": "silver-grey",
+      "variants": [
+        "light grey",
+        "blue-silver"
+      ],
+      "hex_approx": "#A8A9AD"
+    },
+    "reflectance": {
+      "type": "anisotropic",
+      "diffuse": 0.3,
+      "specular": 0.6,
+      "roughness": 0.3
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "fine-lined",
+        "directional",
+        "matte-sheen"
+      ],
+      "pattern": "linear_brushed",
+      "scale": "fine"
+    },
+    "surface_state": "brushed",
+    "light_interactions": {
+      "under_warm_light": "warm streaks along the brush direction; the lines become visible channels of golden light",
+      "under_cool_light": "clean, modern, the brush lines catching blue-white in parallel tracks",
+      "under_dim_light": "subtle directional sheen; you can tell which way the grain runs",
+      "specular_highlight": "stretched into a line perpendicular to the brush direction, soft-edged"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the texture of modern design \u2014 precise imperfection",
+        "light sliding along invisible rails",
+        "cool and utilitarian, the metal of our era"
+      ]
+    },
+    "notes": "Anisotropic BRDF \u2014 highlight stretches perpendicular to brush direction."
+  },
+  {
+    "id": "cotton",
+    "name": "Cotton Fabric",
+    "category": "fabric",
+    "subcategory": "natural_fiber",
+    "base_color": {
+      "primary": "white",
+      "variants": [
+        "cream",
+        "off-white",
+        "bleached"
+      ],
+      "hex_approx": "#F5F5DC"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.8,
+      "specular": 0.05,
+      "roughness": 0.8
+    },
+    "transparency": 0.05,
+    "texture": {
+      "visual": [
+        "woven",
+        "soft",
+        "matte"
+      ],
+      "pattern": "woven_grid",
+      "scale": "fine"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "absorbs the warmth and goes cream-gold; soft and inviting",
+      "under_cool_light": "crisp white, clean, almost luminous",
+      "under_dim_light": "pale ghost-shape, catching whatever light there is",
+      "specular_highlight": "none \u2014 light scatters into the weave and disappears"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "soft enough to see, the weave a whisper of texture",
+        "clean cotton glowing in the light like captured cloud",
+        "the simplest fabric, and somehow always right"
+      ]
+    },
+    "notes": "Highly diffuse. Subsurface scattering in fibers creates soft appearance."
+  },
+  {
+    "id": "silk",
+    "name": "Silk",
+    "category": "fabric",
+    "subcategory": "natural_fiber",
+    "base_color": {
+      "primary": "ivory",
+      "variants": [
+        "cream",
+        "pearl",
+        "any_dye_color"
+      ],
+      "hex_approx": "#FFFFF0"
+    },
+    "reflectance": {
+      "type": "mixed",
+      "diffuse": 0.4,
+      "specular": 0.5,
+      "roughness": 0.15
+    },
+    "transparency": 0.1,
+    "texture": {
+      "visual": [
+        "smooth",
+        "lustrous",
+        "flowing"
+      ],
+      "pattern": "fine_weave",
+      "scale": "very_fine"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "shimmers with warm highlights, the fabric seems to move even when still",
+      "under_cool_light": "icy elegance; highlights go silver-blue on the folds",
+      "under_dim_light": "subtle liquid gleam tracing every drape and fold",
+      "specular_highlight": "broad, soft highlight that follows the drape \u2014 shifts as the fabric moves"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "light sliding over silk like water over glass",
+        "every fold a new highlight, every shadow a deeper mystery",
+        "the fabric that invented the word 'lustrous'"
+      ]
+    },
+    "notes": "Triangular cross-section of silk fibers creates prism-like reflections."
+  },
+  {
+    "id": "velvet",
+    "name": "Velvet",
+    "category": "fabric",
+    "subcategory": "pile_fabric",
+    "base_color": {
+      "primary": "deep_color",
+      "variants": [
+        "burgundy",
+        "midnight_blue",
+        "black",
+        "emerald"
+      ],
+      "hex_approx": "#800020"
+    },
+    "reflectance": {
+      "type": "retroreflective",
+      "diffuse": 0.7,
+      "specular": 0.1,
+      "roughness": 0.9
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "plush",
+        "deep",
+        "directional_nap"
+      ],
+      "pattern": "pile",
+      "scale": "fine"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "the color deepens to near-black in folds; highlights show the true dye color",
+      "under_cool_light": "cold velvet is almost funereal \u2014 the depth becomes a void",
+      "under_dim_light": "absorbs light like a hole in the world; only edges and raised areas catch anything",
+      "specular_highlight": "inverse of normal fabric \u2014 highlights on edges where nap is viewed from the side"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "color so deep you could drown in it",
+        "light falls into velvet and doesn't come back",
+        "the fabric equivalent of a whisper \u2014 soft, absorbing, intimate"
+      ]
+    },
+    "notes": "Pile structure creates unique 'crushed' appearance. Lighter at edges (nap viewed obliquely)."
+  },
+  {
+    "id": "denim",
+    "name": "Denim",
+    "category": "fabric",
+    "subcategory": "woven",
+    "base_color": {
+      "primary": "indigo-blue",
+      "variants": [
+        "dark wash",
+        "faded",
+        "raw"
+      ],
+      "hex_approx": "#1560BD"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.6,
+      "specular": 0.1,
+      "roughness": 0.7
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "twill-woven",
+        "sturdy",
+        "faded-at-creases"
+      ],
+      "pattern": "diagonal_twill",
+      "scale": "visible"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "the blue warms to purple-tinged; faded areas go golden",
+      "under_cool_light": "true indigo emerges \u2014 deep, rich, honest blue",
+      "under_dim_light": "reads as near-black; only the lightest fades show",
+      "specular_highlight": "slight sheen on worn areas; raw denim has almost none"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the blue of work and weekend alike",
+        "faded at the knees, dark at the hems \u2014 a map of how you move",
+        "twill diagonal visible if you look close, the DNA of the weave"
+      ]
+    },
+    "notes": "Indigo dye fades with wear, creating unique patterns. Warp-faced twill."
+  },
+  {
+    "id": "leather",
+    "name": "Leather",
+    "category": "fabric",
+    "subcategory": "animal_hide",
+    "base_color": {
+      "primary": "brown",
+      "variants": [
+        "tan",
+        "dark brown",
+        "black",
+        "cognac"
+      ],
+      "hex_approx": "#8B4513"
+    },
+    "reflectance": {
+      "type": "mixed",
+      "diffuse": 0.5,
+      "specular": 0.3,
+      "roughness": 0.4
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "grained",
+        "supple",
+        "creased"
+      ],
+      "pattern": "organic_grain",
+      "scale": "fine"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "leather and warm light were made for each other \u2014 rich, deep, inviting",
+      "under_cool_light": "goes grey-brown, the warmth drained; still dignified but colder",
+      "under_dim_light": "dark and present, grain visible in raking light",
+      "specular_highlight": "soft, broad highlight on convex surfaces; sharper on worn/polished areas"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the smell is in the sight \u2014 you see leather and your nose fills in the rest",
+        "creased by use, softened by time, darkened by hands",
+        "warm to the eye, warm to the touch, warm to the memory"
+      ]
+    },
+    "notes": "Tanned animal hide. Develops patina with age. Oil content affects specularity."
+  },
+  {
+    "id": "skin",
+    "name": "Human Skin",
+    "category": "skin",
+    "subcategory": "living_tissue",
+    "base_color": {
+      "primary": "varies",
+      "variants": [
+        "pale",
+        "olive",
+        "brown",
+        "dark"
+      ],
+      "hex_approx": "#E8BEAC"
+    },
+    "reflectance": {
+      "type": "subsurface",
+      "diffuse": 0.5,
+      "specular": 0.2,
+      "roughness": 0.5
+    },
+    "transparency": 0.15,
+    "texture": {
+      "visual": [
+        "soft",
+        "pored",
+        "living"
+      ],
+      "pattern": "organic",
+      "scale": "micro"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "skin glows \u2014 subsurface scattering makes it luminous, warm, alive; everyone looks healthier",
+      "under_cool_light": "pallor emerges; veins more visible; skin looks thinner, more fragile",
+      "under_dim_light": "soft presence, warmth implied even when barely visible",
+      "specular_highlight": "soft sheen on forehead, nose, cheekbones \u2014 the T-zone catches light"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the most complex surface the eye knows \u2014 translucent, alive, readable",
+        "light entering skin and scattering through blood below the surface",
+        "the one material we never stop studying"
+      ]
+    },
+    "notes": "Subsurface scattering through dermis. Blood gives warm undertone. Complex BSSRDF."
+  },
+  {
+    "id": "oak_wood",
+    "name": "Oak Wood",
+    "category": "wood",
+    "subcategory": "hardwood",
+    "base_color": {
+      "primary": "honey-brown",
+      "variants": [
+        "golden",
+        "dark",
+        "weathered grey"
+      ],
+      "hex_approx": "#C19A6B"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.6,
+      "specular": 0.2,
+      "roughness": 0.5
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "grained",
+        "warm",
+        "solid"
+      ],
+      "pattern": "linear_grain",
+      "scale": "visible"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "the grain comes alive in amber; knots become dark eyes; deeply inviting",
+      "under_cool_light": "grain goes grey-brown; the warmth retreats but the solidity remains",
+      "under_dim_light": "dark presence, grain visible only in raking light",
+      "specular_highlight": "soft satin sheen if finished; raw oak absorbs everything"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "centuries of growth rings visible in every cut",
+        "warm as a handshake, solid as a promise",
+        "the grain flowing like slow rivers frozen in amber"
+      ]
+    },
+    "notes": "Pronounced medullary rays in quartersawn cuts. Darkens with age and UV exposure."
+  },
+  {
+    "id": "pine_wood",
+    "name": "Pine Wood",
+    "category": "wood",
+    "subcategory": "softwood",
+    "base_color": {
+      "primary": "pale yellow",
+      "variants": [
+        "white-yellow",
+        "knotty",
+        "aged amber"
+      ],
+      "hex_approx": "#DEB887"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.65,
+      "specular": 0.15,
+      "roughness": 0.6
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "grained",
+        "knotty",
+        "resinous"
+      ],
+      "pattern": "linear_grain",
+      "scale": "visible"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "goes golden-honey; knots darken to amber; feels like sunlight trapped in wood",
+      "under_cool_light": "pale, almost bleached; the knots become the only warm element",
+      "under_dim_light": "light colored even in shadow; knots as dark spots",
+      "specular_highlight": "slight if sealed; raw pine is chalky matte"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the honest wood \u2014 knots and all, nothing hidden",
+        "smells of sawmills and new construction",
+        "pale and willing, taking whatever light you give it"
+      ]
+    },
+    "notes": "Softwood. Yellows significantly with age and UV. Resinous."
+  },
+  {
+    "id": "stone",
+    "name": "Natural Stone",
+    "category": "stone",
+    "subcategory": "general",
+    "base_color": {
+      "primary": "grey",
+      "variants": [
+        "blue-grey",
+        "brown-grey",
+        "warm grey"
+      ],
+      "hex_approx": "#808080"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.6,
+      "specular": 0.15,
+      "roughness": 0.7
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "rough",
+        "granular",
+        "ancient"
+      ],
+      "pattern": "random_crystalline",
+      "scale": "granular"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "goes warm grey, almost brown; texture enhanced by raking light",
+      "under_cool_light": "blue-grey, cold, mineral; the quintessential cold surface",
+      "under_dim_light": "dark and formless unless texture catches raking light",
+      "specular_highlight": "small bright points on crystal faces; overall matte"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the bones of the earth exposed",
+        "grey and patient, the material that outlasts everything",
+        "rough under the hand, cool to the touch, old as the rain"
+      ]
+    },
+    "notes": "Aggregate of minerals. Dry stone is diffuse; wet stone doubles in specularity."
+  },
+  {
+    "id": "marble",
+    "name": "White Marble",
+    "category": "stone",
+    "subcategory": "metamorphic",
+    "base_color": {
+      "primary": "white",
+      "variants": [
+        "veined grey",
+        "warm cream",
+        "pure white"
+      ],
+      "hex_approx": "#F5F5F5"
+    },
+    "reflectance": {
+      "type": "subsurface",
+      "diffuse": 0.6,
+      "specular": 0.3,
+      "roughness": 0.15
+    },
+    "transparency": 0.1,
+    "texture": {
+      "visual": [
+        "smooth",
+        "veined",
+        "luminous"
+      ],
+      "pattern": "veined_organic",
+      "scale": "macro"
+    },
+    "surface_state": "polished",
+    "light_interactions": {
+      "under_warm_light": "glows from within like skin; warm light penetrates the surface and scatters back softened",
+      "under_cool_light": "icy, pristine, the veins becoming blue-grey rivers in white ice",
+      "under_dim_light": "faint luminosity \u2014 marble seems to hold light longer than it should",
+      "specular_highlight": "soft, milky highlight; not mirror-sharp but broadly luminous"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "stone that glows \u2014 light enters and comes back changed",
+        "the veins like frozen lightning, grey rivers in white stone",
+        "cool as water, luminous as moonlight"
+      ]
+    },
+    "notes": "Calcite crystals create subsurface scattering. Translucent up to ~1cm. Veins are mineral impurities."
+  },
+  {
+    "id": "still_water",
+    "name": "Still Water",
+    "category": "liquid",
+    "subcategory": "water",
+    "base_color": {
+      "primary": "transparent",
+      "variants": [
+        "blue",
+        "green",
+        "dark"
+      ],
+      "hex_approx": "#4682B4"
+    },
+    "reflectance": {
+      "type": "specular",
+      "diffuse": 0.0,
+      "specular": 0.95,
+      "roughness": 0.0
+    },
+    "transparency": 0.9,
+    "texture": {
+      "visual": [
+        "mirror-flat",
+        "deep",
+        "transparent"
+      ],
+      "pattern": "none",
+      "scale": "smooth"
+    },
+    "surface_state": "liquid",
+    "light_interactions": {
+      "under_warm_light": "perfect mirror of amber \u2014 the reflected world in warm duplicate",
+      "under_cool_light": "dark mirror with cold highlights; depths appear bottomless",
+      "under_dim_light": "black glass \u2014 reflects the faintest light with perfect fidelity",
+      "specular_highlight": "perfect reflection of light source; sun becomes a blinding path on the water"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the world doubled, one version solid, one liquid",
+        "dark mirror that holds the sky upside down",
+        "still water keeping secrets just below the surface"
+      ]
+    },
+    "notes": "Fresnel reflection: ~2% at normal incidence, ~100% at grazing angle."
+  },
+  {
+    "id": "moving_water",
+    "name": "Moving Water",
+    "category": "liquid",
+    "subcategory": "water",
+    "base_color": {
+      "primary": "transparent",
+      "variants": [
+        "blue-green",
+        "white-foamy",
+        "dark"
+      ],
+      "hex_approx": "#5F9EA0"
+    },
+    "reflectance": {
+      "type": "dynamic_specular",
+      "diffuse": 0.2,
+      "specular": 0.7,
+      "roughness": 0.5
+    },
+    "transparency": 0.7,
+    "texture": {
+      "visual": [
+        "rippled",
+        "shifting",
+        "broken-surface"
+      ],
+      "pattern": "dynamic_waves",
+      "scale": "variable"
+    },
+    "surface_state": "liquid",
+    "light_interactions": {
+      "under_warm_light": "shattered gold dancing on the surface; reflections fragmented and constantly reforming",
+      "under_cool_light": "broken silver \u2014 each wavelet a tiny mirror at a different angle",
+      "under_dim_light": "dark with occasional glints, the movement felt more than seen",
+      "specular_highlight": "scattered into hundreds of dancing points \u2014 the glitter path"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "light broken and reassembled a thousand times per second",
+        "the surface a conversation between wind and light",
+        "glitter and depth, never the same frame twice"
+      ]
+    },
+    "notes": "Wave surface fragments reflections. Sun creates 'glitter path' toward observer."
+  },
+  {
+    "id": "ice",
+    "name": "Ice",
+    "category": "liquid",
+    "subcategory": "frozen",
+    "base_color": {
+      "primary": "pale blue-white",
+      "variants": [
+        "clear",
+        "milky",
+        "blue-tinged"
+      ],
+      "hex_approx": "#E0F0FF"
+    },
+    "reflectance": {
+      "type": "mixed",
+      "diffuse": 0.5,
+      "specular": 0.5,
+      "roughness": 0.2
+    },
+    "transparency": 0.6,
+    "texture": {
+      "visual": [
+        "crystalline",
+        "slick",
+        "fractured"
+      ],
+      "pattern": "crystalline_fractures",
+      "scale": "variable"
+    },
+    "surface_state": "frozen",
+    "light_interactions": {
+      "under_warm_light": "warm light trapped inside, scattered by cracks and bubbles into amber veins",
+      "under_cool_light": "pure blue-white, almost electric; the natural color of ice revealed",
+      "under_dim_light": "faint glow where thinnest; dark blue-black where deep",
+      "specular_highlight": "sharp on smooth ice; scattered by frost crystals"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "frozen time made visible \u2014 bubbles trapped mid-rise",
+        "the blue of compressed cold, the color of winter's heart",
+        "hard as stone, clear as glass, cold as the idea of cold"
+      ]
+    },
+    "notes": "Absorbs red slightly \u2192 blue tint in thick ice. Internal scattering from bubbles and fractures."
+  },
+  {
+    "id": "snow",
+    "name": "Fresh Snow",
+    "category": "earth",
+    "subcategory": "frozen",
+    "base_color": {
+      "primary": "white",
+      "variants": [
+        "blue-white",
+        "pink-tinged",
+        "grey-white"
+      ],
+      "hex_approx": "#FFFAFA"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.9,
+      "specular": 0.05,
+      "roughness": 0.95
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "crystalline",
+        "soft",
+        "sparkling"
+      ],
+      "pattern": "random_crystalline",
+      "scale": "micro"
+    },
+    "surface_state": "fresh",
+    "light_interactions": {
+      "under_warm_light": "catches golden light and turns cream-pink; shadows go vivid blue",
+      "under_cool_light": "blue-white diamond field; every crystal a tiny prism",
+      "under_dim_light": "glows faintly, reflecting even starlight; never truly dark",
+      "specular_highlight": "millions of tiny sparkles \u2014 individual crystal facets catching the sun"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the world's brightness dial turned to maximum",
+        "blue shadows on white \u2014 the coldest, cleanest palette",
+        "a trillion tiny mirrors scattered by nature's hand"
+      ]
+    },
+    "notes": "Albedo ~0.85. Individual crystals create sparkle in direct sun. Blue shadows from sky fill."
+  },
+  {
+    "id": "leaves",
+    "name": "Green Leaves",
+    "category": "vegetation",
+    "subcategory": "foliage",
+    "base_color": {
+      "primary": "green",
+      "variants": [
+        "dark green",
+        "lime",
+        "olive",
+        "yellow-green"
+      ],
+      "hex_approx": "#228B22"
+    },
+    "reflectance": {
+      "type": "mixed",
+      "diffuse": 0.5,
+      "specular": 0.3,
+      "roughness": 0.4
+    },
+    "transparency": 0.2,
+    "texture": {
+      "visual": [
+        "waxy",
+        "veined",
+        "living"
+      ],
+      "pattern": "organic_veined",
+      "scale": "fine"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "green deepens to emerald; warm highlights on waxy surfaces",
+      "under_cool_light": "true green emerges; the chlorophyll sings",
+      "under_dim_light": "dark, nearly black; green is the first color to vanish in low light",
+      "specular_highlight": "waxy glint on smooth leaves; matte scatter on fuzzy ones"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "chlorophyll in action, photons becoming sugar before your eyes",
+        "green upon green upon green, each leaf its own shade",
+        "backlit leaves glow like stained glass \u2014 the green of being alive"
+      ]
+    },
+    "notes": "Chlorophyll absorbs red+blue, reflects green. Strongly reflective in NIR. Translucent when backlit."
+  },
+  {
+    "id": "bark",
+    "name": "Tree Bark",
+    "category": "vegetation",
+    "subcategory": "bark",
+    "base_color": {
+      "primary": "brown",
+      "variants": [
+        "grey-brown",
+        "red-brown",
+        "dark grey"
+      ],
+      "hex_approx": "#6B4226"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.7,
+      "specular": 0.05,
+      "roughness": 0.95
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "furrowed",
+        "rough",
+        "cracked",
+        "layered"
+      ],
+      "pattern": "vertical_ridges",
+      "scale": "coarse"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "deep ridges fill with amber shadow; raised edges catch gold",
+      "under_cool_light": "grey and austere; the bark reads as texture more than color",
+      "under_dim_light": "almost invisible \u2014 merges with darkness; only the lightest bark stands out",
+      "specular_highlight": "virtually none \u2014 every photon absorbed or scattered by the roughness"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "a record of years in every crack and furrow",
+        "rough enough to write your story on",
+        "the tree's armor, weathered and ancient"
+      ]
+    },
+    "notes": "Extremely rough surface. Color varies enormously by species."
+  },
+  {
+    "id": "clear_glass",
+    "name": "Clear Glass",
+    "category": "glass",
+    "subcategory": "transparent",
+    "base_color": {
+      "primary": "transparent",
+      "variants": [
+        "slight green tint",
+        "water-white"
+      ],
+      "hex_approx": "#E8F4F8"
+    },
+    "reflectance": {
+      "type": "specular",
+      "diffuse": 0.0,
+      "specular": 0.4,
+      "roughness": 0.0
+    },
+    "transparency": 0.9,
+    "texture": {
+      "visual": [
+        "smooth",
+        "invisible",
+        "reflective-at-angle"
+      ],
+      "pattern": "none",
+      "scale": "smooth"
+    },
+    "surface_state": "polished",
+    "light_interactions": {
+      "under_warm_light": "almost invisible; reveals itself through edge highlights and reflections",
+      "under_cool_light": "ghost of a surface \u2014 faint reflections and slight green edge-color",
+      "under_dim_light": "visible only by what it reflects; otherwise absent",
+      "specular_highlight": "sharp reflection of light source; secondary reflections from back surface"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "a surface defined by its absence \u2014 you see through it, not at it",
+        "only the edges betray it, glowing faint green",
+        "the architecture of transparency"
+      ]
+    },
+    "notes": "Fresnel reflection ~4% per surface. Faint green from iron impurity in standard glass."
+  },
+  {
+    "id": "stained_glass",
+    "name": "Stained Glass",
+    "category": "glass",
+    "subcategory": "decorative",
+    "base_color": {
+      "primary": "multicolor",
+      "variants": [
+        "red",
+        "blue",
+        "gold",
+        "green"
+      ],
+      "hex_approx": null
+    },
+    "reflectance": {
+      "type": "transmissive",
+      "diffuse": 0.1,
+      "specular": 0.3,
+      "roughness": 0.1
+    },
+    "transparency": 0.7,
+    "texture": {
+      "visual": [
+        "colored",
+        "leaded",
+        "luminous"
+      ],
+      "pattern": "geometric_leaded",
+      "scale": "hand-sized"
+    },
+    "surface_state": "polished",
+    "light_interactions": {
+      "under_warm_light": "from inside: warm light amplifies reds and golds; blues deepen to navy",
+      "under_cool_light": "from outside looking in: the glass is a dark tapestry; from inside: cool colors sing",
+      "under_dim_light": "dark jewels in lead frames; a promise of the light to come",
+      "specular_highlight": "each piece catches light independently; the lead lines go dark between"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "light made liquid and colored \u2014 the original cinema",
+        "each piece a jewel held in place by dark lead veins",
+        "when the sun hits it right, the whole room becomes the stained glass's painting"
+      ]
+    },
+    "notes": "Metal oxide colorants. Best viewed with light behind (transmissive). Medieval technology."
+  },
+  {
+    "id": "frosted_glass",
+    "name": "Frosted Glass",
+    "category": "glass",
+    "subcategory": "translucent",
+    "base_color": {
+      "primary": "white-translucent",
+      "variants": [
+        "milky",
+        "soft white"
+      ],
+      "hex_approx": "#F0F0F0"
+    },
+    "reflectance": {
+      "type": "diffuse_transmissive",
+      "diffuse": 0.5,
+      "specular": 0.1,
+      "roughness": 0.7
+    },
+    "transparency": 0.3,
+    "texture": {
+      "visual": [
+        "soft",
+        "milky",
+        "privacy"
+      ],
+      "pattern": "uniform_scatter",
+      "scale": "micro"
+    },
+    "surface_state": "etched",
+    "light_interactions": {
+      "under_warm_light": "glows warm from behind; a soft amber panel of diffused light",
+      "under_cool_light": "cool milky glow; forms behind it reduced to soft shadows",
+      "under_dim_light": "barely luminous; ghostly shapes beyond",
+      "specular_highlight": "none \u2014 surface scatters everything into soft uniformity"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "privacy made of light \u2014 you see brightness but not detail",
+        "shapes moving behind frosted glass like dreams half-remembered",
+        "the gentle scattering that turns a light source into a glow"
+      ]
+    },
+    "notes": "Surface roughened by etching or sandblasting. Scatters transmitted light."
+  },
+  {
+    "id": "crystal",
+    "name": "Crystal",
+    "category": "glass",
+    "subcategory": "lead_crystal",
+    "base_color": {
+      "primary": "transparent-brilliant",
+      "variants": [
+        "rainbow-flash",
+        "water-white"
+      ],
+      "hex_approx": "#FFFFFF"
+    },
+    "reflectance": {
+      "type": "specular",
+      "diffuse": 0.05,
+      "specular": 0.9,
+      "roughness": 0.0
+    },
+    "transparency": 0.95,
+    "texture": {
+      "visual": [
+        "faceted",
+        "brilliant",
+        "prismatic"
+      ],
+      "pattern": "geometric_faceted",
+      "scale": "finger-sized"
+    },
+    "surface_state": "polished",
+    "light_interactions": {
+      "under_warm_light": "warm light explodes into amber and gold fire; each facet a different angle of brilliance",
+      "under_cool_light": "ice-fire \u2014 cold white with rainbow flashes; the purest sparkle",
+      "under_dim_light": "dark until it catches even the smallest light, then: flash",
+      "specular_highlight": "blinding points of light from each facet; rainbow dispersion at edges"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "captured lightning, cut into geometry",
+        "every facet a tiny window throwing light in a different direction",
+        "the closest solid thing to pure light"
+      ]
+    },
+    "notes": "High refractive index (>1.5) creates strong reflections and dispersion (fire)."
+  },
+  {
+    "id": "concrete",
+    "name": "Concrete",
+    "category": "stone",
+    "subcategory": "manufactured",
+    "base_color": {
+      "primary": "grey",
+      "variants": [
+        "dark grey",
+        "light grey",
+        "stained"
+      ],
+      "hex_approx": "#999999"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.7,
+      "specular": 0.05,
+      "roughness": 0.85
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "rough",
+        "industrial",
+        "porous"
+      ],
+      "pattern": "aggregate_random",
+      "scale": "granular"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "warm grey, almost brown; friendlier than expected for concrete",
+      "under_cool_light": "cold, institutional grey; the material of infrastructure and indifference",
+      "under_dim_light": "dark featureless mass; utilitarian even in shadow",
+      "specular_highlight": "none \u2014 concrete drinks light without giving anything back"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the grey of cities, of parking garages, of the modern world's bones",
+        "rough and indifferent, the color of function over form",
+        "stained by weather and time, never quite clean"
+      ]
+    },
+    "notes": "Portland cement + aggregate. Highly porous, very diffuse reflector."
+  },
+  {
+    "id": "dry_asphalt",
+    "name": "Asphalt (Dry)",
+    "category": "stone",
+    "subcategory": "manufactured",
+    "base_color": {
+      "primary": "dark grey-black",
+      "variants": [
+        "charcoal",
+        "faded grey"
+      ],
+      "hex_approx": "#333333"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.3,
+      "specular": 0.05,
+      "roughness": 0.9
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "rough",
+        "dark",
+        "aggregate-studded"
+      ],
+      "pattern": "random_aggregate",
+      "scale": "coarse"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "absorbs most light; slightly warm-dark; heat shimmer above in sun",
+      "under_cool_light": "near-black, featureless; the darkest common urban surface",
+      "under_dim_light": "void \u2014 absorbs everything; becomes the negative space between lights",
+      "specular_highlight": "none \u2014 aggregate surface is too rough"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the dark ribbon of every road, absorbing light and heat",
+        "sun-baked and cracked, the earth's most common scar",
+        "dark enough to anchor the brightest streetlight to the ground"
+      ]
+    },
+    "notes": "Bitumen binder + aggregate. Very low albedo (~0.05-0.10)."
+  },
+  {
+    "id": "wet_asphalt",
+    "name": "Asphalt (Wet)",
+    "category": "stone",
+    "subcategory": "manufactured",
+    "base_color": {
+      "primary": "black",
+      "variants": [
+        "mirror-black",
+        "oil-slick"
+      ],
+      "hex_approx": "#1A1A1A"
+    },
+    "reflectance": {
+      "type": "mixed",
+      "diffuse": 0.1,
+      "specular": 0.7,
+      "roughness": 0.2
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "slick",
+        "mirror-like",
+        "gleaming"
+      ],
+      "pattern": "smooth_wet",
+      "scale": "smooth"
+    },
+    "surface_state": "wet",
+    "light_interactions": {
+      "under_warm_light": "becomes a dark mirror \u2014 amber reflections stretching into long streaks",
+      "under_cool_light": "silver-blue streaks on black; every light source doubled in the wet surface",
+      "under_dim_light": "black glass catching the faintest light and stretching it into ribbons",
+      "specular_highlight": "elongated reflections of light sources, smeared by micro-texture"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the street becomes a dark mirror, doubling every light into wet streaks",
+        "slick and gleaming, the city's face reflected in its own roads",
+        "rain turns the asphalt from void to mirror"
+      ]
+    },
+    "notes": "Water film fills texture voids \u2192 dramatic increase in specularity. Classic noir surface."
+  },
+  {
+    "id": "brick",
+    "name": "Red Brick",
+    "category": "stone",
+    "subcategory": "manufactured",
+    "base_color": {
+      "primary": "red-brown",
+      "variants": [
+        "orange-red",
+        "dark red",
+        "weathered"
+      ],
+      "hex_approx": "#CB4154"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.7,
+      "specular": 0.05,
+      "roughness": 0.8
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "rough",
+        "regular",
+        "mortared"
+      ],
+      "pattern": "running_bond",
+      "scale": "hand-sized"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "warm light makes brick sing \u2014 deep reds, warm oranges, the most welcoming wall",
+      "under_cool_light": "brick goes dull, more brown than red; loses its warmth",
+      "under_dim_light": "dark red-brown mass; the mortar lines become the only visible pattern",
+      "specular_highlight": "none \u2014 too rough for any specular reflection"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the warm geometry of civilization \u2014 regular, strong, the color of earth fired",
+        "each brick a slightly different shade, the wall a mosaic of reds",
+        "old brick darkened by soot and rain, a city's autobiography"
+      ]
+    },
+    "notes": "Fired clay. Color from iron oxide content. Extremely durable."
+  },
+  {
+    "id": "painted_wall",
+    "name": "Painted Wall (White)",
+    "category": "paint",
+    "subcategory": "interior",
+    "base_color": {
+      "primary": "white",
+      "variants": [
+        "warm white",
+        "cool white",
+        "eggshell"
+      ],
+      "hex_approx": "#FAFAFA"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.85,
+      "specular": 0.1,
+      "roughness": 0.6
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "smooth",
+        "matte",
+        "clean"
+      ],
+      "pattern": "uniform",
+      "scale": "smooth"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "warm cream glow; the wall becomes a soft reflector of ambient warmth",
+      "under_cool_light": "crisp blue-white; clinical and clean; the gallery wall",
+      "under_dim_light": "pale rectangle in the dark; the brightest surface in any room",
+      "specular_highlight": "slight sheen in gloss or semi-gloss; eggshell or matte has none"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the background to everything \u2014 the canvas before the painting",
+        "chameleon surface that takes whatever color the light gives it",
+        "clean and neutral, the absence of a statement"
+      ]
+    },
+    "notes": "TiO2 pigment in latex binder. Very high diffuse reflectance."
+  },
+  {
+    "id": "brass",
+    "name": "Brass",
+    "category": "metal",
+    "subcategory": "alloy",
+    "base_color": {
+      "primary": "yellow-gold",
+      "variants": [
+        "warm yellow",
+        "greenish-gold",
+        "tarnished"
+      ],
+      "hex_approx": "#B5A642"
+    },
+    "reflectance": {
+      "type": "specular",
+      "diffuse": 0.2,
+      "specular": 0.7,
+      "roughness": 0.1
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "warm",
+        "lustrous",
+        "rich"
+      ],
+      "pattern": "uniform",
+      "scale": "smooth"
+    },
+    "surface_state": "polished",
+    "light_interactions": {
+      "under_warm_light": "burns gold \u2014 like gold's more accessible cousin",
+      "under_cool_light": "goes slightly green-gold; the alloy reveals its zinc",
+      "under_dim_light": "warm gleam even in darkness, holding light stubbornly",
+      "specular_highlight": "broad warm highlight, softer than steel but brighter than copper"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the warm metal of doorknobs and instruments and old telescopes",
+        "not quite gold but gold-adjacent \u2014 warm, attainable, musical",
+        "tarnishes to a dignified green-brown with time and touch"
+      ]
+    },
+    "notes": "Copper-zinc alloy. Color between copper and gold. Tarnishes green."
+  },
+  {
+    "id": "chrome",
+    "name": "Chrome",
+    "category": "metal",
+    "subcategory": "plated",
+    "base_color": {
+      "primary": "silver-white",
+      "variants": [
+        "blue-silver",
+        "mirror-bright"
+      ],
+      "hex_approx": "#E0E0E0"
+    },
+    "reflectance": {
+      "type": "specular",
+      "diffuse": 0.05,
+      "specular": 0.95,
+      "roughness": 0.02
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "mirror-perfect",
+        "cold",
+        "flawless"
+      ],
+      "pattern": "uniform",
+      "scale": "smooth"
+    },
+    "surface_state": "polished",
+    "light_interactions": {
+      "under_warm_light": "perfect warm reflection \u2014 chrome becomes whatever it reflects",
+      "under_cool_light": "cold mirror; the purest reflection surface made by humans",
+      "under_dim_light": "even the smallest light source appears as a bright point",
+      "specular_highlight": "perfect mirror reflection of the light source, undistorted"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "a mirror in metal form \u2014 less surface than window into a reflected world",
+        "the cold perfection of industrial vanity",
+        "you see yourself before you see the chrome"
+      ]
+    },
+    "notes": "Chromium plating. Nearly perfect specular reflector in visible range."
+  },
+  {
+    "id": "granite",
+    "name": "Granite",
+    "category": "stone",
+    "subcategory": "igneous",
+    "base_color": {
+      "primary": "speckled grey",
+      "variants": [
+        "pink-grey",
+        "black-grey",
+        "salt-and-pepper"
+      ],
+      "hex_approx": "#808080"
+    },
+    "reflectance": {
+      "type": "mixed",
+      "diffuse": 0.5,
+      "specular": 0.3,
+      "roughness": 0.3
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "crystalline",
+        "speckled",
+        "hard"
+      ],
+      "pattern": "random_crystalline",
+      "scale": "granular"
+    },
+    "surface_state": "polished",
+    "light_interactions": {
+      "under_warm_light": "the feldspar crystals catch amber; mica flakes flash gold",
+      "under_cool_light": "quartz crystals sparkle cold; the stone reads as elegant and permanent",
+      "under_dim_light": "dark mass with occasional crystal glints",
+      "specular_highlight": "polished granite has a soft, broad highlight; individual crystals may flash"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "deep time made solid \u2014 each crystal formed miles underground",
+        "speckled and eternal, the countertop of geology",
+        "cold and permanent, the opposite of ephemeral"
+      ]
+    },
+    "notes": "Quartz + feldspar + mica. Polished granite is moderately specular."
+  },
+  {
+    "id": "sand",
+    "name": "Sand",
+    "category": "earth",
+    "subcategory": "granular",
+    "base_color": {
+      "primary": "tan",
+      "variants": [
+        "white",
+        "golden",
+        "dark"
+      ],
+      "hex_approx": "#C2B280"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.7,
+      "specular": 0.1,
+      "roughness": 0.9
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "granular",
+        "shifting",
+        "rippled"
+      ],
+      "pattern": "wind_rippled",
+      "scale": "fine"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "turns gold \u2014 sand and warm light is the color of desert mythology",
+      "under_cool_light": "pale and bleached, almost lunar",
+      "under_dim_light": "pale surface in darkness; footprints visible as shadow-lines",
+      "specular_highlight": "millions of tiny quartz crystals sparkle individually in direct sun"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "each grain a tiny quartz crystal, the beach a field of scattered diamonds in sun",
+        "warm underfoot, golden in the light, shifting with every step",
+        "the simplest surface \u2014 just earth ground fine by time"
+      ]
+    },
+    "notes": "Mostly quartz grains. Individual grains sparkle. Very high albedo for white sand."
+  },
+  {
+    "id": "wet_mud",
+    "name": "Wet Mud",
+    "category": "earth",
+    "subcategory": "soil",
+    "base_color": {
+      "primary": "dark brown",
+      "variants": [
+        "black-brown",
+        "red-brown",
+        "grey-brown"
+      ],
+      "hex_approx": "#5C4033"
+    },
+    "reflectance": {
+      "type": "mixed",
+      "diffuse": 0.2,
+      "specular": 0.4,
+      "roughness": 0.5
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "slick",
+        "heavy",
+        "footprinted"
+      ],
+      "pattern": "organic_disturbed",
+      "scale": "variable"
+    },
+    "surface_state": "wet",
+    "light_interactions": {
+      "under_warm_light": "dark and rich, like chocolate; slight gleam on the wet surface",
+      "under_cool_light": "grim and cold; the grey-brown of bad weather and hard work",
+      "under_dim_light": "near-black with occasional wet highlights",
+      "specular_highlight": "broad, soft gleam where water pools on the surface"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the earth showing its dark, wet honesty",
+        "heavy and real, the opposite of abstract \u2014 you can smell it through your eyes",
+        "every footprint a small pool, every surface gleaming with honest wet earth"
+      ]
+    },
+    "notes": "Water-saturated soil. Dramatically darker than dry soil due to water absorption."
+  },
+  {
+    "id": "ceramic_tile",
+    "name": "Ceramic Tile (Glazed)",
+    "category": "stone",
+    "subcategory": "manufactured",
+    "base_color": {
+      "primary": "white",
+      "variants": [
+        "any_color",
+        "patterned"
+      ],
+      "hex_approx": "#FFFFFF"
+    },
+    "reflectance": {
+      "type": "mixed",
+      "diffuse": 0.5,
+      "specular": 0.5,
+      "roughness": 0.1
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "smooth",
+        "glossy",
+        "clean",
+        "gridded"
+      ],
+      "pattern": "regular_grid",
+      "scale": "hand-sized"
+    },
+    "surface_state": "polished",
+    "light_interactions": {
+      "under_warm_light": "warm reflections skating across the glaze; grout lines go dark",
+      "under_cool_light": "clinical perfection; the surface of kitchens and hospitals",
+      "under_dim_light": "faint gleam on the glaze; grout lines create a dark grid",
+      "specular_highlight": "sharp but small \u2014 each tile reflects independently; grout lines break the pattern"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the grid of civilization \u2014 clean, regular, washable",
+        "each tile a small glossy mirror; the grout lines a dark map",
+        "bathroom light on bathroom tile: the most honest mirror you'll face"
+      ]
+    },
+    "notes": "Glazed surface over fired clay. Very smooth, good specular reflector."
+  },
+  {
+    "id": "wool",
+    "name": "Wool",
+    "category": "fabric",
+    "subcategory": "natural_fiber",
+    "base_color": {
+      "primary": "varies",
+      "variants": [
+        "cream",
+        "grey",
+        "brown",
+        "dyed"
+      ],
+      "hex_approx": "#E8D8C4"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.7,
+      "specular": 0.05,
+      "roughness": 0.85
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "fuzzy",
+        "warm",
+        "textured",
+        "woven"
+      ],
+      "pattern": "knit_or_woven",
+      "scale": "visible"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "absorbs warmth and radiates it back as cozy texture; deeply inviting",
+      "under_cool_light": "still reads as warm \u2014 wool resists cool light's clinical effect",
+      "under_dim_light": "soft mass, its texture more implied than visible",
+      "specular_highlight": "almost none \u2014 fiber fuzz scatters everything"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "warmth you can see \u2014 the visual texture of comfort",
+        "fuzzy and forgiving, catching light in its fibers and holding it",
+        "the look of winter evenings and reading by the fire"
+      ]
+    },
+    "notes": "Crimped fibers scatter light in all directions. Very matte appearance."
+  },
+  {
+    "id": "linen",
+    "name": "Linen",
+    "category": "fabric",
+    "subcategory": "natural_fiber",
+    "base_color": {
+      "primary": "natural off-white",
+      "variants": [
+        "flax",
+        "cream",
+        "bleached"
+      ],
+      "hex_approx": "#F5F5DC"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.75,
+      "specular": 0.1,
+      "roughness": 0.7
+    },
+    "transparency": 0.05,
+    "texture": {
+      "visual": [
+        "crisp",
+        "slubbed",
+        "natural-irregular"
+      ],
+      "pattern": "plain_weave_irregular",
+      "scale": "fine"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "natural cream deepens to gold; the slubs catch individual highlights",
+      "under_cool_light": "crisp and clean; slight texture visible in the weave",
+      "under_dim_light": "pale and soft; the natural fabric of summer twilight",
+      "specular_highlight": "slight sheen from the smooth flax fibers, subtle but present"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the fabric of summer \u2014 crisp, breathable, naturally beautiful",
+        "slightly irregular weave that says handmade even when it's not",
+        "cool to the touch, warm to the eye"
+      ]
+    },
+    "notes": "Flax fibers. More regular than cotton, slight natural luster."
+  },
+  {
+    "id": "plastic_glossy",
+    "name": "Glossy Plastic",
+    "category": "plastic",
+    "subcategory": "synthetic",
+    "base_color": {
+      "primary": "any_color",
+      "variants": [
+        "bright",
+        "saturated"
+      ],
+      "hex_approx": null
+    },
+    "reflectance": {
+      "type": "mixed",
+      "diffuse": 0.4,
+      "specular": 0.5,
+      "roughness": 0.1
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "smooth",
+        "shiny",
+        "uniform",
+        "artificial"
+      ],
+      "pattern": "uniform",
+      "scale": "smooth"
+    },
+    "surface_state": "polished",
+    "light_interactions": {
+      "under_warm_light": "smooth warm highlight; color beneath stays true; cheap elegance",
+      "under_cool_light": "sharp highlight; the artificiality fully revealed",
+      "under_dim_light": "small points of reflected light; color goes dark but surface sheen remains",
+      "specular_highlight": "bright, small, clearly defined \u2014 the signature of plastic"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the too-perfect surface of the modern age",
+        "color saturated beyond what nature offers, shiny beyond what it should be",
+        "smooth and impersonal as a product listing"
+      ]
+    },
+    "notes": "Dielectric material. White specular highlight regardless of surface color."
+  },
+  {
+    "id": "flower_petal",
+    "name": "Flower Petal",
+    "category": "vegetation",
+    "subcategory": "flower",
+    "base_color": {
+      "primary": "varies",
+      "variants": [
+        "red",
+        "white",
+        "yellow",
+        "purple",
+        "pink"
+      ],
+      "hex_approx": null
+    },
+    "reflectance": {
+      "type": "mixed",
+      "diffuse": 0.6,
+      "specular": 0.2,
+      "roughness": 0.3
+    },
+    "transparency": 0.3,
+    "texture": {
+      "visual": [
+        "delicate",
+        "veined",
+        "silky",
+        "translucent"
+      ],
+      "pattern": "organic_veined",
+      "scale": "fine"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "warm light makes red petals glow like embers; white ones go cream-gold",
+      "under_cool_light": "blues and purples intensify; white petals go almost blue-white",
+      "under_dim_light": "colors vanish; petals become pale shapes in the dark",
+      "specular_highlight": "faint waxy sheen on some petals; roses have a subtle satin finish"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "light passing through petals like stained glass \u2014 the color from within",
+        "fragile and brief, the most transient beautiful surface",
+        "each petal a tiny banner of evolutionary seduction"
+      ]
+    },
+    "notes": "Pigment cells + air gaps create complex reflectance. Many flowers reflect UV (invisible to us)."
+  },
+  {
+    "id": "wet_cobblestone",
+    "name": "Wet Cobblestone",
+    "category": "stone",
+    "subcategory": "paving",
+    "base_color": {
+      "primary": "grey",
+      "variants": [
+        "blue-grey",
+        "brown-grey",
+        "charcoal"
+      ],
+      "hex_approx": "#6B6B6B"
+    },
+    "reflectance": {
+      "type": "mixed",
+      "diffuse": 0.3,
+      "specular": 0.6,
+      "roughness": 0.4
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "rounded",
+        "irregular",
+        "grouted"
+      ],
+      "pattern": "organic_grid",
+      "scale": "hand-sized"
+    },
+    "surface_state": "wet",
+    "light_interactions": {
+      "under_warm_light": "reflects amber and gold in puddles between stones; stone faces deepen to near-black",
+      "under_cool_light": "steely sheen; highlights go blue-white; stones appear darker and more uniform",
+      "under_dim_light": "faint gleam traces the rounded tops; gaps become voids",
+      "specular_highlight": "fragmented reflections of light sources in water film, broken across uneven surface"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "slick stones catching light like scattered coins",
+        "each cobble wearing a cap of reflected sky",
+        "dark gaps between stones swallowing what light the wet surfaces throw back"
+      ]
+    },
+    "notes": "Wet modifier increases specular, darkens diffuse. Water fills gaps."
+  },
+  {
+    "id": "puddle",
+    "name": "Puddle",
+    "category": "liquid",
+    "subcategory": "water",
+    "base_color": {
+      "primary": "dark mirror",
+      "variants": [
+        "sky-colored",
+        "mud-brown"
+      ],
+      "hex_approx": "#2F4F4F"
+    },
+    "reflectance": {
+      "type": "specular",
+      "diffuse": 0.1,
+      "specular": 0.8,
+      "roughness": 0.1
+    },
+    "transparency": 0.4,
+    "texture": {
+      "visual": [
+        "flat",
+        "reflective",
+        "still-or-rippled"
+      ],
+      "pattern": "flat_or_rippled",
+      "scale": "variable"
+    },
+    "surface_state": "liquid",
+    "light_interactions": {
+      "under_warm_light": "amber mirror on dark ground \u2014 a window into an inverted warm world",
+      "under_cool_light": "silver disc reflecting the sky; a hole in the ground that shows the sky",
+      "under_dim_light": "dark eye catching any stray light and holding it",
+      "specular_highlight": "perfect reflection of light source, or scattered if wind-rippled"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the city's eye \u2014 sky trapped in a shallow wound in the pavement",
+        "step around or step through: a tiny decision about beauty versus practicality",
+        "rain's souvenir, holding the sky hostage at ground level"
+      ]
+    },
+    "notes": "Shallow water over dark surface. Near-perfect reflection at low angles."
+  },
+  {
+    "id": "autumn_leaf",
+    "name": "Autumn Leaf",
+    "category": "vegetation",
+    "subcategory": "foliage",
+    "base_color": {
+      "primary": "orange-red",
+      "variants": [
+        "golden",
+        "crimson",
+        "brown",
+        "rust"
+      ],
+      "hex_approx": "#CC7722"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.6,
+      "specular": 0.1,
+      "roughness": 0.6
+    },
+    "transparency": 0.1,
+    "texture": {
+      "visual": [
+        "papery",
+        "veined",
+        "curling",
+        "dry"
+      ],
+      "pattern": "organic_veined",
+      "scale": "hand-sized"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "fire colors amplified \u2014 the leaf becomes a tiny flame",
+      "under_cool_light": "muted to brown; the magic fades under clinical light",
+      "under_dim_light": "dark, indistinct; color gone; just a small dry shape",
+      "specular_highlight": "faint waxy gleam on fresh-fallen; none on dry curled leaves"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "chlorophyll retreating, revealing the hidden pigments underneath \u2014 the tree's last show",
+        "warm enough to heat your eyes",
+        "curling and papery, the sound of autumn given a color"
+      ]
+    },
+    "notes": "Carotenoids (yellow/orange) and anthocyanins (red) revealed as chlorophyll breaks down."
+  },
+  {
+    "id": "glass_with_rain",
+    "name": "Window with Rain",
+    "category": "glass",
+    "subcategory": "transparent",
+    "base_color": {
+      "primary": "transparent-distorted",
+      "variants": [
+        "droplet-covered"
+      ],
+      "hex_approx": null
+    },
+    "reflectance": {
+      "type": "complex_refractive",
+      "diffuse": 0.1,
+      "specular": 0.5,
+      "roughness": 0.3
+    },
+    "transparency": 0.7,
+    "texture": {
+      "visual": [
+        "droplet-covered",
+        "streaked",
+        "blurred"
+      ],
+      "pattern": "random_droplets_and_streaks",
+      "scale": "variable"
+    },
+    "surface_state": "wet",
+    "light_interactions": {
+      "under_warm_light": "each droplet becomes a tiny warm lens; the world behind dissolved into amber bokeh",
+      "under_cool_light": "cold droplets on cold glass; the outside world blurred and blue",
+      "under_dim_light": "droplets catch distant lights and hold them as bright points; streaks glow faintly",
+      "specular_highlight": "every droplet reflects independently; hundreds of tiny highlights"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the world softened by water \u2014 every light a smear, every edge dissolved",
+        "rain-beaded glass: each drop a tiny lens bending reality",
+        "watching rain on a window is watching abstraction happen in real time"
+      ]
+    },
+    "notes": "Each raindrop acts as a small convex lens. Total internal reflection inside drops."
+  },
+  {
+    "id": "grass",
+    "name": "Grass",
+    "category": "vegetation",
+    "subcategory": "ground_cover",
+    "base_color": {
+      "primary": "green",
+      "variants": [
+        "bright green",
+        "dark green",
+        "yellow-green",
+        "brown"
+      ],
+      "hex_approx": "#4CAF50"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.6,
+      "specular": 0.15,
+      "roughness": 0.7
+    },
+    "transparency": 0.05,
+    "texture": {
+      "visual": [
+        "bladed",
+        "uniform",
+        "living-carpet"
+      ],
+      "pattern": "dense_linear",
+      "scale": "fine"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "warm green trending golden; sun-drenched lawn in late afternoon",
+      "under_cool_light": "vivid cool green; morning dew grass under overcast sky",
+      "under_dim_light": "goes dark quickly; green is the first color lost in twilight",
+      "specular_highlight": "tiny glints on individual blades in direct sun; dew amplifies this dramatically"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the green carpet of the living world",
+        "each blade a tiny solar panel, converting light to life",
+        "dew-tipped grass in morning sun: a field of tiny diamonds"
+      ]
+    },
+    "notes": "Strongly reflective in NIR. Appears to glow in near-infrared photography."
+  },
+  {
+    "id": "moss",
+    "name": "Moss",
+    "category": "vegetation",
+    "subcategory": "ground_cover",
+    "base_color": {
+      "primary": "deep green",
+      "variants": [
+        "emerald",
+        "yellow-green",
+        "dark"
+      ],
+      "hex_approx": "#355E3B"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.5,
+      "specular": 0.05,
+      "roughness": 0.95
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "plush",
+        "miniature-forest",
+        "damp",
+        "ancient"
+      ],
+      "pattern": "organic_dense",
+      "scale": "tiny"
+    },
+    "surface_state": "damp",
+    "light_interactions": {
+      "under_warm_light": "emerald deepens to forest-dark; raking light reveals miniature topography",
+      "under_cool_light": "vivid jewel-green; the truest green in the plant world",
+      "under_dim_light": "dark presence, damp and ancient",
+      "specular_highlight": "none \u2014 moss absorbs everything into its tiny forest"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "a miniature forest for miniature things",
+        "green so deep it feels ancient, like it's been growing since before names",
+        "damp and velvet, the upholstery of the forest floor"
+      ]
+    },
+    "notes": "No vascular tissue \u2014 relies on moisture. Very diffuse reflector."
+  },
+  {
+    "id": "candle_wax",
+    "name": "Candle Wax",
+    "category": "plastic",
+    "subcategory": "organic",
+    "base_color": {
+      "primary": "cream-white",
+      "variants": [
+        "ivory",
+        "beeswax-yellow"
+      ],
+      "hex_approx": "#FFF8DC"
+    },
+    "reflectance": {
+      "type": "subsurface",
+      "diffuse": 0.6,
+      "specular": 0.2,
+      "roughness": 0.3
+    },
+    "transparency": 0.2,
+    "texture": {
+      "visual": [
+        "smooth",
+        "waxy",
+        "translucent",
+        "drip-formed"
+      ],
+      "pattern": "organic_drip",
+      "scale": "finger-sized"
+    },
+    "surface_state": "dry",
+    "light_interactions": {
+      "under_warm_light": "glows from within when close to flame; wax becomes luminous amber",
+      "under_cool_light": "pale and slightly yellowish; waxy sheen visible",
+      "under_dim_light": "near the flame: luminous translucency; away: pale shape",
+      "specular_highlight": "soft, broad, waxy \u2014 the signature sheen of paraffin"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "light passing through wax like light through skin \u2014 warm, alive, glowing",
+        "the drip-trails of past evenings frozen in cream",
+        "translucent enough to see the flame through, solid enough to hold it"
+      ]
+    },
+    "notes": "Subsurface scattering similar to skin. Beeswax yellower than paraffin."
+  },
+  {
+    "id": "tatami_mat",
+    "name": "Tatami Mat",
+    "category": "organic",
+    "subcategory": "woven_grass",
+    "base_color": {
+      "primary": "pale-gold-green",
+      "variants": [
+        "straw",
+        "yellow-green",
+        "warm cream"
+      ],
+      "hex_approx": "#C2B280"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.7,
+      "specular": 0.05,
+      "roughness": 0.8
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "woven",
+        "linear",
+        "organic",
+        "soft"
+      ],
+      "pattern": "linear_weave",
+      "scale": "fine"
+    },
+    "surface_state": "natural",
+    "light_interactions": {
+      "under_warm_light": "the straw glows golden, each woven reed catching light like individual threads of amber",
+      "under_cool_light": "the green undertones emerge, tatami looking fresher, newer, almost alive",
+      "under_dim_light": "a soft pale rectangle in the dark, its texture visible only as subtle shadow lines",
+      "specular_highlight": "almost none \u2014 light is absorbed into the weave"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the smell of dried grass made visible",
+        "geometric calm \u2014 each mat a perfect rectangle of woven order",
+        "the floor that breathes"
+      ]
+    },
+    "notes": "Woven rush grass over rice straw core. Slight sheen along weave direction."
+  },
+  {
+    "id": "rice_paper",
+    "name": "Rice Paper",
+    "category": "organic",
+    "subcategory": "paper",
+    "base_color": {
+      "primary": "warm-white",
+      "variants": [
+        "cream",
+        "ivory",
+        "translucent white"
+      ],
+      "hex_approx": "#F5F0E0"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.8,
+      "specular": 0.05,
+      "roughness": 0.6
+    },
+    "transparency": 0.3,
+    "texture": {
+      "visual": [
+        "fibrous",
+        "delicate",
+        "translucent"
+      ],
+      "pattern": "random_fiber",
+      "scale": "fine"
+    },
+    "surface_state": "natural",
+    "light_interactions": {
+      "under_warm_light": "glows from within when backlit, fibers becoming visible like veins in a leaf",
+      "under_cool_light": "crisp and clean, the translucency turning slightly blue",
+      "under_dim_light": "a faint membrane of light, barely there, ghost-like",
+      "specular_highlight": "none \u2014 the fibers scatter everything"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "light passing through like a whisper through a wall",
+        "the boundary between rooms is a breath of paper",
+        "translucent enough to see shadows, opaque enough for privacy"
+      ]
+    },
+    "notes": "Translucent when backlit. Used in shoji screens. Diffuses light beautifully."
+  },
+  {
+    "id": "ramen_steam",
+    "name": "Ramen Steam",
+    "category": "atmospheric",
+    "subcategory": "vapor",
+    "base_color": {
+      "primary": "translucent white",
+      "variants": [
+        "warm mist",
+        "faint amber"
+      ],
+      "hex_approx": "#F8F4F0"
+    },
+    "reflectance": {
+      "type": "volumetric_scatter",
+      "diffuse": 0.9,
+      "specular": 0.0,
+      "roughness": 1.0
+    },
+    "transparency": 0.6,
+    "texture": {
+      "visual": [
+        "rising",
+        "curling",
+        "ephemeral",
+        "warm"
+      ],
+      "pattern": "turbulent_flow",
+      "scale": "macro"
+    },
+    "surface_state": "vapor",
+    "light_interactions": {
+      "under_warm_light": "the steam becomes a golden column, lit from the side like a tiny weather system",
+      "under_cool_light": "white wisps curling upward, clinical and clean",
+      "under_dim_light": "barely visible except as a softness in the air above the bowl",
+      "specular_highlight": "none \u2014 but it catches and scatters every nearby light source"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the steam carries the promise before the first taste",
+        "a warm ghost rising from the bowl, fogging your glasses",
+        "you breathe the broth before you drink it"
+      ]
+    },
+    "notes": "Water vapor from hot broth. Makes light sources visible, carries aroma compounds."
+  },
+  {
+    "id": "neon_lit_puddle",
+    "name": "Neon-Lit Puddle",
+    "category": "liquid",
+    "subcategory": "reflection",
+    "base_color": {
+      "primary": "dark mirror",
+      "variants": [
+        "pink-reflected",
+        "blue-reflected",
+        "multicolor"
+      ],
+      "hex_approx": "#1A1A2E"
+    },
+    "reflectance": {
+      "type": "specular",
+      "diffuse": 0.1,
+      "specular": 0.85,
+      "roughness": 0.15
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "wet",
+        "glowing",
+        "inverted",
+        "trembling"
+      ],
+      "pattern": "rippled_mirror",
+      "scale": "macro"
+    },
+    "surface_state": "wet",
+    "light_interactions": {
+      "under_warm_light": "amber streaks across dark water, broken by every footstep",
+      "under_cool_light": "a cold mirror on the ground, the sky beneath your feet",
+      "under_dim_light": "the puddle holds more light than the air above it",
+      "specular_highlight": "perfect inverted neon \u2014 the sign upside down in the street"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the whole city reflected in two inches of rainwater",
+        "step on the neon and it shatters, then reforms",
+        "a portal to an upside-down world made of colored light"
+      ]
+    },
+    "notes": "Thin water film on dark asphalt. Near-perfect specular reflection of neon sources."
+  },
+  {
+    "id": "cherry_blossom_petals",
+    "name": "Cherry Blossom Petals",
+    "category": "organic",
+    "subcategory": "botanical",
+    "base_color": {
+      "primary": "pale pink",
+      "variants": [
+        "white-pink",
+        "blush",
+        "translucent rose"
+      ],
+      "hex_approx": "#FFB7C5"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.75,
+      "specular": 0.1,
+      "roughness": 0.4
+    },
+    "transparency": 0.2,
+    "texture": {
+      "visual": [
+        "delicate",
+        "thin",
+        "veined",
+        "scattered"
+      ],
+      "pattern": "scattered_organic",
+      "scale": "small"
+    },
+    "surface_state": "fresh",
+    "light_interactions": {
+      "under_warm_light": "the petals glow pink-gold, translucent edges catching light like tiny stained glass",
+      "under_cool_light": "almost white with the faintest blush, like skin in cold air",
+      "under_dim_light": "pale shapes on dark ground, ghostly confetti",
+      "specular_highlight": "faint sheen on fresh petals, lost as they dry"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "beauty measured in days \u2014 each petal a countdown",
+        "the ground wearing spring like a blush",
+        "falling so slowly they seem to be choosing where to land"
+      ]
+    },
+    "notes": "Prunus serrulata. Translucent when backlit. Short-lived, browning within days."
+  },
+  {
+    "id": "moss_covered_stone",
+    "name": "Moss-Covered Stone",
+    "category": "organic",
+    "subcategory": "composite",
+    "base_color": {
+      "primary": "grey-green",
+      "variants": [
+        "dark emerald patches",
+        "grey stone",
+        "yellow-green"
+      ],
+      "hex_approx": "#4A5D23"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.5,
+      "specular": 0.05,
+      "roughness": 0.9
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "soft-on-hard",
+        "living",
+        "damp",
+        "textured"
+      ],
+      "pattern": "organic_patchy",
+      "scale": "medium"
+    },
+    "surface_state": "damp",
+    "light_interactions": {
+      "under_warm_light": "the moss glows emerald where wet, the stone warm grey between",
+      "under_cool_light": "dark and ancient-looking, the moss almost black-green",
+      "under_dim_light": "the texture disappears into a dark mass, but the dampness catches what little light exists",
+      "specular_highlight": "tiny water droplets on moss tips sparkle like scattered diamonds"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "time measured in how thick the moss has grown",
+        "soft over hard, alive over dead \u2014 nature reclaiming",
+        "the stone remembers being bare; the moss doesn't care"
+      ]
+    },
+    "notes": "Composite surface. Moss absorbs light; stone reflects it. Wet moss is especially vivid."
+  },
+  {
+    "id": "bamboo",
+    "name": "Bamboo",
+    "category": "organic",
+    "subcategory": "wood_grass",
+    "base_color": {
+      "primary": "pale green-gold",
+      "variants": [
+        "fresh green",
+        "dried tan",
+        "aged brown"
+      ],
+      "hex_approx": "#C4B454"
+    },
+    "reflectance": {
+      "type": "semi_specular",
+      "diffuse": 0.5,
+      "specular": 0.3,
+      "roughness": 0.3
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "segmented",
+        "smooth",
+        "cylindrical",
+        "rhythmic"
+      ],
+      "pattern": "banded_regular",
+      "scale": "medium"
+    },
+    "surface_state": "natural",
+    "light_interactions": {
+      "under_warm_light": "the segments glow alternately bright and shadowed, a natural rhythm of light",
+      "under_cool_light": "greenish and fresh, the joints sharp-edged",
+      "under_dim_light": "vertical lines of pale gleam, ghost-like columns",
+      "specular_highlight": "a bright stripe along the curve of each culm"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the fastest architecture in nature \u2014 grass pretending to be wood",
+        "light climbs the segments like stairs",
+        "hollow strength, light weight, ancient utility"
+      ]
+    },
+    "notes": "Giant grass. Smooth outer surface with regular nodes. Green when fresh, golden when dry."
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "category": "mineral",
+    "subcategory": "oxidation",
+    "base_color": {
+      "primary": "orange-brown",
+      "variants": [
+        "deep red",
+        "flaky ochre",
+        "black-brown"
+      ],
+      "hex_approx": "#B7410E"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.7,
+      "specular": 0.05,
+      "roughness": 0.95
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "rough",
+        "flaking",
+        "textured",
+        "organic"
+      ],
+      "pattern": "organic_erosion",
+      "scale": "varied"
+    },
+    "surface_state": "corroded",
+    "light_interactions": {
+      "under_warm_light": "rust comes alive under warm light \u2014 deep oranges and browns that look almost edible",
+      "under_cool_light": "grim and industrial, the brown going dark and dead",
+      "under_dim_light": "a dark rough surface, texture only visible at close range",
+      "specular_highlight": "none \u2014 the surface eats light"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "iron bleeding in slow motion",
+        "the color of neglect, of time winning",
+        "rough enough to feel with your eyes"
+      ]
+    },
+    "notes": "Iron oxide. Extremely rough, matte surface. Warm color palette."
+  },
+  {
+    "id": "old_newspaper",
+    "name": "Old Newspaper",
+    "category": "organic",
+    "subcategory": "paper",
+    "base_color": {
+      "primary": "yellowed-white",
+      "variants": [
+        "brown-edged",
+        "foxed",
+        "cream"
+      ],
+      "hex_approx": "#E8D5B7"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.7,
+      "specular": 0.05,
+      "roughness": 0.7
+    },
+    "transparency": 0.1,
+    "texture": {
+      "visual": [
+        "wrinkled",
+        "brittle",
+        "printed",
+        "aged"
+      ],
+      "pattern": "text_columns",
+      "scale": "fine"
+    },
+    "surface_state": "aged",
+    "light_interactions": {
+      "under_warm_light": "the yellowing intensifies, the paper looks even older, ink fading into amber",
+      "under_cool_light": "the yellowing stands out starkly against what white remains",
+      "under_dim_light": "text illegible, just a pale rectangle with dark patterns",
+      "specular_highlight": "faint sheen where the paper is smoothest, between the printed lines"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "yesterday's urgency turned to tomorrow's kindling",
+        "the ink fading like memory \u2014 headlines that once mattered",
+        "brittle enough to crumble, holding together out of habit"
+      ]
+    },
+    "notes": "Acid paper yellowing via lignin oxidation. Brittle with age."
+  },
+  {
+    "id": "wax",
+    "name": "Wax",
+    "category": "organic",
+    "subcategory": "rendered",
+    "base_color": {
+      "primary": "cream-white",
+      "variants": [
+        "ivory",
+        "pale yellow",
+        "translucent"
+      ],
+      "hex_approx": "#F5F0DC"
+    },
+    "reflectance": {
+      "type": "subsurface_scatter",
+      "diffuse": 0.6,
+      "specular": 0.2,
+      "roughness": 0.4
+    },
+    "transparency": 0.15,
+    "texture": {
+      "visual": [
+        "smooth",
+        "waxy",
+        "organic",
+        "yielding"
+      ],
+      "pattern": "uniform",
+      "scale": "smooth"
+    },
+    "surface_state": "solid",
+    "light_interactions": {
+      "under_warm_light": "the wax glows from within \u2014 subsurface scattering turns it into a solid lantern",
+      "under_cool_light": "pale and clinical, the translucency giving it an organ-like quality",
+      "under_dim_light": "a faint pale mass, glowing slightly where light enters and scatters within",
+      "specular_highlight": "soft, broad highlight that moves smoothly across the curved surface"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "light enters and gets lost in there, wandering through the solid",
+        "the material of patience \u2014 drip by drip, layer by layer",
+        "warm to the touch of light, warm to the touch of skin"
+      ]
+    },
+    "notes": "Strong subsurface scattering. Light penetrates and diffuses within the material."
+  },
+  {
+    "id": "porcelain",
+    "name": "Porcelain",
+    "category": "mineral",
+    "subcategory": "ceramic",
+    "base_color": {
+      "primary": "white",
+      "variants": [
+        "blue-white",
+        "cream",
+        "translucent white"
+      ],
+      "hex_approx": "#F0EDE5"
+    },
+    "reflectance": {
+      "type": "glossy",
+      "diffuse": 0.4,
+      "specular": 0.5,
+      "roughness": 0.1
+    },
+    "transparency": 0.05,
+    "texture": {
+      "visual": [
+        "smooth",
+        "glazed",
+        "perfect",
+        "cold"
+      ],
+      "pattern": "uniform",
+      "scale": "smooth"
+    },
+    "surface_state": "glazed",
+    "light_interactions": {
+      "under_warm_light": "warm reflections pool on the glaze, the white going cream and inviting",
+      "under_cool_light": "clinical perfection \u2014 the white is absolute, the surface flawless",
+      "under_dim_light": "a pale gleam in darkness, the glaze catching whatever light exists",
+      "specular_highlight": "sharp, clean highlight that slides across the glazed surface"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "civilization distilled into a teacup",
+        "so smooth it feels wet when it's dry",
+        "the sound it makes when you tap it tells you everything about its quality"
+      ]
+    },
+    "notes": "Kaolin clay fired to vitrification. Translucent at thin edges. Glass-like surface."
+  },
+  {
+    "id": "cast_iron",
+    "name": "Cast Iron",
+    "category": "metal",
+    "subcategory": "ferrous",
+    "base_color": {
+      "primary": "dark grey-black",
+      "variants": [
+        "matte black",
+        "dark charcoal"
+      ],
+      "hex_approx": "#36454F"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.3,
+      "specular": 0.1,
+      "roughness": 0.8
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "rough",
+        "heavy",
+        "pitted",
+        "industrial"
+      ],
+      "pattern": "cast_granular",
+      "scale": "medium"
+    },
+    "surface_state": "seasoned",
+    "light_interactions": {
+      "under_warm_light": "a dark mass that absorbs warmth \u2014 the slight oil sheen catches amber highlights",
+      "under_cool_light": "brutal and utilitarian, the pitting visible as a landscape of tiny shadows",
+      "under_dim_light": "nearly invisible, just a heaviness in the dark",
+      "specular_highlight": "broad, dim \u2014 oil seasoning gives a satin sheen"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the weight of it tells you everything \u2014 this is serious cooking",
+        "seasoned by a thousand meals, each one adding a molecule to the story",
+        "black iron that holds heat like a grudge"
+      ]
+    },
+    "notes": "Cast iron with oil polymerization seasoning. Heavy, dark, excellent heat retention."
+  },
+  {
+    "id": "driftwood",
+    "name": "Driftwood",
+    "category": "organic",
+    "subcategory": "wood",
+    "base_color": {
+      "primary": "silver-grey",
+      "variants": [
+        "bleached white",
+        "pale brown",
+        "salt-white"
+      ],
+      "hex_approx": "#B8B8A8"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.6,
+      "specular": 0.05,
+      "roughness": 0.85
+    },
+    "transparency": 0.0,
+    "texture": {
+      "visual": [
+        "weathered",
+        "smooth",
+        "grain-raised",
+        "sculpted"
+      ],
+      "pattern": "organic_grain",
+      "scale": "medium"
+    },
+    "surface_state": "weathered",
+    "light_interactions": {
+      "under_warm_light": "the silver turns slightly warm, the grain becomes a landscape in miniature",
+      "under_cool_light": "bone-white and smooth, like something from another era",
+      "under_dim_light": "a pale shape, sculpture-like, the smoothness catching what little light there is",
+      "specular_highlight": "very faint \u2014 the salt and sun have removed all sheen"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "wood sanded smooth by salt and time",
+        "the color of everything after the ocean is done with it",
+        "sculpted by water into something no carpenter would attempt"
+      ]
+    },
+    "notes": "Salt-bleached, UV-degraded wood. Extremely smooth where water-worn, rough where broken."
+  },
+  {
+    "id": "sea_glass",
+    "name": "Sea Glass",
+    "category": "mineral",
+    "subcategory": "glass",
+    "base_color": {
+      "primary": "frosted green",
+      "variants": [
+        "frosted blue",
+        "frosted white",
+        "amber"
+      ],
+      "hex_approx": "#8FBC8F"
+    },
+    "reflectance": {
+      "type": "diffuse",
+      "diffuse": 0.5,
+      "specular": 0.1,
+      "roughness": 0.7
+    },
+    "transparency": 0.3,
+    "texture": {
+      "visual": [
+        "frosted",
+        "smooth",
+        "rounded",
+        "tumbled"
+      ],
+      "pattern": "uniform_frosted",
+      "scale": "small"
+    },
+    "surface_state": "tumbled",
+    "light_interactions": {
+      "under_warm_light": "the frosted surface glows with trapped warm light, amber pieces looking like solidified honey",
+      "under_cool_light": "green and blue pieces come alive, cool light making them jewel-like",
+      "under_dim_light": "faintly luminous, the frosted surface holding light longer than you'd expect",
+      "specular_highlight": "none \u2014 the frosting scatters everything into a soft glow"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "broken glass forgiven by the ocean",
+        "trash turned to treasure by salt and patience",
+        "hold it up to the light and it glows like a tiny window into the sea"
+      ]
+    },
+    "notes": "Mechanically frosted by sand and salt water. Edges rounded. Takes decades."
+  },
+  {
+    "id": "cobweb",
+    "name": "Cobweb",
+    "category": "organic",
+    "subcategory": "silk",
+    "base_color": {
+      "primary": "translucent white",
+      "variants": [
+        "invisible",
+        "dust-grey",
+        "dew-lit"
+      ],
+      "hex_approx": "#E8E8E8"
+    },
+    "reflectance": {
+      "type": "specular_thread",
+      "diffuse": 0.2,
+      "specular": 0.6,
+      "roughness": 0.1
+    },
+    "transparency": 0.9,
+    "texture": {
+      "visual": [
+        "gossamer",
+        "geometric",
+        "fragile",
+        "anchored"
+      ],
+      "pattern": "radial_web",
+      "scale": "macro"
+    },
+    "surface_state": "natural",
+    "light_interactions": {
+      "under_warm_light": "each strand becomes a thread of gold, the web a miniature constellation",
+      "under_cool_light": "silver threads catching light like fiber optics",
+      "under_dim_light": "invisible until you walk into it",
+      "specular_highlight": "each strand becomes a bright line when it catches the light at the right angle"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "architecture made of patience and protein",
+        "visible only when the light is perfect \u2014 then suddenly everywhere",
+        "the work of something that was here before you and will be here after"
+      ]
+    },
+    "notes": "Spider silk. Nearly invisible except when catching light or coated in dew/dust."
+  },
+  {
+    "id": "dust_motes",
+    "name": "Dust Motes",
+    "category": "atmospheric",
+    "subcategory": "particles",
+    "base_color": {
+      "primary": "light-catching",
+      "variants": [
+        "golden",
+        "silver",
+        "invisible"
+      ],
+      "hex_approx": "#FFF8DC"
+    },
+    "reflectance": {
+      "type": "mie_scatter",
+      "diffuse": 1.0,
+      "specular": 0.0,
+      "roughness": 1.0
+    },
+    "transparency": 1.0,
+    "texture": {
+      "visual": [
+        "floating",
+        "drifting",
+        "countless",
+        "languid"
+      ],
+      "pattern": "random_brownian",
+      "scale": "tiny"
+    },
+    "surface_state": "airborne",
+    "light_interactions": {
+      "under_warm_light": "each mote becomes a tiny ember drifting in a warm beam",
+      "under_cool_light": "silver pinpoints dancing in a cold shaft of light",
+      "under_dim_light": "invisible \u2014 dust only exists when light reveals it",
+      "specular_highlight": "each mote IS the highlight \u2014 a point of scattered light"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the air made visible \u2014 every room is full of this, you just can't usually see it",
+        "tiny galaxies drifting through a beam of light",
+        "the slow dance of everything that's ever been shed, shed, shed"
+      ]
+    },
+    "notes": "Visible only in directional light beams. Mie scattering makes them bright points."
+  },
+  {
+    "id": "cigarette_smoke",
+    "name": "Cigarette Smoke",
+    "category": "atmospheric",
+    "subcategory": "combustion_vapor",
+    "base_color": {
+      "primary": "blue-grey",
+      "variants": [
+        "white rising",
+        "grey settling",
+        "blue in stillness"
+      ],
+      "hex_approx": "#B0C4DE"
+    },
+    "reflectance": {
+      "type": "volumetric_scatter",
+      "diffuse": 0.8,
+      "specular": 0.0,
+      "roughness": 1.0
+    },
+    "transparency": 0.5,
+    "texture": {
+      "visual": [
+        "curling",
+        "layered",
+        "stratified",
+        "lazy"
+      ],
+      "pattern": "laminar_to_turbulent",
+      "scale": "macro"
+    },
+    "surface_state": "vapor",
+    "light_interactions": {
+      "under_warm_light": "the smoke turns amber and gold, each curl lit like a tiny weather system",
+      "under_cool_light": "blue-grey ribbons floating in sterile air",
+      "under_dim_light": "a faint haze that softens everything, visible only as reduced contrast",
+      "specular_highlight": "none \u2014 but the smoke makes every light source visible as a beam"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "a slow blue calligraphy written in the air and immediately erased",
+        "the smoke rises from the ashtray in a laminar thread, then breaks into turbulence \u2014 the transition is hypnotic",
+        "someone was here. The smoke says so even after they've gone."
+      ]
+    },
+    "notes": "Sidestream smoke is blue (smaller particles). Exhaled smoke is white (larger, moisture-laden)."
+  },
+  {
+    "id": "breath_in_cold_air",
+    "name": "Breath in Cold Air",
+    "category": "atmospheric",
+    "subcategory": "vapor",
+    "base_color": {
+      "primary": "white mist",
+      "variants": [
+        "translucent",
+        "brief white"
+      ],
+      "hex_approx": "#F0F0F0"
+    },
+    "reflectance": {
+      "type": "volumetric_scatter",
+      "diffuse": 0.9,
+      "specular": 0.0,
+      "roughness": 1.0
+    },
+    "transparency": 0.7,
+    "texture": {
+      "visual": [
+        "pulsing",
+        "rhythmic",
+        "brief",
+        "warm"
+      ],
+      "pattern": "exhalation_plume",
+      "scale": "medium"
+    },
+    "surface_state": "vapor",
+    "light_interactions": {
+      "under_warm_light": "each breath a small golden cloud that vanishes into cold",
+      "under_cool_light": "white wisps in cold light, visible proof of being alive",
+      "under_dim_light": "barely visible, a faint warmth in the dark air",
+      "specular_highlight": "none \u2014 but backlit breath glows white"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "your own private weather system, pulsing with each exhale",
+        "the cold makes your existence visible \u2014 every breath a small announcement",
+        "proof of warmth in a cold world"
+      ]
+    },
+    "notes": "Water vapor condensing in sub-10\u00b0C air. Brief, rhythmic, personal."
+  },
+  {
+    "id": "blood",
+    "name": "Blood",
+    "category": "organic",
+    "subcategory": "biological",
+    "base_color": {
+      "primary": "deep crimson",
+      "variants": [
+        "bright arterial red",
+        "dark venous",
+        "dried brown-black"
+      ],
+      "hex_approx": "#8B0000"
+    },
+    "reflectance": {
+      "type": "glossy_wet",
+      "diffuse": 0.3,
+      "specular": 0.5,
+      "roughness": 0.1
+    },
+    "transparency": 0.1,
+    "texture": {
+      "visual": [
+        "wet",
+        "viscous",
+        "spreading",
+        "darkening"
+      ],
+      "pattern": "pooling_organic",
+      "scale": "variable"
+    },
+    "surface_state": "wet",
+    "light_interactions": {
+      "under_warm_light": "impossibly red, vivid, the color screaming against any surface it touches",
+      "under_cool_light": "darker, almost black, losing its redness to become something more ominous",
+      "under_dim_light": "black and wet \u2014 you know what it is by how it catches light, not by color",
+      "specular_highlight": "sharp wet gleam, the surface tension visible as a dark mirror"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "the color that means stop, danger, alive, hurt",
+        "it darkens as it dries \u2014 bright emergency fading to brown memory",
+        "you notice it before you understand it"
+      ]
+    },
+    "notes": "Hemoglobin absorption. Fresh blood is bright red (oxygenated). Dries to brown-black."
+  },
+  {
+    "id": "honey",
+    "name": "Honey",
+    "category": "organic",
+    "subcategory": "biological",
+    "base_color": {
+      "primary": "deep amber-gold",
+      "variants": [
+        "pale gold",
+        "dark molasses",
+        "crystallized white"
+      ],
+      "hex_approx": "#EB9605"
+    },
+    "reflectance": {
+      "type": "specular_refractive",
+      "diffuse": 0.3,
+      "specular": 0.4,
+      "roughness": 0.05
+    },
+    "transparency": 0.5,
+    "texture": {
+      "visual": [
+        "viscous",
+        "slow",
+        "thick",
+        "luminous"
+      ],
+      "pattern": "viscous_flow",
+      "scale": "medium"
+    },
+    "surface_state": "liquid",
+    "light_interactions": {
+      "under_warm_light": "liquid gold \u2014 the honey becomes a lens of concentrated warmth, glowing amber-orange",
+      "under_cool_light": "darker, more brown than gold, the sweetness less visible",
+      "under_dim_light": "a dark gleam, the viscosity visible as slow-moving reflection",
+      "specular_highlight": "slow-moving highlight that stretches as the honey flows"
+    },
+    "experiential": {
+      "prose_fragments": [
+        "time slowed down and given a color",
+        "light trapped in sweetness, thick enough to see through but barely",
+        "the speed at which honey moves is the speed at which good things happen"
+      ]
+    },
+    "notes": "High refractive index. Viscous flow. Color varies by floral source."
+  }
+]

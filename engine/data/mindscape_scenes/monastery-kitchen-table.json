@@ -1,0 +1,70 @@
+{
+    "id": "monastery-kitchen-table",
+    "name": "The Table",
+    "description": "The table up close. The ingredients. The task.",
+    "smell": {
+        "scene_id": "monastery-kitchen-table",
+        "compounds": [
+            "bread-yeast",
+            "flour-dust",
+            "honey",
+            "tea-bergamot"
+        ]
+    },
+    "environment": {
+        "temperature_c": 18,
+        "humidity_pct": 55,
+        "wind_speed_kmh": 0,
+        "time_of_day": "dawn",
+        "weather": "none",
+        "indoor": true,
+        "touch": {
+            "surface_textures": [
+                "flour under your palms — cool, fine, yielding"
+            ],
+            "air_feel": "Warm and still. The room is holding its breath.",
+            "key_tactile_moments": [
+                "The pitcher's warmth through ceramic — 38°C, the exact temperature to wake yeast without killing it. Someone who knows bread set this water temperature.",
+                "The honey jar's weight — dense, amber, slow to pour. It coats the spoon and won't let go.",
+                "The yeast paste between your fingers — gritty, alive, smelling of fermentation and possibility"
+            ]
+        }
+    },
+    "sound": {
+        "rt60_seconds": 0.6,
+        "ambient_dba": 20,
+        "layers": [
+            {"source": "the bell tower clock", "frequency_hz": "50-100", "note": "ticking through the walls. Counting down."},
+            {"source": "your hands in flour", "frequency_hz": "500-2000", "note": "a soft shushing sound, like sand through fingers"}
+        ]
+    },
+    "light": {
+        "lux": 300,
+        "color_temp_k": 3500,
+        "note": "Dawn light falling across the table, making the flour glow and the honey jar burn amber. In twenty minutes this light will climb the wall and leave the table in shade."
+    },
+    "temporal": [
+        {"at_minutes": 0, "event": "Ingredients waiting. Oven cold. Bell in 30 minutes."},
+        {"at_minutes": 30, "event": "Bell rings. The bread must be done or it won't be."}
+    ],
+    "cross_sensory_bridges": [
+        "The warm water in the pitcher and the yeast in the jar are a chemical conversation waiting to happen — add one to the other and dormant cells wake, metabolize sugar, exhale CO2. You can smell the moment it starts: flat mineral water becomes alive and fermenting.",
+        "The bell tower clock ticking through the stone walls is the same vibration that will become the bell itself — low frequency now, massive frequency later. Time is a sound that gets louder."
+    ],
+    "impossible_detail": "The tea cup's warmth tells time. Ceramic cools at roughly 0.5°C per minute in still air. At 35°C now, it was 60°C forty minutes ago — whoever poured it left just before dawn. They held this cup, sipped from it, set it down, and walked away. The warmth your palm finds is the last physical trace of another person's morning.",
+    "mood": [
+        "urgent",
+        "intimate",
+        "purposeful"
+    ],
+    "prose": "The table is an altar of simple things. Flour spread thin and even, waiting for disruption. A ceramic pitcher warm to the touch — not hot, not cool, precisely the temperature of a living body. Three jars in a row: honey catching the dawn light like liquid amber, salt white and sharp as intention, and the yeast — dark, grainy, smelling of beer cellars and living organisms held in suspension.\n\nA wooden spoon worn smooth by years of the same motion. A cloth for covering the dough while it rises. Everything placed with the care of someone who has done this a thousand times and knows exactly where each tool needs to be.\n\nThe bell tower is visible through the window. Its shadow still falls across the courtyard — long, morning-angled. When that shadow shortens to nothing, the bell will ring, and the people who live here will come to this table expecting bread.",
+    "positions": [
+        {
+            "name": "the table",
+            "prose": "Your hands hover over the ingredients. The flour is cool. The pitcher is warm. The yeast smells of life waiting to happen. The bell tower ticks in the walls. Everything in this room is pointing toward one act: make the bread.",
+            "smell_emphasis": ["bread-yeast", "honey", "flour-dust"],
+            "cross_sensory": "The warmth of the pitcher and the smell of the yeast are connected — add warm water to dormant yeast and the fermentation begins. The smell will tell you if it's working before your eyes can confirm it.",
+            "touch_notes": "The flour yields under your palms. The pitcher radiates 38°C through ceramic. The honey is viscous and slow and coats everything it touches."
+        }
+    ]
+}

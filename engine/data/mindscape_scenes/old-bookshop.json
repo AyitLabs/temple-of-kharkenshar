@@ -1,0 +1,89 @@
+{
+  "id": "old-bookshop",
+  "name": "Old Bookshop",
+  "description": "A cramped second-hand bookshop — dust motes in afternoon light, paper decay, creaking floors, and the silence that books create.",
+  "smell": {
+    "scene_id": "old-bookshop",
+    "compounds": ["vanillin", "benzaldehyde", "furfural", "acetic acid", "cedarwood", "leather", "lignin", "dust", "beeswax", "naphthalene"]
+  },
+  "sight": {
+    "scene_id": "old_bookshop"
+  },
+  "sound": {
+    "scene_id": "old_bookshop"
+  },
+  "environment": {
+    "temperature_c": 19,
+    "humidity_pct": 45,
+    "wind_speed_kmh": 0,
+    "time_of_day": "afternoon",
+    "weather": "clear",
+    "indoor": true,
+    "touch": {
+      "surface_textures": ["rough oak floorboards", "cracked leather binding", "smooth glass display case", "soft foxed pages", "gritty dust on high shelves", "cold brass door handle"],
+      "air_feel": "Still, dry, slightly cool on exposed skin. No drafts — the books insulate every wall, creating a dead-air pocket that resists change.",
+      "thermal_notes": "Paper is a poor conductor — feels cool but doesn't steal warmth. Leather is warmer, absorbs body heat slowly. The oak floor retains cold from the unheated space below. Glass cases feel distinctly cold to the touch — high thermal conductivity pulling heat from fingertips.",
+      "key_tactile_moments": [
+        "The door's weight resisting your push — solid oak, swollen with decades of humidity cycles",
+        "Running fingers along cracked spines — the rasp of cloth, the smooth interruption of leather, the papery flake of a deteriorating dust jacket",
+        "The page's dry crispness under your thumb — older pages feel softer, more textile than paper",
+        "The gritty film on a shelf edge no one has browsed in years"
+      ]
+    }
+  },
+  "cross_sensory_bridges": [
+    "The visual patina and the vanilla-decay scent tell the same story — these books have been oxidizing for decades, and the chemistry shows in color and smell equally. Lignin breaks down into vanillin and the pages yellow: one reaction, two senses.",
+    "The silence is olfactory too — still air means scent pools undisturbed, each section of the shop holding its own micro-climate of paper and binding, because without air movement there's no mixing.",
+    "Dust motes visible in the sunbeam are the same particles you smell as 'old' — decomposed paper fibers, skin cells, textile fragments. What you see floating is what your olfactory receptors are catching.",
+    "The creak of floorboards and the puff of scent from a disturbed book are coupled events — mechanical energy from your step vibrates the shelves, releasing trapped volatiles from between pages."
+  ],
+  "mood": ["contemplative", "quiet", "nostalgic", "warm", "unhurried"],
+  "prose": "This shop has been accumulating for fifty years, and it smells like every one of them.\n\nThe light is the first language it speaks. Afternoon sun enters through a single large window that hasn't been cleaned since the previous decade, and the grime acts as a diffuser, softening the beam into a wide column of amber that makes the dust motes visible. They hang motionless — the air in here doesn't move, hasn't moved, won't move until someone opens the door. The shelves are floor to ceiling on every wall and freestanding in the middle, creating narrow canyons where the light can't reach and the shadows have weight. Books are stacked horizontally on top of vertically shelved books, doubled up, tripled, with paperbacks wedged into every remaining gap. The geometry is chaos organized by a mind that remembers where everything is.\n\nThe sound is the sound of density. Ten thousand books absorb echo the way insulation absorbs heat — your footsteps on the oak floor produce a creak that dies immediately, swallowed by paper. A clock ticks in another room, each tick arriving slightly muffled, slightly late, as if time itself is slowed by having to travel through all this accumulated text. The bell above the door is the loudest thing the room has heard today.\n\nAnd the smell — the smell is a chemistry lecture disguised as nostalgia. Vanillin from lignin degradation in aging paper: the sweeter the smell, the older the book. Benzaldehyde — bitter almonds — from the oldest volumes where the cellulose is breaking down in earnest. Furfural, a caramel note from the thermal degradation of pentose sugars in wood pulp. Acetic acid, faint and sharp, from books that are quietly acidifying themselves to death. Cedar from the shelving, leather from the bindings, beeswax from the floor polish that the owner applies every spring. And naphthalene — moth crystals — because someone once cared about the textiles here, and their care lingers as a faint camphoraceous whisper between the older volumes. The low humidity preserves all of it, holding each molecule close, letting nothing escape.\n\nThe shop breathes the way old things breathe: slowly, and only when disturbed.",
+  "positions": [
+    {
+      "name": "the entrance",
+      "prose": "You push open a heavy oak door — it resists, swollen in its frame from decades of humidity cycles — and the bookshop announces itself with a bell: a single, clear brass note that dies faster than it should, murdered by the dampening maze of paper on every surface. The light is amber: afternoon sun through a dirty window, filtered through dust motes that hang motionless in the beam like a galaxy in suspension. Floor-to-ceiling shelves recede into shadow, their geometry visible only in outline. The smell arrives as a wall — vanillin and almond from degrading lignin, the faint acetic acid sharpness of old paper beginning its slow acid death, cedar from the shelving, and something leathery and warm underneath that is equal parts binding and history. The floorboards creak under your weight, and the creak seems louder than it should because everything else is so quiet. The temperature drops a degree as the door closes behind you. The street noise vanishes. You have crossed a threshold not just into a shop but into a different rate of time.",
+      "smell_emphasis": ["vanillin", "benzaldehyde", "cedarwood"],
+      "cross_sensory": "The heavy door is the airlock — smell, sound, light, and temperature all change in the single second it takes to cross the threshold.",
+      "touch_notes": "The door handle is cold brass, slightly gritty. The door itself resists — you feel the swollen wood dragging against the frame. Inside, the air is drier and stiller against your skin."
+    },
+    {
+      "name": "the fiction section",
+      "prose": "Deeper in, the light dims to functional darkness broken only by a brass desk lamp casting a cone of warm yellow onto a cluttered sorting table. The shelves here are packed so tightly they create narrow canyons of books, and you must turn sideways to pass through some aisles, your shoulder brushing spines on both sides — each touch releasing a micro-puff of its own particular vintage. You run a finger along cracked spines: the tactile rasp of old cloth gives way to smooth leather gives way to the papery flake of a deteriorating dust jacket. Each book you pull releases a scent signature. Older volumes — more vanilla, more almond, the benzaldehyde sharper and sweeter. Newer paperbacks — a sharper, more acidic note, the acetic acid of cheap wood-pulp paper that was never meant to last this long. The sound is intimate: the whisper of pages riffled by your thumb, the soft thump of a book being reshelved somewhere deeper in the stacks, the settling creak of old wood adjusting to your weight. A clock ticks in another room — metronomic, unhurried, perfectly suited to a place where time moves at the speed of reading. The dust here is thicker on the upper shelves, a felt-like layer that comes away grey on your fingertips.",
+      "smell_emphasis": ["vanillin", "benzaldehyde", "furfural", "lignin"],
+      "cross_sensory": "Each book you touch releases its own scent-story, as if smell is the index the shelving system forgot. The physical disturbance of pulling a book creates both the sound and the scent — one action, two sensory events.",
+      "touch_notes": "Spines range from rough cloth to smooth leather to crumbling paper. Pages feel crisp in newer books, soft and textile-like in old ones. Dust coats every surface above shoulder height — a fine, dry grit."
+    },
+    {
+      "name": "the reading nook by the window",
+      "prose": "A worn leather armchair sits in the bay window, sun-warmed and cracked with age into a topography of fine lines that catch the light. The afternoon pours through glass that hasn't been cleaned in years, softening everything into a Vermeer painting — golden, diffused, turning dust into gold. The leather of the chair has its own complex scent: old hide tanned with oak bark, beeswax polish applied in layers over decades, the ghost of whoever sat here last and the thousands before them, their body heat slowly drawing out the tannins. The seat gives under your weight with a sound like a slow exhalation. It's quieter here, further from the door — just the tick of the muffled clock, the creak of the chair adjusting to your body, and the papery silence of ten thousand books breathing their slow vanilla breath. The sun through the window warms your left side while the shop's cool air holds your right. Outside, cars pass at normal speed. Pedestrians walk at normal pace. In here, you've opened a book and the spine cracks and releases a small ghost of vanilla and dust, and the page is cream-colored and cool under your thumb, and nothing needs to happen quickly.",
+      "smell_emphasis": ["leather", "vanillin", "beeswax", "cedarwood"],
+      "cross_sensory": "The leather smell and the leather light — both amber, both warm, both aged into something better than they started. Sun-warmed leather releases more volatile compounds: warmth drives the chemistry you're smelling.",
+      "touch_notes": "The leather is warm from the sun, its cracks catching under your palm. The armrest is smoother where a thousand hands have polished it. The book's pages are cool and dry, slightly rough at the edges where they've been cut."
+    },
+    {
+      "name": "the rare books room in the back",
+      "prose": "The owner parts a heavy curtain — velvet, dust-laden, its weight surprising in your hand — and the atmosphere shifts. The temperature drops two degrees: deliberate climate control, though the only visible evidence is an ancient dehumidifier humming in the corner like a sleeping animal. The light is low and green: a single banker's lamp, its emerald glass shade casting a circle on the examination table. The books here are old enough that their chemistry has shifted — less vanillin sweetness, more of the musty furfural-and-acetic character of paper that has passed through its pleasant decay into something more serious. Glass cases hold the oldest volumes, and looking through the glass adds a visual barrier that transforms reading material into artifact. The naphthalene is stronger here — someone is actively protecting these books from moth and silverfish. Leather bindings from the nineteenth century exhale tannins so concentrated you can almost taste them. The silence is deeper than the main shop; even the clock doesn't reach this room. Your own breathing is the loudest sound, and you find yourself breathing more quietly, as if the books demand it. The dehumidifier cycles off, and in the resulting silence you can hear the faintest creak of the building settling around its oldest treasures.",
+      "smell_emphasis": ["furfural", "acetic acid", "leather", "naphthalene", "cedarwood"],
+      "cross_sensory": "The hush, the low light, and the ancient paper-scent create a single mood: reverence. Three senses, one message — be careful here, be slow, these things are fragile and irreplaceable.",
+      "touch_notes": "The glass cases are cold and smooth — high conductivity pulls heat from your fingertips immediately. The curtain was heavy velvet, slightly gritty with dust. If the owner allows you to handle a volume, the leather is dry and cool, surprisingly light, the pages thick and soft as cloth."
+    }
+  ],
+  "why_chains": {
+    "vanilla_scent": "Lignin in wood-pulp paper undergoes slow oxidative degradation at room temperature, cleaving into vanillin (4-hydroxy-3-methoxybenzaldehyde). This is the same compound in vanilla beans. The reaction is accelerated by heat and UV — books near windows smell sweeter because photodegradation has been working on them for decades.",
+    "almond_note": "Benzaldehyde forms when cellulose breaks down via acid-catalyzed hydrolysis. Old books are slightly acidic (pH 4-5 from residual sulfuric acid in the paper-making process), which autocatalyzes their own degradation. The almond smell means the book is literally digesting itself.",
+    "silence_physics": "Paper is an excellent acoustic absorber — its porous, fibrous structure converts sound energy into heat through friction. A room lined with books on all walls achieves an NRC (Noise Reduction Coefficient) comparable to professional acoustic treatment. This is why bookshops feel quieter than their size suggests.",
+    "dust_mote_visibility": "Dust particles (1-100 μm) scatter light via Mie scattering when the particle size is comparable to the wavelength of visible light. The afternoon sun beam makes them visible because the high-angle illumination creates contrast against the dark background of shadowed shelves.",
+    "floor_creak": "Oak floorboards shrink and swell with seasonal humidity changes, loosening from their joists over decades. The creak is friction between the board and the nail or joist — a stick-slip phenomenon identical in physics to a violin bow on a string."
+  },
+  "sensory_archaeology": {
+    "smell_sources": "Every scent in this room is a degradation product. Vanillin from lignin breakdown, benzaldehyde from cellulose hydrolysis, acetic acid from paper acidification, furfural from pentose sugar decomposition. The bookshop doesn't smell good despite aging — it smells good because of aging. The same chemistry that will eventually destroy these books is currently producing their most beautiful sensory signature.",
+    "sound_shaping": "The books themselves are the acoustic treatment. Paper fibers absorb mid and high frequencies preferentially, which is why the silence feels 'warm' rather than 'dead' — low frequencies still resonate slightly. The floor creaks because the building is old enough that wood has had decades of humidity cycling to loosen every joint.",
+    "light_behavior": "The dirty window acts as a diffusion filter, scattering direct sunlight into a soft, warm beam. The amber color comes from the glass absorbing shorter (blue) wavelengths more than longer (amber) ones — decades of accumulated grime preferentially filtering blue light, shifting the color temperature to roughly 3000K, matching incandescent warmth."
+  },
+  "reconciliation": {
+    "shared_cause_aging": "Aging is the unifying physics. The vanilla smell, the yellowed pages, the cracked leather, the loosened floorboards, the dust — all are products of the same slow process: oxidation, hydrolysis, and mechanical fatigue acting on organic materials over decades. One cause, five sensory consequences.",
+    "shared_cause_stillness": "Still air is the enabler. Without air movement, scent pools remain undisturbed (each section of the shop has its own olfactory micro-climate), dust settles slowly (making the sunbeam galaxy possible), sound absorbs into paper rather than being carried away, and temperature stays cool and stable. The stillness is both the condition and the experience.",
+    "shared_cause_density": "The sheer density of books creates the acoustic absorption, the visual maze, the scent concentration, and the thermal insulation simultaneously. The same physical fact — thousands of volumes packed into a small space — produces the silence, the shadows, the smell, and the stable cool temperature."
+  }
+}

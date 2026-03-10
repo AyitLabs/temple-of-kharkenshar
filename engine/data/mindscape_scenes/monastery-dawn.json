@@ -1,0 +1,78 @@
+{
+  "id": "monastery-dawn",
+  "name": "Monastery at Dawn",
+  "description": "A mountain monastery at first light — cold stone corridors, frankincense from matins, distant chanting, mist in the cloisters, and the enormous silence that lives between prayers.",
+  "smell": {
+    "scene_id": "monastery-dawn",
+    "compounds": ["olibanum", "myrrh", "beeswax", "cold-stone", "cedar", "bread-yeast", "wood-polish", "dew", "pine-resin", "iron"]
+  },
+  "sight": {
+    "scene_id": "monastery-dawn"
+  },
+  "sound": {
+    "scene_id": "monastery-dawn"
+  },
+  "environment": {
+    "temperature_c": 4,
+    "humidity_pct": 85,
+    "wind_speed_kmh": 3,
+    "time_of_day": "dawn",
+    "weather": "fog",
+    "indoor": false,
+    "touch": {
+      "surface_textures": ["cold flagstone under bare feet numbing within seconds", "rough wool blanket on the cot pilling with age", "smooth worn cedar choir stall polished by centuries of robes", "cold iron door latch radiating chill from a foot away", "damp stone wall leaving mineral moisture on your palm", "warm bread crust cracking under your thumb"],
+      "air_feel": "Cold and saturated at 85% humidity — the air sits on exposed skin like a damp cloth at 4°C. Mist in the cloister is fine enough to feel as a general dampness rather than individual droplets. Breathing produces visible clouds. The still air inside the chapel is warmer than the corridors by two degrees, heated faintly by candles and the collective body warmth of the monks.",
+      "thermal_notes": "Stone at 4°C is a heat sink — bare feet on flagstone lose heat through conduction at roughly 1.7 W/mK (limestone's thermal conductivity), creating a shock that wakes the body faster than any alarm. Iron conducts even faster at 80 W/mK, which is why the door latches feel colder than the stone despite being the same temperature. The bread, fresh from a 200°C oven, is the first warm object you'll touch, and the thermal contrast after an hour of cold stone is almost painful in its kindness.",
+      "key_tactile_moments": [
+        "Bare feet hitting flagstone at 4°C — the cold shoots through your soles like electricity, waking every nerve in sequence from foot to spine",
+        "Your palm against the corridor wall and the damp mineral cold seeping in, condensation from your warm hand forming immediately on the stone",
+        "Kneeling in the chapel and feeling the stone's cold radiate through your knees into your bones over the course of the psalm",
+        "Tearing the warm bread crust — the crack, the steam, the heat in your fingers after an hour of nothing but cold"
+      ]
+    }
+  },
+  "cross_sensory_bridges": [
+    "Frankincense smoke and Gregorian chant occupy the same vertical space — both rise, both linger, both transform the air into something consecrated.",
+    "Cold stone is simultaneously a temperature, a smell (mineral, damp), and a sound (every footstep amplified and returned). The building is one substance experienced three ways.",
+    "Dawn light through fog and incense smoke are visually identical — diffuse, golden, particulate — as if the air itself is praying."
+  ],
+  "mood": ["sacred", "austere", "still", "ancient", "liminal"],
+  "prose": "The monastery exists at the threshold between night and day, between silence and sound, between stone and spirit.\n\nDawn arrives here not as light but as the slow subtraction of darkness. The eastern windows of the chapel — plain glass, no color, because this order distrusts beauty — begin as black rectangles and become grey, then pearl, then a diffuse gold that doesn't illuminate so much as reveal. Mist fills the cloister garden and the stone arches frame it like a series of paintings of nothing. The walls are Romanesque — massive, unadorned, sweating with the night's condensation. Everything is stone. Everything is cold. Everything echoes.\n\nThe chanting starts before you can see who's singing. Low voices in unison, Latin syllables worn smooth by eight centuries of daily repetition, the sound rising into vaulted ceilings designed specifically for this — to take the human voice and return it as something larger. The acoustics add a half-second reverb that makes the monks sound like twice their number. Between the psalm verses: silence so complete it has weight.\n\nFrankincense. The smell has been here since the 4 a.m. office and it has had time to colonize every surface. Olibanum — warm, resinous, faintly citric — mixed with myrrh's deeper, almost medicinal bitterness. Beeswax from the altar candles, still warm, their honey-scent threading through the incense like a sweetness the liturgy didn't intend. And underneath the sacred smells: the monastery's own — cold limestone exhaling minerals, cedar choir stalls rubbed to a shine, and from somewhere deep in the building, the warm yeast-cloud of bread rising in the kitchen, the first truly human smell of the day.\n\nThe bell tolls for Lauds. One strike. The stone carries it everywhere at once.",
+  "positions": [
+    {
+      "name": "the cell, before the bell",
+      "prose": "You wake in a stone room barely wider than the cot. The darkness is total except for a thin grey line under the door. The cold is the first sense: it lies on your face like a hand, and your breath is visible even before you can see it. The stone walls smell of damp mineral and centuries of whitewash — lime and cold water and the ghost of every winter this room has absorbed. Silence is so complete you can hear your own blood. Then, from somewhere deep in the building, the faintest vibration — not sound yet, but the stone remembering sound — and you know the bell is about to ring.",
+      "smell_emphasis": ["cold-stone", "dew"],
+      "cross_sensory": "Cold, dark, and silence are the same thing here — the absence of everything except stone and waiting.",
+      "touch_notes": "The cot is hard — a thin straw mattress over wooden slats, the wool blanket rough against your chin. The cold lies on your face like a physical weight, and your breath condenses and falls back on your skin as faint moisture. The stone wall, if you reach out and touch it, is slick with condensation and cold enough to make your fingertips ache."
+    },
+    {
+      "name": "the corridor to the chapel",
+      "prose": "Bare feet on flagstone. The cold shoots up through your soles and the sound of each step returns to you from the vaulted ceiling a half-second later, a ghost following. The corridor is lit by a single oil lamp in a wall niche and the flame throws your shadow thirty feet long and trembling. The frankincense reaches you here — it has leaked from the chapel like a rumor, olibanum and beeswax threading through the corridor's own smell of damp stone and cedar doors. The iron latch of each door you pass radiates cold that you can feel from a foot away. Ahead, the chanting has started, and the corridor acts as an amplifier, turning the monks' unison into something that seems to come from the walls themselves.",
+      "smell_emphasis": ["olibanum", "beeswax", "cold-stone", "iron"],
+      "cross_sensory": "The corridor is a funnel — it concentrates the incense, amplifies the chanting, and narrows the lamplight into a single path toward prayer.",
+      "touch_notes": "Bare feet on flagstone — each step is a small shock of cold that radiates up through the ankles. The stone is slightly uneven, worn into shallow valleys by centuries of this same pre-dawn walk. The iron latch on the chapel door burns with cold under your fingers, the metal's high conductivity pulling heat from your hand in an instant."
+    },
+    {
+      "name": "inside the chapel",
+      "prose": "The frankincense is a presence here, not just a smell. It hangs in visible layers in the air, blue-grey strata lit by the first dawn light through the east windows, and it coats the inside of your throat with each breath — warm, resinous, slightly numbing. The monks are dark shapes in their choir stalls, their voices rising in plainsong that the Romanesque vault catches and holds and releases slowly, so each phrase overlaps with its own echo. Beeswax candles on the altar burn without flickering in the still air, their honey-scent a sweet undercurrent to the incense's solemnity. The stone floor radiates cold upward through your knees if you kneel. Myrrh mingles with the olibanum — darker, more earthen, like the incense's shadow. Every surface in this room has been absorbing prayer for eight hundred years, and you can almost smell that too: patience, patience, patience.",
+      "smell_emphasis": ["olibanum", "myrrh", "beeswax"],
+      "cross_sensory": "Incense smoke makes the chant visible — you can watch the sound rise through the blue-grey layers toward the vault.",
+      "touch_notes": "The choir stall is worn cedar, smooth as skin under your palms from eight centuries of hands gripping the same wood. Kneeling on stone, the cold penetrates through your robes and into your kneecaps within thirty seconds — a deep, mineral cold that you cannot warm away, only endure. The incense settles on your lips and you taste resin."
+    },
+    {
+      "name": "the cloister garden",
+      "prose": "After the chapel, the cloister is a shock of open air and mist. The garden is a grey-green suggestion — lavender and rosemary hedges barely visible, their essential oils locked tight in the cold. Dew covers every surface and the stone arches drip with a slow, irregular percussion that is the only sound after the chanting stops. The mist carries its own smell: water and green things and the mineral tang of the mountain the monastery is built into. Pine resin drifts from the tree line beyond the walls. Your breath and the mist are the same substance, and for a moment the boundary between your body and the air dissolves. Dawn is turning the east wall of the cloister gold, but the west wall is still in blue shadow, and you stand exactly on the line between them.",
+      "smell_emphasis": ["dew", "pine-resin", "cold-stone"],
+      "cross_sensory": "The mist erases boundaries — between inside and outside, between breath and air, between the body and the mountain.",
+      "touch_notes": "The mist clings to every exposed surface — your face, your hands, the fabric of your robe — depositing a fine film of moisture that is neither rain nor dew but something between. The stone arches drip onto your shoulder with cold, startling precision. The air is softer here than in the corridor, the humidity so high it cushions the cold slightly, making 4°C feel almost gentle."
+    },
+    {
+      "name": "the refectory, after Lauds",
+      "prose": "The bread smell hits you through the refectory door and it is almost violent after the austerity of the chapel — yeast and warmth and the Maillard crust, aggressively alive, aggressively human. The room is long and plain: wooden tables, wooden benches, a single crucifix on the wall. But the light has arrived now, full dawn pouring through high windows and turning the whitewashed walls into a pale gold that feels warm even though the room is still cold. Someone has placed a loaf on each table and the bread is still steaming, the warmth rising in visible curls. You sit. The bench is cold, the bread is warm, the silence of the meal is different from the silence of prayer — this one is nourishing. You tear the crust and the sound is sacramental. Cedar from the old tables, beeswax from the polished wood, and above everything, bread — the smell of the first truly kind thing the day has offered.",
+      "smell_emphasis": ["bread-yeast", "cedar", "wood-polish", "beeswax"],
+      "cross_sensory": "After incense and stone, bread is a homecoming — warm, sweet, human — and every sense receives it as mercy.",
+      "touch_notes": "The wooden bench is cold through your robe — you feel it in your sit bones for the first five minutes before body heat creates a thin warm layer. The bread is the revelation: warm crust cracking under your thumbs, steam escaping, the soft interior yielding. After an hour of cold stone, the bread's warmth in your hands is disproportionately powerful — your fingers curl around it and hold."
+    }
+  ]
+}

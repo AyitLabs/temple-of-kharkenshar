@@ -1,0 +1,105 @@
+{
+    "id": "cave-mouth",
+    "name": "The Cave Mouth",
+    "description": "The threshold between worlds. Behind you: the last light, birdsong, warm air. Ahead: darkness that breathes cold. The transition happens in twenty feet \u2014 daylight to memory, wind to stillness, the complex surface world to the cave's single ancient mineral chord.",
+    "smell": {
+        "scene_id": "cave-mouth",
+        "compounds": [
+            "wet-limestone",
+            "iron-rich-earth",
+            "mineral-water",
+            "moss",
+            "leaf-decay",
+            "petrichor"
+        ]
+    },
+    "sight": {
+        "scene_id": "cave-mouth"
+    },
+    "sound": {
+        "rt60_seconds": 1.2,
+        "ambient_dba": 35,
+        "layers": [
+            {
+                "source": "birdsong behind you",
+                "frequency_hz": "2000-8000",
+                "note": "fading as you face inward \u2014 the forest is letting go"
+            },
+            {
+                "source": "water dripping ahead",
+                "frequency_hz": "2000-6000",
+                "interval": "irregular, 1-4s gaps",
+                "note": "each drop is 0.05 mL hitting stone from 2m \u2014 sharp plink with a 0.8s reverb tail"
+            },
+            {
+                "source": "cave exhalation",
+                "frequency_hz": "20-100",
+                "note": "infrasound you feel more than hear \u2014 the cave breathing out through you"
+            }
+        ]
+    },
+    "environment": {
+        "temperature_c": 13,
+        "humidity_pct": 85,
+        "wind_speed_kmh": 2,
+        "wind_direction": "outward \u2014 the cave exhales",
+        "time_of_day": "none",
+        "weather": "none",
+        "indoor": false,
+        "touch": {
+            "surface_textures": [
+                "moss-covered rock at the entrance \u2014 soft, wet, yielding under fingers, living on dead stone",
+                "bare limestone deeper in \u2014 cold, slick with condensation, rougher than the weathered exterior",
+                "gravel underfoot at the threshold \u2014 loose, crunching, river-rounded stones mixed with angular fragments",
+                "fern fronds brushing your arms at the entrance \u2014 wet, cool, feathered edges"
+            ],
+            "air_feel": "The cave breathes outward \u2014 a constant gentle exhalation of 13\u00b0C air against your face, damp enough to feel on your lips. It smells of deep earth and mineral patience. Behind you, the outside air is warmer, drier, alive with pollen and insect wing-beats. You're standing in the breath of something much older than you.",
+            "thermal_notes": "A gradient: warm back, cold face. The cave's exhalation creates a clean thermal boundary you can map with your skin. Step forward and the temperature drops 2\u00b0C in a meter. The humidity climbs. Your body notices the transition as a single event \u2014 like stepping into water, but with air.",
+            "key_tactile_moments": [
+                "The first touch of cold air on your face \u2014 the cave introducing itself",
+                "Reaching out to the wall and finding it wet \u2014 not dripping, just perpetually damp, the stone sweating",
+                "The gravel shifting under your weight \u2014 the last unstable ground before the cave floor smooths to bedrock"
+            ]
+        }
+    },
+    "cross_sensory_bridges": [
+        "The light and the sound die together \u2014 as daylight fades, the birdsong fades with it, until both are gone and you're in a world that runs on different senses entirely.",
+        "The cave's breath carries its smell \u2014 the outward wind is how you know what's inside before you see it. Mineral water, wet stone, deep earth. The cave tells you what it is through the air it exhales.",
+        "Moss grows exactly where the light still reaches. The boundary between green and bare stone is the boundary between two worlds. Your hand finds it before your eyes do."
+    ],
+    "mood": [
+        "liminal",
+        "anticipatory",
+        "reverent",
+        "threshold"
+    ],
+    "prose": "The cave mouth is a sentence that starts in sunlight and ends in the dark.\n\nYou stand at the entrance \u2014 an irregular arch of limestone, wider than it is tall, draped in ferns and moss that soften its edges into something almost biological. Light falls inward for perhaps twenty feet before the rock swallows it. The air here moves outward, a steady cool exhalation that smells of wet stone and centuries. It pushes against your face and chest with the gentleness of something that has been breathing for longer than your species has existed.\n\nThe threshold is visible in every sense. Light dies. Sound changes \u2014 the open-air acoustic of birds and wind compresses into the tight, reflective clarity of enclosed stone. The temperature drops. The humidity rises until the air feels thick enough to touch. The smell shifts from the complex organic soup of the surface \u2014 leaf litter, pollen, warm earth \u2014 to the cave's single mineral note: calcium carbonate dissolved in water, the smell of geology happening in real time.\n\nBehind you, the world you know. Ahead, a darkness that isn't empty \u2014 it's full of dripping water, echoing silence, and the patient work of stone. The ferns at the entrance are the last green thing. The moss is the last soft thing. After this, everything is rock.\n\nYou can still feel the sun on your back.",
+    "positions": [
+        {
+            "name": "the threshold",
+            "prose": "You stand exactly where the light gives up. One step back and you're in dappled forest. One step forward and you need a lamp. The air moves around you in two directions \u2014 warm at your back, cold on your face \u2014 and your body is the boundary between them.",
+            "smell_emphasis": [
+                "petrichor",
+                "moss",
+                "wet-limestone"
+            ],
+            "cross_sensory": "The temperature gradient maps perfectly onto the light gradient \u2014 warm where it's bright, cold where it's dark. Your skin and your eyes are telling you the same story.",
+            "touch_notes": "The ground transitions here: soft forest soil behind you, loose gravel at your feet, smooth bedrock ahead. Three surfaces in five steps."
+        }
+    ],
+    "light": {
+        "lux_gradient": {
+            "outside": 15000,
+            "threshold": 500,
+            "five_meters_in": 5,
+            "ten_meters_in": 0.1
+        },
+        "color_temp_k": {
+            "outside": 5500,
+            "threshold": 4000,
+            "inside": 0
+        },
+        "note": "The light gradient covers three orders of magnitude in twenty feet. Your pupils dilate from 2mm to 7mm crossing the threshold \u2014 a 12x increase in light gathering. It's not enough."
+    },
+    "impossible_detail": "The moss boundary is at exactly 15 lux \u2014 the minimum photosynthetically active radiation for bryophytes. Below that line, nothing photosynthetic survives. You can find the boundary with your hand: where moss ends and bare stone begins, that's where the cave starts and the sun gives up."
+}

@@ -1,0 +1,71 @@
+{
+  "id": "space-station",
+  "name": "Space Station",
+  "description": "The International Space Station in low Earth orbit — recycled air humming through aluminum corridors, the constant whir of fans and pumps, zero-gravity rewriting every physical instinct, and the Earth filling the cupola window like a hallucination of home.",
+  "smell": {
+    "scene_id": "space-station",
+    "compounds": ["recycled-air", "aluminum-oxide", "ozone", "antiseptic", "plastic-outgassing", "stale-sweat", "freeze-dried-food", "ionized-metal", "velcro"]
+  },
+  "sight": {
+    "scene_id": "space-station"
+  },
+  "sound": {
+    "scene_id": "space-station"
+  },
+  "environment": {
+    "temperature_c": 22,
+    "humidity_pct": 40,
+    "wind_speed_kmh": 0,
+    "time_of_day": "variable",
+    "weather": "none",
+    "indoor": true,
+    "touch": {
+      "surface_textures": ["smooth aluminum hull panels slightly warm from electronics behind them", "velcro strips everywhere — rough hook side catching on everything", "soft sleeping bag fabric the only textile comfort on board", "cold glass of the cupola window warming where the sun hits", "rubber-gripped handholds worn smooth by hundreds of transits", "rigid EVA suit gloves fighting every finger movement"],
+      "air_feel": "Perfectly controlled at 22°C and 40% humidity, the air feels neutral — neither warm nor cool — which is its own uncanny sensation. It moves constantly from the ventilation fans, creating a gentle breeze you stop consciously registering after the first day but would desperately notice if it stopped. In microgravity, convection doesn't work — without fan-driven circulation, warm air pools around your body and CO2 accumulates around your face.",
+      "thermal_notes": "Without convection, thermal management is entirely forced-air. The aluminum hull panels conduct heat from electronics and solar gain — touch a panel near a computer cluster and it's warm; touch one near the hull's shadow side and it's cool. The cupola glass varies enormously: direct sunlight through the pane creates hot spots (~35°C on glass surface) while the shaded side is cool to the touch. The EVA suits in the airlock are at ambient temperature but feel cold because the polycarbonate and metal components have higher thermal conductivity than fabric.",
+      "key_tactile_moments": [
+        "Pressing your forehead to the cupola glass — cool, smooth, the only thing between your skin and vacuum, and the sun's warmth through the pane falling on your face like a memory of outdoors",
+        "The velcro rip of pulling a food packet off the galley wall — the most domestic sound in the most alien environment",
+        "Floating in the sleeping bag and your arms drifting up to chest height in zero-G — the body's default resting position when gravity stops dictating",
+        "Touching a returned EVA suit and smelling the 'space smell' — ionized metal and burnt ozone baked into the fabric by atomic oxygen"
+      ]
+    }
+  },
+  "cross_sensory_bridges": [
+    "The fan noise and the recycled air smell are inseparable — the hum is the sound of the air being made, and the metallic-antiseptic scent is its flavor. Stop the fans and you'd lose both simultaneously.",
+    "Zero gravity rewrites every sense: liquids become spheres you can see and smell from all angles simultaneously, crumbs become projectiles, and your own body's orientation stops being information your eyes can confirm.",
+    "The Earth in the cupola window is the only natural stimulus in a world of artificial everything — natural light, natural color, natural geometry in a habitat of rectangles and recycled air."
+  ],
+  "mood": ["isolated", "mechanical", "awe-struck", "sterile", "fragile"],
+  "prose": "The station is a village of sound. That's the first thing.\n\nFans. Pumps. The environmental control system's constant respiratory hum. The carbon dioxide scrubbers cycling. A laptop fan spinning. A ventilation duct rattling at a frequency that someone has reported in the maintenance log six times and no one has fixed. The sound is layered and omnidirectional and never, ever stops — there is no silence on the ISS, only gradations of mechanical breathing. Astronauts sleep with earplugs. The absence of sound would mean the absence of air.\n\nThe light comes from panels and windows and they could not be more different. The interior is fluorescent-white, institutional, casting the same flat illumination on every aluminum surface and velcro strip and cable bundle. But the cupola — the seven-window observation dome — pours natural light into the station like water into a dry mouth. The Earth fills the frame in a rotation of blue ocean, white cloud, brown continent, and the terminator line where day becomes night sliding across at orbital speed. Every ninety minutes, a sunrise. Every ninety minutes, the light in the cupola shifts from warm gold to blue-white to the deep amber of atmospheric refraction. Nothing else on the station changes. Just the window.\n\nThe smell is hermetic. Recycled air carries a permanent metallic undertone — aluminum oxide from the hull, the slightly sweet plastic outgassing from cable insulation and equipment panels, the sharp antiseptic of surface cleaners used daily because in microgravity, bacteria float. Velcro — that distinctive synthetic fabric scent — is everywhere, holding everything to every surface, and after a week you stop noticing it the way you stop noticing your own house's smell. The food is freeze-dried and when you add hot water the smell blooms in a perfect sphere around the packet, not rising because nothing rises. Your crewmate's coffee is the most human smell on board and you're unreasonably grateful for it.\n\nOutside, the vacuum. Inside, the hum. Between them, a few millimeters of aluminum and everything you are.",
+  "positions": [
+    {
+      "name": "the cupola",
+      "prose": "You float into the dome and the Earth is right there — not below you, because there is no below, but filling your visual field with a beauty so overwhelming it triggers a grief response before you understand why. The Indian Ocean is a blue so saturated it looks manufactured. A typhoon spirals in perfect mathematical white. The terminator line cuts across Southeast Asia and the cities on the night side glow like bioluminescence. The window glass smells faintly of the silicone sealant at its edges, and the sun's warmth through the pane is the only natural heat you'll feel today — it falls on your face and your body orients to it instinctively, the way a plant does. The station's hum is quieter here, or maybe the view just drowns it out. You press your forehead to the glass and it's cool and your breath fogs a tiny circle and for a moment you've made a cloud over Madagascar.",
+      "smell_emphasis": ["recycled-air", "plastic-outgassing", "aluminum-oxide"],
+      "cross_sensory": "The view hijacks every sense — the warmth of the sun through glass, the cool pane on your forehead, the hush that falls over your own breathing. The Earth is so present it becomes tactile.",
+      "touch_notes": "The cupola glass is cool and perfectly smooth against your forehead. Where the sun hits through the pane, warmth falls on your face and arms — the only natural heat source on the station, and your body orients toward it instinctively. Your feet float behind you, anchored by nothing. The handholds at the cupola entrance are rubber-gripped and worn smooth from every crew member's daily visit to the only view that matters."
+    },
+    {
+      "name": "the galley module",
+      "prose": "Rehydrating shrimp grits at seven kilometers per second. The hot water injector hisses and the food packet swells and the smell escapes in a warm, savory cloud that doesn't rise but expands in every direction — you smell it with your whole head simultaneously, a disorienting olfactory surround-sound. Crumbs from a tortilla float past your ear. The velcro table strip holds your food packets in place and the ripping sound of pulling a drink pouch free is one of the station's most human noises — small, deliberate, almost domestic. A crewmate's instant coffee fills the module with a roasted bitterness that everyone agrees is the best smell on the station, not because it's good coffee but because it's any coffee. The aluminum walls reflect the overhead light without warmth, and the food packaging's bright colors — red, yellow, green — are the most vivid things in this monochrome corridor.",
+      "smell_emphasis": ["freeze-dried-food", "recycled-air", "plastic-outgassing"],
+      "cross_sensory": "In microgravity, food smell is omnidirectional — it finds your nose from every angle, untethered from the packet, making the galley the station's one room where scent behaves like weather.",
+      "touch_notes": "The velcro table strip grips the food packets with a satisfying resistance — the ripping sound and the pull against your fingers is weirdly comforting. The hot water injector's nozzle is warm aluminum. The food packet swells and becomes taut as the water rehydrates its contents. Crumbs float — you catch them on your tongue or chase them through the air, each one a tiny tactile event. Without gravity, eating requires your hands to do work that a plate normally does."
+    },
+    {
+      "name": "the sleeping pod",
+      "prose": "A coffin-sized alcove with a sleeping bag velcroed to the wall — which wall is arbitrary, since your body floats in whichever orientation you zipped in. The pod is the closest thing to personal space on the station and it smells like it: your own accumulated sleep-sweat in the bag's fabric, the faint staleness of exhaled breath in a space too small for the ventilation to fully reach. The fan at the pod's entrance is essential — without it, your own CO2 would pool around your face in a still, warm bubble and you'd wake with a headache. You hear it constantly, a small white noise that becomes your lullaby. Photos of family velcroed to the wall are the only non-functional objects in the space. The sleeping bag's fabric is the most tactile thing you'll touch today — soft, warm, human-scale in a station built for equipment. Your body relaxes and your arms float up from your sides in the zero-g sleeping position: hands at chest height, gently curled, like a child's.",
+      "smell_emphasis": ["stale-sweat", "recycled-air", "velcro"],
+      "cross_sensory": "The sleeping pod is where the station's alienness breaks — the warm fabric, the familiar smell of your own body, the white noise that becomes silence. Almost like a bedroom. Almost.",
+      "touch_notes": "The sleeping bag is the softest thing on the station — warm, enclosing, the only object that wraps around you the way bedding on Earth does. You zip in and your body floats inside it, touching the fabric at random points as you drift. The fan at the entrance creates a steady breeze on your face — essential, because without it your own exhaled CO2 would form a warm, still bubble around your head. Your arms float up to chest height, fingers loosely curled, the zero-G resting position."
+    },
+    {
+      "name": "the airlock vestibule",
+      "prose": "The inner hatch is open and the EVA suits hang in their alcoves like shed skins, and the smell here is different from anywhere else on the station: ionized metal and ozone, the scent that astronauts call 'space smell,' carried in on the suits after every spacewalk. It's metallic and burnt and faintly sweet, like seared steak and gunpowder and welding — the smell of atomic oxygen reacting with the suit's outer layer, the smell of vacuum's chemistry clinging to fabric that was, hours ago, the only thing between a human body and the void. The airlock walls are thicker here, reinforced, and the sound changes — denser, more muffled, the station's hum reduced to a distant murmur as if the room itself knows it's the boundary between life and its absence. The suits' gloves are stiff, the polycarbonate visors scratched by micrometeorites, each mark a near-miss written in glass.",
+      "smell_emphasis": ["ionized-metal", "ozone", "aluminum-oxide", "antiseptic"],
+      "cross_sensory": "The airlock smells like the outside brought in — space's chemical signature trapped in fabric, a sensory souvenir from a place where senses can't exist.",
+      "touch_notes": "The EVA suits are rigid — the gloves resist every finger movement, the joints pre-pressurized and stiff. The polycarbonate visor is scratched with micrometeorite impacts you can feel under your fingertip, each one a near-miss written in material. The airlock walls are thicker here and the hull vibration is muted — you feel less of the station's mechanical heartbeat. The suits carry a residual warmth from the last spacewalk's thermal cycling, and the fabric feels different from anything else on the station: exposed, weathered, space-worn."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+    "id": "summit-storm",
+    "name": "The Descent",
+    "description": "The storm has arrived. The summit that was beautiful is now dangerous. Three routes down, each visible, each different. The wind has teeth now.",
+    "smell": {
+        "scene_id": "summit-storm",
+        "compounds": [
+            "ozone",
+            "wet-granite",
+            "ice"
+        ]
+    },
+    "environment": {
+        "temperature_c": 0,
+        "humidity_pct": 75,
+        "wind_speed_kmh": 45,
+        "wind_direction": "northwest, gusting, erratic",
+        "time_of_day": "late-afternoon",
+        "weather": "approaching thunderstorm",
+        "indoor": false,
+        "touch": {
+            "surface_textures": [
+                "granite under your boots — still solid, but the first rain drops are hitting and the rock is changing",
+                "wind pushing your body — not playful anymore, insistent, angry"
+            ],
+            "air_feel": "The air has changed. Colder, wetter, electric. You can taste the ozone — sharp and metallic, the chemical signature of lightning that hasn't struck yet but will. The pressure has dropped and your ears know it.",
+            "key_tactile_moments": [
+                "The first rain drop hitting your hand — cold, heavy, a warning shot from the storm that's about to open up",
+                "The wind shifting from steady to gusting — the mountain's aerodynamics changing as the storm's pressure front arrives"
+            ]
+        }
+    },
+    "sound": {
+        "rt60_seconds": 0,
+        "ambient_dba": 65,
+        "layers": [
+            {"source": "wind", "frequency_hz": "20-2000", "note": "louder now, 65 dBA and climbing. The gusts hit 70. Your jacket is screaming."},
+            {"source": "distant thunder", "frequency_hz": "20-100", "note": "a low continuous rumble from the west, getting closer. Each rumble is longer than the last — the storm is expanding."},
+            {"source": "scree rattling", "frequency_hz": "1000-4000", "note": "the south face is talking — loose rock shifting in the wind, a dry nervous chatter"}
+        ]
+    },
+    "light": {
+        "lux": 5000,
+        "color_temp_k": 6500,
+        "note": "The light has gone flat and grey — storm light, diffused through cloud, casting no shadows. Everything is equally lit and equally threatening. The golden hour is gone."
+    },
+    "cross_sensory_bridges": [
+        "The ozone you smell and the thunder you hear are the same phenomenon — electrical discharge splitting oxygen molecules. You're smelling the storm before it arrives.",
+        "The scree you hear rattling on the south face and the ice you see glinting on the north ridge are both telling you the same thing: those routes are unstable. The east gulley is silent and dark and wet — stable things don't make noise."
+    ],
+    "impossible_detail": "A lightning bolt searches for ground via stepped leaders — invisible ionized channels that probe downward at 200 km/s in 50-meter jumps. The tallest grounded object sends a streamer upward to meet it. On a summit, that object is you. The strike happens in 0.0002 seconds. You need to not be here.",
+    "mood": [
+        "urgent",
+        "dangerous",
+        "decisive"
+    ],
+    "prose": "The storm arrives not gradually but all at once, like a door slamming.\n\nThe western sky is a wall — dark grey at the base, black at the top, lit from within by flickers that haven't become thunder yet. The wind shifts, swings, and then hits from the new direction with a force that makes you stagger. The temperature drops five degrees in a minute. Rain drops begin — heavy, individual, cold — each one a small shock against your skin.\n\nYou need to go down. Now.\n\nThree routes are visible from where you stand, each one a different calculation of risk. The north ridge gleams where it shouldn't — ice, a thin glaze on the rock, catching what's left of the light. The south face rattles in the gusts, loose rock talking to itself, a slope made of things that aren't attached to anything. And the east gulley — dark, wet, the sound of running water coming from its depths.\n\nThe thunder is closer now. You feel it in your boots before you hear it — a vibration in the granite, the mountain conducting the storm's energy through its body. The next bolt could be the one that finds the summit. That finds you.\n\nChoose. Fast.",
+    "positions": [
+        {
+            "name": "the summit edge",
+            "prose": "You're scanning the routes with the urgency of someone who understands exactly how exposed they are. The ice on the north ridge catches light it shouldn't be catching. The south face chatters and shifts. The east gulley is quiet — the water sound is steady, not panicked, not shifting. Stable things sound different from unstable things.",
+            "smell_emphasis": ["ozone", "wet-granite"],
+            "cross_sensory": "The storm is telling you everything you need to know through three senses: the ozone smell says lightning is close, the thunder vibration says it's getting closer, the temperature drop says the cold front has arrived. All three say: move.",
+            "touch_notes": "Rain on your face. Wind pushing your chest. The granite under your feet is still solid but the first water is making it slick. Your window is closing."
+        }
+    ]
+}

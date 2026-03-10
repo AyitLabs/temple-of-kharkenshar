@@ -1,0 +1,71 @@
+{
+  "id": "venetian-canal",
+  "name": "Venetian Canal",
+  "description": "A narrow Venetian canal at dusk — water lapping against moss-covered stone, gondola wood creaking, the salt-mineral smell of lagoon water, and light turning everything gold and green.",
+  "smell": {
+    "scene_id": "venetian-canal",
+    "compounds": ["brine", "algae", "aged-wood", "mineral-stone", "espresso", "leather", "plaster-dust", "neroli", "marine-sulfur", "linseed-oil"]
+  },
+  "sight": {
+    "scene_id": "venetian-canal"
+  },
+  "sound": {
+    "scene_id": "venetian-canal"
+  },
+  "environment": {
+    "temperature_c": 19,
+    "humidity_pct": 78,
+    "wind_speed_kmh": 4,
+    "time_of_day": "dusk",
+    "weather": "clear",
+    "indoor": false,
+    "touch": {
+      "surface_textures": ["warm damp stone bridge railing worn smooth by centuries of leaning", "uneven paving stones shifting slightly underfoot", "slick algae-covered waterline stone impossible to grip", "weathered wooden mooring pole rough with salt crystals", "gondola hull's varnished wood warm from the day's sun", "crumbling plaster that powders under your fingertips"],
+      "air_feel": "Humid and mild at 78%, the air sits on your skin like a warm damp veil. The canal creates a microclimate — the water surface is cooler than the air, and the evaporation keeps exposed skin slightly tacky. There's no wind to speak of, just the faintest displacement of air when a boat passes.",
+      "thermal_notes": "The stone retains the day's heat — the Istrian limestone used for bridges and fondamenta has moderate thermal mass, warm on top where sun reached it, cold and damp on the canal-facing side. Water temperature at 19°C means the canal radiates cool air upward, creating a temperature inversion at water level — lean over a bridge and your face enters a cooler, more humid zone. The gondola's black hull absorbs more solar radiation than lighter surfaces, making it notably warm to the touch.",
+      "key_tactile_moments": [
+        "Your hand trailing in canal water from the gondola — warmer than you expected, silky with dissolved minerals, leaving a faint salt film as it dries",
+        "The bridge railing warm and smooth under your forearms, centuries of elbows having polished the stone to a near-organic smoothness",
+        "Stepping on an uneven paving stone that rocks slightly — the tiny lurch of instability that reminds you this city is floating",
+        "Humidity condensing on a cold glass of Aperol spritz, the droplets racing down the glass to pool on the table"
+      ]
+    }
+  },
+  "cross_sensory_bridges": [
+    "Water is the canal's universal medium — you see it reflecting, hear it lapping, smell its brine, and feel its humidity on your skin. Everything here is water in a different state.",
+    "The green — algae on stone, canal water's color, the shutters, the moss — has a smell: vegetal, mineral, damp. Venice's color palette and its scent palette are the same thing.",
+    "The buildings are slowly becoming the water and the water is slowly becoming the buildings. The smell of wet stone and the sound of lapping water are the same process of dissolution."
+  ],
+  "mood": ["melancholic", "decaying-beautiful", "suspended", "amber", "liquid"],
+  "prose": "Venice doesn't sit on water. Venice is water — in the process of remembering it was always water.\n\nThe light at dusk does something here it does nowhere else. The sun drops low enough to enter the canal at an angle, and the water catches it and throws it upward onto the buildings, so the undersides of bridges and the bellies of balconies ripple with reflected gold. The palazzi are the color of everything perishable — ochre, terracotta, Venetian pink fading to the white of old bone — and their reflections in the canal are more vivid than the buildings themselves. Green algae marks the waterline on every wall in a thick band, a living tidemark. The water is black-green and opaque and it holds the sky on its surface like a second, more beautiful city inverted beneath the first.\n\nThe sound is liquid. Water laps against stone in a rhythm that isn't regular — each wave slightly different, each slap a different pitch against a different surface. A gondola creaks past and the oar dips and pulls with a sound like a slow, wet breath. The gondolier murmurs something. A shutter bangs somewhere above. Pigeons clatter from a ledge. But between these events, the canal's own voice: the constant, shifting, multi-tonal conversation of water against a city it's slowly dissolving.\n\nThe smell is Venice's honest autobiography: brine and marine sulfur from the lagoon, the green vegetal tang of algae baking on stone, wet mineral plaster from buildings that haven't been dry in five hundred years. Then — a window opens above and espresso cuts through everything, sharp and roasted and urban, a human smell in a landscape that feels pre-human. Aged wood from the mooring poles, their linseed-oil finish long since eaten by salt. A trace of neroli from a garden hidden behind a wall. The humidity holds it all close, won't let any scent escape upward. Everything you smell here is six feet from the water that made it.\n\nThe gondola passes. Its wake rocks the reflections apart. They reassemble. Venice goes on dissolving.",
+  "positions": [
+    {
+      "name": "the bridge",
+      "prose": "From the bridge's apex the canal extends in both directions, a narrow corridor of water between walls that lean almost imperceptibly inward, as if the buildings are whispering to each other across the gap. The stone railing is warm from the day's sun but damp — Venice's defining contradiction, warm and wet. Below, the water is dark green and its smell rises: brine and algae and the mineral tang of submerged stone, a smell that is also a temperature, always slightly cooler than the air. The reflected light from the water plays across the bridge's underside in constant motion, gold filigree on grey stone. A motorboat passes somewhere out of sight and its wake arrives seconds later, slapping the walls in sequence — a chain of small liquid explosions echoing under the arch.",
+      "smell_emphasis": ["brine", "algae", "mineral-stone"],
+      "cross_sensory": "From the bridge you look down into one world and up into another, but the water connects them — its light, its sound, its smell reaching everywhere at once.",
+      "touch_notes": "The stone railing is warm on the sun-facing side, cool and damp where it faces the canal — you can feel the thermal boundary by sliding your hand across the top. The stone is worn satin-smooth by centuries of elbows and palms. A fine mist rises from the water below, depositing salt moisture on your forearms. The bridge vibrates faintly when a motorboat passes beneath."
+    },
+    {
+      "name": "the fondamenta",
+      "prose": "Walking along the canal's edge, the water is at your elbow. The paving stones are uneven — five hundred years of sinking and shifting — and each step produces a slightly different sound, stone on stone, some hollow, some solid, some damp enough to whisper. The algae smell is strongest here at waterline height, green and alive and faintly sulfurous, mixed with the wet-plaster exhalation of the building at your shoulder. A door opens and a bar's interior breathes out: espresso and amaro and the leather of old banquettes. Mooring poles — striped, salt-bleached, tilting — creak as boats shift against them, and the aged wood and linseed oil and brine have merged into a single smell that is simply the smell of Venice's working waterfront. The dusk light gilds the water and your shadow falls into it and drowns.",
+      "smell_emphasis": ["algae", "espresso", "aged-wood", "linseed-oil"],
+      "cross_sensory": "At waterline level, every sense is touching the canal — the smell of its algae, the sound of its lapping, the gold of its reflected light all within arm's reach.",
+      "touch_notes": "The paving stones are uneven under your feet — some tilted, some sunken, all slightly damp. Your shoe catches where algae has crept above the waterline onto the fondamenta. The building wall at your shoulder is cool plaster that crumbles at a touch, leaving chalky white residue on your sleeve. The mooring poles, when you steady yourself against one, are rough with salt crystals and splintering wood."
+    },
+    {
+      "name": "the gondola",
+      "prose": "The gondola sits lower than you expected and suddenly the canal is at eye level — the water's surface a dark mirror inches from your hand. The wood of the hull creaks with your weight and you can smell it: aged oak and linseed oil and the marine salt that has worked into every grain. The gondolier pushes off and the oar enters the water with a sound like a slow kiss. The canal slides past at walking speed and the buildings rise above you like canyon walls, their reflections stretching and contracting in the wake. Each bridge you pass under is a brief enclosure — the sound of water amplified, the smell of damp stone concentrated, the light momentarily gone — and then the sky opens again and the dusk returns. Water trails from the oar in drops that catch the gold light. The world has been reduced to a single narrow axis of motion and every sense follows it.",
+      "smell_emphasis": ["aged-wood", "brine", "mineral-stone", "linseed-oil"],
+      "cross_sensory": "In the gondola, you're inside the canal — not looking at the water but moving through it, smelling its wood, hearing its stone walls, seeing its sky from below.",
+      "touch_notes": "The gondola rocks as you step in — a liquid instability that your inner ear fights for several seconds before surrendering. The cushion is warm velvet over hard wood. Your hand trails in the water: it's warmer than the air, silky, and when you lift your fingers they dry quickly, leaving a faint salt tackiness. Under each bridge the air cools and dampens for a breath before the open sky returns."
+    },
+    {
+      "name": "a courtyard off the canal",
+      "prose": "Through a low archway, a courtyard opens — hidden, unexpected, impossibly quiet. A well-head stands in the center, its marble rim worn smooth. The canal's sound is still here but muffled, filtered through stone into a gentle, rhythmic pulse. A neroli tree grows against one wall and its blossom-scent fills the enclosed space with a sweetness that feels clandestine — this smell belongs to whoever lives here and you are stealing it. The plaster walls are streaked with damp and their mineral-dust smell mixes with the floral to create something like the ghost of a Bellini painting. Evening light reaches only the upper floors; down here, the blue hour has already arrived. Water stains on the flagstones map every high tide the courtyard has ever known. Someone is cooking above — garlic in olive oil — and the sound of a radio drifts down, tinny and Italian and perfect.",
+      "smell_emphasis": ["neroli", "plaster-dust", "mineral-stone"],
+      "cross_sensory": "The courtyard is the canal's secret interior — the same water, the same stone, but concentrated into something intimate and almost unbearably beautiful.",
+      "touch_notes": "The well-head's marble rim is cool and impossibly smooth — centuries of hands drawing water have polished it to a near-liquid surface. The flagstones are damp underfoot, water stains mapping every historical high tide in subtle ridges you can feel through thin soles. The air is stiller here, enclosed, the humidity higher — your skin feels the enclosed dampness like wearing a second, invisible layer."
+    }
+  ]
+}

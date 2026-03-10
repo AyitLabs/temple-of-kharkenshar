@@ -1,0 +1,330 @@
+{
+  "coffee-shop": {
+    "positions": [
+      {
+        "name": "the sidewalk outside",
+        "emphasis": [
+          "coffee"
+        ],
+        "ambient": false
+      },
+      {
+        "name": "the front door",
+        "emphasis": [
+          "coffee",
+          "caramel"
+        ],
+        "ambient": false
+      },
+      {
+        "name": "the counter",
+        "emphasis": [
+          "coffee",
+          "chocolate",
+          "cinnamaldehyde"
+        ],
+        "ambient": true
+      },
+      {
+        "name": "your table in the back",
+        "emphasis": [
+          "vanillin",
+          "milk",
+          "ethanol"
+        ],
+        "ambient": false
+      }
+    ]
+  },
+  "bakery": {
+    "positions": [
+      {
+        "name": "across the street",
+        "emphasis": [
+          "vanillin",
+          "diacetyl"
+        ],
+        "ambient": false
+      },
+      {
+        "name": "the glass display",
+        "emphasis": [
+          "butter",
+          "caramel",
+          "sugar"
+        ],
+        "ambient": false
+      },
+      {
+        "name": "the bread counter",
+        "emphasis": [
+          "ethanol",
+          "diacetyl",
+          "vanillin"
+        ],
+        "ambient": true
+      },
+      {
+        "name": "the back, near the ovens",
+        "emphasis": [
+          "cinnamaldehyde",
+          "benzaldehyde",
+          "butter",
+          "caramel"
+        ],
+        "ambient": true
+      }
+    ]
+  },
+  "deli": {
+    "positions": [
+      {
+        "name": "the doorway",
+        "emphasis": [
+          "smoke",
+          "bread"
+        ],
+        "ambient": false
+      },
+      {
+        "name": "the pickle barrel",
+        "emphasis": [
+          "acetic acid",
+          "garlic",
+          "mustard"
+        ],
+        "ambient": false
+      },
+      {
+        "name": "the meat counter",
+        "emphasis": [
+          "smoke",
+          "pepper",
+          "diacetyl"
+        ],
+        "ambient": true
+      },
+      {
+        "name": "the back kitchen",
+        "emphasis": [
+          "bread",
+          "diacetyl",
+          "garlic"
+        ],
+        "ambient": true
+      }
+    ]
+  },
+  "forest": {
+    "positions": [
+      {
+        "name": "the forest edge",
+        "emphasis": [
+          "pinene",
+          "limonene"
+        ],
+        "ambient": false
+      },
+      {
+        "name": "under the canopy",
+        "emphasis": [
+          "cedarwood",
+          "camphor",
+          "pinene"
+        ],
+        "ambient": true
+      },
+      {
+        "name": "a mossy clearing",
+        "emphasis": [
+          "eucalyptol",
+          "limonene"
+        ],
+        "ambient": false
+      },
+      {
+        "name": "deep in the old growth",
+        "emphasis": [
+          "cedarwood",
+          "turpentine",
+          "camphor"
+        ],
+        "ambient": true
+      }
+    ]
+  },
+  "old-bookshop": {
+    "positions": [
+      {
+        "name": "the front stoop",
+        "emphasis": [
+          "cedarwood",
+          "guaiacol"
+        ],
+        "ambient": false
+      },
+      {
+        "name": "the new arrivals table",
+        "emphasis": [
+          "vanillin",
+          "linalool"
+        ],
+        "ambient": false
+      },
+      {
+        "name": "the narrow aisles",
+        "emphasis": [
+          "furfural",
+          "vanillin",
+          "cedarwood"
+        ],
+        "ambient": true
+      },
+      {
+        "name": "the rare books alcove",
+        "emphasis": [
+          "benzaldehyde",
+          "citronellol",
+          "guaiacol"
+        ],
+        "ambient": true
+      },
+      {
+        "name": "the reading nook by the window",
+        "emphasis": [
+          "vanillin",
+          "linalool",
+          "cedarwood"
+        ],
+        "ambient": false
+      }
+    ]
+  },
+  "sushi-restaurant": {
+    "positions": [
+      {
+        "name": "the entrance curtain",
+        "emphasis": [
+          "acetic acid",
+          "cis-3-hexenol"
+        ],
+        "ambient": false
+      },
+      {
+        "name": "the sushi bar",
+        "emphasis": [
+          "trimethylamine",
+          "dimethyl sulfide",
+          "acetic acid"
+        ],
+        "ambient": false
+      },
+      {
+        "name": "your seat at the counter",
+        "emphasis": [
+          "allyl isothiocyanate",
+          "acetic acid"
+        ],
+        "ambient": true
+      },
+      {
+        "name": "near the kitchen pass",
+        "emphasis": [
+          "hexanal",
+          "dimethyl sulfide",
+          "trimethylamine"
+        ],
+        "ambient": true
+      }
+    ]
+  },
+  "wine-cellar": {
+    "positions": [
+      {
+        "name": "the top of the stone stairs",
+        "emphasis": [
+          "geosmin",
+          "ethanol"
+        ],
+        "ambient": false
+      },
+      {
+        "name": "the first row of barrels",
+        "emphasis": [
+          "whiskey lactone",
+          "vanillin",
+          "guaiacol"
+        ],
+        "ambient": false
+      },
+      {
+        "name": "the tasting alcove",
+        "emphasis": [
+          "ethanol",
+          "isoamyl acetate",
+          "acetic acid"
+        ],
+        "ambient": true
+      },
+      {
+        "name": "the oldest vintages, deep in the cellar",
+        "emphasis": [
+          "eugenol",
+          "vanillin",
+          "geosmin",
+          "guaiacol"
+        ],
+        "ambient": true
+      }
+    ]
+  },
+  "night-market": {
+    "positions": [
+      {
+        "name": "the street approach",
+        "emphasis": [
+          "guaiacol",
+          "toluene"
+        ],
+        "ambient": false
+      },
+      {
+        "name": "the satay stalls",
+        "emphasis": [
+          "pyrazine",
+          "guaiacol",
+          "piperine",
+          "coconut"
+        ],
+        "ambient": false
+      },
+      {
+        "name": "the jasmine garland vendor",
+        "emphasis": [
+          "benzyl acetate",
+          "indole",
+          "linalool"
+        ],
+        "ambient": false
+      },
+      {
+        "name": "the spice row",
+        "emphasis": [
+          "eugenol",
+          "piperine"
+        ],
+        "ambient": true
+      },
+      {
+        "name": "deep in the market, where the smoke settles",
+        "emphasis": [
+          "guaiacol",
+          "pyrazine",
+          "toluene",
+          "coconut"
+        ],
+        "ambient": true
+      }
+    ]
+  }
+}

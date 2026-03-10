@@ -1,0 +1,2316 @@
+[
+  {
+    "id": "rain_light",
+    "name": "Light Rain",
+    "category": "nature",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 40,
+    "descriptors": [
+      "patter",
+      "gentle",
+      "soft",
+      "irregular",
+      "tapping"
+    ],
+    "onset": "A few isolated taps, then more, until the air itself seems to whisper.",
+    "sustain": "A steady, irregular patter \u2014 each drop its own small percussion, the collective a soft static hiss.",
+    "decay": "The drops thin, space out, and then one final tap before silence reclaims the air.",
+    "experiential": {
+      "prose_fragments": [
+        "the gentlest percussion section in nature",
+        "each drop a tiny detonation on leaf or stone",
+        "a sound like the sky thinking out loud"
+      ],
+      "feel": "intimate, meditative, a sound that makes indoors feel more indoor"
+    }
+  },
+  {
+    "id": "rain_heavy",
+    "name": "Heavy Rain",
+    "category": "nature",
+    "frequency_range": "broadband",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 70,
+    "descriptors": [
+      "roar",
+      "hiss",
+      "pounding",
+      "relentless",
+      "white-noise"
+    ],
+    "onset": "It arrives like a curtain dropped \u2014 one moment drizzle, the next a wall of water-sound.",
+    "sustain": "A constant broadband roar, individual drops lost in the collective assault, the world reduced to this one enormous sound.",
+    "decay": "The roar loosens, separates back into individual drops, each one suddenly audible again as the mass retreats.",
+    "experiential": {
+      "prose_fragments": [
+        "the sky emptying itself all at once",
+        "a roar that erases thought",
+        "white noise made by a billion tiny impacts"
+      ],
+      "feel": "overwhelming, cleansing, the world simplified to water and sound"
+    }
+  },
+  {
+    "id": "rain_on_tin_roof",
+    "name": "Rain on Tin Roof",
+    "category": "nature",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 65,
+    "descriptors": [
+      "metallic",
+      "bright",
+      "amplified",
+      "staccato",
+      "ringing"
+    ],
+    "onset": "The first drops ring out like tiny bells struck at random, each one sharp and bright.",
+    "sustain": "A continuous metallic patter, amplified and resonant, every drop given a voice by the thin metal membrane.",
+    "decay": "The ringing thins, each drop a distinct metallic ping again, then silence between the last few taps.",
+    "experiential": {
+      "prose_fragments": [
+        "nature's typewriter, hammering out randomness on a metal page",
+        "every drop amplified, given weight and presence by the tin",
+        "the sound of shelter made audible"
+      ],
+      "feel": "cozy and primal, the thin barrier between you and the storm singing"
+    }
+  },
+  {
+    "id": "thunder_distant",
+    "name": "Distant Thunder",
+    "category": "nature",
+    "frequency_range": "low",
+    "temporal_pattern": "impulse",
+    "loudness_typical_db": 60,
+    "descriptors": [
+      "rumble",
+      "rolling",
+      "deep",
+      "muffled",
+      "ominous"
+    ],
+    "onset": "A low growl at the horizon, almost felt before it's heard.",
+    "sustain": "It rolls across the sky, a long slow tumble of bass that seems to use the clouds as a corridor.",
+    "decay": "The rumble weakens into a murmur, then a vibration, then a memory the bones hold longer than the ears.",
+    "experiential": {
+      "prose_fragments": [
+        "the sky clearing its throat",
+        "a sound that belongs to the belly more than the ears",
+        "the atmosphere reminding you of its weight"
+      ],
+      "feel": "primal unease, a reminder of scale"
+    }
+  },
+  {
+    "id": "thunder_close",
+    "name": "Close Thunder",
+    "category": "nature",
+    "frequency_range": "broadband",
+    "temporal_pattern": "impulse",
+    "loudness_typical_db": 120,
+    "descriptors": [
+      "crack",
+      "boom",
+      "explosive",
+      "sharp",
+      "overwhelming"
+    ],
+    "onset": "A crack that splits the air \u2014 no warning, no build, just sudden violence of sound.",
+    "sustain": "The crack blooms into a rolling boom that shakes windows and rattles the chest.",
+    "decay": "The boom rolls away in diminishing waves, each echo softer, the air slowly stitching itself back together.",
+    "experiential": {
+      "prose_fragments": [
+        "the sky breaking open",
+        "sound as concussion \u2014 you feel it in your teeth",
+        "a detonation of pure atmosphere"
+      ],
+      "feel": "shock, awe, the sudden smallness of being human"
+    }
+  },
+  {
+    "id": "wind_gentle",
+    "name": "Gentle Breeze",
+    "category": "nature",
+    "frequency_range": "low-mid",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 25,
+    "descriptors": [
+      "whisper",
+      "soft",
+      "flowing",
+      "sighing",
+      "breath-like"
+    ],
+    "onset": "It arrives as a suggestion \u2014 a slight pressure on the ear before the sound registers.",
+    "sustain": "A soft, continuous sigh, rising and falling in long slow waves like breathing.",
+    "decay": "It subsides into stillness so gradually you can't name the moment it stopped.",
+    "experiential": {
+      "prose_fragments": [
+        "the air moving just enough to have a voice",
+        "a sound like the earth exhaling",
+        "the gentlest thing that moves"
+      ],
+      "feel": "peaceful, alive, the sound of nothing happening beautifully"
+    }
+  },
+  {
+    "id": "wind_gusty",
+    "name": "Gusty Wind",
+    "category": "nature",
+    "frequency_range": "broadband",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 55,
+    "descriptors": [
+      "howling",
+      "buffeting",
+      "surging",
+      "whistling",
+      "raw"
+    ],
+    "onset": "It hits in a sudden rush \u2014 a wall of moving air that presses everything sideways.",
+    "sustain": "Surges and retreats in rough, irregular waves, whistling through gaps, howling around corners.",
+    "decay": "One last gust, then a pause that feels like the wind catching its breath before the next assault.",
+    "experiential": {
+      "prose_fragments": [
+        "air with intention and force",
+        "the wind arguing with architecture",
+        "a sound that pushes back"
+      ],
+      "feel": "raw, exposed, the world in motion"
+    }
+  },
+  {
+    "id": "waves_ocean",
+    "name": "Ocean Waves",
+    "category": "nature",
+    "frequency_range": "broadband",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 55,
+    "descriptors": [
+      "crashing",
+      "rolling",
+      "hissing",
+      "rhythmic",
+      "eternal"
+    ],
+    "onset": "The wave gathers \u2014 a rising hiss of displaced water rushing shoreward.",
+    "sustain": "The crash, then the long hissing retreat of foam over sand, already the next wave building behind it.",
+    "decay": "The hiss thins to a whisper as the water pulls back, a moment of near-silence before the next surge.",
+    "experiential": {
+      "prose_fragments": [
+        "the oldest rhythm on Earth",
+        "each wave a breath the ocean takes and releases",
+        "the sound of time measured in water"
+      ],
+      "feel": "hypnotic, ancient, the metronome of the planet"
+    }
+  },
+  {
+    "id": "birdsong_dawn",
+    "name": "Dawn Birdsong",
+    "category": "nature",
+    "frequency_range": "high",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 45,
+    "descriptors": [
+      "trilling",
+      "bright",
+      "complex",
+      "layered",
+      "joyous"
+    ],
+    "onset": "One bird. A single tentative phrase in the dark. Then another answers, and another, until the air is woven with song.",
+    "sustain": "A dense, layered tapestry of calls and responses \u2014 trills, whistles, chips \u2014 each voice distinct but the whole greater than any part.",
+    "decay": "As the sun climbs, the urgency fades. Songs space out, become casual, background. The chorus dissolves into soloists.",
+    "experiential": {
+      "prose_fragments": [
+        "the alarm clock that existed before time",
+        "the world tuning itself to the key of morning",
+        "a hundred tiny throats competing for the light"
+      ],
+      "feel": "hopeful, urgent, the sound of the world waking up and being glad about it"
+    }
+  },
+  {
+    "id": "crickets",
+    "name": "Cricket Chorus",
+    "category": "nature",
+    "frequency_range": "high",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 40,
+    "descriptors": [
+      "chirping",
+      "pulsing",
+      "steady",
+      "mechanical",
+      "hypnotic"
+    ],
+    "onset": "It begins with a single chirp, then another joins, then dozens, until the night pulses with them.",
+    "sustain": "A steady, rhythmic pulsation \u2014 almost mechanical in its regularity, the temperature made audible.",
+    "decay": "As cold creeps in, the rhythm slows, the chirps space out, each one a little lonelier than the last.",
+    "experiential": {
+      "prose_fragments": [
+        "the night's pulse, taken in chirps",
+        "tiny violinists sawing away at the darkness",
+        "the sound that means summer is still here"
+      ],
+      "feel": "warm, nostalgic, the acoustic wallpaper of summer nights"
+    }
+  },
+  {
+    "id": "rustling_leaves",
+    "name": "Rustling Leaves",
+    "category": "nature",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 30,
+    "descriptors": [
+      "rustling",
+      "dry",
+      "papery",
+      "whispering",
+      "shifting"
+    ],
+    "onset": "A breeze stirs and the canopy responds \u2014 a soft susurrus rising from a thousand leaves.",
+    "sustain": "A continuous papery whisper, each leaf a tiny flag snapping in the air.",
+    "decay": "The breeze passes and the sound settles like falling confetti \u2014 a few last clicks, then stillness.",
+    "experiential": {
+      "prose_fragments": [
+        "applause from an audience of leaves",
+        "the sound of restlessness in something rooted",
+        "a thousand small dry things speaking at once"
+      ],
+      "feel": "natural, calming, the sound trees make when they remember they can move"
+    }
+  },
+  {
+    "id": "flowing_water",
+    "name": "Flowing Stream",
+    "category": "nature",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 35,
+    "descriptors": [
+      "babbling",
+      "gurgling",
+      "bright",
+      "liquid",
+      "constant"
+    ],
+    "onset": "You hear it before you see it \u2014 a liquid murmur threading through the ambient silence.",
+    "sustain": "An endlessly varied conversation of water with stone \u2014 bubbling, trickling, splashing in an unrepeating pattern.",
+    "decay": "As you walk away, the detail dissolves. The babble simplifies to a hush, then nothing.",
+    "experiential": {
+      "prose_fragments": [
+        "water explaining itself to rocks",
+        "the most patient sound in nature",
+        "liquid music, never the same phrase twice"
+      ],
+      "feel": "peaceful, alive, the sound of persistence"
+    }
+  },
+  {
+    "id": "waterfall",
+    "name": "Waterfall",
+    "category": "nature",
+    "frequency_range": "broadband",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 80,
+    "descriptors": [
+      "roaring",
+      "thundering",
+      "constant",
+      "immense",
+      "white-noise"
+    ],
+    "onset": "It announces itself from far away \u2014 a growing roar that fills the valley before you round the bend.",
+    "sustain": "A constant, thundering wall of white noise \u2014 water in freefall, smashing against rock, atomizing into mist and sound.",
+    "decay": "You don't hear it stop. You walk away and it diminishes, like turning down the volume on geology.",
+    "experiential": {
+      "prose_fragments": [
+        "gravity given a voice",
+        "water committing itself to the fall",
+        "the roar of a river deciding to become rain again"
+      ],
+      "feel": "awesome, humbling, the sound of force without malice"
+    }
+  },
+  {
+    "id": "traffic_ambient",
+    "name": "Ambient Traffic",
+    "category": "urban",
+    "frequency_range": "broadband",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 70,
+    "descriptors": [
+      "rumbling",
+      "whooshing",
+      "constant",
+      "layered",
+      "urban"
+    ],
+    "onset": "It doesn't start. It's already there. The city's permanent bass note.",
+    "sustain": "A layered wash of tire noise, engine hum, and the doppler-shifted whoosh of passing vehicles.",
+    "decay": "Only at 3 AM does it thin enough to notice the gaps. Even then, a distant truck reminds you.",
+    "experiential": {
+      "prose_fragments": [
+        "the city's circulatory system, heard from outside the body",
+        "movement abstracted into a continuous roar",
+        "the sound of a million journeys overlapping"
+      ],
+      "feel": "urban, anonymous, the background radiation of civilization"
+    }
+  },
+  {
+    "id": "siren",
+    "name": "Emergency Siren",
+    "category": "urban",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 110,
+    "descriptors": [
+      "wailing",
+      "urgent",
+      "piercing",
+      "doppler-shifting",
+      "alarming"
+    ],
+    "onset": "A distant wail, growing \u2014 the pitch climbing and falling in that two-tone urgency.",
+    "sustain": "The siren fills the street, bouncing off buildings, impossible to ignore \u2014 the sound equivalent of red.",
+    "decay": "It passes, the pitch dropping as it goes \u2014 doppler pulling the wail down into a receding moan.",
+    "experiential": {
+      "prose_fragments": [
+        "urgency compressed into a waveform",
+        "the sound that makes everyone stop and look",
+        "a wail that parts traffic like a knife"
+      ],
+      "feel": "anxiety, urgency, someone else's emergency touching your nervous system"
+    }
+  },
+  {
+    "id": "subway_train",
+    "name": "Subway Train",
+    "category": "urban",
+    "frequency_range": "broadband",
+    "temporal_pattern": "decay",
+    "loudness_typical_db": 95,
+    "descriptors": [
+      "screeching",
+      "rumbling",
+      "metallic",
+      "wind-rush",
+      "mechanical"
+    ],
+    "onset": "First the wind \u2014 pushed ahead of the train through the tunnel. Then the rumble, growing, felt in the platform underfoot.",
+    "sustain": "A screaming rush of metal on metal, wind blast, the roar of displacement in a concrete tube.",
+    "decay": "Brakes bite \u2014 a metallic shriek, then the sudden near-silence of the stopped train, just the hiss of doors.",
+    "experiential": {
+      "prose_fragments": [
+        "a metal serpent screaming through a stone throat",
+        "the commute distilled to noise and wind",
+        "underground thunder with scheduled stops"
+      ],
+      "feel": "overwhelming, industrial, the sound of infrastructure doing violence to silence"
+    }
+  },
+  {
+    "id": "construction",
+    "name": "Construction Site",
+    "category": "urban",
+    "frequency_range": "broadband",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 85,
+    "descriptors": [
+      "banging",
+      "drilling",
+      "clanging",
+      "intermittent",
+      "harsh"
+    ],
+    "onset": "The jackhammer starts without preamble \u2014 a staccato assault that sets the teeth on edge.",
+    "sustain": "Overlapping chaos: hammering, drilling, the beep of reversing vehicles, shouted instructions, metal on metal.",
+    "decay": "A brief silence. Then it starts again. The pauses only make the next assault more jarring.",
+    "experiential": {
+      "prose_fragments": [
+        "the city remodeling itself, loudly",
+        "organized destruction set to no rhythm",
+        "every tool competing for most annoying"
+      ],
+      "feel": "intrusive, relentless, the sound of progress at the expense of peace"
+    }
+  },
+  {
+    "id": "footsteps_concrete",
+    "name": "Footsteps on Concrete",
+    "category": "urban",
+    "frequency_range": "mid",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 50,
+    "descriptors": [
+      "sharp",
+      "clicking",
+      "regular",
+      "purposeful",
+      "hard"
+    ],
+    "onset": "A heel strikes concrete \u2014 a sharp, clean report that announces intention.",
+    "sustain": "The steady beat of sole on stone, metronomic and purposeful, each step a small declaration.",
+    "decay": "The steps thin with distance, their sharpness softened by air until they merge with the ambient.",
+    "experiential": {
+      "prose_fragments": [
+        "the tempo of someone with somewhere to be",
+        "each step a small certainty on hard ground",
+        "the most human rhythm imposed on the urban surface"
+      ],
+      "feel": "purposeful, urban, the sound of intention"
+    }
+  },
+  {
+    "id": "footsteps_gravel",
+    "name": "Footsteps on Gravel",
+    "category": "urban",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 45,
+    "descriptors": [
+      "crunching",
+      "grinding",
+      "shifting",
+      "irregular",
+      "textured"
+    ],
+    "onset": "The first step crunches \u2014 a complex sound of a hundred tiny stones grinding and shifting.",
+    "sustain": "Each step a small avalanche, the crunch slightly different every time, the gravel never settling the same way twice.",
+    "decay": "The crunching stops and a few last stones click and settle, then silence.",
+    "experiential": {
+      "prose_fragments": [
+        "walking on a surface that talks back",
+        "the ground protesting every step",
+        "a hundred tiny stones rearranging themselves under each footfall"
+      ],
+      "feel": "textured, rural, the sound of ground that won't be ignored"
+    }
+  },
+  {
+    "id": "footsteps_wood",
+    "name": "Footsteps on Wood Floor",
+    "category": "domestic",
+    "frequency_range": "mid",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 45,
+    "descriptors": [
+      "hollow",
+      "warm",
+      "resonant",
+      "creaking",
+      "domestic"
+    ],
+    "onset": "A warm, hollow knock as weight meets wood \u2014 the floor announcing a presence.",
+    "sustain": "Each step resonates through the boards, warm and slightly hollow, the occasional creak adding character.",
+    "decay": "The resonance dies quickly \u2014 wood absorbs its own echoes, leaving a brief, warm silence.",
+    "experiential": {
+      "prose_fragments": [
+        "the sound of home, literally underfoot",
+        "wood remembering the tree it was, vibrating with each step",
+        "a warm percussion that old houses play for free"
+      ],
+      "feel": "domestic, warm, the sound of a floor that has stories"
+    }
+  },
+  {
+    "id": "door_creak",
+    "name": "Creaking Door",
+    "category": "domestic",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "decay",
+    "loudness_typical_db": 40,
+    "descriptors": [
+      "creaking",
+      "groaning",
+      "slow",
+      "eerie",
+      "metallic"
+    ],
+    "onset": "The hinge protests \u2014 a slow, rising groan that seems to come from the wood itself.",
+    "sustain": "A long, wavering creak as the door swings, the pitch shifting with the angle.",
+    "decay": "The creak ends with a final squeak as the door reaches its limit, then silence.",
+    "experiential": {
+      "prose_fragments": [
+        "a hinge that has forgotten what oil is",
+        "the door complaining about being asked to move",
+        "a sound that horror movies didn't invent, just borrowed"
+      ],
+      "feel": "old, slightly eerie, the voice of neglected metal and warped wood"
+    }
+  },
+  {
+    "id": "door_slam",
+    "name": "Door Slam",
+    "category": "domestic",
+    "frequency_range": "low-mid",
+    "temporal_pattern": "impulse",
+    "loudness_typical_db": 80,
+    "descriptors": [
+      "bang",
+      "sharp",
+      "resonant",
+      "final",
+      "percussive"
+    ],
+    "onset": "A sharp, definitive bang \u2014 the air displaced in a sudden compression.",
+    "sustain": "Almost none. The impact is the message.",
+    "decay": "The frame rattles briefly, then the house absorbs the shock and is still.",
+    "experiential": {
+      "prose_fragments": [
+        "punctuation for an argument",
+        "the sound of a decision made in anger",
+        "a period at the end of a sentence slammed down hard"
+      ],
+      "feel": "final, emphatic, a sound that ends conversations"
+    }
+  },
+  {
+    "id": "elevator_ding",
+    "name": "Elevator Ding",
+    "category": "urban",
+    "frequency_range": "high",
+    "temporal_pattern": "impulse",
+    "loudness_typical_db": 55,
+    "descriptors": [
+      "bright",
+      "clean",
+      "brief",
+      "metallic",
+      "informational"
+    ],
+    "onset": "A single, pure tone \u2014 bright and deliberate, designed to be heard without being noticed.",
+    "sustain": "None. The ding is complete in itself.",
+    "decay": "A brief shimmer of overtones, then gone.",
+    "experiential": {
+      "prose_fragments": [
+        "the most polite sound in architecture",
+        "a tiny bell marking the arrival of a small room",
+        "the sound of vertical travel, announced"
+      ],
+      "feel": "neutral, informational, the sound of waiting rewarded"
+    }
+  },
+  {
+    "id": "kettle_boil",
+    "name": "Kettle Boiling",
+    "category": "domestic",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 55,
+    "descriptors": [
+      "hissing",
+      "bubbling",
+      "rising",
+      "urgent",
+      "domestic"
+    ],
+    "onset": "A quiet ticking of metal expanding, then the first whispers of heat meeting water.",
+    "sustain": "A growing roar \u2014 bubbles forming, collapsing, reforming \u2014 the pitch rising as the water approaches the boil.",
+    "decay": "The click of the switch, and the roar drops to a settling murmur, then to ticking silence.",
+    "experiential": {
+      "prose_fragments": [
+        "water getting excited about becoming steam",
+        "the domestic overture to a cup of tea",
+        "a small, contained violence in the kitchen"
+      ],
+      "feel": "homely, anticipatory, the sound of comfort being prepared"
+    }
+  },
+  {
+    "id": "clock_ticking",
+    "name": "Clock Ticking",
+    "category": "domestic",
+    "frequency_range": "mid",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 25,
+    "descriptors": [
+      "clicking",
+      "regular",
+      "precise",
+      "mechanical",
+      "persistent"
+    ],
+    "onset": "You don't notice it starting. You notice it's been there all along.",
+    "sustain": "Tick. Tock. Tick. Tock. The most regular sound a room can hold \u2014 time being measured out in tiny portions.",
+    "decay": "It doesn't decay. You stop hearing it. Then silence brings it back, louder than ever.",
+    "experiential": {
+      "prose_fragments": [
+        "time audible, portioned into seconds",
+        "the heartbeat of an empty room",
+        "a sound that only exists when you're not doing anything else"
+      ],
+      "feel": "patient, relentless, the sound of time passing and not caring"
+    }
+  },
+  {
+    "id": "fridge_hum",
+    "name": "Refrigerator Hum",
+    "category": "domestic",
+    "frequency_range": "low",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 35,
+    "descriptors": [
+      "humming",
+      "droning",
+      "constant",
+      "electrical",
+      "background"
+    ],
+    "onset": "The compressor kicks in with a low shudder, then settles into its familiar drone.",
+    "sustain": "A constant, low hum \u2014 the mechanical mantra of cold being maintained, a drone that inhabits the kitchen.",
+    "decay": "The compressor clicks off and the silence rushes in so fast you realize how loud it was all along.",
+    "experiential": {
+      "prose_fragments": [
+        "the kitchen's baseline frequency",
+        "a drone so constant it becomes a kind of silence",
+        "the sound of electricity keeping things fresh"
+      ],
+      "feel": "background, domestic, the sound you only hear when it stops"
+    }
+  },
+  {
+    "id": "keys_jingling",
+    "name": "Keys Jingling",
+    "category": "domestic",
+    "frequency_range": "high",
+    "temporal_pattern": "impulse",
+    "loudness_typical_db": 45,
+    "descriptors": [
+      "jingling",
+      "bright",
+      "metallic",
+      "chaotic",
+      "brief"
+    ],
+    "onset": "A sudden bright scatter of metal on metal \u2014 tiny collisions producing a miniature chaos of tones.",
+    "sustain": "A brief, complex shimmer as the keys swing and settle against each other.",
+    "decay": "The jingling dies to a few last clicks as momentum runs out.",
+    "experiential": {
+      "prose_fragments": [
+        "a tiny orchestra warming up in your pocket",
+        "access and ownership compressed into a jangle",
+        "the sound of leaving or arriving"
+      ],
+      "feel": "bright, transitional, the sound of going somewhere"
+    }
+  },
+  {
+    "id": "typing_keyboard",
+    "name": "Keyboard Typing",
+    "category": "domestic",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 45,
+    "descriptors": [
+      "clicking",
+      "rapid",
+      "staccato",
+      "plastic",
+      "purposeful"
+    ],
+    "onset": "The first few keystrokes, tentative, then a sudden burst as the thought arrives.",
+    "sustain": "A rapid-fire patter of plastic on plastic, each key a small commitment, the rhythm revealing the writer's certainty.",
+    "decay": "A pause. The thought finishes. The keys fall silent. Then a single, decisive Enter.",
+    "experiential": {
+      "prose_fragments": [
+        "thought translated to percussion",
+        "ideas arriving at the speed of fingers",
+        "the sound of language being manufactured one letter at a time"
+      ],
+      "feel": "productive, focused, the clatter of the modern quill"
+    }
+  },
+  {
+    "id": "phone_ringing",
+    "name": "Phone Ringing",
+    "category": "domestic",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 65,
+    "descriptors": [
+      "trilling",
+      "insistent",
+      "electronic",
+      "demanding",
+      "sharp"
+    ],
+    "onset": "The first ring breaks whatever silence was there \u2014 sudden, sharp, impossible to ignore.",
+    "sustain": "Ring, pause, ring, pause \u2014 a rhythm designed by engineers to be impossible to tune out.",
+    "decay": "It stops \u2014 either answered or abandoned. The silence after feels different from the silence before.",
+    "experiential": {
+      "prose_fragments": [
+        "a demand wearing the disguise of a question",
+        "someone wanting your attention from far away",
+        "the sound that invented the concept of being interrupted"
+      ],
+      "feel": "urgent, intrusive, the sound of the outside world reaching in"
+    }
+  },
+  {
+    "id": "creaking_floorboard",
+    "name": "Creaking Floorboard",
+    "category": "domestic",
+    "frequency_range": "low-mid",
+    "temporal_pattern": "impulse",
+    "loudness_typical_db": 30,
+    "descriptors": [
+      "creaking",
+      "groaning",
+      "slow",
+      "wooden",
+      "unexpected"
+    ],
+    "onset": "Weight shifts and the board answers \u2014 a slow, wooden groan rising from below.",
+    "sustain": "A brief complaint from the floor, the pitch bending as the weight settles.",
+    "decay": "The creak resolves with a final tick as the wood finds its new position.",
+    "experiential": {
+      "prose_fragments": [
+        "the house remembering where you stepped",
+        "wood admitting it has limits",
+        "the floor betraying your presence to the whole house"
+      ],
+      "feel": "intimate, slightly guilty, the sound of trying to be quiet and failing"
+    }
+  },
+  {
+    "id": "breathing_quiet",
+    "name": "Quiet Breathing",
+    "category": "human",
+    "frequency_range": "low-mid",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 15,
+    "descriptors": [
+      "soft",
+      "rhythmic",
+      "warm",
+      "intimate",
+      "alive"
+    ],
+    "onset": "You don't notice it until you listen for it \u2014 then it's the loudest thing in the room.",
+    "sustain": "In, out. In, out. The softest, most fundamental rhythm. The proof of life, metered.",
+    "decay": "It doesn't decay. It just becomes part of the silence again, like it was always there.",
+    "experiential": {
+      "prose_fragments": [
+        "the most intimate sound a body makes",
+        "air being borrowed and returned",
+        "the rhythm everything else is built on top of"
+      ],
+      "feel": "intimate, alive, the sound of being present"
+    }
+  },
+  {
+    "id": "heartbeat",
+    "name": "Heartbeat",
+    "category": "human",
+    "frequency_range": "low",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 20,
+    "descriptors": [
+      "thumping",
+      "deep",
+      "regular",
+      "primal",
+      "internal"
+    ],
+    "onset": "Press your ear to a chest and there it is \u2014 the double-knock that means everything.",
+    "sustain": "Lub-dub. Lub-dub. Two sounds per beat, the valves opening and closing, seventy times a minute.",
+    "decay": "You lift your ear and it vanishes back inside the body that owns it.",
+    "experiential": {
+      "prose_fragments": [
+        "the drum that plays from before birth to the last moment",
+        "the original rhythm section",
+        "a sound that means alive and nothing else"
+      ],
+      "feel": "primal, reassuring, the metronomic proof of existence"
+    }
+  },
+  {
+    "id": "laughter",
+    "name": "Laughter",
+    "category": "human",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "impulse",
+    "loudness_typical_db": 65,
+    "descriptors": [
+      "bright",
+      "infectious",
+      "unpredictable",
+      "warm",
+      "social"
+    ],
+    "onset": "It erupts \u2014 sudden, involuntary, the body's surprise response to delight.",
+    "sustain": "Cascading, rolling, each burst triggering the next, the pitch and rhythm as unique as a fingerprint.",
+    "decay": "It trails off into smaller aftershocks \u2014 a chuckle, a gasp, a final exhale that still holds the shape of a smile.",
+    "experiential": {
+      "prose_fragments": [
+        "joy given sound and set loose",
+        "the body's way of saying something is right with the world",
+        "a sound that heals the room it's in"
+      ],
+      "feel": "warm, infectious, the sound of being human and finding it funny"
+    }
+  },
+  {
+    "id": "whisper",
+    "name": "Whisper",
+    "category": "human",
+    "frequency_range": "high",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 20,
+    "descriptors": [
+      "breathy",
+      "intimate",
+      "sibilant",
+      "secret",
+      "close"
+    ],
+    "onset": "A rush of breath shaped into words \u2014 the consonants sharp, the vowels almost vanishing.",
+    "sustain": "Words carried on breath alone, no voice behind them \u2014 pure air shaped by lips and tongue.",
+    "decay": "The whisper trails into a breath, then into the silence it was hiding in.",
+    "experiential": {
+      "prose_fragments": [
+        "language stripped to its bones \u2014 breath and intention",
+        "a sound that creates its own private space",
+        "words that only travel a few inches"
+      ],
+      "feel": "intimate, conspiratorial, the sound of trust measured in proximity"
+    }
+  },
+  {
+    "id": "crowd_murmur",
+    "name": "Crowd Murmur",
+    "category": "human",
+    "frequency_range": "mid",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 60,
+    "descriptors": [
+      "murmuring",
+      "layered",
+      "anonymous",
+      "warm",
+      "social"
+    ],
+    "onset": "It builds as people gather \u2014 a rising hum of conversation where no single voice distinguishes itself.",
+    "sustain": "A warm, continuous wash of human voices, words blurred into a collective murmur, like a river of language.",
+    "decay": "The crowd thins and the murmur unravels \u2014 individual voices briefly audible before they too disappear.",
+    "experiential": {
+      "prose_fragments": [
+        "a hundred conversations braided into a single sound",
+        "the sonic equivalent of a crowd seen from a distance \u2014 all motion, no detail",
+        "humanity reduced to a warm, unintelligible hum"
+      ],
+      "feel": "social, anonymous, the sound of belonging without participating"
+    }
+  },
+  {
+    "id": "applause",
+    "name": "Applause",
+    "category": "human",
+    "frequency_range": "broadband",
+    "temporal_pattern": "decay",
+    "loudness_typical_db": 80,
+    "descriptors": [
+      "clapping",
+      "roaring",
+      "percussive",
+      "collective",
+      "rhythmic"
+    ],
+    "onset": "It starts ragged \u2014 a few pairs of hands, then more, then suddenly everyone, and it's a roar.",
+    "sustain": "A wall of clapping, broadband noise made from a thousand paired impacts \u2014 chaotic but unified in purpose.",
+    "decay": "It thins unevenly \u2014 some hands drop away, others persist, and the last few clappers echo in the silence.",
+    "experiential": {
+      "prose_fragments": [
+        "approval made percussive",
+        "a room full of people turning their hands into instruments of gratitude",
+        "the noise of consensus, rough and beautiful"
+      ],
+      "feel": "affirming, collective, the sound of many people agreeing about one thing"
+    }
+  },
+  {
+    "id": "footsteps_echoing",
+    "name": "Echoing Footsteps",
+    "category": "human",
+    "frequency_range": "mid",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 55,
+    "descriptors": [
+      "echoing",
+      "lonely",
+      "sharp",
+      "reverberant",
+      "measured"
+    ],
+    "onset": "A heel strikes stone and the echo answers from every wall \u2014 a conversation between step and space.",
+    "sustain": "Each footfall doubled, tripled by the reflections, the walker accompanied by their own ghost-steps.",
+    "decay": "The last step hangs in the air, its echoes repeating and fading like ripples in a stone corridor.",
+    "experiential": {
+      "prose_fragments": [
+        "one person sounding like a procession",
+        "the architecture counting your steps",
+        "loneliness made audible by reverb"
+      ],
+      "feel": "solitary, dramatic, the sound of one person in too much space"
+    }
+  },
+  {
+    "id": "piano",
+    "name": "Piano",
+    "category": "musical",
+    "frequency_range": "broadband",
+    "temporal_pattern": "decay",
+    "loudness_typical_db": 70,
+    "descriptors": [
+      "resonant",
+      "clear",
+      "rich",
+      "hammered",
+      "sustaining"
+    ],
+    "onset": "The hammer strikes the string \u2014 a precise, bright attack that blooms instantly into tone.",
+    "sustain": "The string vibrates, the soundboard amplifies, and the note hangs in the air \u2014 rich with harmonics, slowly dimming.",
+    "decay": "The note fades in a long, even diminuendo, the harmonics dropping away one by one until only the fundamental whispers.",
+    "experiential": {
+      "prose_fragments": [
+        "a hammer asking a string to sing",
+        "88 keys, each one a door to a different room of sound",
+        "the most complete instrument \u2014 percussion, melody, and harmony in one box"
+      ],
+      "feel": "expressive, complete, the sound of music in its most self-sufficient form"
+    }
+  },
+  {
+    "id": "violin",
+    "name": "Violin",
+    "category": "musical",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 65,
+    "descriptors": [
+      "singing",
+      "soaring",
+      "warm",
+      "vibrato",
+      "expressive"
+    ],
+    "onset": "The bow touches the string and the tone emerges \u2014 not struck but drawn out, pulled into being.",
+    "sustain": "A continuous, singing tone that can swell and diminish, vibrate and glide \u2014 the closest an instrument comes to a human voice.",
+    "decay": "The bow lifts and the note ends \u2014 not fading but ceasing, like a voice choosing silence.",
+    "experiential": {
+      "prose_fragments": [
+        "a voice without words",
+        "wood and gut and horsehair conspiring to make you feel things",
+        "the instrument that can cry"
+      ],
+      "feel": "emotional, human, the sound that finds the feelings you didn't know you had"
+    }
+  },
+  {
+    "id": "guitar_acoustic",
+    "name": "Acoustic Guitar",
+    "category": "musical",
+    "frequency_range": "mid",
+    "temporal_pattern": "decay",
+    "loudness_typical_db": 60,
+    "descriptors": [
+      "warm",
+      "plucked",
+      "resonant",
+      "woody",
+      "intimate"
+    ],
+    "onset": "The finger plucks and the string snaps to life \u2014 a bright attack softened immediately by the wooden body.",
+    "sustain": "The body resonates, warming the tone, the sound breathing with the wood's own character.",
+    "decay": "The note rings and diminishes, the wood soaking up the vibration until only a ghost of the tone remains.",
+    "experiential": {
+      "prose_fragments": [
+        "a box of air and wood that amplifies longing",
+        "six strings and a hollow body \u2014 the campfire instrument",
+        "warmth and intimacy in a portable package"
+      ],
+      "feel": "intimate, warm, the sound of one person making music for a small room"
+    }
+  },
+  {
+    "id": "drums",
+    "name": "Drums",
+    "category": "musical",
+    "frequency_range": "broadband",
+    "temporal_pattern": "impulse",
+    "loudness_typical_db": 90,
+    "descriptors": [
+      "booming",
+      "sharp",
+      "driving",
+      "percussive",
+      "primal"
+    ],
+    "onset": "The stick hits the skin \u2014 an instant, explosive report, felt as much as heard.",
+    "sustain": "The drum head vibrates, the shell resonates, a brief bloom of tone colored by the drum's size and material.",
+    "decay": "Quick \u2014 the energy dissipates into the drumhead and shell. A snare buzzes briefly. A tom rumbles and dies.",
+    "experiential": {
+      "prose_fragments": [
+        "the original instrument \u2014 skin stretched over hollow",
+        "rhythm made physical, felt in the chest",
+        "the backbone of every music that makes you move"
+      ],
+      "feel": "primal, physical, the sound that turns listening into movement"
+    }
+  },
+  {
+    "id": "church_bell",
+    "name": "Church Bell",
+    "category": "musical",
+    "frequency_range": "low-mid",
+    "temporal_pattern": "decay",
+    "loudness_typical_db": 95,
+    "descriptors": [
+      "resonant",
+      "deep",
+      "reverberant",
+      "solemn",
+      "bronze"
+    ],
+    "onset": "The clapper strikes bronze and the metal detonates into sound \u2014 a massive, complex chord from a single impact.",
+    "sustain": "The bell rings with overtones layered on overtones, the bronze singing a chord no single note could contain.",
+    "decay": "A long, shimmering fade \u2014 the overtones dropping away in layers, the fundamental persisting, the bell humming to itself for half a minute after the strike.",
+    "experiential": {
+      "prose_fragments": [
+        "time marked in bronze",
+        "a single strike that contains a whole chord",
+        "the sound that has called humans together for a thousand years"
+      ],
+      "feel": "solemn, communal, the sound of time and tradition made audible"
+    }
+  },
+  {
+    "id": "wind_chimes",
+    "name": "Wind Chimes",
+    "category": "musical",
+    "frequency_range": "high",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 35,
+    "descriptors": [
+      "tinkling",
+      "random",
+      "bright",
+      "metallic",
+      "delicate"
+    ],
+    "onset": "A breeze stirs and the tubes begin to knock and ring \u2014 random, bright, like a tiny bell choir conducted by the wind.",
+    "sustain": "An irregular scatter of bright tones, each collision different, the wind composing in real time.",
+    "decay": "The breeze dies and the chimes slow to occasional taps, then a final, solitary ring hanging in the still air.",
+    "experiential": {
+      "prose_fragments": [
+        "the wind's own instrument, playing whatever it wants",
+        "randomness that sounds like intention",
+        "tiny metal tubes translating air into music"
+      ],
+      "feel": "peaceful, random, the sound of letting the wind decide"
+    }
+  },
+  {
+    "id": "engine_idling",
+    "name": "Engine Idling",
+    "category": "mechanical",
+    "frequency_range": "low",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 55,
+    "descriptors": [
+      "rumbling",
+      "vibrating",
+      "low",
+      "mechanical",
+      "steady"
+    ],
+    "onset": "The engine turns over and catches \u2014 a rough cough settling into a steady, low rumble.",
+    "sustain": "A constant, vibrating drone \u2014 the combustion cycle reduced to a felt hum, slightly uneven, slightly alive.",
+    "decay": "The key turns, the engine coughs once, and the silence that replaces it feels vast.",
+    "experiential": {
+      "prose_fragments": [
+        "controlled explosions at idle speed",
+        "a machine breathing in its sleep",
+        "potential energy humming in place"
+      ],
+      "feel": "patient, mechanical, the sound of power restrained"
+    }
+  },
+  {
+    "id": "fan_ceiling",
+    "name": "Ceiling Fan",
+    "category": "mechanical",
+    "frequency_range": "low",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 35,
+    "descriptors": [
+      "whirring",
+      "rhythmic",
+      "soft",
+      "rotating",
+      "hypnotic"
+    ],
+    "onset": "A click, then the blades begin to turn \u2014 a low whoosh building as they reach speed.",
+    "sustain": "A steady, rhythmic whooshing \u2014 the blades cutting air in a circle, each pass a soft pulse of moving air.",
+    "decay": "The fan slows and the whoosh drops in pitch, the pauses between blade-passes growing until you can count them.",
+    "experiential": {
+      "prose_fragments": [
+        "the laziest machine in the house",
+        "air being stirred in slow circles",
+        "the sound of summer not quite being enough"
+      ],
+      "feel": "lazy, comfortable, the sound of making do with moving air"
+    }
+  },
+  {
+    "id": "ac_hum",
+    "name": "Air Conditioning Hum",
+    "category": "mechanical",
+    "frequency_range": "low-mid",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 40,
+    "descriptors": [
+      "humming",
+      "droning",
+      "constant",
+      "mechanical",
+      "white-noise"
+    ],
+    "onset": "The unit clicks on with a shudder, then the hum settles in like a roommate who doesn't talk.",
+    "sustain": "A constant, slightly textured hum \u2014 fan and compressor blending into a wall of background sound.",
+    "decay": "It cycles off and the room suddenly sounds twice as large. You hear everything you'd been missing.",
+    "experiential": {
+      "prose_fragments": [
+        "comfort's monotone",
+        "the modern cave's mechanical breath",
+        "a sound that air-conditions silence as well as air"
+      ],
+      "feel": "background, artificial, the sound of climate being controlled"
+    }
+  },
+  {
+    "id": "train_on_tracks",
+    "name": "Train on Tracks",
+    "category": "mechanical",
+    "frequency_range": "low-mid",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 80,
+    "descriptors": [
+      "clacking",
+      "rhythmic",
+      "rolling",
+      "metallic",
+      "hypnotic"
+    ],
+    "onset": "The first clack \u2014 wheels meeting a rail joint \u2014 then another, and a rhythm establishes itself.",
+    "sustain": "Clack-clack, clack-clack \u2014 the joints in the rail marking distance in a steady, hypnotic meter, the car swaying gently.",
+    "decay": "The train slows and the rhythm stretches \u2014 longer gaps between the clacks, the tempo winding down like a clock running out.",
+    "experiential": {
+      "prose_fragments": [
+        "distance being measured in rhythmic metal clicks",
+        "the oldest mass-transit lullaby",
+        "a rhythm that could rock you to sleep if you let it"
+      ],
+      "feel": "hypnotic, nostalgic, the sound of going somewhere at a pace that lets you think"
+    }
+  },
+  {
+    "id": "glass_clink",
+    "name": "Glass Clinking",
+    "category": "domestic",
+    "frequency_range": "high",
+    "temporal_pattern": "impulse",
+    "loudness_typical_db": 50,
+    "descriptors": [
+      "bright",
+      "crystalline",
+      "brief",
+      "celebratory",
+      "ringing"
+    ],
+    "onset": "Glass meets glass \u2014 a bright, pure tone that rings out clean and sharp.",
+    "sustain": "A brief shimmer of harmonics, the glass vibrating at its natural frequency.",
+    "decay": "The ring fades quickly but clearly, like a bell in miniature.",
+    "experiential": {
+      "prose_fragments": [
+        "a tiny celebration in crystallized sound",
+        "the sound of something about to be drunk to",
+        "glass remembering it was once sand"
+      ],
+      "feel": "celebratory, bright, the sound of a moment being marked"
+    }
+  },
+  {
+    "id": "fire_crackling",
+    "name": "Crackling Fire",
+    "category": "nature",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 45,
+    "descriptors": [
+      "crackling",
+      "popping",
+      "warm",
+      "irregular",
+      "snapping"
+    ],
+    "onset": "The first pop \u2014 a pocket of sap or moisture bursting in the heat. Then another.",
+    "sustain": "A continuous, irregular percussion of snaps, crackles, and pops \u2014 the wood surrendering its moisture to the flame.",
+    "decay": "As the fire burns down to embers, the crackles space out, each one quieter, the conversation between wood and flame winding down.",
+    "experiential": {
+      "prose_fragments": [
+        "wood telling its secrets to the fire",
+        "the original podcast \u2014 random, warm, hypnotic",
+        "a sound that has kept humans company since the beginning"
+      ],
+      "feel": "primal, comforting, the sound of safety in the darkness"
+    }
+  },
+  {
+    "id": "espresso_machine",
+    "name": "Espresso Machine",
+    "category": "domestic",
+    "frequency_range": "mid",
+    "temporal_pattern": "decay",
+    "loudness_typical_db": 60,
+    "descriptors": [
+      "hissing",
+      "gurgling",
+      "pressurized",
+      "mechanical",
+      "steamy"
+    ],
+    "onset": "The pump engages with a rising hum, pressure building \u2014 then the first hiss of steam.",
+    "sustain": "A pressurized gurgle as water is forced through coffee at nine bars \u2014 the hiss, the sputter, the liquid sound of extraction.",
+    "decay": "The pump winds down, a final sputter of steam, then dripping silence.",
+    "experiential": {
+      "prose_fragments": [
+        "pressure and heat conspiring to extract flavor from a bean",
+        "the morning's most important machine, working",
+        "a small industrial process performed in the name of caffeine"
+      ],
+      "feel": "anticipatory, ritual, the sound of morning becoming functional"
+    }
+  },
+  {
+    "id": "rain_window",
+    "name": "Rain Against Window",
+    "category": "nature",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 40,
+    "descriptors": [
+      "tapping",
+      "streaking",
+      "irregular",
+      "glass-bright",
+      "cozy"
+    ],
+    "onset": "The first drops hit the glass with a light tap \u2014 bright, percussive, amplified by the pane.",
+    "sustain": "An irregular patter against the glass, each drop a tiny bright impact, rivulets forming and racing each other down the surface.",
+    "decay": "The taps thin to occasional single drops that hit with exaggerated clarity in the returning quiet.",
+    "experiential": {
+      "prose_fragments": [
+        "the outside world knocking on the glass",
+        "rain turned into percussion by a window pane",
+        "the sound of inside and outside negotiating through a thin transparent wall"
+      ],
+      "feel": "cozy, contemplative, the sound of being dry near wetness"
+    }
+  },
+  {
+    "id": "snow_falling",
+    "name": "Falling Snow",
+    "category": "nature",
+    "frequency_range": "none",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 0,
+    "descriptors": [
+      "silent",
+      "muffled",
+      "absorbing",
+      "hushed",
+      "blanketing"
+    ],
+    "onset": "There is no onset. Snow arrives in silence. But the silence itself changes \u2014 grows thicker, more padded.",
+    "sustain": "The absence of sound becomes a presence. Snow absorbs everything \u2014 footsteps, voices, traffic \u2014 wrapping the world in acoustic cotton.",
+    "decay": "When it stops, the silence remains, deeper than before. The world sounds different under its white blanket.",
+    "experiential": {
+      "prose_fragments": [
+        "the loudest silence nature can produce",
+        "sound being erased flake by flake",
+        "the world putting itself on mute"
+      ],
+      "feel": "hushed, reverent, the sound of the world being made new and quiet"
+    }
+  },
+  {
+    "id": "paper_rustling",
+    "name": "Rustling Paper",
+    "category": "domestic",
+    "frequency_range": "high",
+    "temporal_pattern": "impulse",
+    "loudness_typical_db": 30,
+    "descriptors": [
+      "dry",
+      "crisp",
+      "light",
+      "papery",
+      "delicate"
+    ],
+    "onset": "A page turns \u2014 a crisp, dry whisper of fiber against fiber.",
+    "sustain": "Brief \u2014 the paper flexes, rustles, settles. Each page a slightly different sound depending on weight and texture.",
+    "decay": "A final settling whisper as the page lies flat.",
+    "experiential": {
+      "prose_fragments": [
+        "the sound of information being accessed the old way",
+        "trees turned to pages turning to knowledge",
+        "a dry whisper that smells of ink"
+      ],
+      "feel": "quiet, studious, the sound of attention being paid"
+    }
+  },
+  {
+    "id": "cat_purring",
+    "name": "Cat Purring",
+    "category": "nature",
+    "frequency_range": "low",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 25,
+    "descriptors": [
+      "rumbling",
+      "rhythmic",
+      "soft",
+      "vibrating",
+      "soothing"
+    ],
+    "onset": "It starts like a tiny engine turning over \u2014 a low, felt vibration more than a heard sound.",
+    "sustain": "A continuous, rhythmic rumble \u2014 the whole body vibrating at 25 Hz, the sound of contentment made mechanical.",
+    "decay": "It fades as sleep deepens, the rumble thinning to occasional pulses, then silence.",
+    "experiential": {
+      "prose_fragments": [
+        "a small warm engine running on contentment",
+        "the frequency of healing, according to veterinary science",
+        "the sound a cat makes when the world is exactly right"
+      ],
+      "feel": "soothing, warm, the sound of another creature being completely at peace"
+    }
+  },
+  {
+    "id": "church_organ",
+    "name": "Church Organ",
+    "category": "musical",
+    "frequency_range": "broadband",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 90,
+    "descriptors": [
+      "massive",
+      "reverberant",
+      "layered",
+      "majestic",
+      "enveloping"
+    ],
+    "onset": "The first chord fills the space like water filling a pool \u2014 it doesn't arrive, it accumulates.",
+    "sustain": "A vast, layered wall of sound \u2014 pipes of every size contributing their voice, the building itself becoming the instrument's body.",
+    "decay": "The keys release but the sound persists \u2014 the cathedral holds it, lets it ring, the stone walls reluctant to let it go.",
+    "experiential": {
+      "prose_fragments": [
+        "architecture making music, or music making architecture",
+        "a sound too large for any other room",
+        "the instrument that needed a building built around it"
+      ],
+      "feel": "transcendent, overwhelming, the sound of human engineering reaching for the divine"
+    }
+  },
+  {
+    "id": "birdsong_single",
+    "name": "Single Bird Call",
+    "category": "nature",
+    "frequency_range": "high",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 40,
+    "descriptors": [
+      "clear",
+      "melodic",
+      "piercing",
+      "liquid",
+      "territorial"
+    ],
+    "onset": "A single, clear phrase cuts through the ambient \u2014 bright and deliberate, a musical sentence with punctuation.",
+    "sustain": "The phrase repeats, each iteration slightly varied \u2014 the same melody with improvised ornaments.",
+    "decay": "A final call, unanswered, hangs in the air before the bird falls silent or moves on.",
+    "experiential": {
+      "prose_fragments": [
+        "a voice claiming territory in the key of C sharp",
+        "the smallest singer with the biggest reach",
+        "a melody that existed before melody had a name"
+      ],
+      "feel": "clear, natural, the sound of wildness persisting in the everyday"
+    }
+  },
+  {
+    "id": "dripping_water",
+    "name": "Dripping Water",
+    "category": "nature",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 30,
+    "descriptors": [
+      "plinking",
+      "regular",
+      "hollow",
+      "resonant",
+      "persistent"
+    ],
+    "onset": "A single drop falls and strikes water or stone \u2014 a bright, hollow plink.",
+    "sustain": "Drip. Drip. Drip. Each one identical and separate, the silence between them as much a part of the rhythm as the drops.",
+    "decay": "It doesn't decay so much as become ignorable \u2014 a sound that the brain learns to file under 'not important' until 3 AM.",
+    "experiential": {
+      "prose_fragments": [
+        "water's most patient assault",
+        "the sound that carved the Grand Canyon, one drop at a time",
+        "a metronome powered by gravity and bad plumbing"
+      ],
+      "feel": "persistent, maddening or meditative depending on your mood"
+    }
+  },
+  {
+    "id": "typing_mechanical",
+    "name": "Mechanical Typewriter",
+    "category": "domestic",
+    "frequency_range": "mid",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 55,
+    "descriptors": [
+      "clacking",
+      "sharp",
+      "mechanical",
+      "rhythmic",
+      "authoritative"
+    ],
+    "onset": "The first key strikes the platen with a sharp, satisfying clack \u2014 metal hitting paper through ribbon.",
+    "sustain": "A rapid staccato of clacks, punctuated by the zip and ding of the carriage return \u2014 the rhythm of thought made mechanical.",
+    "decay": "The typing stops. The last clack hangs in the air. Then the slow ratchet of the platen as the page is pulled free.",
+    "experiential": {
+      "prose_fragments": [
+        "writing as a percussive act",
+        "each letter a committed, physical impression",
+        "the sound of words being stamped into existence"
+      ],
+      "feel": "authoritative, nostalgic, the sound of writing when writing was physical work"
+    }
+  },
+  {
+    "id": "washing_machine",
+    "name": "Washing Machine",
+    "category": "mechanical",
+    "frequency_range": "low-mid",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 55,
+    "descriptors": [
+      "churning",
+      "sloshing",
+      "rhythmic",
+      "mechanical",
+      "domestic"
+    ],
+    "onset": "Water rushes in with a hiss, then the drum begins its slow rotation \u2014 a sloshing, churning rhythm.",
+    "sustain": "Agitate, pause, agitate, pause \u2014 the drum turning clothes through soapy water in a patient, mechanical cycle.",
+    "decay": "The spin cycle winds down from its high whine, the drum slowing, water draining with a gurgle, then the click of completion.",
+    "experiential": {
+      "prose_fragments": [
+        "domesticity on a timer",
+        "water and soap and fabric in a mechanical waltz",
+        "the sound of chores doing themselves"
+      ],
+      "feel": "domestic, reassuring, the sound of the house taking care of things"
+    }
+  },
+  {
+    "id": "dog_barking",
+    "name": "Dog Barking",
+    "category": "nature",
+    "frequency_range": "mid",
+    "temporal_pattern": "impulse",
+    "loudness_typical_db": 70,
+    "descriptors": [
+      "sharp",
+      "explosive",
+      "insistent",
+      "variable",
+      "communicative"
+    ],
+    "onset": "A single, sharp bark \u2014 the dog's entire opinion compressed into one syllable.",
+    "sustain": "Bark, bark, bark \u2014 each one an exclamation point, the intervals telling you whether it's alarm, excitement, or boredom.",
+    "decay": "A final bark, then a low grumble, then watchful silence.",
+    "experiential": {
+      "prose_fragments": [
+        "a one-word vocabulary deployed at maximum volume",
+        "the original home security system",
+        "the sound of a creature that has something to say and only one way to say it"
+      ],
+      "feel": "alert, insistent, the sound of territory being defended or joy being expressed \u2014 context is everything"
+    }
+  },
+  {
+    "id": "cicadas",
+    "name": "Cicadas",
+    "category": "nature",
+    "frequency_range": "high",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 60,
+    "descriptors": [
+      "buzzing",
+      "droning",
+      "electric",
+      "pulsating",
+      "overwhelming"
+    ],
+    "onset": "One starts \u2014 a rising, electric buzz \u2014 then another joins, and another, until the air itself vibrates.",
+    "sustain": "A massive, pulsating drone that seems to come from everywhere at once \u2014 the trees themselves buzzing.",
+    "decay": "As temperature drops, the drone thins. Individual buzzes separate and slow. Night brings silence.",
+    "experiential": {
+      "prose_fragments": [
+        "summer distilled to a single, electric frequency",
+        "the sound of heat made audible",
+        "a billion tiny machines running at full speed"
+      ],
+      "feel": "overwhelming, summer, the sound of life operating at maximum"
+    }
+  },
+  {
+    "id": "helicopter",
+    "name": "Helicopter",
+    "category": "mechanical",
+    "frequency_range": "low-mid",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 85,
+    "descriptors": [
+      "chopping",
+      "thumping",
+      "rhythmic",
+      "percussive",
+      "approaching"
+    ],
+    "onset": "A distant thud-thud-thud \u2014 the blades chopping air, felt before fully heard.",
+    "sustain": "The heavy, rhythmic percussion of rotors displacing air \u2014 thwap-thwap-thwap \u2014 vibrating the chest at close range.",
+    "decay": "The thumping thins as it recedes, each beat softer, until it's just a suggestion on the wind.",
+    "experiential": {
+      "prose_fragments": [
+        "air being beaten into submission",
+        "a rhythm that vibrates the rib cage",
+        "the sound of something that shouldn't fly, flying"
+      ],
+      "feel": "powerful, urgent, the sound of rotor-powered authority"
+    }
+  },
+  {
+    "id": "fluorescent_buzz",
+    "name": "Fluorescent Light Buzz",
+    "category": "mechanical",
+    "frequency_range": "mid",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 30,
+    "descriptors": [
+      "buzzing",
+      "electric",
+      "annoying",
+      "constant",
+      "institutional"
+    ],
+    "onset": "The tube flickers and buzzes \u2014 a thin, electric complaint as the gas ionizes.",
+    "sustain": "A constant, slightly fluctuating buzz at line frequency \u2014 60 Hz and its harmonics filling every institutional ceiling.",
+    "decay": "The light goes off with a click and the buzz vanishes, leaving you in silence you didn't know you wanted.",
+    "experiential": {
+      "prose_fragments": [
+        "electricity having a headache",
+        "the soundtrack of offices, hospitals, and late-night convenience stores",
+        "a sound that exists only to be tuned out"
+      ],
+      "feel": "institutional, draining, the sound of spaces designed for function, not pleasure"
+    }
+  },
+  {
+    "id": "wind_through_trees",
+    "name": "Wind Through Pine Trees",
+    "category": "nature",
+    "frequency_range": "mid",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 35,
+    "descriptors": [
+      "sighing",
+      "rushing",
+      "organic",
+      "constant",
+      "layered"
+    ],
+    "onset": "A low rush builds in the canopy \u2014 the needles catching the air and converting it to a deep, sighing wash.",
+    "sustain": "A continuous, breathing sound \u2014 deeper than leaf-rustle, more layered, like distant surf heard through a forest.",
+    "decay": "The wind eases and the rush softens to a murmur, then to silence punctuated by the occasional creak of a branch.",
+    "experiential": {
+      "prose_fragments": [
+        "the forest breathing through a million needle-thin windpipes",
+        "a sound the Japanese call 'matsu-kaze' \u2014 pine wind",
+        "the oldest continuous music on Earth"
+      ],
+      "feel": "meditative, ancient, the sound of trees conducting an orchestra of air"
+    }
+  },
+  {
+    "id": "coughing",
+    "name": "Cough",
+    "category": "human",
+    "frequency_range": "broadband",
+    "temporal_pattern": "impulse",
+    "loudness_typical_db": 60,
+    "descriptors": [
+      "sharp",
+      "explosive",
+      "involuntary",
+      "wet_or_dry",
+      "brief"
+    ],
+    "onset": "A sharp, involuntary explosion of air \u2014 the body's violent clearing mechanism.",
+    "sustain": "Almost none \u2014 each cough is a single, discrete event, sometimes followed by a chain of diminishing aftershocks.",
+    "decay": "A ragged inhale, a throat-clearing, then quiet \u2014 until the next one.",
+    "experiential": {
+      "prose_fragments": [
+        "the body evicting something it doesn't want",
+        "a small explosion in the throat",
+        "the sound that makes everyone in the quiet car look up"
+      ],
+      "feel": "involuntary, exposed, the sound of the body reminding you it has opinions"
+    }
+  },
+  {
+    "id": "microwave_beep",
+    "name": "Microwave Beep",
+    "category": "domestic",
+    "frequency_range": "high",
+    "temporal_pattern": "impulse",
+    "loudness_typical_db": 55,
+    "descriptors": [
+      "electronic",
+      "sharp",
+      "insistent",
+      "repetitive",
+      "domestic"
+    ],
+    "onset": "Beep-beep-beep \u2014 three identical, electronic tones announcing completion with zero poetry.",
+    "sustain": "None \u2014 each beep is a short, sharp pulse designed for maximum attention at minimum effort.",
+    "decay": "The beeps stop, but if you don't respond, they'll repeat in sixty seconds. The machine is patient and petty.",
+    "experiential": {
+      "prose_fragments": [
+        "the least beautiful sound in the kitchen",
+        "a machine saying 'your food is done' in the language of robots",
+        "domestic urgency distilled to a digital pulse"
+      ],
+      "feel": "functional, mildly annoying, the sound of convenience demanding acknowledgment"
+    }
+  },
+  {
+    "id": "children_playing",
+    "name": "Children Playing",
+    "category": "human",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 65,
+    "descriptors": [
+      "shrieking",
+      "laughing",
+      "chaotic",
+      "energetic",
+      "joyful"
+    ],
+    "onset": "A shriek of delight \u2014 sudden and piercing \u2014 then laughter and running feet.",
+    "sustain": "A chaotic tapestry of shouts, laughter, arguing, and the thud of small bodies in motion \u2014 organized by no adult principle.",
+    "decay": "Voices thin as they're called inside, or as games wind down. A final shout, then the particular quiet of an empty playground.",
+    "experiential": {
+      "prose_fragments": [
+        "energy that hasn't learned to be quiet yet",
+        "joy unfiltered and at full volume",
+        "the sound of recess \u2014 freedom measured in decibels"
+      ],
+      "feel": "alive, chaotic, the sound of being young enough to have nothing to whisper about"
+    }
+  },
+  {
+    "id": "glass_breaking",
+    "name": "Glass Breaking",
+    "category": "domestic",
+    "frequency_range": "high",
+    "temporal_pattern": "impulse",
+    "loudness_typical_db": 75,
+    "descriptors": [
+      "shattering",
+      "bright",
+      "chaotic",
+      "violent",
+      "sharp"
+    ],
+    "onset": "A bright, explosive crack \u2014 then the cascade of fragments, each piece ringing as it separates.",
+    "sustain": "A brief, complex shower of high-frequency tinkles and sharp impacts as the pieces scatter and settle.",
+    "decay": "A few last fragments tinkle into place. Then silence, and the careful sound of someone not moving their feet.",
+    "experiential": {
+      "prose_fragments": [
+        "order becoming chaos in an instant",
+        "a solid thing remembering it's actually fragile",
+        "the sound of something that can't be undone"
+      ],
+      "feel": "startling, final, the sound of irreversibility"
+    }
+  },
+  {
+    "id": "owl_hooting",
+    "name": "Owl Hooting",
+    "category": "nature",
+    "frequency_range": "low-mid",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 40,
+    "descriptors": [
+      "hooting",
+      "deep",
+      "resonant",
+      "nocturnal",
+      "haunting"
+    ],
+    "onset": "A low, round note emerges from the darkness \u2014 'who' \u2014 resonant and deliberate.",
+    "sustain": "The phrase repeats in a slow, measured pattern \u2014 each hoot placed with the patience of a night hunter.",
+    "decay": "The final hoot hangs in the dark air, unanswered, and the silence it leaves is deeper than before.",
+    "experiential": {
+      "prose_fragments": [
+        "the night asking a question in bass tones",
+        "a sound that makes the darkness feel inhabited",
+        "wisdom wearing feathers and speaking in vowels"
+      ],
+      "feel": "nocturnal, mysterious, the sound of the night's oldest resident"
+    }
+  },
+  {
+    "id": "zipper",
+    "name": "Zipper",
+    "category": "domestic",
+    "frequency_range": "high",
+    "temporal_pattern": "decay",
+    "loudness_typical_db": 35,
+    "descriptors": [
+      "zipping",
+      "metallic",
+      "quick",
+      "mechanical",
+      "satisfying"
+    ],
+    "onset": "A quick, ascending rip of tiny metal teeth engaging one by one.",
+    "sustain": "The briefest sustained sound \u2014 a metallic purr as the slider races along the track.",
+    "decay": "It ends with a small, decisive click at the top. Done.",
+    "experiential": {
+      "prose_fragments": [
+        "closure, literally",
+        "a hundred tiny hooks meeting their partners at speed",
+        "the most satisfying small mechanism ever invented"
+      ],
+      "feel": "decisive, satisfying, the sound of something being sealed"
+    }
+  },
+  {
+    "id": "ice_cracking",
+    "name": "Ice Cracking",
+    "category": "nature",
+    "frequency_range": "broadband",
+    "temporal_pattern": "impulse",
+    "loudness_typical_db": 50,
+    "descriptors": [
+      "cracking",
+      "sharp",
+      "resonant",
+      "eerie",
+      "deep"
+    ],
+    "onset": "A sudden, sharp report \u2014 like a gunshot if a gunshot could sound wet and cold.",
+    "sustain": "The crack propagates \u2014 a series of lower groans and pings as stress redistributes through the ice sheet.",
+    "decay": "A final, eerie singing tone as the ice vibrates at its resonant frequency, then settles.",
+    "experiential": {
+      "prose_fragments": [
+        "frozen water remembering it wants to move",
+        "a sound like the earth's bones shifting",
+        "the eerie music of thermal stress"
+      ],
+      "feel": "eerie, primal, the sound of a surface you shouldn't trust"
+    }
+  },
+  {
+    "id": "spoon_stirring",
+    "name": "Spoon Stirring in Cup",
+    "category": "domestic",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 30,
+    "descriptors": [
+      "tinkling",
+      "liquid",
+      "circular",
+      "gentle",
+      "ceramic"
+    ],
+    "onset": "The spoon touches the cup's rim \u2014 a bright clink \u2014 then settles into the liquid.",
+    "sustain": "A gentle, circular tinkling as metal meets ceramic through liquid \u2014 clink, swirl, clink, swirl.",
+    "decay": "The spoon taps twice on the rim (the universal signal for 'done stirring') and is set down.",
+    "experiential": {
+      "prose_fragments": [
+        "the smallest ritual in the kitchen",
+        "sugar being persuaded to dissolve",
+        "a circle of sound inside a circle of ceramic"
+      ],
+      "feel": "gentle, ritual, the sound of a small comfort being prepared"
+    }
+  },
+  {
+    "id": "train_crossing_bell",
+    "name": "Train Crossing Bell",
+    "category": "mechanical",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 80,
+    "descriptors": [
+      "clanging",
+      "urgent",
+      "rhythmic",
+      "metallic",
+      "warning"
+    ],
+    "onset": "The bell starts its relentless ding-ding-ding before the gates even begin to lower.",
+    "sustain": "A metronomic clang, mechanical and insistent, the same note struck over and over \u2014 not music, instruction.",
+    "decay": "It stops mid-clang as the gates rise. The sudden absence is louder than the bell was.",
+    "experiential": {
+      "prose_fragments": [
+        "the sound of waiting \u2014 mechanical patience that will outlast you",
+        "each clang a countdown to something enormous passing through",
+        "the bell doesn't care if you're in a hurry"
+      ],
+      "feel": "anticipation, forced patience, the approach of something massive"
+    }
+  },
+  {
+    "id": "ramen_slurp",
+    "name": "Ramen Slurp",
+    "category": "human",
+    "frequency_range": "mid",
+    "temporal_pattern": "irregular",
+    "loudness_typical_db": 55,
+    "descriptors": [
+      "wet",
+      "satisfying",
+      "deliberate",
+      "cultural",
+      "warm"
+    ],
+    "onset": "A sharp intake \u2014 air and broth and noodles drawn upward together.",
+    "sustain": "The slurp is brief but complete \u2014 a full-body commitment to the act of eating.",
+    "decay": "A small exhale of contentment, steam escaping.",
+    "experiential": {
+      "prose_fragments": [
+        "the sound of food being honored",
+        "a slurp is a compliment here \u2014 the louder, the better",
+        "noodles, broth, and air all arriving at once"
+      ],
+      "feel": "comfort, warmth, permission to be loud about pleasure"
+    }
+  },
+  {
+    "id": "chopsticks",
+    "name": "Chopsticks on Bowl",
+    "category": "domestic",
+    "frequency_range": "high",
+    "temporal_pattern": "irregular",
+    "loudness_typical_db": 35,
+    "descriptors": [
+      "clicking",
+      "delicate",
+      "precise",
+      "wooden",
+      "ceramic"
+    ],
+    "onset": "A light tap as wood meets ceramic \u2014 tk, tk.",
+    "sustain": "Irregular clicking rhythms, chopsticks against bowl rim, the small percussion of eating.",
+    "decay": "The chopsticks are set down across the bowl with a final soft clack.",
+    "experiential": {
+      "prose_fragments": [
+        "the tiny percussion of a meal in progress",
+        "wood on ceramic \u2014 the simplest music",
+        "each click says: I'm still eating, I'm still here"
+      ],
+      "feel": "domestic, precise, the intimate sounds of sustenance"
+    }
+  },
+  {
+    "id": "paper_sliding_door",
+    "name": "Paper Sliding Door (Shoji)",
+    "category": "domestic",
+    "frequency_range": "low-mid",
+    "temporal_pattern": "single_event",
+    "loudness_typical_db": 30,
+    "descriptors": [
+      "sliding",
+      "soft",
+      "wooden",
+      "whisper",
+      "measured"
+    ],
+    "onset": "A soft thunk as the frame lifts from its rest.",
+    "sustain": "A gentle hiss of wood sliding in wood, the paper whispering against the frame.",
+    "decay": "A soft clack as the door reaches its stop. Then silence returns, rearranged.",
+    "experiential": {
+      "prose_fragments": [
+        "the quietest door in the world \u2014 a whisper of wood on wood",
+        "the sound of privacy being given or taken, gently",
+        "rooms separated by the weight of paper and the sound of respect"
+      ],
+      "feel": "measured, respectful, the architecture of quietness"
+    }
+  },
+  {
+    "id": "bicycle_bell",
+    "name": "Bicycle Bell",
+    "category": "mechanical",
+    "frequency_range": "high",
+    "temporal_pattern": "impulse",
+    "loudness_typical_db": 70,
+    "descriptors": [
+      "bright",
+      "cheerful",
+      "brief",
+      "ringing",
+      "silvery"
+    ],
+    "onset": "A bright tring! \u2014 small and metallic and impossibly cheerful.",
+    "sustain": "The ring fades quickly, a tiny bell's tiny resonance.",
+    "decay": "Gone almost before it started, but it moved you out of the way.",
+    "experiential": {
+      "prose_fragments": [
+        "the happiest warning sound ever invented",
+        "tring! \u2014 part greeting, part get-out-of-the-way",
+        "a sound that belongs to slow mornings and canal-side paths"
+      ],
+      "feel": "cheerful, brief, urban grace"
+    }
+  },
+  {
+    "id": "distant_train_horn",
+    "name": "Distant Train Horn",
+    "category": "transport",
+    "frequency_range": "low",
+    "temporal_pattern": "sustained",
+    "loudness_typical_db": 50,
+    "descriptors": [
+      "mournful",
+      "distant",
+      "low",
+      "resonant",
+      "lonely"
+    ],
+    "onset": "It arrives from far away \u2014 a low, sustained tone that seems to come from the earth itself.",
+    "sustain": "A mournful bleat that hangs in the air, Doppler-shifted and softened by distance.",
+    "decay": "It fades so gradually you're not sure when it stopped and the silence began.",
+    "experiential": {
+      "prose_fragments": [
+        "the loneliest sound in America \u2014 a train horn at 2 AM",
+        "distance turns the blast into a lullaby",
+        "somewhere, something enormous is moving through the dark"
+      ],
+      "feel": "loneliness, distance, the romance of going somewhere else"
+    }
+  },
+  {
+    "id": "snow_crunching",
+    "name": "Snow Crunching Underfoot",
+    "category": "nature",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 40,
+    "descriptors": [
+      "crunching",
+      "squeaking",
+      "crisp",
+      "cold",
+      "rhythmic"
+    ],
+    "onset": "The first step breaks through the crust \u2014 a satisfying crunch that announces your weight.",
+    "sustain": "Each step a compressed percussion: crunch, crunch, crunch \u2014 the pitch varying with temperature.",
+    "decay": "You stop and the silence rushes in, made deeper by the snow absorbing everything.",
+    "experiential": {
+      "prose_fragments": [
+        "the sound of cold underfoot \u2014 the colder it is, the higher the squeak",
+        "each step a small destruction of something perfect",
+        "your footprints are loud; your standing is silent"
+      ],
+      "feel": "isolated, crisp, the solitude of winter walks"
+    }
+  },
+  {
+    "id": "church_choir",
+    "name": "Church Choir",
+    "category": "music",
+    "frequency_range": "full-range",
+    "temporal_pattern": "sustained",
+    "loudness_typical_db": 70,
+    "descriptors": [
+      "layered",
+      "soaring",
+      "harmonic",
+      "sacred",
+      "enveloping"
+    ],
+    "onset": "A single voice begins, then others join \u2014 the sound thickening like dawn light.",
+    "sustain": "Voices braided together, harmonics reinforcing harmonics, the stone walls adding their reverb like a blessing.",
+    "decay": "The final chord hangs in the air, sustained by the room long after the voices stop.",
+    "experiential": {
+      "prose_fragments": [
+        "the human voice multiplied until it becomes architecture",
+        "harmonics stacked so high they stop being notes and become feeling",
+        "the sound fills the building and the building fills the sound"
+      ],
+      "feel": "transcendent, communal, the vibration in your sternum that means something"
+    }
+  },
+  {
+    "id": "muezzin_call",
+    "name": "Muezzin Call to Prayer",
+    "category": "music",
+    "frequency_range": "mid",
+    "temporal_pattern": "sustained",
+    "loudness_typical_db": 75,
+    "descriptors": [
+      "soaring",
+      "melismatic",
+      "penetrating",
+      "ancient",
+      "devotional"
+    ],
+    "onset": "Allahu Akbar \u2014 the call begins mid-phrase, as if the silence before was the real interruption.",
+    "sustain": "The voice winds through microtonal melisma, each phrase rising and falling like breath made visible.",
+    "decay": "The final note stretches, thins, and dissolves into the city noise it briefly conquered.",
+    "experiential": {
+      "prose_fragments": [
+        "a voice that treats the sky as its ceiling",
+        "the call reaches into every window, under every door \u2014 you can't not hear it",
+        "five times a day, the city pauses and a single voice reminds it why"
+      ],
+      "feel": "devotion, routine transcendence, the sound of a city's soul"
+    }
+  },
+  {
+    "id": "temple_bell",
+    "name": "Temple Bell",
+    "category": "music",
+    "frequency_range": "low-mid",
+    "temporal_pattern": "impulse",
+    "loudness_typical_db": 85,
+    "descriptors": [
+      "deep",
+      "resonant",
+      "bronze",
+      "solemn",
+      "infinite_decay"
+    ],
+    "onset": "The striker meets bronze and the sound is born already enormous.",
+    "sustain": "A deep, complex tone \u2014 fundamental and overtones shifting against each other as the bell vibrates.",
+    "decay": "The decay lasts impossibly long, thinning from boom to hum to a vibration you feel more than hear.",
+    "experiential": {
+      "prose_fragments": [
+        "one strike, and the silence afterward is a different silence than before",
+        "the bell's voice is older than the bell",
+        "bronze remembering the moment of impact for a full minute afterward"
+      ],
+      "feel": "contemplative, ancient, a sound that resets time"
+    }
+  },
+  {
+    "id": "wind_through_bamboo",
+    "name": "Wind Through Bamboo",
+    "category": "nature",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "continuous_variable",
+    "loudness_typical_db": 35,
+    "descriptors": [
+      "hollow",
+      "clicking",
+      "swaying",
+      "wooden",
+      "musical"
+    ],
+    "onset": "A breeze finds the grove and the bamboo begins to talk \u2014 clicks and hollow tones.",
+    "sustain": "Stalks knock against each other in random percussion while the wind hums through the hollows like breath through a flute.",
+    "decay": "The wind drops and the bamboo settles, one last click, then vegetable silence.",
+    "experiential": {
+      "prose_fragments": [
+        "nature's wind chimes \u2014 random, percussive, perfect",
+        "hollow wood singing hollow notes",
+        "the bamboo grove is an instrument the wind plays badly and beautifully"
+      ],
+      "feel": "peaceful, organic, the sound of a garden breathing"
+    }
+  },
+  {
+    "id": "boiling_kettle_whistle",
+    "name": "Boiling Kettle Whistle",
+    "category": "domestic",
+    "frequency_range": "high",
+    "temporal_pattern": "building",
+    "loudness_typical_db": 75,
+    "descriptors": [
+      "shrill",
+      "building",
+      "insistent",
+      "domestic",
+      "urgent"
+    ],
+    "onset": "A faint hiss that builds into a wobbling whistle, steam finding its voice.",
+    "sustain": "The whistle steadies into a shrill, insistent note \u2014 a domestic siren demanding attention.",
+    "decay": "Lifted from the heat, the whistle drops in pitch like a tiny deflating scream.",
+    "experiential": {
+      "prose_fragments": [
+        "water announcing its transformation",
+        "the most domestic alarm clock \u2014 tea is ready, the world can wait",
+        "a pitch that evolved specifically to be impossible to ignore"
+      ],
+      "feel": "domestic urgency, comfort, the ritual of hot water"
+    }
+  },
+  {
+    "id": "page_turning",
+    "name": "Page Turning",
+    "category": "domestic",
+    "frequency_range": "high",
+    "temporal_pattern": "irregular",
+    "loudness_typical_db": 20,
+    "descriptors": [
+      "soft",
+      "papery",
+      "delicate",
+      "rhythmic",
+      "intimate"
+    ],
+    "onset": "A fingertip catches the corner, the page lifts.",
+    "sustain": "A brief whisper of paper against paper \u2014 shhhf.",
+    "decay": "The page settles on its fellows with a tiny puff of trapped air.",
+    "experiential": {
+      "prose_fragments": [
+        "the quietest form of progress",
+        "shhhf \u2014 the sound of someone else's concentration",
+        "paper measuring time in chapters"
+      ],
+      "feel": "contemplative, intimate, the quiet industry of reading"
+    }
+  },
+  {
+    "id": "pencil_on_paper",
+    "name": "Pencil on Paper",
+    "category": "domestic",
+    "frequency_range": "high",
+    "temporal_pattern": "irregular",
+    "loudness_typical_db": 25,
+    "descriptors": [
+      "scratching",
+      "soft",
+      "rhythmic",
+      "intimate",
+      "graphite"
+    ],
+    "onset": "The pencil touches paper and begins its soft rasping journey.",
+    "sustain": "A gentle, irregular scratching \u2014 skritch, skritch \u2014 graphite giving itself to the page.",
+    "decay": "The pencil lifts. A brief silence. Then it returns.",
+    "experiential": {
+      "prose_fragments": [
+        "thought becoming visible, one scratch at a time",
+        "the friction of creation \u2014 graphite surrendering to paper",
+        "the sound of someone working something out"
+      ],
+      "feel": "focused, creative, the intimacy of handwriting"
+    }
+  },
+  {
+    "id": "match_striking",
+    "name": "Match Striking",
+    "category": "domestic",
+    "frequency_range": "mid-high",
+    "temporal_pattern": "impulse",
+    "loudness_typical_db": 50,
+    "descriptors": [
+      "scratching",
+      "flaring",
+      "sulfurous",
+      "brief",
+      "dramatic"
+    ],
+    "onset": "The scratch \u2014 sharp, brief \u2014 and then a small explosion of phosphorus light.",
+    "sustain": "The initial flare settles into a tiny, wavering flame. The sulfur smell arrives.",
+    "decay": "The match burns down or is shaken out \u2014 a wisp of smoke the only evidence.",
+    "experiential": {
+      "prose_fragments": [
+        "friction into fire \u2014 the oldest magic",
+        "scratch-flare-settle: three acts in two seconds",
+        "the brief drama of controlled combustion"
+      ],
+      "feel": "ritual, deliberate, the small ceremony of making fire"
+    }
+  },
+  {
+    "id": "heartbeat_in_silence",
+    "name": "Heartbeat in Silence",
+    "category": "biological",
+    "frequency_range": "low",
+    "temporal_pattern": "rhythmic",
+    "loudness_typical_db": 15,
+    "descriptors": [
+      "thudding",
+      "rhythmic",
+      "internal",
+      "primal",
+      "inescapable"
+    ],
+    "onset": "In the silence, you become aware of it \u2014 the bass drum you've been ignoring your whole life.",
+    "sustain": "Thub-dub, thub-dub \u2014 the sound of your own machinery, relentless and reassuring and slightly terrifying.",
+    "decay": "You stop noticing it again, which is its own kind of miracle.",
+    "experiential": {
+      "prose_fragments": [
+        "the sound you hear when all other sounds leave",
+        "your body reminding you it's still working",
+        "the metronome that started before you were born and will stop when you do"
+      ],
+      "feel": "primal, vulnerable, alone with yourself"
+    }
+  },
+  {
+    "id": "tinnitus_ring",
+    "name": "Tinnitus Ring",
+    "category": "biological",
+    "frequency_range": "very-high",
+    "temporal_pattern": "continuous",
+    "loudness_typical_db": 10,
+    "descriptors": [
+      "high-pitched",
+      "constant",
+      "internal",
+      "phantom",
+      "maddening"
+    ],
+    "onset": "It doesn't start. It was always there. You just noticed it again.",
+    "sustain": "A thin, high-frequency tone \u2014 eeeeee \u2014 that exists only inside your head.",
+    "decay": "It doesn't decay. It's masked by other sounds, but never gone.",
+    "experiential": {
+      "prose_fragments": [
+        "the sound of hearing itself \u2014 the nervous system humming at idle",
+        "a frequency only you can hear, your private soundtrack to silence",
+        "the ring that makes true silence impossible"
+      ],
+      "feel": "isolated, internal, the loneliness of a sound no one else hears"
+    }
+  }
+]

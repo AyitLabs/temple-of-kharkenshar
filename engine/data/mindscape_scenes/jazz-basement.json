@@ -1,0 +1,78 @@
+{
+  "id": "jazz-basement",
+  "name": "Jazz Basement",
+  "description": "A below-street-level jazz club — low ceilings stained with decades of cigarette smoke, a sticky bar, blue-gel stage lights, bourbon on every breath, and a trio playing like the audience doesn't exist.",
+  "smell": {
+    "scene_id": "jazz-basement",
+    "compounds": ["ethanol", "vanillin", "oak-lactone", "tobacco-residue", "leather", "beeswax", "cedar", "musk", "lime-oil"]
+  },
+  "sight": {
+    "scene_id": "jazz-basement"
+  },
+  "sound": {
+    "scene_id": "jazz-basement"
+  },
+  "environment": {
+    "temperature_c": 24,
+    "humidity_pct": 55,
+    "wind_speed_kmh": 0,
+    "time_of_day": "night",
+    "weather": "clear",
+    "indoor": true,
+    "touch": {
+      "surface_textures": ["sticky lacquered bar top tacky with decades of spilled bourbon", "cracked leather banquette warm and yielding", "cold heavy rocks glass sweating condensation", "narrow wooden staircase handrail smooth from ten thousand descents", "rough exposed brick wall cool and slightly damp"],
+      "air_feel": "Warm and close at 24°C — the basement retains body heat from every patron, and the low ceiling traps it. The air feels thick, not quite humid but dense with warmth and spent breath and the residual warmth of amplifiers. No circulation to speak of — the air moves only when the door opens, a brief cool gasp from the street above.",
+      "thermal_notes": "The basement's below-grade location insulates it — the surrounding earth buffers temperature, keeping it warm in winter and cool in summer, but the crowd's metabolic heat pushes it above comfort. The leather seats have been pre-warmed by the last occupant's body heat, creating an intimate thermal handoff. The bourbon in your glass starts cool and warms to room temperature over the course of a set — the glass is a thermal clock counting the music.",
+      "key_tactile_moments": [
+        "The bass vibration traveling through the table into your forearms — not heard, felt, a low-frequency massage that your bones receive before your ears",
+        "Peeling your forearm off the sticky bar and feeling the lacquer's reluctant release",
+        "The leather banquette sighing under your weight, releasing trapped warmth and the ghost-pressure of previous sitters",
+        "Ice cracking in a rocks glass — the vibration transmitted through the glass to your fingertips, a tiny seismic event"
+      ]
+    }
+  },
+  "cross_sensory_bridges": [
+    "The bourbon and the upright bass occupy the same frequency — both warm, both resonant, both felt more than analyzed.",
+    "Blue stage light turns the cigarette haze visible, and the smoke carries the same history the cracked leather seats hold in their smell.",
+    "Every surface in this room has absorbed decades of sound and spirit — the walls smell like music."
+  ],
+  "mood": ["intimate", "smoky", "unhurried", "melancholic", "reverent"],
+  "prose": "You descend a narrow staircase and the street disappears behind you one sense at a time.\n\nThe light goes first — traded for a permanent blue dusk. Two blue-gel spots on the tiny stage, a amber sconce over the bar, and that's it. Everything between is shadow. The ceiling is low enough to touch, stained the color of dark honey from decades of smoke that has nowhere to go but into the plaster. Faces at the tables are half-lit, half-gone. The bassist's fingers catch the blue light; everything else about him is silhouette.\n\nThe sound is already inside your chest. The upright bass doesn't play notes so much as press air — you feel it in your sternum before your ears process the pitch. Brushes on the snare, that whispering hiss like sand on silk. The piano, slightly out of tune in the upper register, which makes the chords ache in exactly the right way. Between songs, ice shifts in glasses. Someone murmurs. The room breathes.\n\nThe smell is archaeology. Bourbon and oak-lactone from the bar — not one drink but fifty years of spilled whiskey soaked into wood that will never be fully clean. Old leather from the cracked banquettes exhaling the ghost of every body that's sat in them. A sweet vanillin base note from the bourbon barrels, cut with lime oil from someone's gin and tonic. And underneath it all, the permanent tobacco residue that lives in the walls, in the ceiling, in the fabric of every seat — not fresh smoke, but the memory of smoke, a museum of ten thousand cigarettes.\n\nThe blue light and the bass notes and the bourbon all share the same temperature. Warm. Everything here is warm, and slow, and a little bit sad, and you never want to leave.",
+  "positions": [
+    {
+      "name": "the staircase down",
+      "prose": "The muffled thump of a bass note finds you through the door before you open it. Each step down trades street noise for music — car horns fade, the bass gets a body, and by the fifth step you catch the first breath of old air: bourbon-soaked wood and leather that's been warm for decades. The walls narrow. The light drops to a blue suggestion at the bottom. You're not entering a room; you're being swallowed by one.",
+      "smell_emphasis": ["ethanol", "oak-lactone", "leather"],
+      "cross_sensory": "Sound leads you down and smell meets you halfway — both pulling you away from the world above.",
+      "touch_notes": "The handrail is smooth lacquered wood, worn to a soft sheen. Each step down is narrow and your foot finds the edge by feel. The temperature rises as you descend — the stairwell is a thermal gradient, cool street air at the top, body-warm basement air at the bottom. The walls narrow and the brick brushes your shoulder, rough and cool."
+    },
+    {
+      "name": "the bar",
+      "prose": "The bartender moves in amber light, the only warm-toned spot in the room, and the wood under your forearms is tacky with history — a shellac of spilled bourbon and lime juice and time. Ice cracks in a rocks glass and the sound is somehow louder than the piano. You smell everything here in concentrate: the vanilla char of bourbon, the bright sting of citrus oil twisted over a flame, the cedar of the bar's old wood bleeding through where elbows have worn the varnish away. The blue light from the stage reaches the bar in diluted form, turning the amber bottles on the shelf into something between gold and green.",
+      "smell_emphasis": ["ethanol", "vanillin", "lime-oil", "cedar"],
+      "cross_sensory": "The bar is a boundary between two light-worlds — amber and blue — and the bourbon belongs to both.",
+      "touch_notes": "The bar top is tacky under your forearms — a shellac of fifty years of spilled drinks that never fully dries. The rocks glass is cold and heavy, the ice shifting when you lift it, condensation wetting your palm. The brass foot rail under the bar is cool against your sole through your shoe. You peel your forearm off the wood and it resists, a small adhesive goodbye."
+    },
+    {
+      "name": "a table in the middle",
+      "prose": "From here the trio is close enough to see the bassist's fingers but far enough that the sound has bloomed into the room and mixed with itself. The piano's left hand and the bass overlap in the low register and your ribs can't tell which instrument is which. A candle on the table throws a tiny warm circle onto the dark wood and your drink glows inside it like a jewel. The leather banquette exhales under your weight — beeswax and musk and the faint trapped warmth of the person who sat here before you. Smoke residue lives in the upholstery at nose-level, so every breath tastes like the room's autobiography.",
+      "smell_emphasis": ["leather", "beeswax", "musk", "tobacco-residue"],
+      "cross_sensory": "The candle, the bass vibration in the table, and the leather's exhaled warmth all say the same thing: stay.",
+      "touch_notes": "The leather banquette is warm from the last person — a thermal ghost you sink into. The bass vibrates through the table and into your elbows, a sub-frequency tremor that makes the surface of your drink ripple. The candle flame is close enough to feel its heat on the backs of your fingers when you reach for your glass."
+    },
+    {
+      "name": "stage-side seat",
+      "prose": "This close, the music isn't sound anymore — it's weather. The drummer's brush-work creates a physical texture in the air, fine and constant like mist on your skin. The pianist's right hand climbs into the upper register and the slightly-flat notes hover at your temples. You can smell the musician's exertion now: a human warmth cutting through the room's bourbon-and-leather baseline, the faint metallic tang of brass from the saxophone resting on its stand for the next set. The blue gel light is inches away and it rewrites the color of your hands, your drink, the white of the pianist's shirt — everything is underwater, everything is midnight.",
+      "smell_emphasis": ["musk", "ethanol", "tobacco-residue"],
+      "cross_sensory": "Music becomes tactile here — you feel the brushes on your skin, the bass in your teeth, and the blue light in your bloodstream.",
+      "touch_notes": "The bass is physical at this distance — you feel each plucked note in your sternum like a second heartbeat. The drummer's brush-work creates a vibration in the floor that travels up through your chair legs. The air moves when the pianist's hands sweep the keyboard — a faint displacement you feel on your face. The blue gel light has no warmth but your brain insists it should be cool."
+    },
+    {
+      "name": "the back corner, last set",
+      "prose": "Two a.m. and the room has fermented. The crowd has thinned to believers. The trio plays quieter now, intimate, like they're talking to each other and you're overhearing something private. The air is thick with four hours of shared breath and spilled drinks and the accumulated warmth of bodies in a low-ceilinged space — it smells like a confession, like whiskey and leather and the particular sweetness of exhaustion. The blue light has taken on weight, hanging in the residual haze. Even your glass has warmed to room temperature, the bourbon indistinguishable from the air. The last note of the set hangs for three full seconds before anyone moves.",
+      "smell_emphasis": ["ethanol", "vanillin", "tobacco-residue", "musk"],
+      "cross_sensory": "At this hour, every sense has converged to the same frequency — warm, slow, blue, and bottomless.",
+      "touch_notes": "The air has thickened over four hours — warmer, denser, carrying the accumulated heat of every body that's been here tonight. Your glass has warmed to room temperature and the bourbon is indistinguishable from the air by touch. The leather seat has molded to your exact shape. You realize you haven't shifted position in twenty minutes."
+    }
+  ]
+}

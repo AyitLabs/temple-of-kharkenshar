@@ -1,0 +1,67 @@
+{
+    "id": "cave-tunnels",
+    "name": "The Three Tunnels",
+    "description": "A junction deep in the cave. Three passages branch ahead, each with its own breath, its own echo, its own temperature. The cave is asking you a question.",
+    "smell": {
+        "scene_id": "cave-tunnels",
+        "compounds": [
+            "wet-limestone",
+            "stale-air",
+            "clay",
+            "mineral-water"
+        ]
+    },
+    "environment": {
+        "temperature_c": 13,
+        "humidity_pct": 98,
+        "wind_speed_kmh": 1,
+        "wind_direction": "variable — each tunnel breathes differently",
+        "time_of_day": "none",
+        "weather": "none",
+        "indoor": true,
+        "touch": {
+            "surface_textures": [
+                "cave floor — smooth bedrock worn by water, slick with condensation",
+                "the air itself — three distinct currents from three openings, each a different temperature"
+            ],
+            "air_feel": "The junction is where three breaths meet. Left: cold and stale, dead-ending air with nowhere to go. Middle: the same temperature as where you've been — suspicious. Right: warmer, rising, carrying moisture and the smell of something alive.",
+            "key_tactile_moments": [
+                "Holding your hand in front of each tunnel opening and feeling three different temperatures — your palm becomes a thermometer, mapping the cave's architecture through heat",
+                "The right tunnel's warm updraft on your face — warm air rises, which means this passage descends toward something large and open"
+            ]
+        }
+    },
+    "sound": {
+        "rt60_seconds": 2.1,
+        "ambient_dba": 15,
+        "layers": [
+            {"source": "left tunnel echo", "frequency_hz": "200-4000", "note": "your voice returns in 0.3 seconds — the passage is short. Close walls. Dead end."},
+            {"source": "middle tunnel echo", "frequency_hz": "200-4000", "note": "your voice returns at the same distance it left — the tunnel curves back on itself. A loop."},
+            {"source": "right tunnel echo", "frequency_hz": "200-4000", "note": "your voice goes out and doesn't return for a full second. The space ahead is vast."}
+        ]
+    },
+    "light": {
+        "lux": 0,
+        "note": "Your lamp illuminates the first few feet of each tunnel. Beyond that, the dark decides what you see."
+    },
+    "cross_sensory_bridges": [
+        "Each tunnel tells you its shape through sound, its destination through temperature, and its history through smell. Three senses, three tunnels, three stories — and they all agree about which path leads forward.",
+        "The warm air from the right tunnel carries organic compounds your nose registers as 'alive' — the same way you can smell a forest before you see it. Something is growing down there, which means water, which means an opening to the surface."
+    ],
+    "impossible_detail": "Your hand held in front of the right tunnel registers 15°C — two degrees warmer than the cave's baseline of 13°C. That warmth is geothermal or surface air mixing in from below. Either way, it means the tunnel connects to something. Dead passages equalize to cave temperature. Living passages don't.",
+    "mood": [
+        "decisive",
+        "attentive",
+        "underground"
+    ],
+    "prose": "The cave has been single-minded until now — one path, one direction, deeper. But here it opens into a choice.\n\nThree tunnels branch from a low-ceilinged chamber. Your lamp swings between them, catching the differences. The left tunnel is narrow and dark, its walls close enough to touch with both hands. Cold air sits in its mouth like something trapped. The middle tunnel is wider, curving away to the right, and something about it feels familiar — the temperature, the smell, the way the echo returns. The right tunnel breathes. You can feel it on your face — a current of warmer air rising from below, carrying moisture and the faintest scent of earth and growing things.\n\nYou don't need to see where they go. You can feel it.\n\nThe left tunnel's echo comes back fast and clipped — your voice hitting a wall and returning. Short passage. Dead end. The middle tunnel's echo is strange — it returns from the same apparent distance, as if the passage curves back toward where you started. But the right tunnel swallows your voice and holds it for a full second before returning it, softened and expanded. Something large is ahead. Something open.\n\nThree tunnels. Three breaths. Three temperatures against your skin. The cave has been patient with you. Now it wants to know if you've been paying attention.",
+    "positions": [
+        {
+            "name": "the junction",
+            "prose": "You stand where three breaths meet. Your lamp makes a small island of light in a room that smells of wet stone and deep time. Each tunnel is a question. The air from the right one is warm on your face. The air from the left is cold on your hand. The middle one smells like where you've already been.",
+            "smell_emphasis": ["wet-limestone", "mineral-water"],
+            "cross_sensory": "Sound, temperature, and smell are all pointing the same direction — toward the right tunnel. The cave isn't hiding the answer. It's asking if you know how to read it.",
+            "touch_notes": "Three distinct air currents on your skin. Your body is the instrument. Left: 11°C, still. Middle: 13°C, slight movement. Right: 15°C, definite updraft."
+        }
+    ]
+}

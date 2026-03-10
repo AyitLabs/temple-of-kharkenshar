@@ -1,0 +1,482 @@
+[
+  {
+    "id": "clear",
+    "name": "Clear Air",
+    "category": "clear",
+    "visibility_m": 50000,
+    "light_modifications": {
+      "scattering": "rayleigh_only",
+      "color_shift": "none",
+      "contrast_reduction": 0.0,
+      "detail_loss_with_distance": "minimal",
+      "halo_around_lights": false,
+      "shadow_softening": 0.0
+    },
+    "color_effect": {
+      "warm_light_response": "colors render true; warm light stays warm",
+      "cool_light_response": "cool tones sharp and undistorted",
+      "daylight_response": "full color, deep shadows, maximum contrast"
+    },
+    "time_of_day_interactions": {
+      "dawn": "crisp horizon line, pink and orange bands cleanly separated",
+      "midday": "intense clarity, hard shadows with knife edges",
+      "golden_hour": "pure warm light, long clean shadows",
+      "night": "stars sharp as needles, darkness total between light sources"
+    },
+    "experiential": {
+      "feel": "sharp, defined, nothing hidden",
+      "prose_fragments": [
+        "the air so clear it feels like looking through nothing at all",
+        "every edge a razor cut against the sky",
+        "distance rendered in perfect detail, the far mountains as sharp as your own hand"
+      ]
+    },
+    "physics_notes": "Rayleigh scattering only. No particulate attenuation."
+  },
+  {
+    "id": "light_haze",
+    "name": "Light Haze",
+    "category": "haze",
+    "visibility_m": 5000,
+    "light_modifications": {
+      "scattering": "mild_forward",
+      "color_shift": "slight_desaturate",
+      "contrast_reduction": 0.2,
+      "detail_loss_with_distance": "gradual",
+      "halo_around_lights": false,
+      "shadow_softening": 0.2
+    },
+    "color_effect": {
+      "warm_light_response": "warmth slightly diffused, edges softened",
+      "cool_light_response": "cool tones slightly milky at distance",
+      "daylight_response": "sky pales near horizon; distant colors lose saturation"
+    },
+    "time_of_day_interactions": {
+      "dawn": "gentle wash of color, horizon softened",
+      "midday": "sky whitens near horizon, shadows slightly soft",
+      "golden_hour": "warm light scattered wider, glow effect enhanced",
+      "night": "distant lights slightly fuzzy, sky glow from cities more visible"
+    },
+    "experiential": {
+      "feel": "softened, slightly dreamy, summer afternoon",
+      "prose_fragments": [
+        "the far hills fading to watercolor suggestions",
+        "air with just enough body to soften the world's edges",
+        "a gentle veil over distance, like memory softening a photograph"
+      ]
+    },
+    "physics_notes": "Fine aerosol or humidity. Mie scattering begins but Rayleigh still dominant."
+  },
+  {
+    "id": "light_fog",
+    "name": "Light Fog",
+    "category": "fog",
+    "visibility_m": 500,
+    "light_modifications": {
+      "scattering": "strong_forward",
+      "color_shift": "neutral_desaturate",
+      "contrast_reduction": 0.5,
+      "detail_loss_with_distance": "gradual",
+      "halo_around_lights": true,
+      "shadow_softening": 0.8
+    },
+    "color_effect": {
+      "warm_light_response": "glow diffuses into halo; warm tones bleed outward",
+      "cool_light_response": "cold light turns milky; sources become indistinct",
+      "daylight_response": "sky goes flat white; colors muted; distances compress"
+    },
+    "time_of_day_interactions": {
+      "dawn": "fog catches first pink light; world is cotton and rose",
+      "midday": "bright white haze; shadowless; flat",
+      "golden_hour": "fog turns gold; light sources become molten orbs",
+      "night": "each streetlight wears a crown of diffused light; darkness absolute between"
+    },
+    "experiential": {
+      "feel": "muffled, intimate, enclosed",
+      "prose_fragments": [
+        "the world ending softly twenty meters out",
+        "sound and sight equally dampened",
+        "buildings emerging from white like developing photographs"
+      ]
+    },
+    "physics_notes": "Mie scattering from water droplets (1-10μm). Wavelength-independent → white/grey."
+  },
+  {
+    "id": "heavy_fog",
+    "name": "Heavy Fog",
+    "category": "fog",
+    "visibility_m": 50,
+    "light_modifications": {
+      "scattering": "extreme_forward",
+      "color_shift": "strong_desaturate",
+      "contrast_reduction": 0.9,
+      "detail_loss_with_distance": "immediate",
+      "halo_around_lights": true,
+      "shadow_softening": 1.0
+    },
+    "color_effect": {
+      "warm_light_response": "light becomes a formless orange glow, source invisible",
+      "cool_light_response": "white-on-white; sources vanish into general luminance",
+      "daylight_response": "no sky visible; light comes from everywhere and nowhere"
+    },
+    "time_of_day_interactions": {
+      "dawn": "pure white void with occasional pink warmth",
+      "midday": "shadowless white — impossible to tell direction of sun",
+      "golden_hour": "amber suffusion, the fog itself glowing",
+      "night": "visibility collapses to arm's length; lights are floating halos"
+    },
+    "experiential": {
+      "feel": "disorienting, claustrophobic, dream-state",
+      "prose_fragments": [
+        "the world reduced to what you can touch",
+        "shapes appearing and vanishing like thoughts",
+        "walking through a cloud brought down to earth"
+      ]
+    },
+    "physics_notes": "Dense water droplets. Multiple scattering dominates."
+  },
+  {
+    "id": "rain",
+    "name": "Rain",
+    "category": "rain",
+    "visibility_m": 2000,
+    "light_modifications": {
+      "scattering": "moderate_forward",
+      "color_shift": "slight_cool",
+      "contrast_reduction": 0.3,
+      "detail_loss_with_distance": "moderate",
+      "halo_around_lights": true,
+      "shadow_softening": 0.6
+    },
+    "color_effect": {
+      "warm_light_response": "warm light fragmenting in droplets, reflections doubled on wet surfaces",
+      "cool_light_response": "cool tones intensified; everything shinier, more saturated when wet",
+      "daylight_response": "overcast canopy; diffuse light; colors actually deepen on wet surfaces"
+    },
+    "time_of_day_interactions": {
+      "dawn": "grey-pink sky, everything gleaming and dripping",
+      "midday": "dark canopy pressing down, puddles reflecting grey sky",
+      "golden_hour": "rare — when sun breaks through rain: rainbows, wet gold, magical",
+      "night": "every surface becomes a mirror; lights doubled, tripled in wet streaks"
+    },
+    "experiential": {
+      "feel": "melancholy, cleansing, alive",
+      "prose_fragments": [
+        "rain drawing silver lines through the air",
+        "every surface slicked and doubled — the world and its wet reflection",
+        "light fractured in a thousand running droplets"
+      ]
+    },
+    "physics_notes": "Large droplets (0.5-5mm). Refraction creates rainbows. Wet surfaces increase specularity."
+  },
+  {
+    "id": "snow",
+    "name": "Falling Snow",
+    "category": "snow",
+    "visibility_m": 1000,
+    "light_modifications": {
+      "scattering": "moderate_isotropic",
+      "color_shift": "neutral_brighten",
+      "contrast_reduction": 0.4,
+      "detail_loss_with_distance": "gradual",
+      "halo_around_lights": true,
+      "shadow_softening": 0.5
+    },
+    "color_effect": {
+      "warm_light_response": "snowflakes catch warm light and glow like descending embers",
+      "cool_light_response": "snow turns blue-white, crystalline, cold beauty",
+      "daylight_response": "ground brightness increases dramatically; sky and ground merge"
+    },
+    "time_of_day_interactions": {
+      "dawn": "pink snow, blue shadows, crystalline silence",
+      "midday": "blinding white ground, grey-white sky — horizon disappears",
+      "golden_hour": "golden snowflakes, amber-painted drifts, blue shadows",
+      "night": "snow glows faintly, reflecting any light; flakes visible in every light cone"
+    },
+    "experiential": {
+      "feel": "hushed, muffled, otherworldly, clean",
+      "prose_fragments": [
+        "the world going quiet under a blanket of white",
+        "each flake a tiny mirror catching whatever light there is",
+        "sky and ground conspiring to erase the horizon"
+      ]
+    },
+    "physics_notes": "Ice crystals, highly reflective. Ground albedo jumps to 0.8-0.9."
+  },
+  {
+    "id": "dust",
+    "name": "Dust / Sand Haze",
+    "category": "dust",
+    "visibility_m": 1000,
+    "light_modifications": {
+      "scattering": "strong_forward",
+      "color_shift": "warm_yellow",
+      "contrast_reduction": 0.5,
+      "detail_loss_with_distance": "rapid",
+      "halo_around_lights": true,
+      "shadow_softening": 0.6
+    },
+    "color_effect": {
+      "warm_light_response": "warmth intensified, everything turning sepia",
+      "cool_light_response": "cool tones neutralized, dragged toward yellow-brown",
+      "daylight_response": "sun turns into a pale disc; sky goes yellow-grey; apocalyptic"
+    },
+    "time_of_day_interactions": {
+      "dawn": "blood-red sun through ochre haze",
+      "midday": "pale disc overhead, yellow-grey sky, visibility collapsing",
+      "golden_hour": "indistinguishable from the dust color — everything sepia",
+      "night": "dust catches distant lights, sky glows brown over cities"
+    },
+    "experiential": {
+      "feel": "suffocating, ancient, end-of-world",
+      "prose_fragments": [
+        "the air itself turned to sand",
+        "everything filtered through amber, like a photograph from another century",
+        "grit between your teeth, the horizon erased"
+      ]
+    },
+    "physics_notes": "Large mineral particles. Absorb blue, pass red/yellow. Strong extinction."
+  },
+  {
+    "id": "smoke",
+    "name": "Smoke Haze",
+    "category": "smoke",
+    "visibility_m": 2000,
+    "light_modifications": {
+      "scattering": "strong_forward",
+      "color_shift": "warm_orange_red",
+      "contrast_reduction": 0.4,
+      "detail_loss_with_distance": "rapid",
+      "halo_around_lights": true,
+      "shadow_softening": 0.5
+    },
+    "color_effect": {
+      "warm_light_response": "warmth amplified to eerie orange",
+      "cool_light_response": "cool tones killed; everything shifts orange-brown",
+      "daylight_response": "sun turns red-orange; sky goes pale brown; shadows softened"
+    },
+    "time_of_day_interactions": {
+      "dawn": "blood-red sun, sky like bruised flesh",
+      "midday": "dim orange noon, shadows weak and diffuse",
+      "golden_hour": "indistinguishable — the smoke makes every hour look like end times",
+      "night": "sky glows dull orange from reflected city light; stars invisible"
+    },
+    "experiential": {
+      "feel": "ominous, acrid, apocalyptic",
+      "prose_fragments": [
+        "the sun a dull red coin you can stare at directly",
+        "everything tinted sepia-orange, like the world is ending in slow motion",
+        "the smell reaches you before the haze does"
+      ]
+    },
+    "physics_notes": "Carbon particles + organic aerosols. Strong blue absorption. Wildfire smoke can reduce visibility to <1km."
+  },
+  {
+    "id": "humidity",
+    "name": "High Humidity",
+    "category": "haze",
+    "visibility_m": 8000,
+    "light_modifications": {
+      "scattering": "mild_forward",
+      "color_shift": "slight_warm",
+      "contrast_reduction": 0.15,
+      "detail_loss_with_distance": "gradual",
+      "halo_around_lights": false,
+      "shadow_softening": 0.1
+    },
+    "color_effect": {
+      "warm_light_response": "warmth enhanced; air feels thick with golden light",
+      "cool_light_response": "slight milkiness at distance",
+      "daylight_response": "air shimmers over hot surfaces; distant objects waver"
+    },
+    "time_of_day_interactions": {
+      "dawn": "mist clinging to low ground, burning off slowly",
+      "midday": "heat shimmer over pavement, air thick and visible",
+      "golden_hour": "humid air turns golden light into something you can almost drink",
+      "night": "halos around every light, dampness visible in headlight beams"
+    },
+    "experiential": {
+      "feel": "heavy, tropical, languorous",
+      "prose_fragments": [
+        "the air has weight — you can feel it on your skin and see it in the light",
+        "everything slightly soft, slightly hazy, like the world is sweating",
+        "light travels through the wet air like honey through water"
+      ]
+    },
+    "physics_notes": "Water vapor absorbs some IR, scatters visible light mildly. Above 80% RH, visible haze."
+  },
+  {
+    "id": "dawn",
+    "name": "Dawn Atmosphere",
+    "category": "clear",
+    "visibility_m": 30000,
+    "light_modifications": {
+      "scattering": "rayleigh_enhanced",
+      "color_shift": "warm_pink_gold",
+      "contrast_reduction": 0.1,
+      "detail_loss_with_distance": "slight",
+      "halo_around_lights": false,
+      "shadow_softening": 0.3
+    },
+    "color_effect": {
+      "warm_light_response": "amplified — everything bathes in rose-gold",
+      "cool_light_response": "western sky stays blue while east goes pink; temperature contrast",
+      "daylight_response": "rapidly brightening; shadows retreating; colors awakening"
+    },
+    "time_of_day_interactions": {},
+    "experiential": {
+      "feel": "fresh, clean, a new beginning",
+      "prose_fragments": [
+        "the world rinsed clean and lit from below",
+        "colors returning to things one by one as the light strengthens",
+        "dew catching the first light like scattered diamonds"
+      ]
+    },
+    "physics_notes": "Low sun angle. Cool air often holds morning mist. Rayleigh scattering at extreme path length."
+  },
+  {
+    "id": "noon",
+    "name": "Noon Atmosphere",
+    "category": "clear",
+    "visibility_m": 40000,
+    "light_modifications": {
+      "scattering": "rayleigh_only",
+      "color_shift": "none",
+      "contrast_reduction": 0.0,
+      "detail_loss_with_distance": "minimal",
+      "halo_around_lights": false,
+      "shadow_softening": 0.0
+    },
+    "color_effect": {
+      "warm_light_response": "true rendering under neutral overhead light",
+      "cool_light_response": "full blue-sky bounce fill from above",
+      "daylight_response": "maximum intensity, maximum color accuracy, harshest shadows"
+    },
+    "time_of_day_interactions": {},
+    "experiential": {
+      "feel": "exposed, bright, unforgiving",
+      "prose_fragments": [
+        "the sun hammering straight down, no place to hide",
+        "colors bleached by sheer intensity",
+        "shadows puddled directly beneath everything, tight and dark"
+      ]
+    },
+    "physics_notes": "Minimum atmospheric path length. True D55-D65 illumination."
+  },
+  {
+    "id": "dusk",
+    "name": "Dusk Atmosphere",
+    "category": "clear",
+    "visibility_m": 20000,
+    "light_modifications": {
+      "scattering": "rayleigh_enhanced",
+      "color_shift": "warm_then_cool",
+      "contrast_reduction": 0.15,
+      "detail_loss_with_distance": "moderate",
+      "halo_around_lights": false,
+      "shadow_softening": 0.4
+    },
+    "color_effect": {
+      "warm_light_response": "warm artificial lights emerging as sky cools — temperature contrast maximized",
+      "cool_light_response": "cool tones deepen, blue hour approaching",
+      "daylight_response": "fading fast; colors losing saturation; artificial lights gaining dominance"
+    },
+    "time_of_day_interactions": {},
+    "experiential": {
+      "feel": "transitional, wistful, the day letting go",
+      "prose_fragments": [
+        "the golden last gasp giving way to blue",
+        "warm lights winking on inside windows as the sky dims",
+        "that narrow window when the sky and the streetlights are the same brightness"
+      ]
+    },
+    "physics_notes": "Transition from solar to artificial illumination. Rapidly changing color temperature."
+  },
+  {
+    "id": "night_clear",
+    "name": "Clear Night",
+    "category": "clear",
+    "visibility_m": null,
+    "light_modifications": {
+      "scattering": "none",
+      "color_shift": "scotopic_blue",
+      "contrast_reduction": 0.0,
+      "detail_loss_with_distance": "extreme",
+      "halo_around_lights": false,
+      "shadow_softening": 0.0
+    },
+    "color_effect": {
+      "warm_light_response": "warm sources become beacons in the void — sharp, isolated, precious",
+      "cool_light_response": "cool light reads as natural in the dark; less jarring than by day",
+      "daylight_response": "N/A"
+    },
+    "time_of_day_interactions": {},
+    "experiential": {
+      "feel": "vast, exposed, intimate in pools of light",
+      "prose_fragments": [
+        "darkness is not empty — it's a presence, a weight",
+        "pools of artificial light become islands in an ocean of black",
+        "the eye adapts, and slowly the dark reveals its secrets"
+      ]
+    },
+    "physics_notes": "No solar illumination. Scotopic vision dominates. Color perception severely reduced."
+  },
+  {
+    "id": "afternoon",
+    "name": "Afternoon Atmosphere",
+    "category": "clear",
+    "visibility_m": 35000,
+    "light_modifications": {
+      "scattering": "rayleigh_moderate",
+      "color_shift": "slight_warm",
+      "contrast_reduction": 0.05,
+      "detail_loss_with_distance": "slight",
+      "halo_around_lights": false,
+      "shadow_softening": 0.1
+    },
+    "color_effect": {
+      "warm_light_response": "warmth beginning to build as sun angle lowers",
+      "cool_light_response": "shadows starting to cool and lengthen",
+      "daylight_response": "rich, warm, the best light for seeing true color"
+    },
+    "time_of_day_interactions": {},
+    "experiential": {
+      "feel": "full, warm, the peak of the day's story",
+      "prose_fragments": [
+        "sun slanting lower, shadows stretching, colors deepening",
+        "the light thickening toward gold as afternoon wears on",
+        "warm amber creeping into what was neutral white"
+      ]
+    },
+    "physics_notes": "Sun 20-40° elevation. Slightly longer atmospheric path than noon."
+  },
+  {
+    "id": "morning",
+    "name": "Morning Atmosphere",
+    "category": "clear",
+    "visibility_m": 30000,
+    "light_modifications": {
+      "scattering": "rayleigh_moderate",
+      "color_shift": "slight_cool",
+      "contrast_reduction": 0.05,
+      "detail_loss_with_distance": "slight",
+      "halo_around_lights": false,
+      "shadow_softening": 0.15
+    },
+    "color_effect": {
+      "warm_light_response": "warmth still carries the sunrise, fading toward neutral",
+      "cool_light_response": "fresh, clean cool light — shadows still blue-tinged",
+      "daylight_response": "brightness building, dew still catching light, fresh"
+    },
+    "time_of_day_interactions": {},
+    "experiential": {
+      "feel": "fresh, energetic, possibility",
+      "prose_fragments": [
+        "clean light still warming up, dew drying on every surface",
+        "shadows retreating as the sun climbs, the world expanding",
+        "the crispness of new light on wet surfaces"
+      ]
+    },
+    "physics_notes": "Sun 10-30° elevation. Often residual morning moisture in air."
+  }
+]

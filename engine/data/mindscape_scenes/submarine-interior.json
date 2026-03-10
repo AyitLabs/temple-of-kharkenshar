@@ -1,0 +1,78 @@
+{
+  "id": "submarine-interior",
+  "name": "Submarine Interior",
+  "description": "A Cold War-era diesel-electric submarine running deep — steel corridors lit in red, hydraulic groans, recycled air thick with machine oil and human confinement, and the ocean pressing against every surface.",
+  "smell": {
+    "scene_id": "submarine-interior",
+    "compounds": ["machine-oil", "diesel-residue", "ozone", "rubber", "sweat", "metal-oxide", "paint-solvent", "stale-coffee", "brine"]
+  },
+  "sight": {
+    "scene_id": "submarine-interior"
+  },
+  "sound": {
+    "scene_id": "submarine-interior"
+  },
+  "environment": {
+    "temperature_c": 29,
+    "humidity_pct": 72,
+    "wind_speed_kmh": 0,
+    "time_of_day": "unknown",
+    "weather": "submerged",
+    "indoor": true,
+    "touch": {
+      "surface_textures": ["cold sweating steel hull plates slick with condensation", "oil-slicked deck plates that grip and slide unpredictably", "rough canvas curtain separating crew quarters from the corridor", "warm vibrating pipe carrying hydraulic fluid", "thin foam mattress over steel bunk frame", "greasy valve wheels that resist turning"],
+      "air_feel": "Hot and humid at 29°C, 72% humidity — the air is thick and clings to your skin. The electric motors and thirty human bodies generate heat with no natural ventilation to remove it. Every surface sweats condensation from the temperature differential between warm interior air and cold ocean-cooled hull. The recycled air has a staleness you feel in your lungs — each breath slightly less satisfying than the last.",
+      "thermal_notes": "The steel hull is a direct thermal bridge to the ocean outside — at depth, seawater is roughly 4°C, and the hull's thermal conductivity (50 W/mK) means the inner surface is cold enough to condense moisture from the humid interior air. This condensation runs down walls and drips from overhead pipes, creating a constant rain of cold salt water inside a hot, humid space. The engine room is the hottest compartment — electric motor waste heat raises it to 35°C+. The torpedo room is coldest — minimal insulation, closest to the sea.",
+      "key_tactile_moments": [
+        "Your hand bracing against the hull and feeling the ocean's cold through the steel — 4°C seawater conducted through metal into your palm, a direct handshake with the deep",
+        "Condensation dripping from an overhead pipe onto the back of your neck — cold, startling, salty",
+        "The entire submarine vibrating at the electric motors' frequency — a bone-deep hum that colonizes your skeleton and becomes your new baseline",
+        "The two-inch foam mattress compressing to nothing under your hip, the steel frame beneath asserting itself within minutes"
+      ]
+    }
+  },
+  "cross_sensory_bridges": [
+    "The red light and the machine hum share the same low frequency — both constant, both just below the threshold of conscious attention until they're all you can think about.",
+    "Every surface is sweating: condensation on steel you can see, feel, and taste — salt and iron on your tongue before you realize you've licked your lips.",
+    "The pressure of the deep is not a sound or a feeling but both — the hull groans and your inner ear agrees."
+  ],
+  "mood": ["claustrophobic", "tense", "mechanical", "intimate", "submerged"],
+  "prose": "The submarine doesn't welcome you. It tolerates you.\n\nRed light is the only light — battle-stations red, preserving night vision for a periscope depth that might never come. It turns every steel surface into a dark mirror, every face into a mask of shadow and crimson. Pipes run along the ceiling inches above your head, sweating condensation that catches the red and looks like the vessel is bleeding. Gauges and dials glow behind glass, their needles trembling with information you can't read but your nervous system registers anyway: pressure, depth, the arithmetic of survival.\n\nThe sound is the boat itself breathing. A low, omnipresent hum from the electric motors — not heard so much as inhabited, a vibration that enters through the soles of your feet and colonizes your skeleton. Hydraulic systems groan at irregular intervals, valves adjusting to pressure changes that your ears pop to confirm. Somewhere aft, a pump cycles: thunk-hiss, thunk-hiss. Sonar pings arrive from the operator's station like a heartbeat belonging to something enormous and patient. Between the mechanical sounds, human sounds: a cough, a page turning, the ceramic click of a coffee mug on a steel surface.\n\nThe air is a biography of confinement. Machine oil — warm, petroleum-sweet — is the base note of everything, soaked into every gasket and cloth and pore on the boat. Diesel residue from the last surface run clings to the aft compartments like a ghost. Ozone from the electrical systems adds a sharp, clean bite that almost refreshes before the rubber scent of cable insulation pulls you back. And underneath it all, the smell of men in a closed system: sweat absorbed into cotton, stale coffee reheated past dignity, and the faintest brine leaking through seals that remind you there's an ocean trying to get in.\n\nThe hull ticks. The red light holds. The air recirculates. You are inside a machine that is inside the sea, and both are indifferent to your comfort.",
+  "positions": [
+    {
+      "name": "the conning tower",
+      "prose": "The periscope well rises above you like a cathedral's single narrow nave, and the red light barely reaches its top — just darkness up there, and the faint gleam of grease on the periscope shaft. The air here is slightly cooler, condensation dripping from the overhead hatch seal with a metronomic plip that marks time the clocks have forgotten. You smell steel and brine more intensely here, where the hull is thinnest and the ocean is closest — a mineral cold seeping through metal that your fingertips confirm when you brace against the wall. The sonar ping is clearest from this position, each return echo painting invisible geometries in your mind.",
+      "smell_emphasis": ["brine", "metal-oxide", "machine-oil"],
+      "cross_sensory": "The dripping water, the sonar ping, and the cold steel under your hand are all messages from the same ocean — patient, surrounding, eternal.",
+      "touch_notes": "The hull here is cold — place your palm flat and the steel pulls heat from your hand so fast you can feel the boundary between your warm blood and the ocean's 4°C on the other side. Condensation drips from the overhead hatch seal with metronomic regularity onto your shoulder. The periscope shaft is greased and cold, and the conning tower's confined space presses the walls close enough to brush both shoulders simultaneously."
+    },
+    {
+      "name": "the engine room",
+      "prose": "The diesel engines are silent — you're running on battery — but their ghost is everywhere. The air is so thick with petroleum residue it has texture; you breathe and taste valve oil on the back of your throat. The electric motors fill the space with a hum that isn't a sound but a condition, a vibration that turns your teeth into tuning forks and makes your chest cavity resonate at frequencies you didn't know you contained. Red light reflects off oil-slicked deck plates, creating dark rainbows that shift under your feet. Every surface is warm here, almost alive — the motors' waste heat turning this compartment into the submarine's feverish heart. A machinist's mate works by touch more than sight, his hands reading temperature and vibration off pipes the way a doctor reads a pulse.",
+      "smell_emphasis": ["diesel-residue", "machine-oil", "rubber", "ozone"],
+      "cross_sensory": "The heat, the hum, and the oil-thick air are indistinguishable — you don't experience them separately, you inhabit them as a single mechanical climate.",
+      "touch_notes": "Everything is warm and vibrating. The deck plates thrum under your feet with the motors' rotation. Pipes are hot to the touch — hydraulic lines and coolant runs that carry the engines' fever through the compartment. Oil coats every surface in a thin film that transfers to your hands and clothing. The air is thick enough to feel on your skin, heavy and hot, the submarine's mechanical fever expressed as humidity."
+    },
+    {
+      "name": "the crew quarters",
+      "prose": "Six bunks stacked in a space designed for four, separated from the corridor by a curtain that separates nothing. The red light is dimmer here, filtered through that curtain into something approaching darkness, and the sounds of the boat become personal — someone breathing in the bunk above, the creak of a rack as a body shifts, the papery whisper of a letter being read for the hundredth time. The smell is human and unapologetic: unwashed cotton, the sweet-sour of bodies that shower once a week, stale coffee breath, and the particular staleness of air that has passed through too many lungs. A hint of aftershave — someone's small act of civilization — cuts through like a memory of the surface world. The mattress is two inches of foam over steel and it remembers every body that's compressed it before yours.",
+      "smell_emphasis": ["sweat", "stale-coffee", "rubber"],
+      "cross_sensory": "The thinness of the mattress, the closeness of the breathing, and the concentrated human scent all say the same thing: there is no privacy here, only proximity.",
+      "touch_notes": "The mattress is two inches of foam that compresses to nothing — within five minutes your hip and shoulder find the steel bunk frame beneath. The canvas curtain brushes your face when you turn, rough and slightly damp. The man above you shifts and the bunk frame transmits every movement as a metallic creak through the steel into your own rack. The blanket is thin wool, never quite warm enough, never quite dry."
+    },
+    {
+      "name": "the sonar room",
+      "prose": "The quietest loud room you'll ever enter. The sonar operator wears headphones and his face is a study in listening — eyes unfocused, head tilted, reading the ocean with his ears. The waterfall display casts a green glow that fights the red overhead and loses, creating a bruised purple light on the operator's cheeks. You hear the ping through the hull itself, feel it leave and feel the echo return — a conversation between steel and water that your bones eavesdrop on. The air is cleaner here, cooler, fed by a dedicated ventilation line that smells of ozone and the particular nothing of filtered air. But lean close to the equipment and there it is: hot electronics, solder flux, the vanilla-adjacent scent of baking circuit boards. The ocean sounds like breathing when you listen through steel — vast, rhythmic, and completely unaware of you.",
+      "smell_emphasis": ["ozone", "metal-oxide", "paint-solvent"],
+      "cross_sensory": "The green light and the sonar ping are the same information in two senses — the ocean rendered visible and audible simultaneously, equally alien in both.",
+      "touch_notes": "The air is cooler and cleaner here — the dedicated ventilation line creates a microclimate that feels almost fresh. The sonar ping is felt in the hull itself — press your palm flat against the wall and you feel each ping leave and each echo return as a faint vibration through the steel. The equipment hums with warm electronics. The operator's headphone cable is cool rubber trailing across your arm if you lean too close."
+    },
+    {
+      "name": "the torpedo room",
+      "prose": "The weapons sleep in their tubes like something between ordnance and architecture — green-painted steel cylinders that dominate the compartment and force your body into the narrow alleys between them. The red light gives them a black-cherry sheen. You hear the ocean here more than anywhere else: the bow cuts through water on the other side of those tube doors, and the sound is a low, continuous shush — like blood in your own ears amplified to room-scale. The air is colder, the hull uninsulated, and your exhaled breath almost condenses. Machine oil and paint solvent are the dominant smells, the torpedoes maintained with religious devotion, every surface wiped and greased. Touch any surface and your hand comes away with a film that smells like responsibility. The deck plates vibrate with the boat's forward motion, a reminder that this room is the pointed end of something with intention.",
+      "smell_emphasis": ["machine-oil", "paint-solvent", "brine", "metal-oxide"],
+      "cross_sensory": "The cold, the ocean-sound through the hull, and the oil on every surface all converge into one sensation: you are at the edge of the machine, inches from the sea, and only maintenance stands between the two.",
+      "touch_notes": "This is the coldest compartment — the hull is barely insulated and the ocean presses its temperature through the steel into the air. Your breath almost condenses. The torpedoes are cold painted steel, and the narrow alleys between them force physical contact with the weapons as you squeeze past. Every surface has an oil film maintained with religious care — touch anything and your hand comes away slick. The deck vibrates with forward motion, the bow cutting water on the other side of the tube doors."
+    }
+  ]
+}

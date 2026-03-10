@@ -1,0 +1,78 @@
+{
+  "id": "victorian-library",
+  "name": "Victorian Library",
+  "description": "A private Victorian library — floor-to-ceiling mahogany shelves, a crackling fireplace, green banker's lamps, leather-bound volumes, and the particular silence of a room designed to hold thought.",
+  "smell": {
+    "scene_id": "victorian-library",
+    "compounds": ["vanillin", "lignin", "benzaldehyde", "leather", "beeswax", "cedar", "wood-smoke", "tobacco", "tannin", "dust"]
+  },
+  "sight": {
+    "scene_id": "victorian-library"
+  },
+  "sound": {
+    "scene_id": "victorian-library"
+  },
+  "environment": {
+    "temperature_c": 20,
+    "humidity_pct": 40,
+    "wind_speed_kmh": 0,
+    "time_of_day": "evening",
+    "weather": "rain",
+    "indoor": true,
+    "touch": {
+      "surface_textures": ["cracked leather armchair warm from the fire", "polished mahogany smooth as glass under fingertips", "thick Persian carpet swallowing footfalls", "brass lamp fixture cool and tarnished-smooth", "vellum page edges slightly rough and dry", "velvet window-seat cushion compressed by decades"],
+      "air_feel": "Warm and still, with the fire creating a gentle radiant heat gradient — your fire-facing side is toast-warm while your back stays cool. The low humidity (40%) dries your lips and makes paper feel crisp. No drafts — the heavy curtains and walls of books create dead-air insulation.",
+      "thermal_notes": "The fire radiates at roughly 300°C surface temperature, warming skin through infrared at close range. Mahogany and leather are poor thermal conductors, so they feel warm even at room temperature — unlike the brass fixtures, which conduct heat away from your fingers and feel cool despite being the same 20°C. The leather armchair warms to body temperature within minutes of sitting, creating a microclimate.",
+      "key_tactile_moments": [
+        "The leather armchair exhaling trapped air as you settle into it — warm, yielding, molding to your weight",
+        "A book spine cracking open and the pages falling apart slightly under your thumb, dry and soft as old cloth",
+        "The brass rolling-ladder rail under your palm — cool, smooth, with the faintest patina of oxidation you can feel as texture",
+        "Rain-cold glass against your temple at the window seat, the vibration of each drop transmitted through the pane"
+      ]
+    }
+  },
+  "cross_sensory_bridges": [
+    "The firelight and the old-book vanillin share the same warmth — one physical, one chemical — and they meet on the leather of the nearest armchair.",
+    "Silence here isn't the absence of sound but its own texture — thick, padded by the thousands of pages that absorb echo and by the carpet that swallows footsteps.",
+    "Rain on the windows and the fire's crackle are in conversation: water and flame, outside and inside, cold and warm, and the library exists in the exact space between them."
+  ],
+  "mood": ["contemplative", "sheltered", "ancient", "reverent", "autumnal"],
+  "prose": "This room was built to think in, and it has been thinking for a hundred and fifty years.\n\nThe light tells you that first. Two green banker's lamps cast their circles on reading desks — emerald glass turning the light into something you could almost drink — while the fireplace throws moving amber across the spines of ten thousand books. The mahogany shelves reach the ceiling, connected by a brass-railed gallery with a rolling ladder, and the wood has darkened with age into a color that doesn't have a name: somewhere between dried blood and coffee and the inside of a cello. Rain streams down the tall windows and the firelight catches each drop, turning the glass into a slow, liquid chandelier.\n\nThe silence is structural. The room was engineered for it — thick Persian carpet, heavy curtains, walls insulated by six feet of books in every direction. What sounds exist are deliberate: the fire's pop and settle, the creak of a leather chair adjusting to weight, the papery whisper of a page turned. Rain on the windows is the room's only connection to the outside world, and even that has been softened by the glass into a murmur.\n\nAnd the smell — the smell is what a century of accumulated knowledge smells like. Vanillin and lignin off-gassing from aging paper, the almond hint of benzaldehyde from the oldest volumes, leather bindings exhaling tannins and hide. Beeswax from the floor polish. Cedar from the humidor left open on the desk. The wood-smoke from the fire weaves through all of it, a warm thread stitching every other scent together. And underneath, always, the dust — not neglect but patina, the mineral residue of time itself.\n\nThe fire pops. The rain murmurs. You open a book and the spine cracks and releases a small ghost of vanilla and dust. The room accepts you into its century-long thought.",
+  "positions": [
+    {
+      "name": "the threshold",
+      "prose": "The door is heavy oak and it opens on oiled hinges with a sound like a held breath releasing. The library's air meets you in a wall — warmer, drier, denser than the hallway behind you. Vanillin and old leather and beeswax polish, a smell so layered it has architecture. The green light from the banker's lamps draws your eye before the fire does, two emerald pools in the mahogany dark, and the rain on the windows provides a constant, gentle static that makes the room's interior silence feel chosen rather than empty. The carpet swallows your first step completely. You are already quieter than you were.",
+      "smell_emphasis": ["vanillin", "leather", "beeswax"],
+      "cross_sensory": "The heavy door is the airlock — smell, sound, and light all change in the single second it takes to cross the threshold.",
+      "touch_notes": "The oak door is heavy and resists — the brass knob is cold from the hallway, smooth with generations of hands. The moment you cross the threshold, the air temperature rises and the carpet absorbs your footfall completely. The warmth wraps you like a blanket you didn't ask for."
+    },
+    {
+      "name": "the reading desk",
+      "prose": "Under the banker's lamp the world contracts to a circle of green-gold light on dark wood. The desk's leather inlay has softened with decades of forearms and the tannin smell rises gently from body heat — your body heat now, joining the procession. An open book exhales its particular vintage: this one is 1890s, heavy lignin content, the vanillin sweet and slightly acidic, with the faint almond whisper of benzaldehyde that means the paper is slowly, imperceptibly, beautifully dying. The lamp hums at a frequency just below hearing. Rain traces lines down the window to your left, each drop lit from behind by the distant city, and the sound of water and the smell of old paper seem to be the same kind of patience.",
+      "smell_emphasis": ["vanillin", "lignin", "benzaldehyde", "tannin"],
+      "cross_sensory": "The green light, the aging paper's chemistry, and the rain's rhythm all move at the same speed — geological, patient, certain.",
+      "touch_notes": "The desk's leather inlay is butter-soft and body-warm where your forearms rest. The pages are dry and slightly rough — high-lignin Victorian paper that catches on your fingertips. The lamp's brass chain is cool and fine, swinging with satisfying weight when you pull it."
+    },
+    {
+      "name": "the fireside armchair",
+      "prose": "The leather chair receives you with a slow exhale of trapped air — hide and dust and the ghost of pipe tobacco from whoever sat here last, or fifty years ago. The fire is close enough to feel on your left cheek and the heat carries wood-smoke directly to your face: birch, mostly, sweet and clean, with the occasional resinous snap of a knot. Light from the flames moves across the nearest bookshelf in amber waves, making the gold-stamped titles appear and disappear like signals. A log shifts and settles and the sound is the most satisfying thing you've heard all week. The warmth, the leather's give, the smoke-and-vanilla air — your breathing slows without permission.",
+      "smell_emphasis": ["wood-smoke", "leather", "tobacco", "vanillin"],
+      "cross_sensory": "The fire's warmth on your skin and the leather's warmth around your body and the smoke's warmth in your lungs are three versions of the same embrace.",
+      "touch_notes": "The leather chair gives under you with a slow, pneumatic sigh — cracked but supple, warmed to body temperature. The fire's radiant heat prickles on your left cheek and the back of your hand. Occasionally a spark lands on the hearth rug and you feel the faintest vibration through the floor."
+    },
+    {
+      "name": "the upper gallery",
+      "prose": "The brass-railed gallery runs the room's perimeter at half-height, and up here you're inside the smell instead of under it. Dust is thicker — these are the volumes no one has touched in years, and they exhale undisturbed. The lignin-vanillin is stronger, concentrated by the warm air that has risen and pooled at this level. The cedar shelving asserts itself up here where the competition is less. You run a finger along the spines and raise a small cloud that catches the lamplight below — a galaxy of dust motes rotating in green and gold. The fire is distant now, its crackle softened, but its light still reaches you in long orange fingers between the balusters. From up here, the rain on the windows is at ear level, and it sounds personal, confidential, like a voice kept low.",
+      "smell_emphasis": ["lignin", "vanillin", "cedar", "dust"],
+      "cross_sensory": "Height concentrates everything that rises — warm air, old-paper chemistry, dust — while the sounds below soften into something felt rather than heard.",
+      "touch_notes": "The brass gallery rail is smooth and cold — the warm air rising to this level hasn't warmed the metal, which conducts heat away from your palm. Book spines under your trailing fingers alternate between smooth leather and rough cloth. The rolling ladder vibrates slightly on its rail, alive with potential motion. The air is noticeably warmer up here — stratification."
+    },
+    {
+      "name": "the window seat, late evening",
+      "prose": "The window seat is cut into the wall between two shelves, a coffin-sized alcove cushioned in ancient velvet that smells of dust and lavender sachets someone placed here in a previous century. The rain is inches from your head now, separated only by glass, and the sound is immersive — a complex percussion of different drop-sizes hitting at different angles. The glass is cold against your temple if you lean, and the contrast with the fire-warmed air in the room creates a micro-weather on your skin. From here you can see the entire library in one glance: the green lamps, the amber fire, the dark mahogany between, and the ten thousand spines holding their ten thousand silences. The smell has settled into something unified — book and fire and leather and rain-damp stone from the windowsill, all at the same temperature now, all belonging to this room. Your eyes are heavy. The book is open on your chest. The rain says: stay.",
+      "smell_emphasis": ["dust", "vanillin", "wood-smoke", "leather"],
+      "cross_sensory": "The rain's cold closeness and the fire's warm distance create a perfect tension, and you exist in the exact equilibrium between them.",
+      "touch_notes": "The velvet cushion is compressed and cool at first, warming slowly under you. The window glass is cold against your temple — you feel each raindrop as a faint tap transmitted through the pane, a micro-vibration that turns weather into touch. The book's weight on your chest is a gentle pressure that rises and falls with your breathing."
+    }
+  ]
+}

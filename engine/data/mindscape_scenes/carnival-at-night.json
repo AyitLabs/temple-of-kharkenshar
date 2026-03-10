@@ -1,0 +1,78 @@
+{
+  "id": "carnival-at-night",
+  "name": "Carnival at Night",
+  "description": "A traveling carnival after dark — spinning rides painting light-trails in the sky, sugar and machine oil, calliope music distorted by motion, and the sweet vertigo of a world designed to overwhelm.",
+  "smell": {
+    "scene_id": "carnival-at-night",
+    "compounds": ["sucrose-caramel", "diacetyl", "vanillin", "machine-oil", "ozone", "acetaldehyde", "grass", "diesel", "cinnamaldehyde", "maillard-compounds"]
+  },
+  "sight": {
+    "scene_id": "carnival-at-night"
+  },
+  "sound": {
+    "scene_id": "carnival-at-night"
+  },
+  "environment": {
+    "temperature_c": 18,
+    "humidity_pct": 60,
+    "wind_speed_kmh": 8,
+    "time_of_day": "night",
+    "weather": "clear",
+    "indoor": false,
+    "touch": {
+      "surface_textures": ["sticky asphalt and trampled grass underfoot", "rough wooden counter of a game booth", "warm paper cone of roasted nuts greasy at the base", "cold aluminum safety bar on a ride", "spun cotton candy dissolving on contact with lips and fingers", "smooth brass carousel pole slightly warm from hundreds of hands"],
+      "air_feel": "Cool autumn night air at 18°C, punctuated by warm pockets near food stalls and ride motors. The 8 km/h breeze carries alternating thermal zones — walk past the funnel cake window and the air is a wall of heat, step away and the night reclaims you. Humidity from the nearby field keeps the air from being crisp.",
+      "thermal_notes": "The ride seats retain warmth from previous riders — aluminum conducts it quickly, so you feel the ghost of the last person for about thirty seconds before the metal equilibrates to air temperature. Food booth heat is radiant from deep fryers at 190°C, felt on exposed skin from three feet. The ground shifts between cold wet grass and warmer trampled-dry patches near the midway.",
+      "key_tactile_moments": [
+        "Cotton candy collapsing on your tongue — dissolving from solid to syrup in a chemical reaction with saliva, impossibly fast",
+        "The Ferris wheel safety bar locking across your lap — cold aluminum, the mechanical click vibrating through the metal into your thighs",
+        "Your shoes sticking to the midway with each step — the adhesive residue of spilled soda and melted candy",
+        "The sudden G-force on a spinning ride pressing you sideways into the seat, your cheek against the vinyl headrest"
+      ]
+    }
+  },
+  "cross_sensory_bridges": [
+    "The spinning lights and the calliope music are both slightly too fast, slightly too bright, slightly too loud — the carnival calibrates every sense to the edge of too-much.",
+    "Sugar and machine oil are the carnival's two base notes, sweet and industrial, and they never fully separate — every cotton candy breath carries a trace of grease, every mechanical sound hides a sweet undercurrent.",
+    "The Ferris wheel moves slowly enough to be a metronome, and from the top every other sense — sound, smell, light — recedes into a single glittering abstraction."
+  ],
+  "mood": ["manic", "nostalgic", "vertiginous", "bittersweet", "electric"],
+  "prose": "The carnival is a machine for making your senses lie to you, and you pay for the privilege.\n\nThe light is the loudest thing here. Every ride is outlined in hundreds of bulbs chasing each other in patterns — the Ferris wheel's great circle turning through the dark like a slow clock, the Tilt-A-Whirl smearing red and yellow into continuous rings, the Scrambler's arms painting overlapping spirals. The bulbs are incandescent and their warmth competes with the LED strips on the game booths — warm and cool light colliding, clashing, neither winning. Everything strobes. The sky above the carnival is never fully dark; it pulses with reflected color like an aurora built for profit.\n\nThe sound is a collage that shouldn't work but does. The calliope on the carousel plays a waltz at three-quarter speed, pipe-organ notes warped and slightly sour from weather and neglect, and it's beautiful because it's broken. Generators hum underneath everything — the carnival's heartbeat, diesel-powered and constant. Barkers compete with each other and with the screams from the Zipper ride, which arrive in Doppler-shifted waves as the cars spin. A bell rings — someone won something. Bass from a speaker system thuds from the bumper cars. It's all too much and it's the exact right amount.\n\nThe smell is childhood distilled to chemistry. Spun sugar — pure sucrose heated past caramelization, pulled into threads that dissolve on contact with humidity. Butter and diacetyl from the popcorn machine, aggressively artificial, aggressively delicious. Funnel cake dough hitting hot oil, the Maillard reaction producing a golden-brown cloud that your stomach responds to before your brain. And underneath the food: machine oil from the ride joints, the ozone-snap of electric motors, diesel exhaust from the generators, and the bruised-grass smell of a field being trampled by ten thousand feet. Two worlds — sweet and industrial — sharing the same air and never fully mixing.\n\nThe ground is uneven. The lights never stop. You are eight years old again whether you want to be or not.",
+  "positions": [
+    {
+      "name": "the parking field",
+      "prose": "You see the Ferris wheel first — a circle of light rotating against the stars, impossibly large from this distance, impossibly slow. The sound reaches you as a single undifferentiated roar, all the rides and music and voices compressed by distance into one warm wall of noise. The smell is divided: behind you, car exhaust and cooling engines and asphalt; ahead, the first sweet wisps of spun sugar carried on the breeze, mixed with the bruised-green smell of the trampled field underfoot. Diesel generators throb at a frequency you feel in your shoes. The ground is already getting soft, the grass giving way to mud.",
+      "smell_emphasis": ["diesel", "grass", "sucrose-caramel"],
+      "cross_sensory": "From out here, the carnival is a single sensory object — one glow, one roar, one sweetness — not yet broken into its overwhelming components.",
+      "touch_notes": "The ground softens underfoot as you leave the gravel lot — grass turning to mud where thousands of feet have compressed and churned it. The bass from the generators vibrates up through your soles. The air cools as you cross the open field, with the carnival's warmth pulling you forward like a thermal beacon."
+    },
+    {
+      "name": "the midway",
+      "prose": "The game booths are a corridor of competitive light and sound, each one shouting over its neighbors. Stuffed animals hang in dense rows overhead like a plush ceiling, blocking the sky. The barker's voice is hoarse and rhythmic — three balls, one dollar, step right up — and the words have worn smooth from repetition into pure cadence. The popcorn machine at the corner booth fills this entire stretch with diacetyl and butter and salt, and the yellow light from its heating element makes the popping kernels look like tiny explosions. Your shoes stick slightly to the ground — spilled soda and trampled candy and the general adhesive residue of ten thousand small pleasures. A child runs past trailing cotton candy that unravels behind her like a pink comet.",
+      "smell_emphasis": ["diacetyl", "sucrose-caramel", "grass"],
+      "cross_sensory": "The midway is the carnival concentrated — every sense pushed louder, brighter, sweeter, closer than comfortable.",
+      "touch_notes": "Your shoes stick and peel with each step — the ground is a collage of spilled soda, crushed popcorn, and trampled candy. Shoulders bump against strangers in the crowd. The game booth counter is rough plywood, slightly damp from spilled drinks, and the baseballs they hand you are scuffed smooth and surprisingly cold."
+    },
+    {
+      "name": "the carousel",
+      "prose": "The calliope is a wound. Those pipe-organ notes, slightly flat, playing a waltz that was cheerful a century ago and is now something closer to a lullaby sung by a ghost — the melody circles like the ride itself, never resolving, never stopping. The painted horses rise and fall in the amber light, their glass eyes catching reflections, their gold leaf chipped to show the wood beneath. The whole machine exhales its particular smell: machine oil and old paint and the warm electrical hum of the motor, threaded with the vanilla sweetness of the cotton candy stand ten feet away. Children grip the brass poles and their laughter comes in rotation — louder as they swing toward you, softer as they spin away — a Doppler effect made innocent.",
+      "smell_emphasis": ["machine-oil", "vanillin", "ozone"],
+      "cross_sensory": "The calliope's circular melody and the horses' circular motion and the machine oil's circular warmth are all the same thing — the carnival turning and turning.",
+      "touch_notes": "The brass pole is smooth and body-warm from a hundred small hands before yours. The painted horse is hard fiberglass under chipped paint — you can feel the ridges of old brush strokes. The platform vibrates with the motor's rotation, a gentle mechanical heartbeat transmitted through the soles of your feet."
+    },
+    {
+      "name": "the funnel cake window",
+      "prose": "Batter hits oil and the sound is a sustained sizzle, continuous and urgent, like the carnival's own form of static. The oil is 375 degrees and you can feel the heat from three feet away, a warm zone that smells of Maillard compounds and caramelizing sugar and the nutty depth of frying dough. The vendor squeezes batter through a funnel in practiced spirals and the dough puffs and browns and releases a cloud of scent so dense it's practically visible in the yellow light of the booth. Powdered sugar snows onto the finished cake and a few grains escape into the air and you can taste the sweetness without eating. The paper plate is translucent with grease before it reaches your hands. Behind you, the Scrambler whips past and the riders' screams arrive in compressed bursts between the funnel cake's steady sizzle.",
+      "smell_emphasis": ["maillard-compounds", "sucrose-caramel", "diacetyl"],
+      "cross_sensory": "The heat from the oil, the sizzle, and the Maillard-sweet cloud are a single sensory event — cooking experienced from every angle at once.",
+      "touch_notes": "The paper plate is warm and translucent with grease, bowing under the funnel cake's weight. Powdered sugar dusts your fingers and lips — dry, impossibly fine, slightly gritty. The first bite crunches through a crisp shell into soft, stretchy dough. The oil heat radiates against your face like standing near a campfire."
+    },
+    {
+      "name": "the top of the Ferris wheel",
+      "prose": "The car sways to a stop at the apex and suddenly everything below becomes abstract. The carnival flattens into a map of colored light — the midway a golden spine, the rides orbiting around it in their various geometries, the whole thing pulsing and turning like a living circuit board laid on black velvet. The sound thins up here: the roar decompresses into individual threads — calliope, generator, a scream, a bell — then the wind takes them. The air is cleaner at this height; the sugar-and-diesel smell has been replaced by the plain cool night and just the faintest ghost of ozone from the ride's motor below your feet. The car rocks. The stars are visible now, above the light pollution, and they don't compete with the carnival — they frame it. For thirty seconds you can see the whole beautiful machine at once, and it looks both enormous and small, and you remember that this is temporary, that the trucks will come tomorrow, and the field will be just a field again.",
+      "smell_emphasis": ["ozone", "grass"],
+      "cross_sensory": "Height abstracts every sense — light becomes pattern, sound becomes texture, smell becomes memory — and the carnival reveals itself as something you're already nostalgic for.",
+      "touch_notes": "The gondola sways gently at the apex — a slow pendulum that shifts your weight against the safety bar. The metal seat is cold through your jeans. The wind is stronger up here, cool on your face and hands, carrying away the warmth the crowd provided below. Your knuckles are white on the bar and you don't remember gripping it."
+    }
+  ]
+}

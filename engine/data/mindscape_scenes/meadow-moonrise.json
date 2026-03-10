@@ -1,0 +1,115 @@
+{
+    "id": "meadow-moonrise",
+    "name": "The Meadow \u2014 Moonrise",
+    "description": "A meadow at dusk becoming night. The last gold drains from the western sky as the moon rises in the east \u2014 full, silver-blue, bright enough to cast shadows. A stream runs through the grass. Night-blooming flowers are opening. The frogs have begun. Nothing is asked of you here.",
+    "smell": {
+        "scene_id": "meadow-moonrise",
+        "compounds": [
+            "jasmine",
+            "moonflower",
+            "dew-on-grass",
+            "wet-earth",
+            "night-air-cool",
+            "clover",
+            "water-mineral"
+        ]
+    },
+    "sight": {
+        "scene_id": "meadow-moonrise"
+    },
+    "sound": {
+        "rt60_seconds": 0,
+        "ambient_dba": 28,
+        "layers": [
+            {
+                "source": "stream",
+                "frequency_hz": "200-4000",
+                "note": "broadband water-over-stones. The frequency profile tells you the stream's depth (higher pitch = shallower) and speed (louder = faster). This one is shallow and gentle."
+            },
+            {
+                "source": "crickets",
+                "frequency_hz": "3000-5000",
+                "note": "Gryllus campestris, chirp rate ~4/second at 16\u00b0C. Cricket chirp rate correlates with temperature: count chirps in 14 seconds, add 40, get Fahrenheit. The meadow is singing its own thermometer."
+            },
+            {
+                "source": "fireflies",
+                "frequency_hz": "none",
+                "note": "fireflies are silent. Their light is chemiluminescence \u2014 luciferin + luciferase + ATP + oxygen = photon at 560nm. No heat, no sound. Just light appearing and disappearing in the dark."
+            }
+        ]
+    },
+    "environment": {
+        "temperature_c": 16,
+        "humidity_pct": 78,
+        "wind_speed_kmh": 2,
+        "time_of_day": "dusk",
+        "weather": "clear",
+        "indoor": false,
+        "touch": {
+            "surface_textures": [
+                "grass \u2014 cool, dry on top, damp at the roots where dew is forming",
+                "earth beneath \u2014 soft, gives slightly under weight, still holding the day's warmth at 5cm depth",
+                "stream water \u2014 12\u00b0C, clear, smooth stones on the bottom worn round",
+                "moonflower petals \u2014 tissue-thin, cool, slightly waxy"
+            ],
+            "air_feel": "The air is cooling and you can feel the transition \u2014 16\u00b0C and dropping slowly. Humidity is rising as temperature falls. There is almost no wind \u2014 2 km/h, barely enough to move the grass tips. The air feels like a held breath. Settling.",
+            "thermal_notes": "The ground is still warmer than the air \u2014 earth retains the day's heat longer than the atmosphere. Lying down, your back is warmer than your face. This inverts by midnight. The stream is colder than both \u2014 12\u00b0C, spring-fed, a constant in a cooling world.",
+            "key_tactile_moments": [
+                "Lying back in the grass and feeling the earth's residual warmth through your shoulders \u2014 the day's heat rising into you as the air above cools",
+                "Dipping a hand into the stream \u2014 the 4\u00b0C differential between air and water is sharp on the fingers, the current gentle but persistent",
+                "Dew forming on your skin \u2014 not rain, not mist, just the air reaching saturation point on the surface of you"
+            ]
+        }
+    },
+    "cross_sensory_bridges": [
+        "The jasmine and the moonlight arrive together \u2014 jasmine is a night-blooming flower that opens as light fades, so the scent and the silver light are the same event: night beginning.",
+        "The frogs and the temperature are linked by Dolbear's law \u2014 cricket chirp rate indicates exact temperature. The soundscape is a thermometer. As the air cools, the rhythm slows.",
+        "Dew forming on grass and dew forming on skin are the same physics \u2014 the air reaching saturation on the nearest cold surface. You and the meadow are condensing together."
+    ],
+    "reconciliation": {
+        "shared_causes": [
+            {
+                "cause": "Cooling",
+                "effects": "Temperature drop drives everything: dew forms (humidity crosses saturation), jasmine opens (temperature-triggered), frogs emerge (thermal cue), the air stills (convection dies). The meadow is a single system responding to one variable."
+            },
+            {
+                "cause": "Moonlight",
+                "effects": "Silver-blue light at 4100K color temperature. Scotopic vision engages \u2014 colors desaturate, blue dominates, peripheral vision sharpens. The meadow looks different because your eyes have switched modes. The moon doesn't just illuminate; it changes how you see."
+            }
+        ]
+    },
+    "mood": [
+        "peaceful",
+        "still",
+        "silver",
+        "nocturnal",
+        "earned"
+    ],
+    "positions": [
+        {
+            "name": "the meadow's edge",
+            "description": "You emerge from shadow into open grass. The sky is immense \u2014 deepening blue in the east where the moon is rising, fading gold in the west. The stream is audible before it is visible, a low continuous murmur to your left. Fireflies are beginning \u2014 one, then three, then more, each a brief green-gold pulse.",
+            "smell_notes": "The first breath is grass and cooling earth. Then jasmine \u2014 sudden, sweet, carried on a drift of air so faint you aren't sure which direction it came from. It's everywhere and nowhere. Night-blooming.",
+            "sight_notes": "The moon is clearing the treeline. It's full and bright enough to read by \u2014 shadows appear, soft-edged, blue. The grass is silver-tipped. The stream catches the light and becomes a line of moving mercury through the dark field.",
+            "sound_notes": "Stream murmur \u2014 constant, low, textured with the individual notes of water over different-sized stones. Frogs beginning \u2014 tentative, then a chorus building. Crickets underneath everything, a thermal drone. No human sound. No machinery. Nothing artificial.",
+            "touch_notes": "Grass brushing your ankles. Air cooling on your face. The ground is soft underfoot \u2014 loam, not stone. The transition from wherever you were before to this is a transition from hard to soft.",
+            "cross_sensory": "The fireflies and the frogs are both responding to the same cue: dusk temperature threshold. One is light, one is sound. Both are the meadow saying: night is here."
+        },
+        {
+            "name": "beside the stream",
+            "description": "You are sitting \u2014 or lying \u2014 in the grass near the stream. The ground conforms to you. The moon is higher now, fully clear of the trees, and the meadow is bright in that particular silver way that makes everything look like a memory of itself.",
+            "smell_notes": "Water-mineral from the stream \u2014 clean, cold, limestone-filtered. Clover crushed under your weight releasing a green-sweet note. The jasmine is stronger now, or your nose has adjusted. It fills the spaces between other scents.",
+            "sight_notes": "From ground level, the grass is a forest. Each blade is an edge of silver light. The stream is close \u2014 you can see individual stones on the bottom, each one a different shade of grey in the moonlight. The sky is fully dark in the east now, stars appearing.",
+            "sound_notes": "The stream is the dominant sound from here \u2014 each ripple and eddy has its own voice. The frog chorus is fully established, layered, territorial \u2014 each call from a fixed position. Crickets continuous. Your own breathing is the only irregular rhythm.",
+            "touch_notes": "The earth's warmth through your back. Grass against your arms. The air on your face is cooler than the ground against your body \u2014 you are lying in the boundary layer between the day's retained heat and the night's arriving cold. Dew beginning on exposed skin \u2014 not wet exactly, just the faintest film of moisture.",
+            "cross_sensory": "You are lying at the exact boundary where the day's heat meets the night's cold. Your back reads the earth's memory of sun. Your face reads the air's arrival of dark. You are the interface. This is rest."
+        }
+    ],
+    "light": {
+        "lux": 0.3,
+        "color_temp_k": 4100,
+        "source": "full moon rising, last gold on western horizon",
+        "note": "0.3 lux \u2014 enough to see shapes, not enough for color. Your vision has shifted from cone-driven (color, detail) to rod-driven (motion, contrast). The meadow is silver and shadow. The fireflies are the only color \u2014 their 560nm yellow-green is one of the last wavelengths rods can detect."
+    },
+    "impossible_detail": "Firefly light has a quantum efficiency of 98% \u2014 98% of the chemical energy becomes light, only 2% becomes heat. An incandescent bulb is 5% efficient. An LED is 50%. Nothing humans have ever built converts energy to light as efficiently as a firefly's abdomen. The meadow is lit by the most efficient light source in nature."
+}

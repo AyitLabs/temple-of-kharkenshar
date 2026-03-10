@@ -1,0 +1,1651 @@
+[
+  {
+    "id": "sunrise",
+    "name": "Sunrise",
+    "category": "natural",
+    "subcategory": "solar",
+    "color_temperature_k": 3500,
+    "spectral_character": "continuous_warm",
+    "intensity": "moderate",
+    "quality": [
+      "warm",
+      "soft",
+      "directional",
+      "low-angle"
+    ],
+    "color_bias": {
+      "boosts": [
+        "red",
+        "orange",
+        "pink",
+        "gold"
+      ],
+      "suppresses": [
+        "blue",
+        "violet"
+      ],
+      "neutral_shift": "warm"
+    },
+    "shadow_character": {
+      "hardness": "soft",
+      "color": "blue-purple",
+      "length": "very_long"
+    },
+    "experiential": {
+      "feel": "hopeful, quiet awakening, fresh start",
+      "prose_fragments": [
+        "the first blush of light cresting the horizon",
+        "pink-gold spilling across everything it touches",
+        "shadows stretching infinitely westward, blue and cold where the light hasn't reached"
+      ]
+    },
+    "spectral_ref": "CIE_D35",
+    "notes": "Sun at 0-10\u00b0 elevation. Heavy atmospheric filtering creates warm bias."
+  },
+  {
+    "id": "golden_hour",
+    "name": "Golden Hour Sunlight",
+    "category": "natural",
+    "subcategory": "solar",
+    "color_temperature_k": 3200,
+    "spectral_character": "continuous_warm",
+    "intensity": "bright",
+    "quality": [
+      "warm",
+      "soft",
+      "directional",
+      "long-shadowed"
+    ],
+    "color_bias": {
+      "boosts": [
+        "red",
+        "orange",
+        "gold",
+        "amber"
+      ],
+      "suppresses": [
+        "blue",
+        "violet"
+      ],
+      "neutral_shift": "warm"
+    },
+    "shadow_character": {
+      "hardness": "soft",
+      "color": "blue-violet",
+      "length": "long"
+    },
+    "experiential": {
+      "feel": "nostalgic warmth, cinematic glow",
+      "prose_fragments": [
+        "bathes everything in liquid gold",
+        "light thick as honey",
+        "long shadows stretching like taffy across warm pavement"
+      ]
+    },
+    "spectral_ref": "CIE_D32",
+    "notes": "Sun within ~1hr of horizon. Extreme atmospheric path length filters blue."
+  },
+  {
+    "id": "midday_sun",
+    "name": "Midday Sun",
+    "category": "natural",
+    "subcategory": "solar",
+    "color_temperature_k": 5500,
+    "spectral_character": "continuous_neutral",
+    "intensity": "intense",
+    "quality": [
+      "neutral",
+      "harsh",
+      "directional",
+      "short-shadowed"
+    ],
+    "color_bias": {
+      "boosts": [],
+      "suppresses": [],
+      "neutral_shift": "neutral"
+    },
+    "shadow_character": {
+      "hardness": "hard",
+      "color": "dark",
+      "length": "short"
+    },
+    "experiential": {
+      "feel": "exposed, bleached, unforgiving clarity",
+      "prose_fragments": [
+        "flat white light pressing down from directly overhead",
+        "shadows pooling straight beneath things like dark puddles",
+        "every imperfection revealed, nowhere to hide"
+      ]
+    },
+    "spectral_ref": "CIE_D55",
+    "notes": "Solar noon, minimal atmospheric path. True color rendering."
+  },
+  {
+    "id": "overcast",
+    "name": "Overcast Sky",
+    "category": "natural",
+    "subcategory": "solar",
+    "color_temperature_k": 6500,
+    "spectral_character": "continuous_cool",
+    "intensity": "moderate",
+    "quality": [
+      "cool",
+      "soft",
+      "diffuse",
+      "shadowless"
+    ],
+    "color_bias": {
+      "boosts": [
+        "blue",
+        "grey"
+      ],
+      "suppresses": [
+        "red",
+        "orange"
+      ],
+      "neutral_shift": "cool"
+    },
+    "shadow_character": {
+      "hardness": "none",
+      "color": "none",
+      "length": "none"
+    },
+    "experiential": {
+      "feel": "muted, contemplative, even",
+      "prose_fragments": [
+        "a flat pearl-grey light with no source and no shadows",
+        "colors muted as if seen through gauze",
+        "the whole sky becomes the light source, gentle and directionless"
+      ]
+    },
+    "spectral_ref": "CIE_D65",
+    "notes": "Complete cloud cover. Sky acts as giant diffuser."
+  },
+  {
+    "id": "moonlight",
+    "name": "Full Moonlight",
+    "category": "natural",
+    "subcategory": "lunar",
+    "color_temperature_k": 4100,
+    "spectral_character": "continuous_cool",
+    "intensity": "dim",
+    "quality": [
+      "cool",
+      "soft",
+      "directional",
+      "silvery"
+    ],
+    "color_bias": {
+      "boosts": [
+        "blue",
+        "silver",
+        "grey"
+      ],
+      "suppresses": [
+        "red",
+        "orange",
+        "warm"
+      ],
+      "neutral_shift": "cool"
+    },
+    "shadow_character": {
+      "hardness": "soft",
+      "color": "black",
+      "length": "long"
+    },
+    "experiential": {
+      "feel": "ethereal, dreamlike, monochrome beauty",
+      "prose_fragments": [
+        "silver light that drains color from the world",
+        "everything rendered in shades of blue and grey",
+        "soft enough to see by, too dim for color \u2014 a world of luminous shadow"
+      ]
+    },
+    "spectral_ref": null,
+    "notes": "Reflected sunlight. ~0.25 lux. Human vision shifts to rod-dominant (scotopic) \u2014 color perception drops."
+  },
+  {
+    "id": "starlight",
+    "name": "Starlight",
+    "category": "natural",
+    "subcategory": "stellar",
+    "color_temperature_k": null,
+    "spectral_character": "broadband",
+    "intensity": "dim",
+    "quality": [
+      "cool",
+      "diffuse",
+      "faint"
+    ],
+    "color_bias": {
+      "boosts": [],
+      "suppresses": [
+        "all"
+      ],
+      "neutral_shift": "cool"
+    },
+    "shadow_character": {
+      "hardness": "none",
+      "color": "none",
+      "length": "none"
+    },
+    "experiential": {
+      "feel": "vast, solitary, primordial darkness",
+      "prose_fragments": [
+        "barely enough light to distinguish earth from sky",
+        "the faintest suggestion of shapes, more felt than seen",
+        "a dome of pinprick light too faint to cast shadows"
+      ]
+    },
+    "spectral_ref": null,
+    "notes": "~0.001 lux. Pure scotopic vision. No color perception."
+  },
+  {
+    "id": "blue_hour",
+    "name": "Blue Hour",
+    "category": "natural",
+    "subcategory": "solar",
+    "color_temperature_k": 9000,
+    "spectral_character": "continuous_cool",
+    "intensity": "low",
+    "quality": [
+      "cool",
+      "soft",
+      "diffuse",
+      "even"
+    ],
+    "color_bias": {
+      "boosts": [
+        "blue",
+        "indigo",
+        "violet"
+      ],
+      "suppresses": [
+        "red",
+        "orange",
+        "yellow"
+      ],
+      "neutral_shift": "cool"
+    },
+    "shadow_character": {
+      "hardness": "none",
+      "color": "blue",
+      "length": "none"
+    },
+    "experiential": {
+      "feel": "melancholy, liminal, suspended between day and night",
+      "prose_fragments": [
+        "the world dipped in cobalt",
+        "that twenty-minute window when everything turns blue",
+        "artificial lights glow warm against the deep blue air"
+      ]
+    },
+    "spectral_ref": null,
+    "notes": "Sun 4-8\u00b0 below horizon. Ozone layer absorbs red, passes blue."
+  },
+  {
+    "id": "incandescent",
+    "name": "Incandescent Bulb",
+    "category": "artificial",
+    "subcategory": "incandescent",
+    "color_temperature_k": 2700,
+    "spectral_character": "continuous_warm",
+    "intensity": "moderate",
+    "quality": [
+      "warm",
+      "soft",
+      "steady",
+      "omnidirectional"
+    ],
+    "color_bias": {
+      "boosts": [
+        "red",
+        "orange",
+        "yellow",
+        "amber"
+      ],
+      "suppresses": [
+        "blue",
+        "violet"
+      ],
+      "neutral_shift": "warm"
+    },
+    "shadow_character": {
+      "hardness": "medium",
+      "color": "warm-grey",
+      "length": "medium"
+    },
+    "experiential": {
+      "feel": "domestic, nostalgic, comfortable",
+      "prose_fragments": [
+        "the warm yellow glow of home",
+        "tungsten warmth turning every room into a painting",
+        "that amber light that makes everyone look better"
+      ]
+    },
+    "spectral_ref": "CIE_A",
+    "notes": "Classic tungsten filament. Smooth blackbody spectrum, heavily red-biased."
+  },
+  {
+    "id": "fluorescent_cool",
+    "name": "Fluorescent (Cool White)",
+    "category": "artificial",
+    "subcategory": "fluorescent",
+    "color_temperature_k": 4100,
+    "spectral_character": "spiky_cool",
+    "intensity": "bright",
+    "quality": [
+      "cool",
+      "harsh",
+      "steady",
+      "diffuse",
+      "flat"
+    ],
+    "color_bias": {
+      "boosts": [
+        "green",
+        "blue-white"
+      ],
+      "suppresses": [
+        "red",
+        "warm"
+      ],
+      "neutral_shift": "cool"
+    },
+    "shadow_character": {
+      "hardness": "soft",
+      "color": "grey-green",
+      "length": "multiple"
+    },
+    "experiential": {
+      "feel": "institutional, clinical, draining",
+      "prose_fragments": [
+        "that flat buzzing light that makes skin look grey",
+        "the light of waiting rooms and late-night offices",
+        "everything slightly green-tinged, slightly wrong"
+      ]
+    },
+    "spectral_ref": "CIE_F2",
+    "notes": "Mercury emission lines + phosphor. Spiky SPD causes poor color rendering."
+  },
+  {
+    "id": "warm_led",
+    "name": "Warm LED",
+    "category": "artificial",
+    "subcategory": "led",
+    "color_temperature_k": 2700,
+    "spectral_character": "spiky_warm",
+    "intensity": "moderate",
+    "quality": [
+      "warm",
+      "steady",
+      "clean"
+    ],
+    "color_bias": {
+      "boosts": [
+        "yellow",
+        "amber"
+      ],
+      "suppresses": [
+        "deep_red",
+        "violet"
+      ],
+      "neutral_shift": "warm"
+    },
+    "shadow_character": {
+      "hardness": "medium",
+      "color": "grey",
+      "length": "medium"
+    },
+    "experiential": {
+      "feel": "modern comfort, clean warmth",
+      "prose_fragments": [
+        "warm but somehow cleaner than incandescent",
+        "the new domestic glow \u2014 amber without the romance of filament",
+        "steady warmth without the organic flicker"
+      ]
+    },
+    "spectral_ref": "CIE_LED_B3",
+    "notes": "Blue LED + phosphor. Characteristic blue spike + phosphor hump."
+  },
+  {
+    "id": "cool_led",
+    "name": "Cool LED",
+    "category": "artificial",
+    "subcategory": "led",
+    "color_temperature_k": 5000,
+    "spectral_character": "spiky_cool",
+    "intensity": "bright",
+    "quality": [
+      "cool",
+      "harsh",
+      "steady",
+      "directional"
+    ],
+    "color_bias": {
+      "boosts": [
+        "blue",
+        "white"
+      ],
+      "suppresses": [
+        "red",
+        "warm"
+      ],
+      "neutral_shift": "cool"
+    },
+    "shadow_character": {
+      "hardness": "hard",
+      "color": "grey-blue",
+      "length": "sharp"
+    },
+    "experiential": {
+      "feel": "alert, sterile, modern",
+      "prose_fragments": [
+        "cold blue-white light cutting through shadow",
+        "the harsh clarity of a lab or showroom",
+        "everything hyper-visible, over-lit, too real"
+      ]
+    },
+    "spectral_ref": "CIE_LED_B1",
+    "notes": "High CCT LED. Strong blue spike."
+  },
+  {
+    "id": "sodium_vapor",
+    "name": "Sodium Vapor (Street Light)",
+    "category": "artificial",
+    "subcategory": "discharge",
+    "color_temperature_k": 2000,
+    "spectral_character": "narrow_band",
+    "intensity": "bright",
+    "quality": [
+      "warm",
+      "harsh",
+      "monochromatic",
+      "steady"
+    ],
+    "color_bias": {
+      "boosts": [
+        "orange",
+        "amber"
+      ],
+      "suppresses": [
+        "blue",
+        "green",
+        "red",
+        "violet"
+      ],
+      "neutral_shift": "warm"
+    },
+    "shadow_character": {
+      "hardness": "hard",
+      "color": "black",
+      "length": "sharp"
+    },
+    "experiential": {
+      "feel": "urban, noir, lonely, industrial",
+      "prose_fragments": [
+        "everything flattened to shades of amber and black",
+        "that sick orange glow that makes blood look brown",
+        "pools of amber stamped on dark pavement"
+      ]
+    },
+    "spectral_ref": "CIE_HP1",
+    "notes": "Low-pressure sodium is nearly monochromatic (589nm). No color rendering."
+  },
+  {
+    "id": "neon_sign",
+    "name": "Neon Sign",
+    "category": "artificial",
+    "subcategory": "discharge",
+    "color_temperature_k": null,
+    "spectral_character": "narrow_band",
+    "intensity": "moderate",
+    "quality": [
+      "colored",
+      "steady",
+      "directional",
+      "electric"
+    ],
+    "color_bias": {
+      "boosts": [
+        "sign_color"
+      ],
+      "suppresses": [],
+      "neutral_shift": "varies"
+    },
+    "shadow_character": {
+      "hardness": "soft",
+      "color": "sign_color",
+      "length": "short"
+    },
+    "experiential": {
+      "feel": "urban, nightlife, electric, nostalgic",
+      "prose_fragments": [
+        "neon bleeding color into wet pavement",
+        "red and blue tubes buzzing with trapped lightning",
+        "the electric candy glow of signs reflected in everything wet"
+      ]
+    },
+    "spectral_ref": null,
+    "notes": "Gas discharge \u2014 neon (red/orange), argon+mercury (blue), phosphor coatings for other colors."
+  },
+  {
+    "id": "computer_screen",
+    "name": "Computer Screen",
+    "category": "artificial",
+    "subcategory": "led",
+    "color_temperature_k": 6500,
+    "spectral_character": "spiky_cool",
+    "intensity": "low",
+    "quality": [
+      "cool",
+      "steady",
+      "directional",
+      "flat"
+    ],
+    "color_bias": {
+      "boosts": [
+        "blue",
+        "white"
+      ],
+      "suppresses": [
+        "warm"
+      ],
+      "neutral_shift": "cool"
+    },
+    "shadow_character": {
+      "hardness": "soft",
+      "color": "blue-grey",
+      "length": "short"
+    },
+    "experiential": {
+      "feel": "solitary, modern, late-night focus",
+      "prose_fragments": [
+        "the pale blue glow of a screen in a dark room",
+        "face lit from below by cold digital light",
+        "that insomniac halo \u2014 the only light left on"
+      ]
+    },
+    "spectral_ref": null,
+    "notes": "RGB subpixels. Strong blue peak. D65 white point standard."
+  },
+  {
+    "id": "candle",
+    "name": "Candlelight",
+    "category": "fire",
+    "subcategory": "flame",
+    "color_temperature_k": 1850,
+    "spectral_character": "continuous_warm",
+    "intensity": "dim",
+    "quality": [
+      "warm",
+      "soft",
+      "flickering",
+      "intimate"
+    ],
+    "color_bias": {
+      "boosts": [
+        "red",
+        "orange",
+        "amber",
+        "gold"
+      ],
+      "suppresses": [
+        "blue",
+        "green",
+        "violet"
+      ],
+      "neutral_shift": "warm"
+    },
+    "shadow_character": {
+      "hardness": "soft",
+      "color": "deep-warm",
+      "length": "dancing"
+    },
+    "experiential": {
+      "feel": "intimate, sacred, timeless",
+      "prose_fragments": [
+        "amber light breathing with the flame",
+        "shadows that sway and dance like living things",
+        "everything softened to gold and darkness"
+      ]
+    },
+    "spectral_ref": null,
+    "notes": "~1850K blackbody + soot emission. Flicker frequency 1-10Hz."
+  },
+  {
+    "id": "fireplace",
+    "name": "Fireplace",
+    "category": "fire",
+    "subcategory": "flame",
+    "color_temperature_k": 2000,
+    "spectral_character": "continuous_warm",
+    "intensity": "low",
+    "quality": [
+      "warm",
+      "soft",
+      "flickering",
+      "directional"
+    ],
+    "color_bias": {
+      "boosts": [
+        "red",
+        "orange",
+        "amber"
+      ],
+      "suppresses": [
+        "blue",
+        "violet"
+      ],
+      "neutral_shift": "warm"
+    },
+    "shadow_character": {
+      "hardness": "soft",
+      "color": "deep-black",
+      "length": "dancing"
+    },
+    "experiential": {
+      "feel": "cozy, primal, hypnotic",
+      "prose_fragments": [
+        "firelight painting the walls in shifting amber and shadow",
+        "the restless warmth that makes you stare at nothing",
+        "light that crackles and breathes, never the same twice"
+      ]
+    },
+    "spectral_ref": null,
+    "notes": "Larger flame area than candle, more radiant heat. Ember glow adds deep red."
+  },
+  {
+    "id": "torch",
+    "name": "Torch / Open Flame",
+    "category": "fire",
+    "subcategory": "flame",
+    "color_temperature_k": 1900,
+    "spectral_character": "continuous_warm",
+    "intensity": "moderate",
+    "quality": [
+      "warm",
+      "harsh",
+      "flickering",
+      "directional",
+      "smoky"
+    ],
+    "color_bias": {
+      "boosts": [
+        "red",
+        "orange",
+        "yellow"
+      ],
+      "suppresses": [
+        "blue",
+        "violet"
+      ],
+      "neutral_shift": "warm"
+    },
+    "shadow_character": {
+      "hardness": "medium",
+      "color": "black",
+      "length": "dancing"
+    },
+    "experiential": {
+      "feel": "ancient, dramatic, adventurous",
+      "prose_fragments": [
+        "fire held aloft, carving a sphere of warm light from the darkness",
+        "the primal authority of carried flame",
+        "smoke and light tangled together, everything beyond the circle lost to black"
+      ]
+    },
+    "spectral_ref": null,
+    "notes": "Open flame, wind-affected, often smoky."
+  },
+  {
+    "id": "bonfire",
+    "name": "Bonfire",
+    "category": "fire",
+    "subcategory": "flame",
+    "color_temperature_k": 2000,
+    "spectral_character": "continuous_warm",
+    "intensity": "bright",
+    "quality": [
+      "warm",
+      "harsh",
+      "flickering",
+      "directional"
+    ],
+    "color_bias": {
+      "boosts": [
+        "red",
+        "orange",
+        "yellow",
+        "white-hot"
+      ],
+      "suppresses": [
+        "blue",
+        "violet"
+      ],
+      "neutral_shift": "warm"
+    },
+    "shadow_character": {
+      "hardness": "hard",
+      "color": "black",
+      "length": "long"
+    },
+    "experiential": {
+      "feel": "communal, wild, primal warmth against the void",
+      "prose_fragments": [
+        "faces lit half-gold, half-black, sparks spiraling upward",
+        "the roaring center of a circle of warmth in the darkness",
+        "fire bright enough to bleach the nearest ground white while the world beyond is absolute dark"
+      ]
+    },
+    "spectral_ref": null,
+    "notes": "Large flame. High intensity core (white/yellow) with red/orange edges."
+  },
+  {
+    "id": "window_light",
+    "name": "Window Light (Indoor/Natural Mix)",
+    "category": "mixed",
+    "subcategory": "combined",
+    "color_temperature_k": 5000,
+    "spectral_character": "continuous_neutral",
+    "intensity": "moderate",
+    "quality": [
+      "soft",
+      "directional",
+      "diffuse",
+      "warm-cool_gradient"
+    ],
+    "color_bias": {
+      "boosts": [
+        "blue_near_window",
+        "warm_in_shadow"
+      ],
+      "suppresses": [],
+      "neutral_shift": "neutral"
+    },
+    "shadow_character": {
+      "hardness": "soft",
+      "color": "warm",
+      "length": "medium"
+    },
+    "experiential": {
+      "feel": "contemplative, painter's light, domestic poetry",
+      "prose_fragments": [
+        "daylight pooling on the floor like spilled milk",
+        "the cool of the window fading to the warmth of the room's interior",
+        "dust motes drifting in a shaft of pale light"
+      ]
+    },
+    "spectral_ref": null,
+    "notes": "North-facing window: cool, diffuse. South-facing: warmer, more directional."
+  },
+  {
+    "id": "dappled_forest",
+    "name": "Dappled Forest Light",
+    "category": "mixed",
+    "subcategory": "filtered",
+    "color_temperature_k": 5500,
+    "spectral_character": "continuous_neutral",
+    "intensity": "moderate",
+    "quality": [
+      "dappled",
+      "soft",
+      "green-filtered",
+      "shifting"
+    ],
+    "color_bias": {
+      "boosts": [
+        "green",
+        "yellow-green"
+      ],
+      "suppresses": [
+        "red"
+      ],
+      "neutral_shift": "cool"
+    },
+    "shadow_character": {
+      "hardness": "dappled",
+      "color": "green-black",
+      "length": "scattered"
+    },
+    "experiential": {
+      "feel": "enchanted, alive, sheltered",
+      "prose_fragments": [
+        "coins of sunlight scattered across the forest floor",
+        "light filtered through a thousand green hands",
+        "shadow and brightness shifting with every breeze, never still"
+      ]
+    },
+    "spectral_ref": null,
+    "notes": "Sunlight filtered through canopy. Green-shifted by leaf chlorophyll transmission."
+  },
+  {
+    "id": "dawn_twilight",
+    "name": "Dawn Twilight",
+    "category": "natural",
+    "subcategory": "solar",
+    "color_temperature_k": 7500,
+    "spectral_character": "continuous_cool",
+    "intensity": "low",
+    "quality": [
+      "cool",
+      "soft",
+      "diffuse",
+      "pre-dawn"
+    ],
+    "color_bias": {
+      "boosts": [
+        "blue",
+        "pink",
+        "violet"
+      ],
+      "suppresses": [
+        "warm"
+      ],
+      "neutral_shift": "cool"
+    },
+    "shadow_character": {
+      "hardness": "none",
+      "color": "blue-grey",
+      "length": "none"
+    },
+    "experiential": {
+      "feel": "liminal, quiet, the world not yet awake",
+      "prose_fragments": [
+        "the grey before the gold, when the sky knows but the earth doesn't",
+        "everything in blue-grey half-tones, waiting",
+        "the first birds and the last stars sharing the same sky"
+      ]
+    },
+    "spectral_ref": null,
+    "notes": "Sun below horizon. Light is scattered skylight only."
+  },
+  {
+    "id": "dusk_twilight",
+    "name": "Dusk Twilight",
+    "category": "natural",
+    "subcategory": "solar",
+    "color_temperature_k": 7000,
+    "spectral_character": "continuous_cool",
+    "intensity": "low",
+    "quality": [
+      "cool",
+      "soft",
+      "diffuse",
+      "fading"
+    ],
+    "color_bias": {
+      "boosts": [
+        "blue",
+        "purple",
+        "pink"
+      ],
+      "suppresses": [
+        "warm"
+      ],
+      "neutral_shift": "cool"
+    },
+    "shadow_character": {
+      "hardness": "none",
+      "color": "blue",
+      "length": "none"
+    },
+    "experiential": {
+      "feel": "closing, wistful, the day exhaling",
+      "prose_fragments": [
+        "the last color draining from the west like watercolor rinsed away",
+        "streetlights flickering on against the deepening blue",
+        "the moment when you can't quite read outdoors anymore"
+      ]
+    },
+    "spectral_ref": null,
+    "notes": "Post-sunset. Similar to dawn but with artificial lights beginning."
+  },
+  {
+    "id": "halogen_spot",
+    "name": "Halogen Spotlight",
+    "category": "artificial",
+    "subcategory": "incandescent",
+    "color_temperature_k": 3000,
+    "spectral_character": "continuous_warm",
+    "intensity": "intense",
+    "quality": [
+      "warm",
+      "harsh",
+      "directional",
+      "focused"
+    ],
+    "color_bias": {
+      "boosts": [
+        "warm",
+        "yellow"
+      ],
+      "suppresses": [
+        "blue"
+      ],
+      "neutral_shift": "warm"
+    },
+    "shadow_character": {
+      "hardness": "hard",
+      "color": "black",
+      "length": "sharp"
+    },
+    "experiential": {
+      "feel": "theatrical, focused attention, dramatic",
+      "prose_fragments": [
+        "a cone of hot white-gold light carving one thing from the dark",
+        "the harsh intimacy of a spotlight \u2014 everything outside it ceases to exist",
+        "hard warm light pooling on its subject like poured metal"
+      ]
+    },
+    "spectral_ref": null,
+    "notes": "Higher CCT than standard incandescent. Very directional."
+  },
+  {
+    "id": "mercury_vapor",
+    "name": "Mercury Vapor Lamp",
+    "category": "artificial",
+    "subcategory": "discharge",
+    "color_temperature_k": 5900,
+    "spectral_character": "spiky_cool",
+    "intensity": "bright",
+    "quality": [
+      "cool",
+      "harsh",
+      "steady",
+      "blue-green"
+    ],
+    "color_bias": {
+      "boosts": [
+        "blue",
+        "green",
+        "violet"
+      ],
+      "suppresses": [
+        "red",
+        "orange"
+      ],
+      "neutral_shift": "cool"
+    },
+    "shadow_character": {
+      "hardness": "hard",
+      "color": "blue-grey",
+      "length": "sharp"
+    },
+    "experiential": {
+      "feel": "alien, industrial, cold",
+      "prose_fragments": [
+        "that sick blue-green light of old parking garages",
+        "everything drained of warmth, skin gone corpse-grey",
+        "the cold alien hum of mercury light"
+      ]
+    },
+    "spectral_ref": "CIE_HP3",
+    "notes": "Strong emission at 405, 436, 546, 578nm. Poor red rendering."
+  },
+  {
+    "id": "oil_lamp",
+    "name": "Oil Lamp",
+    "category": "fire",
+    "subcategory": "flame",
+    "color_temperature_k": 1800,
+    "spectral_character": "continuous_warm",
+    "intensity": "dim",
+    "quality": [
+      "warm",
+      "soft",
+      "flickering",
+      "intimate"
+    ],
+    "color_bias": {
+      "boosts": [
+        "amber",
+        "orange",
+        "red"
+      ],
+      "suppresses": [
+        "blue",
+        "green",
+        "violet"
+      ],
+      "neutral_shift": "warm"
+    },
+    "shadow_character": {
+      "hardness": "soft",
+      "color": "deep-warm",
+      "length": "medium"
+    },
+    "experiential": {
+      "feel": "ancient, intimate, pre-electric nostalgia",
+      "prose_fragments": [
+        "the small steady flame painting the room in amber",
+        "a circle of warm light shrinking the world to arm's reach",
+        "oil-flame glow, the light of centuries"
+      ]
+    },
+    "spectral_ref": null,
+    "notes": "Similar to candle but steadier. Glass chimney shapes the flame."
+  },
+  {
+    "id": "emergency_red",
+    "name": "Emergency Red Light",
+    "category": "artificial",
+    "subcategory": "led",
+    "color_temperature_k": null,
+    "spectral_character": "narrow_band",
+    "intensity": "moderate",
+    "quality": [
+      "red",
+      "steady",
+      "directional",
+      "alarming"
+    ],
+    "color_bias": {
+      "boosts": [
+        "red"
+      ],
+      "suppresses": [
+        "all_others"
+      ],
+      "neutral_shift": "warm"
+    },
+    "shadow_character": {
+      "hardness": "hard",
+      "color": "black",
+      "length": "sharp"
+    },
+    "experiential": {
+      "feel": "urgent, dangerous, disorienting",
+      "prose_fragments": [
+        "everything washed in blood-red, shadows turned absolute black",
+        "the pulsing red of emergency \u2014 your heart matches its rhythm",
+        "red light that turns the familiar alien"
+      ]
+    },
+    "spectral_ref": null,
+    "notes": "Red LEDs or filtered light. Preserves scotopic adaptation."
+  },
+  {
+    "id": "paper_lantern",
+    "name": "Paper Lantern",
+    "category": "artificial",
+    "subcategory": "decorative",
+    "color_temperature_k": 2700,
+    "spectral_character": "continuous_warm",
+    "intensity": "low",
+    "quality": [
+      "warm",
+      "soft",
+      "diffuse",
+      "glowing"
+    ],
+    "color_bias": {
+      "boosts": [
+        "orange",
+        "amber",
+        "cream"
+      ],
+      "suppresses": [
+        "blue"
+      ],
+      "neutral_shift": "warm"
+    },
+    "shadow_character": {
+      "hardness": "very_soft",
+      "color": "warm-grey",
+      "length": "medium"
+    },
+    "experiential": {
+      "feel": "intimate, festive, handmade warmth",
+      "prose_fragments": [
+        "a warm orb of light breathing softly through rice paper",
+        "the paper diffuses everything into a gentle amber glow, the bulb inside a blurred sun",
+        "lantern light is permission to slow down"
+      ]
+    },
+    "notes": "Light filtered through translucent paper. Extremely soft shadows, warm color."
+  },
+  {
+    "id": "neon_pink",
+    "name": "Pink Neon",
+    "category": "artificial",
+    "subcategory": "gas_discharge",
+    "color_temperature_k": null,
+    "spectral_character": "line_emission",
+    "intensity": "moderate",
+    "quality": [
+      "saturated",
+      "harsh",
+      "buzzing",
+      "electric"
+    ],
+    "color_bias": {
+      "boosts": [
+        "pink",
+        "magenta",
+        "red"
+      ],
+      "suppresses": [
+        "green",
+        "blue"
+      ],
+      "neutral_shift": "warm_pink"
+    },
+    "shadow_character": {
+      "hardness": "medium",
+      "color": "deep_pink",
+      "length": "medium"
+    },
+    "experiential": {
+      "feel": "nocturnal, seductive, urban loneliness",
+      "prose_fragments": [
+        "pink neon bleeds into the wet air like a bruise",
+        "everything within reach turns the color of a blush, an embarrassment, a lipstick stain",
+        "the buzz of the gas is the sound of the light itself"
+      ]
+    },
+    "notes": "Neon gas discharge. Narrow spectral lines create highly saturated pink."
+  },
+  {
+    "id": "neon_blue",
+    "name": "Blue Neon",
+    "category": "artificial",
+    "subcategory": "gas_discharge",
+    "color_temperature_k": null,
+    "spectral_character": "line_emission",
+    "intensity": "moderate",
+    "quality": [
+      "cold",
+      "electric",
+      "alien",
+      "vivid"
+    ],
+    "color_bias": {
+      "boosts": [
+        "blue",
+        "cyan",
+        "ice"
+      ],
+      "suppresses": [
+        "red",
+        "orange"
+      ],
+      "neutral_shift": "cold"
+    },
+    "shadow_character": {
+      "hardness": "medium",
+      "color": "deep_blue",
+      "length": "medium"
+    },
+    "experiential": {
+      "feel": "clinical, futuristic, midnight sterility",
+      "prose_fragments": [
+        "blue neon turns skin cadaverous and puddles into mirrors of sky",
+        "an alien frequency that makes the familiar strange",
+        "cold light for cold hours"
+      ]
+    },
+    "notes": "Mercury vapor with phosphor. Intense blue emission."
+  },
+  {
+    "id": "emergency_vehicle",
+    "name": "Emergency Vehicle Lights",
+    "category": "artificial",
+    "subcategory": "signal",
+    "color_temperature_k": null,
+    "spectral_character": "strobing_mixed",
+    "intensity": "intense",
+    "quality": [
+      "flashing",
+      "urgent",
+      "alternating",
+      "disorienting"
+    ],
+    "color_bias": {
+      "boosts": [
+        "red",
+        "blue",
+        "white"
+      ],
+      "suppresses": [],
+      "neutral_shift": "alternating"
+    },
+    "shadow_character": {
+      "hardness": "hard",
+      "color": "alternating_red_blue",
+      "length": "variable"
+    },
+    "experiential": {
+      "feel": "adrenaline, wrong, something happened here",
+      "prose_fragments": [
+        "red-blue-red-blue, the whole street pulsing like a wound",
+        "strobing light that turns motion into stop-frame animation",
+        "the color of someone else's worst night"
+      ]
+    },
+    "notes": "Alternating red/blue LEDs. Strobe effect creates temporal discontinuity."
+  },
+  {
+    "id": "lighthouse_beam",
+    "name": "Lighthouse Beam",
+    "category": "artificial",
+    "subcategory": "navigational",
+    "color_temperature_k": 3000,
+    "spectral_character": "continuous_warm",
+    "intensity": "intense_directional",
+    "quality": [
+      "sweeping",
+      "rhythmic",
+      "penetrating",
+      "lonely"
+    ],
+    "color_bias": {
+      "boosts": [
+        "white",
+        "warm_white"
+      ],
+      "suppresses": [],
+      "neutral_shift": "neutral"
+    },
+    "shadow_character": {
+      "hardness": "hard",
+      "color": "dark",
+      "length": "infinite"
+    },
+    "experiential": {
+      "feel": "isolated, rhythmic, a slow heartbeat of light",
+      "prose_fragments": [
+        "the beam sweeps past like a slow searchlight, illuminating fog into a solid wall of white",
+        "every few seconds the world appears, then vanishes, appears, vanishes",
+        "a light that exists for the lost"
+      ]
+    },
+    "notes": "Fresnel lens creating tight beam. Sweeps 360\u00b0 at regular intervals."
+  },
+  {
+    "id": "projector",
+    "name": "Film Projector Light",
+    "category": "artificial",
+    "subcategory": "optical",
+    "color_temperature_k": 4000,
+    "spectral_character": "continuous_neutral",
+    "intensity": "bright_directional",
+    "quality": [
+      "cone-shaped",
+      "dusty",
+      "nostalgic",
+      "flickering"
+    ],
+    "color_bias": {
+      "boosts": [
+        "white"
+      ],
+      "suppresses": [],
+      "neutral_shift": "neutral"
+    },
+    "shadow_character": {
+      "hardness": "hard",
+      "color": "dark",
+      "length": "long"
+    },
+    "experiential": {
+      "feel": "anticipation, communal darkness, dust-mote magic",
+      "prose_fragments": [
+        "a cone of light thick with floating dust, each mote a tiny visible star",
+        "the projector beam is a solid thing in smoky air, a bright geometry",
+        "light carrying images, carrying stories, carrying time"
+      ]
+    },
+    "notes": "Bright point source through lens. Visible beam in dusty/smoky air."
+  },
+  {
+    "id": "tv_glow",
+    "name": "TV Glow",
+    "category": "artificial",
+    "subcategory": "screen",
+    "color_temperature_k": 6500,
+    "spectral_character": "rgb_mixed",
+    "intensity": "low_variable",
+    "quality": [
+      "flickering",
+      "cool",
+      "shifting",
+      "hypnotic"
+    ],
+    "color_bias": {
+      "boosts": [
+        "blue",
+        "white",
+        "variable"
+      ],
+      "suppresses": [],
+      "neutral_shift": "cool"
+    },
+    "shadow_character": {
+      "hardness": "soft",
+      "color": "shifting_blue",
+      "length": "medium"
+    },
+    "experiential": {
+      "feel": "insomniac, passive, the blue glow of late-night nothing",
+      "prose_fragments": [
+        "the TV paints the room in shifting colors \u2014 blue, then white, then blue again",
+        "faces lit from below by the screen look like ghosts telling stories",
+        "the only light source in the room, it makes the darkness feel deliberate"
+      ]
+    },
+    "notes": "LED backlit screen. Color temperature shifts constantly with content."
+  },
+  {
+    "id": "eclipse_light",
+    "name": "Eclipse Light",
+    "category": "natural",
+    "subcategory": "solar",
+    "color_temperature_k": 5000,
+    "spectral_character": "reduced_continuous",
+    "intensity": "dim_uncanny",
+    "quality": [
+      "grey",
+      "flat",
+      "wrong",
+      "shadowless"
+    ],
+    "color_bias": {
+      "boosts": [],
+      "suppresses": [
+        "warm"
+      ],
+      "neutral_shift": "grey"
+    },
+    "shadow_character": {
+      "hardness": "none",
+      "color": "absent",
+      "length": "none"
+    },
+    "experiential": {
+      "feel": "apocalyptic, primal fear, the wrong kind of twilight",
+      "prose_fragments": [
+        "the light is wrong \u2014 bright enough to see, dim enough to panic, shadowless",
+        "colors drain as if someone turned down saturation on the world",
+        "the birds stop. the light says: this has never happened before"
+      ]
+    },
+    "notes": "Partial solar eclipse. Light intensity drops dramatically but color temp stays neutral. No shadows."
+  },
+  {
+    "id": "underwater_caustics",
+    "name": "Underwater Caustics",
+    "category": "natural",
+    "subcategory": "refracted",
+    "color_temperature_k": 5500,
+    "spectral_character": "filtered_blue",
+    "intensity": "variable",
+    "quality": [
+      "rippling",
+      "blue-green",
+      "dancing",
+      "liquid"
+    ],
+    "color_bias": {
+      "boosts": [
+        "cyan",
+        "aqua",
+        "blue"
+      ],
+      "suppresses": [
+        "red",
+        "orange"
+      ],
+      "neutral_shift": "cool"
+    },
+    "shadow_character": {
+      "hardness": "dancing",
+      "color": "dark_blue",
+      "length": "variable"
+    },
+    "experiential": {
+      "feel": "submerged, dreaming, held by water",
+      "prose_fragments": [
+        "nets of light dance across every surface, focused and defocused by waves above",
+        "the light is alive \u2014 rippling, stretching, never still, filtered through meters of blue",
+        "caustic patterns trace the surface motion on the floor like a light-show from the sea"
+      ]
+    },
+    "notes": "Sunlight refracted through moving water surface. Creates characteristic dancing patterns."
+  },
+  {
+    "id": "stained_glass_filtered",
+    "name": "Stained Glass Filtered Light",
+    "category": "natural",
+    "subcategory": "filtered",
+    "color_temperature_k": 5500,
+    "spectral_character": "selectively_filtered",
+    "intensity": "moderate",
+    "quality": [
+      "colored",
+      "sacred",
+      "geometric",
+      "warm"
+    ],
+    "color_bias": {
+      "boosts": [
+        "red",
+        "blue",
+        "gold",
+        "green"
+      ],
+      "suppresses": [],
+      "neutral_shift": "multicolor"
+    },
+    "shadow_character": {
+      "hardness": "medium",
+      "color": "colored",
+      "length": "long"
+    },
+    "experiential": {
+      "feel": "reverent, ancient, light made precious by its passage",
+      "prose_fragments": [
+        "jewel-colored light falls in geometric patches across stone floors",
+        "the saints in the glass project themselves downward in pure color",
+        "red and blue pools of light overlap into purple on the pews"
+      ]
+    },
+    "notes": "Sunlight through colored glass. Each color panel creates a separate colored shadow."
+  },
+  {
+    "id": "theater_spotlight",
+    "name": "Theater Spotlight",
+    "category": "artificial",
+    "subcategory": "performance",
+    "color_temperature_k": 3200,
+    "spectral_character": "continuous_warm",
+    "intensity": "intense_focused",
+    "quality": [
+      "directional",
+      "dramatic",
+      "isolating",
+      "warm"
+    ],
+    "color_bias": {
+      "boosts": [
+        "warm_white",
+        "amber"
+      ],
+      "suppresses": [],
+      "neutral_shift": "warm"
+    },
+    "shadow_character": {
+      "hardness": "hard",
+      "color": "black",
+      "length": "dramatic"
+    },
+    "experiential": {
+      "feel": "exposed, performative, the weight of attention made visible",
+      "prose_fragments": [
+        "the spotlight finds you and suddenly you're the only real thing in the room",
+        "a circle of warm white in a sea of black \u2014 the rest of the world erased",
+        "the edges of the light are sharp enough to lean against"
+      ]
+    },
+    "notes": "Fresnel or ellipsoidal. Hard-edged or soft depending on focus."
+  },
+  {
+    "id": "match_flame",
+    "name": "Match Flame",
+    "category": "fire",
+    "subcategory": "combustion",
+    "color_temperature_k": 1700,
+    "spectral_character": "blackbody_warm",
+    "intensity": "very_low",
+    "quality": [
+      "tiny",
+      "warm",
+      "brief",
+      "sulfurous"
+    ],
+    "color_bias": {
+      "boosts": [
+        "orange",
+        "yellow",
+        "blue_core"
+      ],
+      "suppresses": [
+        "everything_far"
+      ],
+      "neutral_shift": "very_warm"
+    },
+    "shadow_character": {
+      "hardness": "soft",
+      "color": "deep_warm",
+      "length": "long"
+    },
+    "experiential": {
+      "feel": "brief intimacy, sulfur moment, a small defiance of darkness",
+      "prose_fragments": [
+        "the match head flares \u2014 a tiny sun that lasts three breaths",
+        "in the moment of striking, the world shrinks to what the flame can reach",
+        "sulfur first, then warmth, then a small wavering orange world"
+      ]
+    },
+    "notes": "Initial sulfur flare (blue-white), settling to small yellow-orange flame. Very short range."
+  },
+  {
+    "id": "welding_arc",
+    "name": "Welding Arc",
+    "category": "artificial",
+    "subcategory": "industrial",
+    "color_temperature_k": 6000,
+    "spectral_character": "intense_broadband_uv",
+    "intensity": "blinding",
+    "quality": [
+      "white-blue",
+      "dangerous",
+      "actinic",
+      "flickering"
+    ],
+    "color_bias": {
+      "boosts": [
+        "white",
+        "blue",
+        "UV"
+      ],
+      "suppresses": [
+        "everything_else"
+      ],
+      "neutral_shift": "blue_white"
+    },
+    "shadow_character": {
+      "hardness": "extreme",
+      "color": "black",
+      "length": "sharp"
+    },
+    "experiential": {
+      "feel": "industrial violence, don't look directly, the smell of burnt air",
+      "prose_fragments": [
+        "the arc is a blue-white star held an inch from steel \u2014 you look away instinctively",
+        "sparks fountain outward like a welder's constellation",
+        "the light is so intense it leaves a ghost on your retina, a green afterimage that follows you"
+      ]
+    },
+    "notes": "Electric arc plasma. Extremely bright, UV-heavy. Looking directly causes eye damage."
+  },
+  {
+    "id": "bioluminescence",
+    "name": "Bioluminescence",
+    "category": "natural",
+    "subcategory": "biological",
+    "color_temperature_k": null,
+    "spectral_character": "narrow_blue_green",
+    "intensity": "very_low",
+    "quality": [
+      "ethereal",
+      "blue-green",
+      "pulsing",
+      "organic"
+    ],
+    "color_bias": {
+      "boosts": [
+        "cyan",
+        "blue-green",
+        "aqua"
+      ],
+      "suppresses": [
+        "everything_else"
+      ],
+      "neutral_shift": "cool"
+    },
+    "shadow_character": {
+      "hardness": "none",
+      "color": "none",
+      "length": "none"
+    },
+    "experiential": {
+      "feel": "alien beauty, the ocean dreaming, life as light",
+      "prose_fragments": [
+        "the water glows where you touch it \u2014 blue-green fire that follows your hand",
+        "each wave breaks in ghostly phosphorescence, the sea outlining itself",
+        "bioluminescent plankton turn the shallows into a field of underwater stars"
+      ]
+    },
+    "notes": "Luciferin-based chemiluminescence. Very low intensity, only visible in darkness."
+  },
+  {
+    "id": "aurora",
+    "name": "Aurora Borealis",
+    "category": "natural",
+    "subcategory": "atmospheric",
+    "color_temperature_k": null,
+    "spectral_character": "line_emission_atmospheric",
+    "intensity": "low",
+    "quality": [
+      "curtain",
+      "rippling",
+      "green",
+      "silent"
+    ],
+    "color_bias": {
+      "boosts": [
+        "green",
+        "purple",
+        "blue",
+        "pink"
+      ],
+      "suppresses": [],
+      "neutral_shift": "green"
+    },
+    "shadow_character": {
+      "hardness": "none",
+      "color": "none",
+      "length": "none"
+    },
+    "experiential": {
+      "feel": "awe, silence made visible, the sky performing",
+      "prose_fragments": [
+        "green curtains ripple across the sky like slow-motion fabric in wind",
+        "the aurora moves in silence \u2014 no sound accompanies this spectacle, which makes it more strange",
+        "shimmering bands of green and purple pulse overhead, the atmosphere showing its inner workings"
+      ]
+    },
+    "notes": "Solar wind exciting atmospheric gases. Oxygen green at 557nm, nitrogen purple/pink."
+  }
+]

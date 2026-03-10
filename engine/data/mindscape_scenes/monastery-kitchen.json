@@ -1,0 +1,133 @@
+{
+    "id": "monastery-kitchen",
+    "name": "The Monastery Kitchen",
+    "description": "Dawn light through small windows. A warm room with stone walls and wooden beams. The oven is cold but the room remembers yesterday's bread \u2014 the smell is baked into the stone itself. A cup of tea sits on the table, still warm. Someone was here recently. Everything is waiting.",
+    "smell": {
+        "scene_id": "monastery-kitchen",
+        "compounds": [
+            "bread-yeast",
+            "wood-fire-ash",
+            "flour-dust",
+            "beeswax",
+            "tea-bergamot",
+            "cedar",
+            "honey",
+            "warm-stone"
+        ]
+    },
+    "sight": {
+        "scene_id": "monastery-kitchen"
+    },
+    "sound": {
+        "rt60_seconds": 0.6,
+        "ambient_dba": 20,
+        "layers": [
+            {
+                "source": "silence of a room waiting",
+                "note": "20 dBA \u2014 quieter than a whisper. The stone walls absorb almost nothing (hard reflection) but there's nothing to reflect. The room is holding its breath."
+            },
+            {
+                "source": "the tea cooling",
+                "frequency_hz": "none",
+                "note": "you can't hear it. But the room is so quiet that when you move the cup, the ceramic-on-wood sound is startling."
+            },
+            {
+                "source": "the bell tower clock mechanism",
+                "frequency_hz": "50-100",
+                "interval": "continuous, barely perceptible",
+                "note": "a faint tick transmitted through the stone walls. The building's heartbeat."
+            }
+        ]
+    },
+    "environment": {
+        "temperature_c": 18,
+        "humidity_pct": 55,
+        "wind_speed_kmh": 0,
+        "time_of_day": "dawn",
+        "weather": "none",
+        "indoor": true,
+        "touch": {
+            "surface_textures": [
+                "heavy oak table \u2014 scarred with knife marks, flour worked into the grain over decades, warm from the room",
+                "stone floor \u2014 uneven flagstones, warmer near the oven, cold at the edges where the wall meets the floor",
+                "wooden rolling pin \u2014 smooth from use, the handle shaped to someone's grip over years, not yours",
+                "flour on the table surface \u2014 fine, soft, cool, it gets between your fingers immediately",
+                "the tea cup \u2014 ceramic, warm, someone else's warmth still in it"
+            ],
+            "air_feel": "Warm, dry, domestic. The air in this kitchen has been heated and cooled and heated again thousands of times. It holds the memory of every loaf ever baked here \u2014 not as smell exactly, but as a quality, a warmth that has purpose. The dawn light through the small windows makes the flour dust visible: a slow constellation turning in the still air.",
+            "thermal_notes": "18\u00b0C \u2014 warm for a stone building at dawn, which means the oven was used recently, yesterday at least. The thermal mass of the stone walls holds yesterday's heat and releases it slowly. The table is room temperature. The tea cup is warmer \u2014 35\u00b0C maybe, cooling. The oven itself is cool to the touch but the stones around it still carry a ghost of heat, noticeable if you press your palm flat and wait.",
+            "key_tactile_moments": [
+                "Picking up the tea cup and feeling someone else's warmth \u2014 they were here an hour ago, maybe less, and the ceramic held onto them",
+                "Running your hand across the table and finding the knife marks \u2014 grooves worn deep enough to catch your fingernail, a record of every meal prepared here",
+                "The flour \u2014 touching it is like touching a cloud made solid. It's cool and soft and it coats your fingers immediately and won't leave without water"
+            ]
+        }
+    },
+    "cross_sensory_bridges": [
+        "The flour dust in the air is visible only because of the dawn light \u2014 it was always there, but the angled low light makes each particle a tiny sun. You see what you've been breathing.",
+        "The warmth of the room and the smell of yesterday's bread are the same thing \u2014 the oven heated the stone, the stone absorbed the bread's volatile compounds, and now the stone slowly releases both heat and smell together. The room is remembering out loud.",
+        "The tea cup's warmth tells time \u2014 ceramic cools at a predictable rate. Someone was here recently enough for the tea to still be warm, recently enough that the room still holds their shape."
+    ],
+    "mood": [
+        "domestic",
+        "warm",
+        "purposeful",
+        "waiting",
+        "generous"
+    ],
+    "prose": "Someone built this room to feed people. You can feel it in every surface.\n\nThe kitchen is not large but it is complete. Stone walls, whitewashed and stained with decades of smoke near the ceiling. Wooden beams dark with age. A large oak table in the center, scarred and floury, a surface that has been worked on so many mornings that the wood has accepted its purpose \u2014 it is a bread table, a preparation surface, a gathering place, and it will never be anything else.\n\nThe oven dominates the far wall: a stone arch with an iron door, cold now, but the stones around it still carry heat from yesterday's baking. If you press your hand flat against the wall beside it and wait, you'll feel it \u2014 not warmth exactly, but the memory of warmth, the thermal mass of stone releasing the last of what it stored.\n\nDawn light enters through two small windows, angled low, and catches the flour dust that hangs in the still air. Each particle becomes briefly visible \u2014 a slow turning galaxy of white motes in golden shafts. The light falls across the table and illuminates what's waiting there: a bowl, a pitcher, jars.\n\nA cup of tea sits at the table's edge. Still warm. Someone was here. They laid out the ingredients, poured themselves tea, and left. The bread hasn't been started yet.\n\nThe room smells of yesterday's bread \u2014 not the bread itself, but its ghost, the volatile compounds that soaked into the limestone during baking and are now slowly releasing in the morning warmth. Yeast. Flour. Honey. The faintest thread of woodsmoke from the ash in the oven. And the tea \u2014 bergamot, sharp and citric, the newest smell in a room full of old ones.\n\nEverything is ready. Everything is waiting. The only thing missing is hands.",
+    "positions": [
+        {
+            "name": "the table",
+            "prose": "The table is the room's center of gravity. Everything faces it, everything leads to it. The flour on its surface is undisturbed \u2014 a thin even layer, the workspace prepared but not yet used. The bowl is empty. The pitcher holds water, warm from sitting near the oven wall. Three jars: honey (amber, viscous, catching the dawn light), salt (white, crystalline, sharp-edged), and something dark and grainy that smells of yeast and beer. A wooden spoon. A cloth. The cup of tea, steam barely visible.",
+            "smell_emphasis": [
+                "bread-yeast",
+                "flour-dust",
+                "tea-bergamot",
+                "honey"
+            ],
+            "cross_sensory": "The ingredients are identifiable by smell before you open the jars \u2014 honey's heavy sweetness, yeast's sharp fermented bite, salt's absence of smell. The nose maps the table before the hands touch it.",
+            "touch_notes": "The table is flour-dusted and the flour transfers to everything you touch. The pitcher is ceramic and warm. The honey jar is glass and sticky where it's been opened before. The yeast jar smells stronger when your hand warms the lid."
+        }
+    ],
+    "light": {
+        "lux": 300,
+        "color_temp_k": 3500,
+        "source": "dawn light through two small east-facing windows",
+        "note": "300 lux at dawn means the windows face east and the sun is just clearing the horizon. The light is low-angle \u2014 it enters almost horizontally, catching the flour dust and turning it into a visible constellation. In an hour it will be 10x brighter and the flour dust will be invisible again. This light is temporary."
+    },
+    "temporal": [
+        {
+            "at_minutes": 0,
+            "event": "oven cold. Tea warm (35\u00b0C, cooling at ~0.5\u00b0C/min). Flour undisturbed."
+        },
+        {
+            "at_minutes": 5,
+            "event": "yeast activated in warm water \u2014 surface begins to bubble. Smell shifts from mineral to fermented. Temperature of the yeast mixture: 38\u00b0C."
+        },
+        {
+            "at_minutes": 10,
+            "event": "dough kneaded. Gluten matrix formed \u2014 texture changes from sticky chaos to elastic, smooth, alive. Oven lit \u2014 kindling catches at 250\u00b0C, stone starts absorbing heat."
+        },
+        {
+            "at_minutes": 20,
+            "event": "dough risen to 1.5x volume. Oven walls at 200\u00b0C. The smell of yesterday's bread emerges from the heated stone \u2014 ghost bread."
+        },
+        {
+            "at_minutes": 25,
+            "event": "bread in the oven. Maillard reaction begins at 140\u00b0C \u2014 amino acids + reducing sugars = golden crust + the smell of baking. Yeast dies at 60\u00b0C \u2014 its last act is one final push of CO2 that gives the bread its height."
+        },
+        {
+            "at_minutes": 30,
+            "event": "bell rings. Bread done. Crust at 190\u00b0C, interior at 95\u00b0C. The smell fills the kitchen and escapes through the door into the courtyard."
+        }
+    ],
+    "impossible_detail": "The tea cup's warmth tells time. Ceramic cools at roughly 0.5\u00b0C per minute in still air. At 35\u00b0C now, it was 60\u00b0C forty minutes ago \u2014 whoever poured it left just before dawn. They held this cup, sipped from it, set it down, and walked away. The warmth your palm finds is the last physical trace of another person's morning.",
+    "material_properties": {
+        "oak_table": {
+            "material": "European oak (Quercus robur)",
+            "thermal_conductivity_w_mk": 0.17,
+            "note": "wood conducts heat 470x slower than iron. That's why the table feels warm at 18\u00b0C and the iron oven handle feels cold at the same temperature. The table is lying to you \u2014 it's the same temperature as everything else. It just lets you keep your heat."
+        }
+    }
+}

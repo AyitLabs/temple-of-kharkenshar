@@ -1,0 +1,118 @@
+{
+    "id": "meadow-fireside",
+    "name": "The Meadow \u2014 Fireside",
+    "description": "A meadow at early evening with a campfire already burning. Someone prepared this place \u2014 there are warm stones arranged for sitting, a blanket folded, something cooking over the coals. The stream is nearby. Trees ring the clearing, close enough for shelter, far enough for sky. This place was waiting for you. Nothing is asked of you here.",
+    "smell": {
+        "scene_id": "meadow-fireside",
+        "compounds": [
+            "woodsmoke-guaiacol",
+            "woodsmoke-syringol",
+            "warm-earth",
+            "cooking-bread",
+            "herb-rosemary",
+            "wool-blanket",
+            "water-mineral",
+            "pine-resin"
+        ]
+    },
+    "sight": {
+        "scene_id": "meadow-fireside"
+    },
+    "sound": {
+        "rt60_seconds": 0,
+        "ambient_dba": 35,
+        "layers": [
+            {
+                "source": "fire",
+                "frequency_hz": "100-3000",
+                "note": "combustion is chaotic \u2014 no two pops are alike. The crackle is trapped water in wood explosively vaporizing. The hiss is volatiles burning. The low roar is the convection column \u2014 hot air rising, cold air rushing in to replace it."
+            },
+            {
+                "source": "something cooking",
+                "frequency_hz": "1000-4000",
+                "note": "the sizzle is water meeting a hot surface and instantly phase-transitioning from liquid to gas. Every bubble that forms is 100\u00b0C surrounded by 200\u00b0C metal. The sound is violence at the molecular level."
+            },
+            {
+                "source": "night insects beginning",
+                "frequency_hz": "3000-6000",
+                "note": "the transition from day insects (visual hunters) to night insects (acoustic hunters). The soundscape shifts as one orchestra leaves the stage and another tunes up."
+            }
+        ]
+    },
+    "environment": {
+        "temperature_c": 18,
+        "humidity_pct": 55,
+        "wind_speed_kmh": 3,
+        "time_of_day": "evening",
+        "weather": "clear",
+        "indoor": false,
+        "touch": {
+            "surface_textures": [
+                "warm stones \u2014 sun-heated during the day, now holding that heat, smooth river stones arranged in a half-circle",
+                "wool blanket \u2014 thick, slightly rough, warm, smelling of lanolin and woodsmoke",
+                "fire heat \u2014 radiant, asymmetric, 35\u00b0C+ on exposed skin facing the flames, ambient 18\u00b0C on your back",
+                "stream water nearby \u2014 13\u00b0C, audible, a cool contrast to the fire"
+            ],
+            "air_feel": "Warm near the fire, cool beyond it. The air is layered \u2014 smoke rises in a column, and you exist in the boundary between firelit warmth and evening cool. At 3 km/h wind, the smoke drifts occasionally toward you, stings the eyes for a moment, then clears. The fire creates its own microclimate \u2014 a dome of warmth maybe three meters across.",
+            "thermal_notes": "The fire is the thermal center. Radiant heat at 600-800\u00b0C flame surface drops to comfortable warmth at 1.5 meters, background at 3 meters. The warm stones are secondary heat sources \u2014 they absorbed solar radiation all day and now release it slowly, warm to sit on, warm to lean against. Your front and back exist in different thermal worlds: fire-facing skin at 35\u00b0C+, air-facing skin at 18\u00b0C. The blanket eliminates this differential \u2014 wrap it around your shoulders and the cold side disappears.",
+            "key_tactile_moments": [
+                "Sitting on a warm stone \u2014 the heat rises through your body from below, unexpected, like the stone remembers the sun",
+                "Pulling the blanket around your shoulders \u2014 the wool's insulation traps body heat immediately, and the cold back disappears in seconds",
+                "Holding your hands toward the fire \u2014 the radiant heat is directional and immediate, you can feel the boundary between warm and not-warm by moving your hand six inches",
+                "Tearing bread from the coals \u2014 the crust cracks, steam rises, the inside is hot enough to sting your fingers"
+            ]
+        }
+    },
+    "cross_sensory_bridges": [
+        "The fire is sight, sound, smell, and touch simultaneously \u2014 orange light, crackling, woodsmoke, and radiant heat are all the same combustion event reaching you through different channels. The fire is one thing experienced four ways.",
+        "The bread cooking is a chemistry lesson experienced as comfort \u2014 Maillard reaction at 140-165\u00b0C produces both the brown crust (sight) and the baking smell (volatile compounds). The same reaction makes it delicious. Chemistry that feeds you.",
+        "The boundary between fire-warmth and night-cool is a line you can stand on. One step forward: warm face, warm hands, visible by firelight. One step back: cool air, dark, invisible. The fire defines a space \u2014 inside it, you exist. Outside it, the meadow is vast and dark and you are small."
+    ],
+    "reconciliation": {
+        "shared_causes": [
+            {
+                "cause": "Fire",
+                "effects": "The fire creates the light (orange, flickering, casting moving shadows on the trees), the warmth (radiant, directional, defining a circle of habitable space), the sound (crackle, pop, hiss of sap, the occasional settling of coals), and the dominant smell (guaiacol, syringol, the signature compounds of wood combustion). Remove the fire and this is a dark cold field. The fire makes it a place."
+            },
+            {
+                "cause": "Preparation",
+                "effects": "Someone gathered the stones, arranged them, laid the fire, folded the blanket, started the bread. Every comfort here is evidence of care. The warmth of the stones, the softness of the blanket, the smell of cooking \u2014 these are not natural. They are gifts. Someone knew you were coming."
+            }
+        ]
+    },
+    "mood": [
+        "warm",
+        "sheltered",
+        "communal",
+        "nourishing",
+        "prepared",
+        "earned"
+    ],
+    "positions": [
+        {
+            "name": "arriving at the firelight",
+            "description": "You see the fire before you reach it \u2014 a warm orange glow through the trees, flickering. The smell reaches you next \u2014 woodsmoke and something baking. Then the warmth, as you cross the boundary from night-cool to fire-warm. The clearing opens: stones arranged, blanket waiting, bread on a flat stone near the coals. The fire is well-built \u2014 someone who knows how.",
+            "smell_notes": "Woodsmoke is the first thing \u2014 guaiacol and syringol, the signature of hardwood combustion. Then bread \u2014 yeast, flour, the Maillard crust. Then pine resin from the trees ringing the clearing, warmed by the fire's radiant heat. Rosemary \u2014 fresh, placed near the coals on purpose, releasing volatile terpenes into the smoke.",
+            "sight_notes": "The fire is the only light source. It casts everything in orange and moving shadow. The trees around the clearing are lit on their near sides, dark on their far sides \u2014 each trunk is split between warmth and darkness. The bread on the stone is golden-crusted. The blanket is dark wool. The stream catches firelight in fragments.",
+            "sound_notes": "The fire dominates \u2014 crackle, pop, the occasional shift of a log settling deeper into coals. The stream is underneath \u2014 continuous, lower-pitched, the constant beneath the fire's irregular rhythm. Night insects beyond the firelight. An owl, once, far away.",
+            "touch_notes": "The heat hits your face and hands first as you approach \u2014 radiant, sudden after the walk through cool air. The warm stone you choose to sit on is a second surprise \u2014 heat from below and in front simultaneously. The blanket is within arm's reach.",
+            "cross_sensory": "The transition from forest dark to firelight is every sense at once: cold to warm, dark to bright, quiet to cracking, clean air to smoke. You cross a threshold that isn't built. The fire made it."
+        },
+        {
+            "name": "seated by the fire",
+            "description": "You are sitting. The stone is warm under you. The blanket is around your shoulders, or across your lap, or however you want it. The bread is in your hands \u2014 torn from the round, steaming, the crust crackling as it breaks. The fire is at the right distance: warm but not hot, bright but not blinding. The stream murmurs. The stars are appearing above the clearing.",
+            "smell_notes": "The bread in your hands \u2014 close-range now, the steam carries wheat-sweet and Maillard-brown and yeast-alive directly into your face. The woodsmoke is background now, part of the air. The blanket smells like wool and past fires. The rosemary has softened into a steady herbal undertone.",
+            "sight_notes": "The fire has settled to coals with occasional flame. The light is steadier now \u2014 less flickering, more glow. The coals are orange-white at center, red at edges, black where ash covers them. The stars are bright \u2014 no light pollution, no moon yet. The clearing is a bowl of firelight in a dark world.",
+            "sound_notes": "The fire is quieter in its coal phase \u2014 ticking, settling, the occasional whisper of ash. The stream is clearer now that the flames have died down. Your own chewing. Your own breathing. The owl again, closer. The sounds have sorted themselves into layers: fire, water, night, you.",
+            "touch_notes": "The bread is warm in your hands. The stone is warm under you. The blanket is warm around your shoulders. The fire is warm on your face. You are surrounded by warmth \u2014 held by it, from every direction. The only cool thing is the air on the back of your neck where the blanket gaps, and even that is gentle. You are warm. You are fed. You are here.",
+            "cross_sensory": "Warmth from the stone below, the fire ahead, the blanket around, the bread within. Four sources, four directions, one message: you are cared for. This place was made for you. Rest."
+        }
+    ],
+    "light": {
+        "lux": 50,
+        "color_temp_k": 1900,
+        "source": "open fire, no other light source",
+        "note": "1900K \u2014 the color temperature of firelight is the color temperature our eyes evolved under for 400,000 years before electric light. It suppresses zero melatonin. It says 'safe' in a language older than language. 50 lux reaches 3 meters from the fire \u2014 beyond that, darkness."
+    },
+    "impossible_detail": "Firelight at 1900K is the light our circadian system evolved to recognize as 'evening, wind down, sleep soon.' Screens emit at 6500K \u2014 the color temperature of noon. Electric light broke a 400,000-year relationship between humans and fire. Sitting by this fire, your brain chemistry shifts: cortisol drops, melatonin begins. Not because fire is special, but because your endocrine system still thinks this is the only light that exists after dark."
+}

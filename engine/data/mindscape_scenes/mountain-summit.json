@@ -1,0 +1,132 @@
+{
+    "id": "mountain-summit",
+    "name": "Mountain Summit",
+    "description": "A high-altitude summit above the tree line \u2014 thin air, UV-intense light, wind that steals warmth and sound, lichen-covered rock, and a silence so complete it becomes its own presence.",
+    "smell": {
+        "scene_id": "mountain-summit",
+        "compounds": [
+            "ozone",
+            "cold-stone",
+            "lichen",
+            "snow-melt",
+            "pine-resin",
+            "thin-air",
+            "sun-heated-rock",
+            "alpine-herb"
+        ]
+    },
+    "sight": {
+        "scene_id": "mountain-summit"
+    },
+    "sound": {
+        "rt60_seconds": 0,
+        "ambient_dba": 55,
+        "layers": [
+            {
+                "source": "wind",
+                "frequency_hz": "20-2000",
+                "note": "broadband turbulence. At 35 km/h, wind generates ~55 dBA of noise \u2014 equivalent to a conversation. It masks everything quieter than itself."
+            },
+            {
+                "source": "your jacket",
+                "frequency_hz": "2000-8000",
+                "note": "fabric snapping in the gusts. This is the loudest thing after the wind \u2014 your own clothing, arguing with the air."
+            },
+            {
+                "source": "nothing else",
+                "note": "no birds at this altitude. No insects. No water. The summit is acoustically empty except for wind and you."
+            }
+        ]
+    },
+    "environment": {
+        "temperature_c": 2,
+        "humidity_pct": 25,
+        "wind_speed_kmh": 35,
+        "time_of_day": "morning",
+        "weather": "clear",
+        "indoor": false,
+        "touch": {
+            "surface_textures": [
+                "rough granite with embedded feldspar crystals sharp under fingertips",
+                "dry crumbling lichen that powders on contact",
+                "sun-heated rock face hot on one side cold in every crack",
+                "granular compacted snow between ice and stone",
+                "wind-scoured metal of a summit marker smooth and freezing"
+            ],
+            "air_feel": "Thin and biting \u2014 at altitude the air holds less moisture and less heat, and 35 km/h wind creates a wind chill well below the 2\u00b0C ambient temperature. Exposed skin feels sandblasted. The UV radiation is tangible: a burning tightness on cheekbones and the bridge of your nose that is sunburn forming in real time. Breathing requires conscious effort \u2014 each breath delivers less oxygen, and your chest works harder.",
+            "thermal_notes": "Wind chill at 35 km/h and 2\u00b0C drops effective temperature to approximately -7\u00b0C on exposed skin. Granite's thermal conductivity (~2.5 W/mK) means sun-facing rock absorbs solar radiation and becomes genuinely warm (25-30\u00b0C surface) while shaded rock inches away remains at ambient 2\u00b0C \u2014 the thermal gradient across a single boulder can span 25 degrees. The wind strips convective heat from skin at roughly 5x the rate of still air. Sweat evaporates almost instantly in the low humidity, cooling skin further through latent heat loss.",
+            "key_tactile_moments": [
+                "Hands on sun-heated granite that is warm as skin while the wind freezes your knuckles \u2014 two temperatures on the same hand",
+                "The wind gusting hard enough to push your body sideways, forcing you to lean into it like a negotiation with physics",
+                "A brief windless moment when the sun hits your face and you feel genuine warmth for three seconds before the next gust steals it",
+                "Granular snow compacting under your boot with a dry crunch, then suddenly giving way to ice beneath"
+            ]
+        }
+    },
+    "cross_sensory_bridges": [
+        "The thin air connects everything \u2014 you see farther because there's less atmosphere, hear less because there's less medium to carry sound, and smell almost nothing because the cold shuts down volatility. Altitude is a sensory editor.",
+        "The UV light is so intense it becomes tactile \u2014 you feel it burning exposed skin while the wind simultaneously freezes it, two temperatures occupying the same square inch.",
+        "Silence at altitude has weight. It presses on your eardrums the way the thin air presses on your lungs \u2014 both absences you feel as physical presence."
+    ],
+    "mood": [
+        "exalted",
+        "exposed",
+        "silent",
+        "vast",
+        "spiritual"
+    ],
+    "prose": "The summit strips everything back to primary inputs.\n\nThe light is not normal light. At this altitude the atmosphere has thinned to the point where UV passes nearly unfiltered, and the sun hits with an intensity that makes shadows black and highlights nuclear. The sky is not blue but a deep cobalt verging on violet \u2014 the color of insufficient atmosphere. Below you, the world falls away in every direction: ridgelines descending into valleys filled with cloud, other peaks emerging from the white like islands in a frozen sea. The rock under your boots is grey granite flecked with mica that catches the sun in tiny detonations. Lichen \u2014 orange, chartreuse, black \u2014 has been writing on these rocks for centuries in a language of slow growth.\n\nThe wind is the dominant sense. It arrives from the northwest with nothing between you and the Arctic to slow it down, and it steals heat from every exposed surface \u2014 your face, your hands, the sweat on your back that turns to ice-water in seconds. It roars past your ears in a white noise so consistent it becomes silence's negative image. When it gusts, it pushes your body and you lean into it like a negotiation. When it pauses \u2014 rarely, briefly \u2014 the silence that fills the vacuum is so absolute your own heartbeat becomes audible, your breathing becomes weather.\n\nSmell barely exists here. The cold suppresses volatility, the wind disperses what little emerges, and the thin air carries fewer molecules per breath. But lean close to a sun-heated rock face and there it is: the mineral warmth of granite releasing its stored heat, the dry spice of lichen, the impossibly faint resin from the last pines a thousand feet below. Ozone rides the wind \u2014 the smell of atmosphere itself, stripped and cleaned by altitude. Every scent you detect is a small victory against the mountain's sensory austerity.\n\nYou are higher than weather. The world is below you and it is round.",
+    "positions": [
+        {
+            "name": "the final scramble",
+            "prose": "Hands on rock now, the last twenty feet requiring all four limbs, and the granite is simultaneously sun-hot on its exposed face and ice-cold in every crack and shadow. Your world narrows to the tactile: the texture of feldspar crystals under your fingertips, the scrape of boot rubber on stone, the lichen that crumbles to dry powder where you grip. The wind tries to peel you off the rock face and your body becomes a negotiation between weight and force. You smell your own exertion \u2014 sweat and sunscreen and the metallic taste of oxygen debt at altitude \u2014 and beneath it, the clean mineral scent of rock that has never been indoors, never been touched by anything but weather.",
+            "smell_emphasis": [
+                "cold-stone",
+                "sun-heated-rock",
+                "ozone"
+            ],
+            "cross_sensory": "Touch dominates here \u2014 every sense subordinated to the conversation between your hands and the mountain, with the wind as uninvited moderator.",
+            "touch_notes": "Hands on rock \u2014 the granite is both hot and cold depending on sun exposure, and your fingers read both temperatures simultaneously. Feldspar crystals bite into your palms. The lichen crumbles to powder under your grip, unreliable. The wind pushes at your body constantly, making balance a full-body negotiation. Your legs shake from exertion and adrenaline."
+        },
+        {
+            "name": "the summit cairn",
+            "prose": "You stand at the pile of stones that marks the top and for a moment the wind drops and the silence is like a physical substance filling your skull. Three hundred and sixty degrees of visible earth, the horizon curved at the edges, cloud shadows racing across valleys far below like time-lapse footage of weather you've already risen above. The cairn stones are warm where the sun reaches them, and sitting against the pile you feel the heat through your jacket \u2014 a kindness from the mountain that seems almost personal. The air smells of nothing and everything: ozone, cold stone, the ghost of pine resin carried impossibly from the tree line below, and your own breath condensing into small clouds that the wind tears apart like unfinished thoughts.",
+            "smell_emphasis": [
+                "ozone",
+                "cold-stone",
+                "pine-resin"
+            ],
+            "cross_sensory": "At the very top, the visual scale and the auditory silence and the olfactory emptiness all say the same thing: you have left the human world and entered the mineral one.",
+            "touch_notes": "The cairn stones are sun-warm, and sitting against the pile you feel that warmth through your jacket like a gift. The wind roars past, tugging at every loose piece of clothing, drying the sweat on your back to an icy film. Your lips are cracked from the dry air. Your fingers, when you remove your gloves, are white at the tips \u2014 vasoconstriction from the cold."
+        },
+        {
+            "name": "the leeward shelter",
+            "prose": "A natural rock formation breaks the wind on the south side and the difference is immediate and profound \u2014 the roar drops to a murmur, your face stops burning, and sounds return: the click of cooling rock contracting, the rustle of your own jacket, a raven calling from somewhere below in a croak that echoes off the cliff face. In this pocket of relative stillness the sun's warmth actually accumulates, and the rock you lean against smells faintly of lichen and sun-heated mineral \u2014 a dry, ancient warmth like opening a stone oven. Alpine herbs have found purchase in a crack: tiny, wind-sculpted plants whose crushed leaves release a concentrated aromatic that's half thyme, half something unnamed that only grows above ten thousand feet.",
+            "smell_emphasis": [
+                "lichen",
+                "sun-heated-rock",
+                "alpine-herb"
+            ],
+            "cross_sensory": "The shelter is a sensory microclimate \u2014 step two feet and the wind and cold erase everything, but here in the lee, warmth and scent and sound are allowed to exist.",
+            "touch_notes": "The relief from wind is immediate and physical \u2014 like stepping behind a wall of silence. The rock you lean against is sun-warmed and rough, and the heat penetrates through your jacket into your back muscles. Crushing an alpine herb between your fingers releases oil and the leaf is tiny, tough, almost leathery \u2014 adapted to the wind that can't reach it here. Your skin relaxes; you hadn't realized how tensed it was against the cold."
+        },
+        {
+            "name": "the snow field edge",
+            "prose": "A permanent snowfield clings to the north face just below the summit, and at its edge the temperature drops ten degrees in a single step. The snow is granular, old, compacted by seasons into something between ice and stone, and it reflects light with a blue-white intensity that makes you squint even through sunglasses. The air above it is measurably colder and carries the non-scent of absolute purity \u2014 snow-melt has no smell, only a cold so clean it registers as a taste: metallic, sharp, the flavor of water that has never touched soil. Meltwater trickles at the snow's edge with a high, glassy sound, impossibly delicate against the wind's bass roar, carving tiny channels in the rock that glitter in the sun like veins of liquid silver.",
+            "smell_emphasis": [
+                "snow-melt",
+                "ozone",
+                "cold-stone"
+            ],
+            "cross_sensory": "The snow field is where temperature becomes the primary sense \u2014 you see the blue light, hear the meltwater, and smell the absence of everything warm, all governed by cold.",
+            "touch_notes": "The temperature drop at the snow field edge is a wall \u2014 ten degrees colder in a single step, the air radiating off the compacted snow surface. The snow itself is hard and granular underfoot, not soft powder but old crystalline ice that crunches and holds your weight, then occasionally gives way. Meltwater runs over your boot and the cold is startling even through leather. Your face burns in the snow-reflected UV."
+        }
+    ],
+    "light": {
+        "lux": 120000,
+        "color_temp_k": 5800,
+        "uv_index": 11,
+        "note": "120,000 lux \u2014 maximum terrestrial illumination. UV index 11 is extreme: unprotected skin burns in 10 minutes. The thin atmosphere at altitude filters less UV. The clarity you see is the same absence that's burning you."
+    },
+    "impossible_detail": "Every breath here gives you 15% less oxygen than at sea level. Your body is running a quiet emergency \u2014 breathing faster, heart pumping harder, capillaries dilating \u2014 and you won't notice any of it until you try to sprint and your legs refuse. The mountain is thinner than it looks. The air is lying about how much of it there is."
+}

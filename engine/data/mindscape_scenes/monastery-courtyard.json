@@ -1,0 +1,126 @@
+{
+    "id": "monastery-courtyard",
+    "name": "The Monastery Courtyard",
+    "description": "A small walled garden behind the kitchen. Dawn turning to morning. Herb beds, a stone bench, a cat. The smell of bread follows you out \u2014 your bread, still baking. In the distance, the monastery is waking: footsteps, doors, quiet voices. The bell tower catches the first full light.",
+    "smell": {
+        "scene_id": "monastery-courtyard",
+        "compounds": [
+            "rosemary",
+            "thyme",
+            "lavender",
+            "bread-baking",
+            "dew-on-grass",
+            "warm-stone",
+            "cat-fur"
+        ]
+    },
+    "sight": {
+        "scene_id": "monastery-courtyard"
+    },
+    "sound": {
+        "rt60_seconds": 0.1,
+        "ambient_dba": 38,
+        "layers": [
+            {
+                "source": "bees in the lavender",
+                "frequency_hz": "200-500",
+                "note": "wing beat frequency 230 Hz. Three or four bees create a chord \u2014 slightly different frequencies beating against each other."
+            },
+            {
+                "source": "cat purring",
+                "frequency_hz": "25-50",
+                "note": "25-50 Hz, amplitude modulated by breathing. Purring promotes bone density and healing \u2014 the frequency is medicinal. You feel it through contact before you hear it through air."
+            },
+            {
+                "source": "monastery waking",
+                "frequency_hz": "100-4000",
+                "note": "footsteps on stone, a door closing, voices too distant to resolve into words. The building becoming inhabited."
+            },
+            {
+                "source": "bread baking (from kitchen)",
+                "frequency_hz": "none",
+                "note": "you can't hear bread bake. But the smell arrives on the same air currents that carry sound, so the bread's presence has a directional quality \u2014 it comes from the kitchen door."
+            }
+        ]
+    },
+    "environment": {
+        "temperature_c": 14,
+        "humidity_pct": 72,
+        "wind_speed_kmh": 3,
+        "wind_direction": "gentle, variable \u2014 morning thermals just starting",
+        "time_of_day": "early-morning",
+        "weather": "clear",
+        "indoor": false,
+        "touch": {
+            "surface_textures": [
+                "stone bench \u2014 cold, dew-damp, smooth from generations of sitting, it warms slowly under you",
+                "herb leaves between your fingers \u2014 rosemary needles sharp and oily, thyme soft and tiny, lavender stems woody with flower buds at the tips",
+                "cat fur \u2014 warm, dry, vibrating faintly with a purr you feel before you hear, the cat has been sleeping in a patch of early sun",
+                "dew on the grass at the garden edge \u2014 cold, bright, each blade holding one perfect drop"
+            ],
+            "air_feel": "Morning air \u2014 clean, cool, damp with dew that's just starting to burn off. The first thermals are forming as the sun heats stone faster than grass, creating tiny convection currents that carry scent in unpredictable directions. One moment you smell rosemary, the next bread, the next nothing, the next lavender. The air is waking up.",
+            "thermal_notes": "14\u00b0C ambient but the sun is already warm on exposed surfaces. The stone bench has a sunny end and a shady end \u2014 one is dew-cold, the other is dry and warming. The wall behind the bench radiates the night's stored cold. The herb bed radiates warmth \u2014 dark soil absorbs sunlight efficiently. The cat has found the optimal thermal position and is not moving.",
+            "key_tactile_moments": [
+                "The cat pressing its head against your hand \u2014 warm skull, the purr vibrating through bone into your palm, eyes closed, completely trusting",
+                "Crushing a rosemary leaf between finger and thumb \u2014 the oils burst out, sharp and camphor-clean, and your fingers carry the smell for an hour",
+                "The stone bench warming under you as the sun climbs \u2014 you can feel the temperature rising in real time, the stone converting light to heat against your legs"
+            ]
+        }
+    },
+    "cross_sensory_bridges": [
+        "The bread smell coming through the kitchen door and the herb smell from the garden are both plant volatiles released by heat \u2014 one by oven heat, one by sun heat. The courtyard smells of two kinds of warmth.",
+        "The cat's purr and the distant monastery bells are both vibrations \u2014 one at 25-50 Hz traveling through fur and bone, one at 500-2000 Hz traveling through morning air. One is intimate, one is communal. Both mean: someone is here.",
+        "The dew is disappearing as you watch \u2014 sunlit surfaces dry first, shaded surfaces hold their drops. The garden is a clock, and the dew is its hand, and it's telling you: morning is happening right now."
+    ],
+    "mood": [
+        "peaceful",
+        "earned",
+        "domestic",
+        "alive",
+        "generous"
+    ],
+    "prose": "You step outside and the world is doing what it does every morning without anyone watching.\n\nThe courtyard is small \u2014 walled on three sides by the monastery, open on the fourth to a view of hills fading into morning haze. Herb beds line the walls in neat stone-bordered rows: rosemary, thyme, lavender, sage, things that were planted once and have been growing ever since. The rosemary is tall enough to brush your hip as you pass. The lavender is not yet in full bloom but the buds are fat and fragrant and bees are already working them.\n\nA stone bench sits against the south wall, in the first direct sunlight. Half of it is warm and dry. Half is still dew-damp and cold. A cat \u2014 orange, self-possessed, indifferent to your existence \u2014 is curled on the warm half, occupying it with the absolute conviction that this spot was made for exactly this purpose.\n\nBehind you, through the open kitchen door, the smell of bread baking. Your bread. The one you made with your hands from flour and water and honey and yeast, the one that almost didn't work, the one that's rising now in the heat of the oven you lit. The smell follows you into the courtyard and mixes with the rosemary and the dew and the warming stone.\n\nThe monastery is waking up. You can hear it more than see it \u2014 a door closing somewhere. Footsteps on stone. A voice, quiet, answered by another. The bell in the tower has not rung yet but it will. The light is climbing the bell tower's face, turning grey stone gold from the top down.\n\nThe people who live here will eat the bread you made. They don't know you made it. They'll come to the kitchen and find it warm and ready and they'll eat it the way people eat bread \u2014 without thinking about it, because it's there, because someone made it. The care was the point. Not the credit.\n\nThe cat opens one eye, decides you're acceptable, and closes it again. The sun is warm on your face. The bread is baking. The morning is here.",
+    "positions": [
+        {
+            "name": "the bench",
+            "prose": "You sit on the warm half. The cat tolerates your proximity. The stone bench holds the morning's first heat and gives it to you through your legs and back. The herb garden is at eye level from here \u2014 you can see individual dew drops on the rosemary needles, each one a tiny lens focusing the sunlight into a point of fire. The bread smell drifts from the kitchen in waves, stronger when the air shifts, fading when it settles. The bell tower is directly ahead, its shadow shortening as the sun climbs. Any minute now.",
+            "smell_emphasis": [
+                "rosemary",
+                "bread-baking",
+                "lavender",
+                "dew-on-grass"
+            ],
+            "cross_sensory": "The warmth of the bench and the warmth of the bread smell are both consequences of heat \u2014 sun-heat and oven-heat. You are surrounded by things getting warm. The morning is happening through every sense simultaneously.",
+            "touch_notes": "The cat, if it lets you, is the warmest thing in the courtyard. Its fur is sun-heated and body-heated, easily 30\u00b0C. The purr is a vibration you feel through your thigh if it leans against you. The bench is 20\u00b0C and climbing. The air is 14\u00b0C. The dew on the grass at your feet is 10\u00b0C. A thermal gradient from cat to dew, warm to cold, alive to not."
+        }
+    ],
+    "light": {
+        "lux": 8000,
+        "color_temp_k": 4500,
+        "source": "early morning direct sun + blue sky fill",
+        "note": "8,000 lux \u2014 bright enough to suppress melatonin production. Your body knows it's morning before your mind does. The sun is low enough to cast long shadows from the herb bed \u2014 each rosemary bush has a shadow three times its height."
+    },
+    "temporal": [
+        {
+            "at_minutes": 0,
+            "event": "dew on everything. Herb oils suppressed by cold. Cat asleep."
+        },
+        {
+            "at_minutes": 5,
+            "event": "sun reaches the bench. Stone begins warming. Dew starts evaporating from sunlit surfaces \u2014 shaded surfaces still wet. A thermal clock."
+        },
+        {
+            "at_minutes": 10,
+            "event": "herb oils volatilize as leaves warm \u2014 rosemary first (camphor, boiling point 204\u00b0C, but measurable vapor at 20\u00b0C), then thyme (thymol), then lavender (linalool). The garden's smell wakes up in order of boiling point."
+        },
+        {
+            "at_minutes": 15,
+            "event": "cat shifts to follow the sun patch. Bell tower fully lit. Bread smell from kitchen intensifies \u2014 the crust is forming."
+        },
+        {
+            "at_minutes": 20,
+            "event": "first monk appears in the courtyard. Nods at you. Goes to the kitchen. The bread is there."
+        }
+    ],
+    "impossible_detail": "The bread you made is a collaboration with an organism that died to complete it. Yeast (Saccharomyces cerevisiae) metabolized sugar, exhaled CO2, and gave the dough its rise. Then the oven reached 60\u00b0C internally and killed every cell. The yeast's last act was one final push of gas \u2014 the burst that gave the bread its height. Every loaf is a monument to something that lived and died to feed you. The bread cooling in the kitchen behind you carries that entire life cycle in its structure: the bubbles are tombs, the crust is the seal, and the warmth is the last heat of a billion small deaths becoming nourishment."
+}

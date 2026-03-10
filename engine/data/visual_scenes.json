@@ -1,0 +1,400 @@
+[
+  {
+    "id": "golden_hour_city_street",
+    "name": "Golden Hour City Street",
+    "components": {
+      "lights": ["golden_hour"],
+      "materials": ["wet_cobblestone", "brick", "clear_glass", "painted_wall"],
+      "atmosphere": "light_haze"
+    },
+    "time_of_day": "golden_hour",
+    "prose": "The city turns to honey. Golden light pours down the street like something spilled, catching every surface and turning it warm. Brick walls glow deep red-amber, as if heated from within. Shop windows become sheets of liquid gold, reflecting the low sun in blinding flashes. Wet cobblestones — from an afternoon rain that's already a memory — catch the light and break it into a thousand amber coins scattered across the ground. The haze softens everything beyond a block's distance into a warm, painterly blur. Long shadows stretch eastward, blue-violet against the golden flood, and every person walking through the light is haloed, backlit, briefly heroic.",
+    "mood": ["nostalgic", "cinematic", "warm", "beautiful"],
+    "tags": ["urban", "golden_hour", "warm", "reflection"]
+  },
+  {
+    "id": "foggy_forest_morning",
+    "name": "Foggy Forest Morning",
+    "components": {
+      "lights": ["sunrise", "dappled_forest"],
+      "materials": ["bark", "moss", "leaves", "wet_mud"],
+      "atmosphere": "light_fog"
+    },
+    "time_of_day": "dawn",
+    "prose": "The forest is dreaming. Fog hangs between the trees like slow breath, catching the first pink light filtering through the canopy and holding it — suspending it — in the air itself. Tree trunks emerge from white nothing like pillars of a ruined temple, their bark dark and wet, furrowed with age. Moss glows an impossible emerald where a shaft of early light finds it, electric green against the grey-white everywhere else. The ground is soft and dark — wet earth and last year's leaves — and every surface beads with moisture that catches the diffused light and holds it as a faint, everywhere gleam. Twenty meters out, the trees dissolve. The world ends softly, muffled, intimate. You can hear the fog.",
+    "mood": ["enchanted", "quiet", "ethereal", "alive"],
+    "tags": ["forest", "fog", "dawn", "nature"]
+  },
+  {
+    "id": "candlelit_dinner",
+    "name": "Candlelit Dinner",
+    "components": {
+      "lights": ["candle"],
+      "materials": ["silk", "crystal", "skin", "polished_steel", "candle_wax"],
+      "atmosphere": "clear"
+    },
+    "time_of_day": "night",
+    "prose": "The candle is the only sun in this small universe. Its light reaches out in amber and gold, breathing with the flame — swelling, dimming, swelling — and everything it touches becomes beautiful. Skin glows warm and luminous, lit from outside but somehow seeming to generate its own light, the blood beneath lending a warm undertone that candlelight was born to find. Crystal glasses catch the flame and scatter it into a dozen bright points, rainbow-edged where the facets split the light into tiny spectrums. Silk catches the warmth and slides it along its folds in soft highlights that move with every breath. The silverware — fork, knife, spoon — holds a single amber point each, tiny precise reflections of the flame. Beyond the table's reach, the room falls to soft darkness, and the two faces across from each other are the brightest things in the world.",
+    "mood": ["intimate", "romantic", "warm", "focused"],
+    "tags": ["indoor", "candle", "night", "intimate"]
+  },
+  {
+    "id": "rainy_window",
+    "name": "Rainy Window",
+    "components": {
+      "lights": ["overcast", "warm_led"],
+      "materials": ["glass_with_rain", "painted_wall"],
+      "atmosphere": "rain"
+    },
+    "time_of_day": "afternoon",
+    "prose": "The window is a painting that keeps repainting itself. Raindrops bead and hold, each one a tiny convex lens bending the grey world outside into a miniature, inverted image — a tree, a roofline, a smudge of grey sky — all captured in a drop the size of a lentil. Then it slips, joins another, and they run together down the glass in a silver streak that smears the world behind it into soft abstraction. Inside, the warm LED light catches each droplet from behind, turning them into bright points against the grey. The street beyond is a soft blur of color — car lights smeared into red and white streaks, the neighbor's house dissolved into a watercolor suggestion. You are warm. The glass is cold. Between you and the rain, there is only this thin transparent wall, beaded with a thousand tiny worlds.",
+    "mood": ["contemplative", "cozy", "melancholy", "safe"],
+    "tags": ["indoor", "rain", "window", "afternoon"]
+  },
+  {
+    "id": "neon_lit_alley",
+    "name": "Neon-Lit Alley",
+    "components": {
+      "lights": ["neon_sign", "sodium_vapor"],
+      "materials": ["wet_asphalt", "brick", "puddle", "concrete"],
+      "atmosphere": "light_fog"
+    },
+    "time_of_day": "night",
+    "prose": "The alley is a noir painting someone left out in the rain. A neon sign — red, the word half-burned-out — bleeds its color down the wet brick wall and into the puddles below, turning the standing water into liquid ruby. Above it, a sodium vapor streetlight stamps its amber pool onto wet asphalt that mirrors everything back in long, smeared reflections. The fog is just enough to give each light source a halo, a soft corona of color bleeding into the dark air. Where the red neon meets the amber sodium, the wet ground turns a strange dark gold. The brick wall transitions from warm amber near the streetlight to deep crimson under the neon, its texture flattened by the wet sheen. A puddle in a pothole holds the reflection of both lights, side by side — red and amber — in still, dark water. Everything glistens. Everything is doubled.",
+    "mood": ["noir", "moody", "urban", "electric"],
+    "tags": ["urban", "night", "neon", "rain", "noir"]
+  },
+  {
+    "id": "snowy_field_dawn",
+    "name": "Snowy Field at Dawn",
+    "components": {
+      "lights": ["sunrise"],
+      "materials": ["snow", "ice"],
+      "atmosphere": "dawn"
+    },
+    "time_of_day": "dawn",
+    "prose": "The field is a white page waiting for a story. Snow stretches in every direction, unbroken, and the first light of dawn touches it from the east in pale pink-gold that makes the surface blush. Where the light hits directly, the snow turns rose — an impossible color for cold — and each tiny ice crystal catches the sun independently, creating a field of faint sparkles, a galaxy scattered at your feet. The shadows are the real revelation: vivid blue, painted by the cool sky overhead, they pool in every footprint, every drift-hollow, every slight depression with a saturated cobalt that almost hurts. The contrast — pink light, blue shadow, white snow — is so clean it feels like seeing color for the first time. The horizon is a perfect line where the pink-gold sky meets the blue-white field, and the air is so clear that the distance just keeps going.",
+    "mood": ["pristine", "vast", "breathtaking", "cold"],
+    "tags": ["nature", "snow", "dawn", "vast"]
+  },
+  {
+    "id": "fireplace_reading_room",
+    "name": "Fireplace Reading Room",
+    "components": {
+      "lights": ["fireplace", "incandescent"],
+      "materials": ["leather", "oak_wood", "cotton", "brass"],
+      "atmosphere": "clear"
+    },
+    "time_of_day": "night",
+    "prose": "This room was designed by warmth. The fireplace does the heavy lifting — its shifting amber light painting the walls in constantly moving brushstrokes, each flame-tongue creating and destroying shadows in real time. The leather armchair absorbs the warmth and returns it as a deep, rich brown that seems to radiate comfort from every crease. Oak bookshelves glow honey-amber, their grain lines dancing as the firelight flickers, every knot a dark eye. The brass reading lamp — not yet switched on — catches the firelight in a single warm gleam on its curved neck. A cotton throw draped over the chair arm goes cream-gold in the fire's glow. The incandescent bulb in the corner lamp adds a steady, secondary warmth, filling the shadows the fire creates with soft amber instead of leaving them to darkness. Everything here is warm, textured, and quietly alive with reflected light.",
+    "mood": ["cozy", "warm", "intellectual", "sheltered"],
+    "tags": ["indoor", "fire", "night", "cozy", "warm"]
+  },
+  {
+    "id": "underwater",
+    "name": "Underwater (Shallow)",
+    "components": {
+      "lights": ["midday_sun"],
+      "materials": ["moving_water", "sand"],
+      "atmosphere": "clear"
+    },
+    "time_of_day": "midday",
+    "prose": "Sunlight enters the water and changes the rules. Above, it was white and direct; here, it becomes something else — filtered through the moving surface into shifting, dancing columns of blue-green light that sweep across the sandy bottom in restless caustic patterns. The water acts as a thousand lenses, focusing and defocusing the light with every ripple, and the sand below dances with bright network patterns that never hold still, never repeat. Colors shift toward blue-green as depth absorbs the reds first — your hands look pale, almost ghostly, the blood faded from them. Bubbles rising catch the light and become silver spheres, perfect mirrors ascending. The surface above is a mercury ceiling, a rippling mirror showing the distorted sky. Everything moves. Everything shimmers. The light itself is liquid here.",
+    "mood": ["dreamlike", "weightless", "otherworldly", "alive"],
+    "tags": ["underwater", "nature", "light", "movement"]
+  },
+  {
+    "id": "moonlit_garden",
+    "name": "Moonlit Garden",
+    "components": {
+      "lights": ["moonlight"],
+      "materials": ["leaves", "flower_petal", "stone", "still_water", "grass"],
+      "atmosphere": "clear"
+    },
+    "time_of_day": "night",
+    "prose": "The garden at midnight is the garden's secret self. Moonlight falls like silver dust, cool and even, draining the world of color and replacing it with a luminous monochrome — everything in shades of grey and blue and silver, like a photograph taken before color was invented. The flowers you know are red, are yellow, are white, are all the same now — pale shapes in the dark, identifiable only by form. Leaves catch the moonlight on their waxy surfaces and hold it as tiny silver shields. The stone path is a grey ribbon winding through darker grey grass. And the garden pool — still, black, perfect — holds the moon itself, a white disc trembling on dark water. Your shadow is the softest shadow, barely there, and the whole scene feels like a memory of itself, beautiful and slightly unreal.",
+    "mood": ["ethereal", "peaceful", "mysterious", "monochrome"],
+    "tags": ["garden", "night", "moon", "quiet"]
+  },
+  {
+    "id": "industrial_warehouse",
+    "name": "Industrial Warehouse",
+    "components": {
+      "lights": ["fluorescent_cool", "window_light"],
+      "materials": ["concrete", "polished_steel", "rusted_iron", "dry_asphalt"],
+      "atmosphere": "dust"
+    },
+    "time_of_day": "afternoon",
+    "prose": "The warehouse is a cathedral of function. Fluorescent tubes run in long parallel lines across the distant ceiling, casting that flat, slightly green-tinged light that makes everything look like evidence. Concrete floor stretches in every direction, stained and cracked, its grey surface marked with the fossil record of forklifts and spills. Steel beams overhead catch the fluorescent light and return it as cool glints — the only brightness in a grey world. Rusted joints and brackets add spots of dark orange-brown, the only warm color in the space, though it's the warmth of decay, not comfort. Dust hangs in the shafts of afternoon light angling through high windows — each beam a solid column of gold cutting through the grey-green fluorescent wash, the two light temperatures coexisting but never mixing. Where sunbeam meets concrete floor, a warm rectangle. Everywhere else, the relentless institutional grey.",
+    "mood": ["industrial", "stark", "functional", "melancholy"],
+    "tags": ["industrial", "indoor", "fluorescent", "urban"]
+  },
+  {
+    "id": "deli",
+    "name": "Deli Counter at Lunch",
+    "components": {
+      "lights": ["fluorescent_cool", "warm_led"],
+      "materials": ["polished_steel", "clear_glass", "ceramic_tile", "plastic_glossy"],
+      "atmosphere": "humidity"
+    },
+    "time_of_day": "midday",
+    "walk": [
+      {
+        "position": "entrance",
+        "prose": "You push through the door and the light hits you first — fluorescent brightness bouncing off white ceramic tile, everything clean and sharp-edged and slightly too bright after the street. The glass display case runs the length of the room like an aquarium, its interior lit by warm strips that make the meats and cheeses glow amber-pink against stainless steel trays."
+      },
+      {
+        "position": "display case",
+        "prose": "Up close the glass becomes a layered thing — your own faint reflection hovering over the salads and cold cuts beneath, condensation beading the inside surface into tiny lenses. The stainless steel behind the counter is a funhouse mirror, stretching the fluorescent tubes into long warped ribbons of white. Everything gleams. The tile floor is slick with tracked-in rain, each wet footprint catching the overhead light in a brief silver flash."
+      },
+      {
+        "position": "back counter",
+        "prose": "Past the register the light changes character — warmer back here where an incandescent bulb hangs over the sandwich station, turning the cutting board honey-gold and the stacked bread into something almost painterly. Steam rises from the soup pot in a column that catches the light and scatters it, a soft warm haze drifting between the fluorescent ceiling and the incandescent island below. The chrome napkin dispensers on each table hold tiny convex reflections of the whole room."
+      }
+    ],
+    "prose": "The deli is a study in hard light on hard surfaces. Fluorescent tubes blaze from the ceiling, their cool white light bouncing off ceramic tile and stainless steel in a relentless cascade of reflections — every surface a mirror, every mirror a slightly distorted copy of the room. The glass display case is the centerpiece: warm-lit from within, it glows amber-pink against the cool white everywhere else, the meats and cheeses and salads luminous behind condensation-beaded glass. Your own reflection floats ghost-like over the prosciutto. Steam curls up from behind the counter where the soup waits, catching the fluorescent light and turning it visible — a soft column of lit vapour in an otherwise sharp-edged space. The stainless steel counters hold warped reflections of everything: your face, the menu board, the row of hanging salamis rendered as long dark smears in brushed metal. The tile floor, white and relentless, bounces light back up under chins and into eye sockets, the unflattering democracy of overhead fluorescence.",
+    "mood": ["bustling", "clinical", "appetizing", "urban"],
+    "tags": ["indoor", "food", "urban", "fluorescent"]
+  },
+  {
+    "id": "night_market",
+    "name": "Night Market",
+    "components": {
+      "lights": ["neon_sign", "warm_led", "incandescent", "sodium_vapor"],
+      "materials": ["wet_asphalt", "plastic_glossy", "polished_steel", "silk"],
+      "atmosphere": "smoke"
+    },
+    "time_of_day": "night",
+    "walk": [
+      {
+        "position": "entrance",
+        "prose": "The night market announces itself in light before anything else. Strings of bare incandescent bulbs sag between poles, casting overlapping pools of warm gold across the wet pavement. The entrance arch — plastic banners and a neon frame — throws pink and green onto the crowd's shoulders, and every face is lit from a different direction by a different color temperature."
+      },
+      {
+        "position": "food stalls",
+        "prose": "Deeper in, the light becomes chaotic and wonderful. Each stall is its own light island: bare bulbs dangling over sizzling woks, LED strips in cool blue framing a fruit display, a red neon character pulsing above a skewer grill. Smoke from the cooking rises through the light and makes it visible — amber columns, pink hazes, white shafts all tangling in the air above head height. The wet ground reflects everything doubled, smeared, color-bled."
+      },
+      {
+        "position": "far end",
+        "prose": "At the far end the stalls thin out and a single sodium vapor lamp reasserts itself — that monochrome amber drowning everything in the same flat gold. The silk scarves at the last stall go from jewel-toned to amber-toned in its light, their true colors temporarily stolen. Looking back, the market is a corridor of layered colored light receding into haze, each stall a bright nucleus in the general warm glow, the whole scene shimmering through cooking smoke like a memory of itself."
+      }
+    ],
+    "prose": "The night market is a riot of competing lights, each stall its own small sun. Bare incandescent bulbs dangle from sagging wires, casting warm gold in overlapping circles that stain the wet asphalt amber. Neon signs in pink and green and electric blue punch through the general warmth with saturated color, their light bleeding down wet surfaces in long vertical smears. Smoke from a dozen grills rises through it all, catching every light source and making the air itself glow — amber near the bulbs, pink near the neon, a strange lavender where the two colors meet and mix in the haze. The steel surfaces of cooking stations mirror the chaos: woks become bowls of reflected color, and the vendor's cleaver holds a tiny neon sign in its polished blade. Underfoot, the wet pavement is a second night market, inverted, smeared, all the lights and figures stretched downward into dark water. Everything sizzles. Everything gleams. The visual noise is the point.",
+    "mood": ["electric", "chaotic", "warm", "alive"],
+    "tags": ["urban", "night", "food", "neon", "smoke"]
+  },
+  {
+    "id": "coffee_shop",
+    "name": "Coffee Shop Morning",
+    "components": {
+      "lights": ["window_light", "warm_led"],
+      "materials": ["oak_wood", "ceramic_tile", "clear_glass", "copper", "cotton"],
+      "atmosphere": "morning"
+    },
+    "time_of_day": "morning",
+    "walk": [
+      {
+        "position": "doorway",
+        "prose": "Morning light floods through the plate-glass storefront and lays itself across the wooden floor in a bright trapezoid that reaches halfway to the counter. Dust motes drift through the sunbeam, each one a slow-motion spark. The rest of the room sits in warm shadow — pendant LEDs casting amber pools onto tables like spotlights waiting for their actors."
+      },
+      {
+        "position": "counter",
+        "prose": "At the counter, the copper espresso machine is the room's visual anchor — morning sun catches its curved surface and throws a warm reflected glow onto the ceiling, a wavering amber patch that shifts when someone walks past the window. The ceramic cups stacked behind the barista catch the LED light in their glazed surfaces, each one a small bright crescent. Steam from the machine rises through a shaft of window light and turns briefly golden before dissolving."
+      },
+      {
+        "position": "window seat",
+        "prose": "The window seat is the brightest place in the room — full morning sun warming the oak tabletop to deep honey, turning your coffee into a dark mirror rimmed with gold. The street outside is overexposed through the glass, pedestrians moving through white-bright light while you sit in this amber-and-shadow interior, the temperature of the light marking the boundary between worlds as clearly as the glass itself."
+      }
+    ],
+    "prose": "Morning light enters the coffee shop like it owns the place. It pours through the plate-glass front in a wide bright sheet, laying a trapezoid of warmth across the oak floor, turning the wood grain into rivers of gold and shadow. Dust motes hang in the sunbeam, drifting like plankton in a bright sea. The copper espresso machine catches this incoming light and becomes the room's jewel — a warm reflected glow thrown onto the ceiling that shifts and wavers with every passing pedestrian outside. Where the morning sun doesn't reach, warm LED pendants take over, casting smaller amber circles onto tables, their light a close cousin of the sun's but steadier, more intimate. Steam rises from cups and from the machine itself, and wherever it crosses a beam of light it turns briefly visible, briefly golden, before dispersing into the general warmth. The ceramic tiles behind the counter — handmade, slightly irregular — catch both light sources and return them differently: cool white from the window, warm amber from the LEDs, each tile holding both temperatures at once.",
+    "mood": ["warm", "peaceful", "intimate", "morning"],
+    "tags": ["indoor", "morning", "coffee", "warm", "urban"]
+  },
+  {
+    "id": "bakery",
+    "name": "Bakery at Dawn",
+    "components": {
+      "lights": ["warm_led", "dawn_twilight"],
+      "materials": ["oak_wood", "copper", "ceramic_tile", "clear_glass"],
+      "atmosphere": "dawn"
+    },
+    "time_of_day": "dawn",
+    "walk": [
+      {
+        "position": "street outside",
+        "prose": "Before dawn has fully committed, the bakery glows from within like a lantern set into the dark street. Warm LED light pours through the steamed-up windows, turning the condensation into a soft gold scrim. The sidewalk outside catches a faint amber rectangle — the shop's light footprint on cold concrete."
+      },
+      {
+        "position": "front counter",
+        "prose": "Inside, the air is warm and the light is warmer. The glass display cases glow from their internal LED strips, each shelf a stage for the morning's work — croissants catching the light on their lacquered curves like little golden architectures. Flour dust hangs in the air near the back, turning a warm LED into a soft halo. The wooden counter is worn smooth and pale from years of hands and transactions."
+      },
+      {
+        "position": "back kitchen view",
+        "prose": "Through the pass-through window the kitchen is another world of light — harsher, brighter, the overhead fluorescents necessary and unromantic. But the oven door, when it opens, throws a rectangle of deep amber-orange onto the flour-dusted floor, and for that moment the kitchen becomes a Rembrandt: faces lit from below in warm gold, everything else falling to shadow, the bread itself glowing as if lit from within."
+      }
+    ],
+    "prose": "The bakery at dawn is a box of captured warmth in a cold world. Warm LED light fills the interior with a steady amber glow that turns the wooden shelves to honey and the glass cases into glowing display cabinets of edible gold. Croissants catch the light on their lacquered, layered surfaces — each flake a tiny mirror angled differently, the overall effect a rough shimmer, like hammered metal made of butter. Flour dust hangs in the air, visible only where it crosses a light beam, turning the space above the counter into a soft-focus dream. Through the pass-through window, the kitchen blazes: fluorescent overheads for function, but the oven door opens and throws a rectangle of deep orange-amber across the floor, and suddenly every surface near it goes warm, goes Rembrandt, the baker's hands gilded as they slide the tray out. The front window, steamed from within, turns the pre-dawn street into a grey watercolour smudge, while inside everything is golden, floury, and alive with the light that warmth makes visible.",
+    "mood": ["warm", "cozy", "industrious", "intimate"],
+    "tags": ["indoor", "food", "dawn", "warm"]
+  },
+  {
+    "id": "forest",
+    "name": "Forest at Midday",
+    "components": {
+      "lights": ["dappled_forest", "midday_sun"],
+      "materials": ["bark", "moss", "leaves", "wet_mud"],
+      "atmosphere": "humidity"
+    },
+    "time_of_day": "midday",
+    "walk": [
+      {
+        "position": "forest edge",
+        "prose": "At the tree line the light steps down hard. Behind you, full midday sun blasts the meadow white. Ahead, the canopy intercepts it and redistributes — what reaches the ground arrives as scattered coins of light, each one sharp-edged and intensely bright against the deep green shade. Your eyes haven't adjusted yet; the forest interior looks nearly black."
+      },
+      {
+        "position": "deep canopy",
+        "prose": "Under the full canopy the world is green-filtered and cathedral-hushed. Light sifts through layers of leaves, each one subtracting red and blue, until what arrives at eye level is a soft emerald glow that colors everything: your hands, the bark, the air itself faintly green. Where a shaft of direct sun punches through a gap, it hits the forest floor like a spotlight — a circle of blazing yellow-green on moss that seems to radiate light upward."
+      },
+      {
+        "position": "stream clearing",
+        "prose": "The stream clearing opens a wound in the canopy and sunlight pours through unchecked. The water blazes — a sheet of moving white fire where the sun hits it directly, dark amber in the shaded pools beneath the banks. Wet stones along the edge hold the light in bright wet gleams. The transition from the green-dark forest to this sun-drenched gap is so abrupt your eyes ache, and the moss at the clearing's edge seems to glow supernaturally in the mixed light."
+      }
+    ],
+    "prose": "The forest at midday is a cathedral of green light. The canopy — dense, layered, a hundred thousand leaves thick — intercepts the overhead sun and transforms it, filtering out everything but green and gold, so that the light reaching the forest floor is emerald-tinged and soft, as if the air itself were tinted. Where gaps open in the leaf-cover, shafts of direct sun lance down and hit the ground in bright circles, each one a tiny stage of intense yellow-green on dark moss. Bark catches the dappled light and goes rich and textured — every fissure a tiny canyon of shadow, every ridge a highlighted line. The humidity is visible: a faint green-gold haze between the trunks, the air thick enough to give the light volume, to make each sunbeam a solid diagonal column connecting canopy to floor. Moss on the north side of every trunk glows electric in the filtered light. The overall effect is of being inside a living, breathing stained-glass window.",
+    "mood": ["enchanted", "alive", "vast", "peaceful"],
+    "tags": ["nature", "forest", "midday", "green"]
+  },
+  {
+    "id": "ocean",
+    "name": "Ocean at Sunset",
+    "components": {
+      "lights": ["golden_hour"],
+      "materials": ["moving_water", "sand"],
+      "atmosphere": "light_haze"
+    },
+    "time_of_day": "golden_hour",
+    "prose": "The ocean is doing what it does best with the last light: turning it into something personal. The sun hangs low and enormous over the water, its reflection not a single image but a shattered column of gold stretching from the horizon to the wet sand at your feet, each wave breaking the reflection and reassembling it, breaking and reassembling, a perpetual golden road that leads nowhere and everywhere. The water itself shifts through a spectrum impossible at any other hour — deep indigo in the east, molten copper beneath the sun, teal and rose and gold where the swells catch the light at their crests. Wet sand mirrors the sky in a thin reflective film, so you walk on a second sunset, your feet disturbing rose-gold puddles with each step. The haze at the horizon softens the line between sea and sky until they merge in a band of pure luminous amber, and for a moment the world is only light, only water, only the dissolving boundary between the two.",
+    "mood": ["vast", "nostalgic", "cinematic", "peaceful"],
+    "tags": ["nature", "ocean", "sunset", "vast"]
+  },
+  {
+    "id": "old_bookshop",
+    "name": "Old Bookshop",
+    "components": {
+      "lights": ["incandescent", "window_light"],
+      "materials": ["oak_wood", "leather", "cotton", "clear_glass", "brass"],
+      "atmosphere": "dust"
+    },
+    "time_of_day": "afternoon",
+    "walk": [
+      {
+        "position": "entrance",
+        "prose": "The door opens into amber. After the bright street, the bookshop is a warm dim cave — incandescent bulbs in brass fixtures casting pools of soft gold onto shelves that climb from floor to ceiling. Your eyes adjust slowly and the details emerge: the oak shelving, darkened with age and polish, swallowing the light and returning it as a deep warm sheen. Dust motes spiral in the single shaft of afternoon sun coming through the front window."
+      },
+      {
+        "position": "narrow aisles",
+        "prose": "Between the shelves the light narrows to corridors of amber and shadow. Each aisle has its own incandescent bulb overhead, a small warm sun illuminating the spines in uneven gold — leather-bound volumes catching the light with a dull, rich gleam, cloth covers absorbing it into matte texture, the occasional gilt title flaring bright. The deeper you go the dimmer it gets, the bulbs spaced further apart, and you find yourself tilting books toward the light to read their spines."
+      },
+      {
+        "position": "back reading nook",
+        "prose": "In the back corner, an armchair and a standing lamp create a small island of concentrated warmth. The lamp's shade throws the light downward in a focused cone — bright on the seat cushion, warm on the side table's wood, leaving everything above shoulder height in soft shadow. The window here is small and high, admitting a single beam of afternoon light that strikes the opposite shelf and illuminates a row of old encyclopedias in theatrical gold. Brass bookends catch both light sources and hold them as twin warm points. This is the room's innermost chamber, the quietest light, the deepest warmth."
+      }
+    ],
+    "prose": "The old bookshop runs on incandescent light and afternoon sun. Brass-fitted bulbs in green glass shades cast pools of amber warmth onto shelves that climb to the ceiling, each pool overlapping the next so the light never quite goes dark but never quite goes bright. Oak shelving — dark with decades of polish and handling — absorbs the warm light and gives it back as a rich, furniture-deep sheen, the grain visible only up close, like something you'd have to be trusted to see. Leather spines catch the light differently than cloth: leather holds a dull warm gleam, aged and patient, while cloth covers drink the light and go matte. Dust moves through the air in slow diagonals where the afternoon sun enters through two tall front windows, each shaft a solid gold column cutting through the general amber, catching every particle and making the air itself visible. The brass hardware — hinges, bookends, the old register — scatters warm points of reflected light around the room like earthbound stars. Underfoot, oak boards creak and glow. The overall effect is of being inside a sepia photograph, inside warmth itself, every surface and every shadow agreeing on the same amber thesis.",
+    "mood": ["nostalgic", "warm", "intellectual", "intimate"],
+    "tags": ["indoor", "books", "afternoon", "warm"]
+  },
+  {
+    "id": "subway_station",
+    "name": "Subway Station",
+    "components": {
+      "lights": ["fluorescent_cool", "warm_led"],
+      "materials": ["ceramic_tile", "polished_steel", "concrete", "clear_glass"],
+      "atmosphere": "humidity"
+    },
+    "time_of_day": "night",
+    "walk": [
+      {
+        "position": "entrance stairs",
+        "prose": "The descent is a descent into different light. Street-level sodium amber gives way to the stairwell's fluorescent white in a sharp transition — one step warm, the next cool, your shadow swinging from amber to blue-grey. The tiled walls catch the fluorescent tubes and bounce their light back and forth in a bright, slightly greenish cascade that makes the stairwell feel like the inside of a refrigerator."
+      },
+      {
+        "position": "platform",
+        "prose": "The platform stretches away in forced perspective, fluorescent tubes receding into matching points at both ends. Ceramic tile walls — white with a colored stripe — go flat and institutional under the cool overhead light, every crack and stain equally visible with the honesty of a police photograph. The steel rail gleams in two long parallel lines disappearing into the tunnel's mouth, which is a perfect rectangle of absolute black. Digital signs glow warm orange against the cool white surroundings, the only warm light in the entire space."
+      },
+      {
+        "position": "train arriving",
+        "prose": "Then the tunnel exhales light. The train's headlamp appears first as a faint glow on the curved tunnel wall, then brightens rapidly, the beam swinging across the platform as the train rounds the curve — for a moment the whole station is lit from a new direction and every shadow jumps. The train slides in: its windows are warm yellow rectangles in the cool fluorescent station, each one a brief glimpse of a different-lit interior world. The doors open and the train's warmer light spills out onto the platform tiles in golden puddles that will vanish when the doors close."
+      }
+    ],
+    "prose": "The subway station is fluorescent light's natural habitat. Cool white tubes line the ceiling in unbroken rows, their light falling on ceramic tile and stainless steel in a flat, even wash that eliminates shadow and romance equally. The tile walls are honest to a fault — every crack catalogued, every grout line visible, the colored stripe running at shoulder height the only concession to aesthetics in a space designed entirely for throughput. Polished steel columns reflect the fluorescent tubes as long white smears, and the platform floor — poured concrete, ground smooth — holds a faint sheen that doubles the ceiling lights in ghostly reflection. The tunnel mouths at each end are rectangles of absolute black, and the eye is drawn to them precisely because they are the only things the fluorescent light cannot reach. The humid air gives a faint haze to distant objects, and the warm orange glow of the digital arrival signs is the only warm light in the entire space — tiny amber islands in a sea of institutional white. When a train arrives, its headlamp rakes the station with a new, moving light source, and for a moment every shadow in the place swings and shifts before the doors open and the train's interior warmth spills out onto the cold platform in golden rectangles.",
+    "mood": ["industrial", "clinical", "urban", "transient"],
+    "tags": ["urban", "underground", "fluorescent", "transit"]
+  },
+  {
+    "id": "wine_cellar",
+    "name": "Wine Cellar",
+    "components": {
+      "lights": ["incandescent", "candle"],
+      "materials": ["stone", "oak_wood", "clear_glass", "brass"],
+      "atmosphere": "humidity"
+    },
+    "time_of_day": "night",
+    "walk": [
+      {
+        "position": "top of stairs",
+        "prose": "The stone stairs descend into amber darkness. A single incandescent bulb at the top casts your shadow long and dramatic down the steps, and the walls — rough-hewn limestone — catch the warm light on their raised surfaces while the hollows go to black. The air is noticeably cooler with each step, and the light seems to thicken, struggling to reach the bottom."
+      },
+      {
+        "position": "main cellar",
+        "prose": "The cellar proper is lit by bare incandescent bulbs spaced wide apart, each one creating a sphere of amber warmth in the cool stone dark. Wine bottles lie in oak racks that line both walls, and the glass catches the nearest bulb as a single bright point repeated a hundred times — a constellation of amber stars on dark glass. The stone floor is uneven and slightly damp, reflecting the light in wet patches that make the floor itself seem to glow faintly."
+      },
+      {
+        "position": "tasting alcove",
+        "prose": "In the alcove at the far end, someone has placed candles on the oak tasting table. The candlelight is warmer and more alive than the incandescent — it breathes, shifts, makes the stone walls dance with soft moving shadows. Wine in a glass held up to the flame becomes a lens of deep ruby, the light passing through and casting a red glow onto the tablecloth. The brass fixtures along the wall catch both light sources — the steady bulb and the flickering candle — and hold them as two distinct points: one still, one dancing."
+      }
+    ],
+    "prose": "The wine cellar trades the world's light for its own. Stone walls — limestone, cool and rough — absorb more light than they return, so every incandescent bulb fights for its small sphere of amber influence against a darkness that presses in from all sides. Oak wine racks line the walls, their wood darkened and aged, and in each rack the bottles lie in rows, their glass catching the warm light as single bright points — hundreds of amber stars in the gloom. The stone floor is uneven and faintly damp, and the wet patches hold the light in shallow amber mirrors. Where someone has set candles, the light goes from electric-steady to alive — flame-light breathing on the stone, making the walls shift and move, shadows swinging gently with every air current. Wine in a glass becomes a luminous thing: held near the candle it turns into a ruby lens, light passing through the liquid and emerging colored, casting a faint red pool onto whatever surface waits below. The brass fixtures and iron hinges scatter warm points through the darkness like earthbound stars. The overall impression is of warmth besieged by cool stone dark, holding its ground, making the small space precious.",
+    "mood": ["intimate", "warm", "mysterious", "ancient"],
+    "tags": ["indoor", "underground", "candle", "warm"]
+  },
+  {
+    "id": "hospital",
+    "name": "Hospital Corridor",
+    "components": {
+      "lights": ["fluorescent_cool"],
+      "materials": ["ceramic_tile", "polished_steel", "clear_glass", "plastic_glossy"],
+      "atmosphere": "clear"
+    },
+    "time_of_day": "night",
+    "prose": "The hospital corridor is light without mercy. Fluorescent tubes run the ceiling's length in continuous bright lines, their output reflected and re-reflected between polished floor and white ceiling until the illumination seems to come from everywhere and nowhere — shadowless, even, impossible to hide from. The floor is a single plane of waxed vinyl tile, so polished it holds a ghost image of the ceiling fixtures in its surface, and your shoes squeak against it like a betrayal of silence. Stainless steel door handles and handrails catch the fluorescent light and return it as cool white points, precisely placed, clinical. Glass panels in the doors show other corridors, other fluorescent infinities, receding in both directions. Everything is the same color temperature — that slightly blue-white that makes skin look pale and lips look faintly purple and undereye circles look like bruises. There are no warm tones anywhere. The plastic chairs in the waiting alcove are the same institutional blue as the stripe on the wall, and under this light even that color looks drained, irradiated, confessing something it would rather keep to itself. The light is thorough. The light is relentless. The light is doing its job.",
+    "mood": ["clinical", "stark", "anxious", "exposed"],
+    "tags": ["indoor", "hospital", "fluorescent", "night"]
+  },
+  {
+    "id": "autumn_park",
+    "name": "Autumn Park at Golden Hour",
+    "components": {
+      "lights": ["golden_hour"],
+      "materials": ["autumn_leaf", "bark", "grass", "stone", "oak_wood"],
+      "atmosphere": "light_haze"
+    },
+    "time_of_day": "golden_hour",
+    "prose": "The park is on fire and nobody has called it in. Golden hour light streams horizontal through the trees, and every autumn leaf becomes a stained-glass window — maples blazing red-orange-gold, backlit until they're translucent, the veins visible like the ribs of a lantern. The light catches them from behind and they glow. They actually glow. The ones on the ground are dimmer but no less beautiful: a carpet of amber and rust and faded gold, and where the low sun rakes across them they light up, each leaf casting a long shadow thin as a pen stroke. The bark of the oaks goes deep amber-brown, the furrows of their trunks in shadow so dark it reads as purple. The grass, still green, turns gold-green in this light, and the stone benches along the path go warm grey-amber, their usual severity forgiven by the hour. A haze in the air — leaf dust, pollen, the general autumn exhalation — softens the far trees into a golden impressionist blur. The whole park is one sustained chord of amber.",
+    "mood": ["nostalgic", "warm", "cinematic", "melancholy"],
+    "tags": ["nature", "autumn", "golden_hour", "park"]
+  },
+  {
+    "id": "rooftop_blue_hour",
+    "name": "Rooftop at Blue Hour",
+    "components": {
+      "lights": ["blue_hour", "warm_led", "neon_sign"],
+      "materials": ["concrete", "clear_glass", "polished_steel", "brick"],
+      "atmosphere": "dusk"
+    },
+    "time_of_day": "blue_hour",
+    "prose": "The sky is doing the impossible: holding equal parts day and night in a single saturated blue that makes every artificial light in the city look urgent. Up here on the rooftop the concrete parapet is a blue-grey mass against the glowing sky, and the city spreads below as a field of warm points — windows, streetlights, signs — each one a small amber or white defiance against the encroaching dark. The LED string lights someone hung across the rooftop terrace cast a warm glow on the concrete floor, creating an island of amber in the surrounding blue twilight. Where the warm light meets the blue ambient, surfaces go strange: the brick wall shifts from warm to cool to warm again as you walk past each bulb's influence. The steel railing holds the blue sky as a cold gleam along its top edge while its underside catches the warm LEDs in amber. In the distance, a neon sign pulses pink, and the wet rooftop surface holds its reflection in a blurred pink pool. The city hums. The light wavers between two temperatures, two moods, two times of day, and for this fifteen-minute window, neither wins.",
+    "mood": ["dramatic", "contemplative", "electric", "transient"],
+    "tags": ["urban", "rooftop", "blue_hour", "city"]
+  }
+]

@@ -1,0 +1,514 @@
+[
+  {
+    "id": "small_room",
+    "name": "Small Room",
+    "rt60": 0.3,
+    "character": "dry",
+    "frequency_emphasis": "mid-boosted",
+    "absorption": "Moderate absorption from furniture, carpet, and soft furnishings. Short reflections arrive quickly, giving intimacy.",
+    "experiential": {
+      "feel": "close, contained, the world shrunk to arm's reach",
+      "prose_fragments": [
+        "Sound stays close here \u2014 no room for echoes to develop, every noise direct and present.",
+        "The walls are near enough to catch everything and give it back quickly, dried of reverb.",
+        "An intimate acoustic \u2014 you hear the room's smallness in how quickly sound dies."
+      ]
+    }
+  },
+  {
+    "id": "large_hall",
+    "name": "Large Hall",
+    "rt60": 2.0,
+    "character": "reverberant",
+    "frequency_emphasis": "full-range",
+    "absorption": "Hard floors and distant walls create long reflection paths. Sound blooms and lingers.",
+    "experiential": {
+      "feel": "grand, spacious, sound given room to breathe and expand",
+      "prose_fragments": [
+        "Every sound unfolds twice \u2014 once direct, once returned from the far walls, softened and spread.",
+        "The hall adds its own voice to everything \u2014 a warm, rolling tail that follows each sound like a shadow.",
+        "Distance becomes audible. Close sounds are sharp; anything farther away arrives with the hall wrapped around it."
+      ]
+    }
+  },
+  {
+    "id": "cathedral",
+    "name": "Cathedral",
+    "rt60": 5.0,
+    "character": "cavernous",
+    "frequency_emphasis": "low-boosted",
+    "absorption": "Stone walls, vaulted ceilings, minimal soft surfaces. Sound reverberates for seconds, each reflection adding to a shimmering tail.",
+    "experiential": {
+      "feel": "transcendent, vast, sound becoming something larger than its source",
+      "prose_fragments": [
+        "Sound here doesn't end \u2014 it transforms. A single note becomes a chord as reflections layer upon reflections.",
+        "The stone holds everything, gives nothing back quickly. Every sound lingers, smeared across time.",
+        "You speak and your voice comes back to you changed \u2014 larger, older, as if the building has opinions about what you said."
+      ]
+    }
+  },
+  {
+    "id": "bathroom_tiled",
+    "name": "Tiled Bathroom",
+    "rt60": 1.5,
+    "character": "echoey",
+    "frequency_emphasis": "high-boosted",
+    "absorption": "Hard, reflective tiles on every surface. Small volume but long reverb. High frequencies ring sharply.",
+    "experiential": {
+      "feel": "bright, enclosed, everything amplified and reflected back at you",
+      "prose_fragments": [
+        "The tiles turn every sound into a small performance \u2014 amplified, brightened, given a halo of reflection.",
+        "Your voice sounds better in here. That's the reverb. The hard surfaces flattering you with their reflections.",
+        "A small space that sounds large \u2014 the echo giving the illusion of more room than the walls allow."
+      ]
+    }
+  },
+  {
+    "id": "forest",
+    "name": "Forest",
+    "rt60": 0.2,
+    "character": "absorptive",
+    "frequency_emphasis": "mid-attenuated",
+    "absorption": "Trees, leaves, and soft ground absorb and scatter sound in all directions. No flat reflective surfaces. Natural diffusion.",
+    "experiential": {
+      "feel": "hushed, scattered, sound absorbed into the living fabric of trees",
+      "prose_fragments": [
+        "Sound here is swallowed by the trees \u2014 absorbed by bark and leaf and scattered into incoherence.",
+        "No echoes. The forest eats reflections. What you hear is direct sound only, stripped of all reverb.",
+        "An acoustic intimacy enforced by nature \u2014 the trees create a dry, close sound-world where nothing carries far."
+      ]
+    }
+  },
+  {
+    "id": "open_field",
+    "name": "Open Field",
+    "rt60": 0.0,
+    "character": "dry",
+    "frequency_emphasis": "uncolored",
+    "absorption": "No reflective surfaces at all. Sound radiates outward and never returns. Pure inverse-square law.",
+    "experiential": {
+      "feel": "exposed, vast, sound dissolving into openness",
+      "prose_fragments": [
+        "Sound leaves and doesn't come back. No walls, no ceiling, nothing to bounce off \u2014 just the air and distance.",
+        "Your voice sounds small out here. The field offers no acoustic support, no flattering reverb.",
+        "The purest acoustic \u2014 just source and air. What you hear is exactly what was made, without the room's commentary."
+      ]
+    }
+  },
+  {
+    "id": "underwater",
+    "name": "Underwater",
+    "rt60": 0.1,
+    "character": "muffled",
+    "frequency_emphasis": "low-only",
+    "absorption": "Water transmits low frequencies efficiently but absorbs highs. Sound travels faster (4x) and direction becomes confused.",
+    "experiential": {
+      "feel": "enveloping, disorienting, sound arriving from everywhere and nowhere",
+      "prose_fragments": [
+        "Everything is bass here \u2014 highs stripped away, the world reduced to low, muffled thuds and rumbles.",
+        "Sound travels differently through water \u2014 faster, from all directions, impossible to locate by ear alone.",
+        "A submerged acoustic, thick and directionless, every sound wrapped in the medium that carries it."
+      ]
+    }
+  },
+  {
+    "id": "cave",
+    "name": "Cave",
+    "rt60": 3.0,
+    "character": "echoey",
+    "frequency_emphasis": "low-boosted",
+    "absorption": "Hard rock walls, irregular surfaces creating complex reflection patterns. Long reverb, prominent flutter echoes.",
+    "experiential": {
+      "feel": "ancient, enclosed, sound bouncing off stone older than memory",
+      "prose_fragments": [
+        "The cave multiplies everything \u2014 a single sound becomes a family of echoes, each one from a different wall.",
+        "Stone this old has been reflecting sound for millennia. Your footstep joins a history of echoes.",
+        "Flutter echoes ping back and forth between parallel rock faces, turning a handclap into a brief machine-gun burst."
+      ]
+    }
+  },
+  {
+    "id": "parking_garage",
+    "name": "Parking Garage",
+    "rt60": 3.0,
+    "character": "echoey",
+    "frequency_emphasis": "mid-boosted",
+    "absorption": "Concrete on every surface, large volume, flat parallel surfaces. Aggressive reverb, strong flutter echoes.",
+    "experiential": {
+      "feel": "industrial, harsh, every sound multiplied by concrete",
+      "prose_fragments": [
+        "Concrete gives nothing \u2014 absorbs nothing, softens nothing. Every sound hits the walls and bounces back harder.",
+        "The flat parallel surfaces create flutter echoes that turn a car door slam into a rapid-fire burst.",
+        "A space designed for cars, not acoustics \u2014 and the sound knows it. Everything is too loud, too long, too much."
+      ]
+    }
+  },
+  {
+    "id": "library",
+    "name": "Library",
+    "rt60": 0.4,
+    "character": "hushed",
+    "frequency_emphasis": "mid-attenuated",
+    "absorption": "Books absorb mid and high frequencies excellently. Carpet, soft chairs. The quietest designed space most people enter.",
+    "experiential": {
+      "feel": "hushed, padded, sound discouraged by design",
+      "prose_fragments": [
+        "Books are excellent acoustic absorbers \u2014 a wall of them is like a wall of soft foam. The library knows this.",
+        "Sound is rationed here. Every noise feels louder because the baseline is so low.",
+        "The hush isn't just social convention \u2014 it's physics. The materials here conspire to make silence easy."
+      ]
+    }
+  },
+  {
+    "id": "busy_street",
+    "name": "Busy Street",
+    "rt60": 0.5,
+    "character": "noisy",
+    "frequency_emphasis": "broadband",
+    "absorption": "Buildings create a canyon effect, reflecting traffic noise back and forth. Ambient noise floor is high.",
+    "experiential": {
+      "feel": "loud, layered, a constant wash of urban noise competing for attention",
+      "prose_fragments": [
+        "The buildings form a sound canyon \u2014 traffic noise bounces between facades, amplified by the geometry.",
+        "Everything competes. Engines, voices, footsteps, signals \u2014 a broadband wall of city sound.",
+        "Conversation requires raised voices. The street demands its acoustic tribute from everyone."
+      ]
+    }
+  },
+  {
+    "id": "subway_platform",
+    "name": "Subway Platform",
+    "rt60": 2.5,
+    "character": "echoey",
+    "frequency_emphasis": "mid-boosted",
+    "absorption": "Tile, concrete, metal \u2014 all hard, all reflective. The tunnel adds a long reverb tail and funnels wind noise.",
+    "experiential": {
+      "feel": "harsh, anticipatory, the acoustic prelude to a train arriving",
+      "prose_fragments": [
+        "The tunnel acts as a waveguide \u2014 wind and rumble arrive before the train does, the space announcing what's coming.",
+        "Tile and concrete make every sound sharp and persistent. Voices blur into a general murmur.",
+        "When the train arrives, the platform becomes a compression chamber \u2014 noise levels jump 30 dB in seconds."
+      ]
+    }
+  },
+  {
+    "id": "concert_hall",
+    "name": "Concert Hall",
+    "rt60": 2.0,
+    "character": "warm",
+    "frequency_emphasis": "full-range",
+    "absorption": "Engineered for optimal reverb \u2014 diffusers, absorbers, and reflectors placed with precision. The gold standard of designed acoustics.",
+    "experiential": {
+      "feel": "lush, enveloping, sound treated with reverence by the architecture",
+      "prose_fragments": [
+        "The hall was designed for this \u2014 every surface calculated to enhance, never to distort or mask.",
+        "Sound blooms here the way it's supposed to. Warm, full, present \u2014 with just enough reverb to add richness without blur.",
+        "The best seat in a great hall lets you hear details you'd miss anywhere else \u2014 the breath before the note, the room after."
+      ]
+    }
+  },
+  {
+    "id": "bedroom",
+    "name": "Bedroom",
+    "rt60": 0.3,
+    "character": "intimate",
+    "frequency_emphasis": "mid-attenuated",
+    "absorption": "Bed, curtains, carpet, clothes \u2014 all absorbers. A soft, quiet acoustic that encourages low volumes.",
+    "experiential": {
+      "feel": "soft, private, the most acoustically personal space in the house",
+      "prose_fragments": [
+        "The softest room in the house. Fabric everywhere drinking up sound, making everything quieter, closer.",
+        "A whisper works here. The room is built for quiet conversations and sleep.",
+        "The clock, the breath, the rustle of sheets \u2014 in a bedroom, these small sounds become the soundtrack."
+      ]
+    }
+  },
+  {
+    "id": "kitchen",
+    "name": "Kitchen",
+    "rt60": 0.6,
+    "character": "bright",
+    "frequency_emphasis": "high-boosted",
+    "absorption": "Hard surfaces \u2014 tile, metal, stone \u2014 with some absorption from soft goods. Bright, reflective, active acoustic.",
+    "experiential": {
+      "feel": "lively, bright, a working space that amplifies activity",
+      "prose_fragments": [
+        "Hard surfaces make the kitchen acoustically bright \u2014 every clatter, clink, and sizzle amplified and crisped.",
+        "The kitchen doesn't soften anything. Pots ring, water splashes, timers beep \u2014 all with sharp clarity.",
+        "A working acoustic for a working room \u2014 nothing subtle, everything present."
+      ]
+    }
+  },
+  {
+    "id": "stairwell",
+    "name": "Stairwell",
+    "rt60": 2.5,
+    "character": "echoey",
+    "frequency_emphasis": "mid-boosted",
+    "absorption": "Concrete or plaster walls, hard floors, vertical shaft creating a natural reverb chamber. Footsteps multiply dramatically.",
+    "experiential": {
+      "feel": "vertical, echoing, a space that amplifies footsteps into drama",
+      "prose_fragments": [
+        "The vertical shaft acts as a reverb chamber \u2014 footsteps multiply into a cascading rhythm of echoes.",
+        "Voices spiral up the stairwell, arriving at the top changed \u2014 more reverberant, slightly mysterious.",
+        "Every floor you climb changes what you hear \u2014 the echo tail growing as the space above opens up."
+      ]
+    }
+  },
+  {
+    "id": "tunnel",
+    "name": "Tunnel",
+    "rt60": 3.5,
+    "character": "reverberant",
+    "frequency_emphasis": "low-boosted",
+    "absorption": "Curved hard surfaces focus and guide sound. Extreme reverb, especially for low frequencies. Whisper galleries form naturally.",
+    "experiential": {
+      "feel": "enclosed, amplified, sound channeled and focused by the curved walls",
+      "prose_fragments": [
+        "The tunnel focuses sound like a lens focuses light \u2014 channeling it, concentrating it, sending it farther than it should go.",
+        "Low frequencies thrive here \u2014 the curved walls act as a waveguide, bass building on itself.",
+        "A whisper at one end can arrive at the other intact \u2014 the tunnel's geometry defying distance."
+      ]
+    }
+  },
+  {
+    "id": "rooftop",
+    "name": "Rooftop",
+    "rt60": 0.1,
+    "character": "open",
+    "frequency_emphasis": "uncolored",
+    "absorption": "Open sky above, one reflective surface below. A half-outdoor acoustic \u2014 some reflection from the roof surface, none from above.",
+    "experiential": {
+      "feel": "exposed, elevated, sound escaping upward into open air",
+      "prose_fragments": [
+        "Half the sound goes up and never comes back. The sky absorbs everything you send it.",
+        "The roof surface gives a single reflection, then the sound is free \u2014 escaping upward into nothing.",
+        "City sounds rise to meet you here \u2014 traffic, sirens, voices \u2014 all softened by the distance below."
+      ]
+    }
+  },
+  {
+    "id": "recording_studio",
+    "name": "Recording Studio",
+    "rt60": 0.2,
+    "character": "dead",
+    "frequency_emphasis": "flat",
+    "absorption": "Engineered for maximum absorption \u2014 acoustic foam, bass traps, diffusers. The most controlled acoustic humans build.",
+    "experiential": {
+      "feel": "controlled, clinical, sound isolated and examined under acoustic microscope",
+      "prose_fragments": [
+        "The deadest room most people will ever enter. Every reflection killed, every resonance trapped.",
+        "Sound here is raw \u2014 no room sound, no reverb, no flattery. Just the source, naked.",
+        "The silence between sounds is absolute. No ambient, no hum, no room \u2014 just the absence of sound."
+      ]
+    }
+  },
+  {
+    "id": "gymnasium",
+    "name": "Gymnasium",
+    "rt60": 3.5,
+    "character": "echoey",
+    "frequency_emphasis": "broadband",
+    "absorption": "Large volume, hard floors, high ceilings, metal structure. Everything echoes, nothing is absorbed.",
+    "experiential": {
+      "feel": "loud, chaotic, a space that amplifies every bounce and shout",
+      "prose_fragments": [
+        "The gym turns every sound into a crowd \u2014 a single basketball bounce becomes a thunderclap of echoes.",
+        "Hard surfaces everywhere, huge volume \u2014 the acoustic equivalent of an amplifier with the gain too high.",
+        "Whistles shriek, shoes squeak, balls boom \u2014 each sound given a long, reverberant tail by the unforgiving space."
+      ]
+    }
+  },
+  {
+    "id": "car_interior",
+    "name": "Car Interior",
+    "rt60": 0.05,
+    "character": "intimate",
+    "frequency_emphasis": "low-boosted",
+    "absorption": "Tiny volume, mixed surfaces (glass, fabric, plastic). Very short reflections make everything present and close. Road noise provides constant low-frequency bed.",
+    "experiential": {
+      "feel": "enclosed, private, a moving room with its own acoustic signature",
+      "prose_fragments": [
+        "The smallest room most people spend time in \u2014 everything is close, present, immediate.",
+        "Road noise provides a constant bass bed that makes silence impossible but conversation easy.",
+        "Music sounds different in a car \u2014 the small space and near walls create an accidental surround sound."
+      ]
+    }
+  },
+  {
+    "id": "church",
+    "name": "Small Church",
+    "rt60": 2.0,
+    "character": "warm",
+    "frequency_emphasis": "low-mid-boosted",
+    "absorption": "Wood pews, stone or plaster walls, modest height. Warm reverb that flatters voices and acoustic instruments.",
+    "experiential": {
+      "feel": "warm, communal, an acoustic designed for shared listening",
+      "prose_fragments": [
+        "The wooden pews add warmth, the stone walls add sustain \u2014 a balance of absorption and reflection that flatters the human voice.",
+        "Hymns were written for rooms like this \u2014 the reverb blending voices together, forgiving imprecision.",
+        "An acoustic that encourages congregation \u2014 individual voices merging into something larger than their parts."
+      ]
+    }
+  },
+  {
+    "id": "narrow_alley",
+    "name": "Narrow Alley",
+    "rt60": 0.8,
+    "character": "reflective_enclosed",
+    "frequency_emphasis": "mid-boosted",
+    "absorption": "Hard walls close together create strong early reflections. Sound bounces between parallel surfaces, creating flutter echo.",
+    "experiential": {
+      "feel": "compressed, intimate, sound squeezed between walls",
+      "prose_fragments": [
+        "The alley presses sound between its walls like a vice \u2014 everything amplified, echoed, doubled.",
+        "Your footsteps come back at you from both sides, slightly delayed, as if someone is following.",
+        "Sound has no room to spread here. It goes up or it bounces back."
+      ]
+    }
+  },
+  {
+    "id": "tatami_room",
+    "name": "Tatami Room",
+    "rt60": 0.4,
+    "character": "warm_absorptive",
+    "frequency_emphasis": "mid-attenuated",
+    "absorption": "Straw tatami, paper screens, and wooden frames absorb and diffuse mid-frequencies. Hushed and warm.",
+    "experiential": {
+      "feel": "hushed, warm, the acoustic of respect and restraint",
+      "prose_fragments": [
+        "The tatami absorbs your footsteps, your voice, your urgency \u2014 everything is quieter here.",
+        "Paper walls and straw floors conspire to make every sound gentle.",
+        "A room designed for silence, where even a whisper feels like an intrusion."
+      ]
+    }
+  },
+  {
+    "id": "greenhouse",
+    "name": "Greenhouse",
+    "rt60": 0.6,
+    "character": "bright_reflective",
+    "frequency_emphasis": "high-boosted",
+    "absorption": "Glass walls reflect high frequencies. Plants absorb some mid-range. Humid air adds warmth.",
+    "experiential": {
+      "feel": "bright, humid, sound caught between glass and green",
+      "prose_fragments": [
+        "Glass walls reflect your voice back crisp and bright, while the plants soften the edges.",
+        "The drip of condensation is amplified \u2014 each drop a clear note on glass or leaf.",
+        "Humid air makes everything feel close, including the sounds."
+      ]
+    }
+  },
+  {
+    "id": "wine_barrel_room",
+    "name": "Wine Barrel Room",
+    "rt60": 1.2,
+    "character": "warm_resonant",
+    "frequency_emphasis": "low-boosted",
+    "absorption": "Curved wooden barrels scatter and warm the sound. Low frequencies resonate in the barrel cavities.",
+    "experiential": {
+      "feel": "warm, subterranean, aged wood humming with stored time",
+      "prose_fragments": [
+        "The barrels hum sympathetically with every low sound \u2014 the room has its own bass note.",
+        "Wood absorbs the highs and returns the lows, warm and rounded, like the wine inside.",
+        "Your voice sounds richer in here. The barrels are doing you a favor."
+      ]
+    }
+  },
+  {
+    "id": "server_room",
+    "name": "Server Room",
+    "rt60": 0.5,
+    "character": "mechanical_constant",
+    "frequency_emphasis": "broadband_noise",
+    "absorption": "Raised floor, dropped ceiling, rows of equipment create a constant broadband fan noise floor.",
+    "experiential": {
+      "feel": "relentless, artificial, the hum of computation made audible",
+      "prose_fragments": [
+        "The fans never stop \u2014 a broadband white noise that erases silence permanently.",
+        "You have to raise your voice to be heard over the machines thinking.",
+        "Cold air moves constantly, and with it a sound that is more vibration than noise."
+      ]
+    }
+  },
+  {
+    "id": "phone_booth",
+    "name": "Phone Booth",
+    "rt60": 0.2,
+    "character": "tiny_enclosed",
+    "frequency_emphasis": "voice-boosted",
+    "absorption": "Extremely small volume. Sound has nowhere to go. Your voice fills the entire space immediately.",
+    "experiential": {
+      "feel": "claustrophobic, intimate, a coffin for conversation",
+      "prose_fragments": [
+        "Your own breathing fills the booth. Your voice has nowhere to go but into the phone.",
+        "The glass walls show the world but the sound is all yours \u2014 a private acoustic island.",
+        "So small that speaking feels like shouting and whispering feels normal."
+      ]
+    }
+  },
+  {
+    "id": "treehouse",
+    "name": "Treehouse",
+    "rt60": 0.3,
+    "character": "open_elevated",
+    "frequency_emphasis": "natural_mix",
+    "absorption": "Open sides let sound escape into the canopy. Wood floor adds warmth. Elevated position changes what you hear.",
+    "experiential": {
+      "feel": "elevated, exposed, hearing the world from above",
+      "prose_fragments": [
+        "Sound reaches you differently up here \u2014 birdsong is louder, ground sounds muffled by height.",
+        "The wooden platform creaks with every shift of weight, narrating your presence to the trees.",
+        "Wind is louder at this height, and it brings sounds from further away."
+      ]
+    }
+  },
+  {
+    "id": "igloo",
+    "name": "Igloo",
+    "rt60": 0.15,
+    "character": "dead_absorptive",
+    "frequency_emphasis": "all-attenuated",
+    "absorption": "Snow absorbs nearly everything. The most acoustically dead natural structure possible.",
+    "experiential": {
+      "feel": "buried, silent, the quietest room nature builds",
+      "prose_fragments": [
+        "Snow absorbs everything \u2014 the igloo is the quietest room you've ever been in.",
+        "Sound dies instantly here. No echo, no reverb, just the close warmth of trapped air and snow walls.",
+        "The silence is so deep you hear your own blood moving."
+      ]
+    }
+  },
+  {
+    "id": "tent_in_rain",
+    "name": "Tent in Rain",
+    "rt60": 0.1,
+    "character": "membrane_enclosed",
+    "frequency_emphasis": "rain-dominated",
+    "absorption": "Thin fabric membrane amplifies rain impact. Interior is small and soft. Rain becomes the dominant feature.",
+    "experiential": {
+      "feel": "sheltered, rhythmic, the thinnest possible barrier between you and the storm",
+      "prose_fragments": [
+        "The rain on the tent is everything \u2014 a constant patter inches from your face, amplified by the taut fabric.",
+        "Inside the tent, the rain is a drum solo performed on your roof.",
+        "The fabric is the thinnest shelter imaginable, and the rain reminds you of that with every drop."
+      ]
+    }
+  },
+  {
+    "id": "hot_spring",
+    "name": "Hot Spring (Onsen)",
+    "rt60": 0.4,
+    "character": "open_humid",
+    "frequency_emphasis": "low-mid",
+    "absorption": "Open air with stone surrounds. Steam absorbs high frequencies. Water provides constant background.",
+    "experiential": {
+      "feel": "warm, primal, sound softened by steam and stone",
+      "prose_fragments": [
+        "Steam muffles everything \u2014 voices arrive soft and warm, stripped of their edges.",
+        "The constant gentle lap of water against stone is the baseline. Everything else floats on top.",
+        "Sound here is like the water: warm, unhurried, slightly blurred at the edges."
+      ]
+    }
+  }
+]

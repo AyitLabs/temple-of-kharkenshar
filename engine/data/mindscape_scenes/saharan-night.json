@@ -1,0 +1,71 @@
+{
+  "id": "saharan-night",
+  "name": "Saharan Night",
+  "description": "The Sahara Desert after dark — infinite sky, cooling sand, Tuareg campfire, mint tea, and a silence so complete it becomes a sound.",
+  "smell": {
+    "scene_id": "saharan-night",
+    "compounds": ["mineral-dust", "wood-smoke", "menthol", "caramel-sugar", "leather", "lanolin", "dry-grass", "iron-oxide", "star-anise", "carbon"]
+  },
+  "sight": {
+    "scene_id": "saharan-night"
+  },
+  "sound": {
+    "scene_id": "saharan-night"
+  },
+  "environment": {
+    "temperature_c": 12,
+    "humidity_pct": 15,
+    "wind_speed_kmh": 6,
+    "time_of_day": "night",
+    "weather": "clear",
+    "indoor": false,
+    "touch": {
+      "surface_textures": ["fine Saharan sand grains shifting under your weight like a living surface", "rough wool Tuareg blanket heavy with lanolin", "hot glass of mint tea too warm to hold comfortably", "smooth wind-polished pebbles among the sand", "dry cracked leather of a camel saddle", "warm embers radiating through thin soil"],
+      "air_feel": "Bone-dry at 15% humidity — the driest air you've ever felt. It pulls moisture from your lips, your nasal passages, your eyes. At 12°C it's not bitterly cold but the dryness makes the cold penetrating — no humidity to buffer the heat loss. The 6 km/h breeze is barely perceptible but enough to carry fine sand particles that sting exposed skin.",
+      "thermal_notes": "Sand has low thermal mass and high surface area — it heats rapidly during the day (surface temps can exceed 70°C) and radiates that heat away quickly after sunset. By midnight the surface sand is cool but dig a few centimeters and you find residual warmth. The fire's radiant heat at close range (within 2m) is roughly 40°C on exposed skin, but turn away and the 12°C ambient air immediately reasserts itself. The temperature differential between fire-facing and fire-away skin can be 25°C. The glass tea cup conducts heat rapidly — too hot to hold by the rim, manageable by pinching the base.",
+      "key_tactile_moments": [
+        "Sand still warm from the day's sun against your back when you lie down — the last thermal gift of a 50°C afternoon, radiating up through your clothing",
+        "The tea glass scalding your fingertips, then the mint's menthol creating a phantom cold on your tongue — contradictory thermal signals from one sip",
+        "The campfire's radiant heat on your face while the desert cold grips your back — two temperatures inhabiting the same body",
+        "Running your fingers through the sand and feeling its impossible fineness — each grain 0.1-0.5mm, wind-sorted to near-uniform size"
+      ]
+    }
+  },
+  "cross_sensory_bridges": [
+    "The desert's silence and the sky's vastness are the same experience — both are an absence so total it becomes a presence, and your ears and eyes are doing the same work of trying to find edges in something edgeless.",
+    "The campfire is the only point of reference for every sense — the only light, the only warmth, the only sound, the only source of smell — and without it, you would dissolve into the dark.",
+    "Cold and stars share a quality: both are sharp, both are clear, both exist because the air has nothing in it — no moisture, no haze, no cloud, no barrier between you and the universe."
+  ],
+  "mood": ["vast", "humbling", "ancient", "still", "sacred"],
+  "prose": "The Sahara at night is what the world was before humans added anything to it.\n\nThe sky is the first thing and the last thing and the only thing. Without light pollution, without humidity, without a single particle of haze between you and the cosmos, the Milky Way doesn't appear — it erupts. A dense, granular river of light bisecting the sky, thick enough to have texture, bright enough to cast the faintest shadow on the sand. Stars go all the way to the horizon in every direction, and the horizon is a perfect circle, and you are at its exact center. The dunes are silver-blue in starlight, their ridgelines sharp, their troughs black. The sand has been sculpted by wind into shapes that look deliberate — cursive, calligraphic — as if the desert is writing something in a language older than speech.\n\nThe silence. It's the first thing that's not silence — it's the sound of nothing, and nothing has a frequency. Your ears search for input and find only the blood in your own head, the breath in your own throat, and a faint singing that might be the sand cooling and contracting in the night air, or might be your auditory cortex inventing something to fill the void. Then the fire crackles and the sound is shocking in its specificity — each pop a small event in a landscape where nothing happens. A Tuareg guide murmurs and the human voice feels like an intrusion and a relief in equal measure.\n\nThe air is the driest you've ever breathed — fifteen percent humidity — and it carries scent differently: sharper, cleaner, further. The campfire's wood-smoke (acacia, slow-burning, almost sweet) is the dominant note, layered with the carbon-edge of embers. Mint tea steams in a small glass — the menthol is startling in the dry air, arriving with crystalline precision, mixed with caramelized sugar and a faint anise undertone. The sand itself has a smell: mineral dust and iron oxide, sun-baked geology cooling into the night. And the camels, resting somewhere beyond the firelight, contribute their own earthy signature — lanolin and leather and dry grass, the smell of a life adapted to this emptiness.\n\nA shooting star. Three seconds of movement in a sky that hasn't moved in a billion years. The fire pops. The tea is sweet. The universe is indifferent and you have never felt more specifically alive.",
+  "positions": [
+    {
+      "name": "the dune crest at sunset's end",
+      "prose": "The last light has drained from the western horizon and you're standing on a dune ridge watching the sky complete its transformation. The sand under your feet is still warm — the day's heat radiating upward through your soles — but the air has already turned cold, and the contrast between ground-warmth and air-cold is disorienting, as if your body exists in two different climates. The mineral smell of cooling sand intensifies as the temperature drops: iron oxide and silica, the smell of deep time. The wind has died to nothing and the silence rushes in behind it like water filling a hole. The first stars appear not one at a time but in clusters, as if the sky is remembering how many it has.",
+      "smell_emphasis": ["mineral-dust", "iron-oxide"],
+      "cross_sensory": "The warmth leaving the sand, the light leaving the sky, and the sound leaving the air are all the same departure — the day emptying out of the desert.",
+      "touch_notes": "The sand is still warm under your feet — the day's heat rising through your boot soles in a last thermal exhale. But the air on your face is already cold, and the wind has died, and the temperature gradient between ground and air creates a disorienting split sensation: warm below, cold above. The sand shifts and sinks under each step, requiring constant micro-adjustments of balance."
+    },
+    {
+      "name": "the campfire",
+      "prose": "The fire is a small constellation on the ground, answering the one above. Acacia wood burns slowly and its smoke is sweeter than you'd expect — almost fruity, with a carbon base that grounds it. The flames are the only moving light for fifty miles and they throw your shadow out across the sand in a long, flickering copy of yourself. The heat reaches your face and hands but your back is cold, and you rotate slowly, roasting and freezing in turns, unable to get comfortable, unable to leave. Sparks rise and join the stars — for a moment, indistinguishable. The fire's crackle is the loudest thing in the world. Someone places a kettle on the coals and the water begins its quiet, urgent negotiation with the heat.",
+      "smell_emphasis": ["wood-smoke", "carbon"],
+      "cross_sensory": "The fire is every sense's anchor point — the only light, heat, sound, and smell source in an ocean of absence.",
+      "touch_notes": "The fire's heat is fierce on your face and palms — radiant warmth that prickles on exposed skin. But your back is cold, your kidneys are cold, and rotating slowly to warm each side creates a perpetual imbalance your body can never resolve. The Tuareg blanket is rough wool, heavy with natural lanolin that makes it almost water-resistant, and it holds your body heat like a sleeping animal."
+    },
+    {
+      "name": "the tea ritual",
+      "prose": "The tea is poured from height — a thin stream of amber falling a foot into a small glass, and the pouring sound is musical in the silence, liquid hitting liquid in a rising pitch. The menthol arrives before the glass reaches your hands: sharp, cool, a contradiction of the fire's warmth, cutting through the wood-smoke like green light through amber. The sugar has been cooked past sweetness into caramel, and the mint and caramel meet in the steam and create something that smells both ancient and precise. The glass is too hot to hold comfortably. You hold it anyway. The first sip scalds and then the mint cools and your tongue receives contradictory temperature reports. A guide speaks quietly — the tea must be poured three times, each glass a different meaning — and his voice is barely above the fire's whisper.",
+      "smell_emphasis": ["menthol", "caramel-sugar", "star-anise", "wood-smoke"],
+      "cross_sensory": "The tea is the desert in miniature — hot and cold, sweet and sharp, ancient ritual performed in ancient silence.",
+      "touch_notes": "The tea glass is small and burning — you pinch it at the very rim and base, fingertips protesting. The first sip scalds your upper lip, then the menthol kicks in and creates a false coolness that contradicts the burn. Your hands wrap around the glass after the first sip, desperate for the warmth. The dry air means the heat dissipates fast — the second glass is never as hot as the first."
+    },
+    {
+      "name": "lying on the sand, looking up",
+      "prose": "You lie back and the sand receives you with a whisper, still holding the last of the day's warmth against your spine. The sky fills your entire field of vision — there is no landscape anymore, only stars, so many that the dark spaces between them seem like the anomaly. The Milky Way has dimension from this angle; it's not a band but a cloud, a depth, and staring into it long enough produces a vertigo indistinguishable from falling. The fire crackles at the edge of hearing. The sand smells of mineral time — iron and silica and the memory of an ocean that was here a hundred million years ago. Your breath is visible in the cold air, a small personal cloud that obscures five hundred stars and then disperses. The silence has texture now. You've been in it long enough to hear its layers: the sand's tick, your heartbeat, the immense hum of nothing that might be the planet turning.",
+      "smell_emphasis": ["mineral-dust", "iron-oxide", "dry-grass"],
+      "cross_sensory": "Lying down removes the horizon and suddenly there is no scale — the sand's warmth and the stars' distance are equally intimate, equally vast.",
+      "touch_notes": "The sand molds to your body when you lie back — a full-length impression that holds residual warmth against your spine and shoulders. The grains are fine enough to feel like a dense fabric. The cold settles on your face and the exposed backs of your hands. Your clothing, warmed by the fire, slowly surrenders its heat to the 12°C air. The dryness tightens the skin on your lips and cheeks."
+    }
+  ]
+}

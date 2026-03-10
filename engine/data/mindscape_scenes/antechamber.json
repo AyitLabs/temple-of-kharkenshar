@@ -1,0 +1,113 @@
+{
+    "id": "antechamber",
+    "name": "The Antechamber",
+    "description": "A stone room with three doors. Torchlight. The air is still and old. Above each door, words are carved into the lintel \u2014 poems worn smooth by time but still legible. This is a threshold. What comes next depends on you.",
+    "smell": {
+        "scene_id": "antechamber",
+        "compounds": [
+            "cold-stone",
+            "torch-smoke",
+            "beeswax",
+            "iron",
+            "dust-ancient",
+            "cedar"
+        ]
+    },
+    "sight": {
+        "scene_id": "antechamber"
+    },
+    "sound": {
+        "rt60_seconds": 2.8,
+        "ambient_dba": 22,
+        "layers": [
+            {
+                "source": "torch crackle",
+                "frequency_hz": "1000-4000",
+                "note": "irregular popping, the fat in the beeswax igniting"
+            },
+            {
+                "source": "your breathing",
+                "frequency_hz": "100-500",
+                "note": "amplified by the dome \u2014 you hear yourself from above"
+            },
+            {
+                "source": "draft under one door",
+                "frequency_hz": "50-200",
+                "note": "low hum, barely audible, air moving in a space beyond"
+            }
+        ]
+    },
+    "environment": {
+        "temperature_c": 10,
+        "humidity_pct": 65,
+        "wind_speed_kmh": 0,
+        "time_of_day": "none",
+        "weather": "none",
+        "indoor": true,
+        "touch": {
+            "surface_textures": [
+                "flagstone underfoot \u2014 cold, uneven, worn into shallow valleys by centuries of feet",
+                "stone walls \u2014 rough-hewn blocks with mortar lines you can trace with your fingertips",
+                "iron torch brackets \u2014 cold enough to sting, bolted deep into the wall",
+                "carved stone lintels above each door \u2014 smooth where hands have touched them, sharp where the chisel cut"
+            ],
+            "air_feel": "Still. Cool. The air has weight to it \u2014 not damp exactly, but dense. It has been in this room for a long time. The torches consume oxygen and replace it with carbon, and you can feel that in the slight thickness of each breath.",
+            "thermal_notes": "Stone walls at 10\u00b0C radiate cold \u2014 you feel it before you touch them, the infrared deficit pulling heat from exposed skin. The torches create a narrow cone of radiant warmth (800\u00b0C flame surface, but it drops to background by two meters). Standing between torches, you are cold. Standing near one, one side of your face is warm and the other is not.",
+            "key_tactile_moments": [
+                "Running your fingers over the carved poems \u2014 the letters are grooved 3mm deep, and your fingertips read them faster than your eyes in this light",
+                "The door handles \u2014 iron rings, cold, heavy, they resist before they turn",
+                "The flagstone under bare feet \u2014 the cold is immediate and total, limestone conducting heat away at 1.7 W/m\u00b7K"
+            ]
+        }
+    },
+    "cross_sensory_bridges": [
+        "Torchlight and torch-smoke are the same event \u2014 combustion producing both the light you see by and the carbon you smell. The room is illuminated by its own burning.",
+        "The cold of the stone and the cold of the iron are different temperatures at the same temperature \u2014 iron at 10\u00b0C feels colder than stone at 10\u00b0C because it conducts heat 30x faster. Your hand knows which door frame is stone and which is iron without looking.",
+        "The silence has texture \u2014 the stone walls reflect sound so efficiently that the absence of sound becomes a presence. You hear the room's shape in what it doesn't say."
+    ],
+    "reconciliation": {
+        "shared_causes": [
+            {
+                "cause": "Stone",
+                "effects": "The walls create the cold (thermal mass), the acoustics (hard reflection), the smell (mineral off-gas), and the visual texture (grey, rough, ancient). One material, four senses, all saying the same thing: you are underground, in something old, and it will outlast you."
+            },
+            {
+                "cause": "Fire",
+                "effects": "The torches create the light (orange, flickering, 1800K), the warmth (radiant, directional, limited), the smell (smoke, beeswax, carbon), and the sound (crackle, hiss). The room exists because something is burning in it."
+            }
+        ]
+    },
+    "mood": [
+        "liminal",
+        "ancient",
+        "expectant",
+        "still"
+    ],
+    "positions": [
+        {
+            "name": "the threshold",
+            "description": "You have just entered. The room opens before you \u2014 circular, domed, three doors evenly spaced in the far wall. Two torches flank each door. The floor is a single slab of limestone, cracked once down the center.",
+            "smell_notes": "Stone-dominant. The torch smoke rises and pools at the dome's apex \u2014 you smell it less at floor level, more when you look up. Cedar from the torch handles.",
+            "sight_notes": "Six torches. Orange light, hard shadows. The dome catches the light and curves it \u2014 the ceiling glows while the floor stays dark. The three doors are identical in size but different in wood: dark oak, pale ash, red-brown mahogany.",
+            "sound_notes": "Your own breathing. The torches hissing. A faint draft from under one of the doors \u2014 air moving somewhere beyond them. The dome creates a subtle resonance; sounds made here come back to you a half-second later, softened.",
+            "touch_notes": "Cold floor through your feet. Still air on your face. The radiant warmth of the nearest torch on your right cheek.",
+            "cross_sensory": "The dome is a lens for all senses \u2014 it focuses sound back to center, pools smoke at its peak, and bounces torchlight into a diffuse orange glow. The architecture shapes every sense simultaneously."
+        },
+        {
+            "name": "before the three doors",
+            "description": "You stand equidistant from all three doors. Above each, carved into the stone lintel, is a poem. The carvings are old \u2014 centuries, maybe more \u2014 but maintained. Someone has been keeping these words legible.",
+            "smell_notes": "Each door leaks a different scent. The dark oak door: cold mineral air, water. The pale ash door: thin clean wind, altitude. The mahogany door: woodsmoke, warmth, bread.",
+            "sight_notes": "The poems are visible in the torchlight. The letters cast tiny shadows in their grooves. Each door has a different grain \u2014 the oak is dense and dark, the ash is light with visible rings, the mahogany has a red depth that swallows the torchlight.",
+            "sound_notes": "The draft is clearer here. The dark oak door: a faint dripping echo. The pale ash door: wind, distant but real. The mahogany door: silence, but a warm silence \u2014 the kind that has people in it somewhere.",
+            "touch_notes": "If you place your palm flat on each door, the oak is cold and damp. The ash is cold and dry. The mahogany is faintly warm \u2014 there is heat beyond it.",
+            "cross_sensory": "Each door is a preview. The senses leak through the wood and the gaps beneath, and each door tells a different story about what waits beyond. You can choose with your eyes, your nose, your ears, or your hands. They all agree."
+        }
+    ],
+    "light": {
+        "lux": 50,
+        "color_temp_k": 1800,
+        "source": "six beeswax torches",
+        "note": "1800K is candlelight orange. The dome diffuses it upward \u2014 ceiling glows, floor stays dark. Shadows are soft-edged and move with the flame."
+    },
+    "impossible_detail": "Iron at 10\u00b0C conducts heat at 80 W/m\u00b7K. Limestone at 10\u00b0C conducts at 1.3 W/m\u00b7K. Same temperature, same room \u2014 but touch the iron door hinge and your hand recoils. Touch the stone wall and the cold seeps in slowly. Your skin doesn't measure temperature. It measures heat flux \u2014 how fast energy leaves your body. The iron is stealing from you 60 times faster."
+}

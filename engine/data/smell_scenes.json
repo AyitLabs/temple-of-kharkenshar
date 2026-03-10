@@ -1,0 +1,522 @@
+{
+  "coffee-shop": {
+    "name": "Coffee Shop",
+    "description": "The warm, inviting aroma of a neighborhood café",
+    "compounds": [
+      "coffee",
+      "vanillin",
+      "cinnamaldehyde",
+      "ethanol",
+      "caramel",
+      "chocolate",
+      "milk"
+    ],
+    "walk": {
+      "positions": [
+        {"name": "the sidewalk outside", "emphasis": ["coffee"], "ambient": false},
+        {"name": "the front door", "emphasis": ["coffee", "caramel"], "ambient": false},
+        {"name": "the counter", "emphasis": ["coffee", "chocolate", "cinnamaldehyde"], "ambient": true},
+        {"name": "your table in the back", "emphasis": ["vanillin", "milk", "ethanol"], "ambient": false}
+      ]
+    }
+  },
+  "bakery": {
+    "name": "Bakery",
+    "description": "Fresh bread and pastries, butter and sugar in the air",
+    "compounds": [
+      "vanillin",
+      "butter",
+      "cinnamaldehyde",
+      "ethanol",
+      "caramel",
+      "diacetyl",
+      "benzaldehyde",
+      "sugar"
+    ],
+    "walk": {
+      "positions": [
+        {"name": "across the street", "emphasis": ["vanillin", "diacetyl"], "ambient": false},
+        {"name": "the glass display", "emphasis": ["butter", "caramel", "sugar"], "ambient": false},
+        {"name": "the bread counter", "emphasis": ["ethanol", "diacetyl", "vanillin"], "ambient": true},
+        {"name": "the back, near the ovens", "emphasis": ["cinnamaldehyde", "benzaldehyde", "butter", "caramel"], "ambient": true}
+      ]
+    }
+  },
+  "forest-after-rain": {
+    "name": "Forest After Rain (Petrichor)",
+    "description": "Wet earth, pine needles, and ozone after a rainstorm",
+    "compounds": [
+      "geosmin",
+      "pinene",
+      "limonene",
+      "linalool",
+      "eucalyptol",
+      "cedarwood",
+      "camphor",
+      "moss"
+    ]
+  },
+  "ocean": {
+    "name": "Ocean Breeze",
+    "description": "Salt air, seaweed, and sun-warmed sand",
+    "compounds": [
+      "dimethyl sulfide",
+      "bromophenol",
+      "iodine",
+      "salt",
+      "seaweed",
+      "ozone"
+    ]
+  },
+  "deli": {
+    "name": "Delicatessen",
+    "description": "Cured meats, pickles, mustard, and fresh bread",
+    "compounds": [
+      "acetic acid",
+      "diacetyl",
+      "mustard",
+      "smoke",
+      "garlic",
+      "pepper",
+      "bread"
+    ],
+    "walk": {
+      "positions": [
+        {"name": "the doorway", "emphasis": ["smoke", "bread"], "ambient": false},
+        {"name": "the pickle barrel", "emphasis": ["acetic acid", "garlic", "mustard"], "ambient": false},
+        {"name": "the meat counter", "emphasis": ["smoke", "pepper", "diacetyl"], "ambient": true},
+        {"name": "the back kitchen", "emphasis": ["bread", "diacetyl", "garlic"], "ambient": true}
+      ]
+    }
+  },
+  "pine-forest": {
+    "name": "Pine Forest",
+    "description": "Crisp evergreen air with resinous undertones",
+    "compounds": [
+      "pinene",
+      "limonene",
+      "camphor",
+      "cedarwood",
+      "eucalyptol",
+      "turpentine"
+    ]
+  },
+  "flower-garden": {
+    "name": "Flower Garden",
+    "description": "A mix of blooming flowers on a warm day",
+    "compounds": [
+      "linalool",
+      "geraniol",
+      "citronellol",
+      "rose oxide",
+      "nerol",
+      "phenylethyl alcohol",
+      "jasmine",
+      "indole"
+    ]
+  },
+  "campfire": {
+    "name": "Campfire",
+    "description": "Wood smoke, toasted marshmallow, and cool night air",
+    "compounds": [
+      "guaiacol",
+      "vanillin",
+      "syringol",
+      "eugenol",
+      "furfural",
+      "smoke",
+      "cedar"
+    ]
+  },
+  "citrus-grove": {
+    "name": "Citrus Grove",
+    "description": "Sun-ripened oranges and lemons with green leaf undertones",
+    "compounds": [
+      "limonene",
+      "citral",
+      "linalool",
+      "octanal",
+      "decanal",
+      "citronellal",
+      "orange"
+    ]
+  },
+  "spice-market": {
+    "name": "Spice Market",
+    "description": "Layers of cinnamon, clove, cumin, and cardamom",
+    "compounds": [
+      "cinnamaldehyde",
+      "eugenol",
+      "cuminaldehyde",
+      "cardamom",
+      "pepper",
+      "nutmeg",
+      "coriander",
+      "anise"
+    ]
+  },
+  "fresh-laundry": {
+    "name": "Fresh Laundry",
+    "description": "Clean linen dried in the sun with a hint of soap",
+    "compounds": [
+      "linalool",
+      "limonene",
+      "hedione",
+      "musk",
+      "aldehyde",
+      "clean",
+      "soap"
+    ]
+  },
+  "christmas": {
+    "name": "Christmas",
+    "description": "Pine tree, gingerbread, mulled wine, and fireplace",
+    "compounds": [
+      "pinene",
+      "cinnamaldehyde",
+      "eugenol",
+      "vanillin",
+      "nutmeg",
+      "orange",
+      "guaiacol",
+      "ginger"
+    ]
+  },
+  "forest": {
+    "name": "Pine Forest",
+    "description": "Crisp evergreen air with resinous undertones",
+    "compounds": [
+      "pinene",
+      "limonene",
+      "camphor",
+      "cedarwood",
+      "eucalyptol",
+      "turpentine"
+    ],
+    "walk": {
+      "positions": [
+        {"name": "the forest edge", "emphasis": ["pinene", "limonene"], "ambient": false},
+        {"name": "under the canopy", "emphasis": ["cedarwood", "camphor", "pinene"], "ambient": true},
+        {"name": "a mossy clearing", "emphasis": ["eucalyptol", "limonene"], "ambient": false},
+        {"name": "deep in the old growth", "emphasis": ["cedarwood", "turpentine", "camphor"], "ambient": true}
+      ]
+    }
+  },
+  "bar": {
+    "name": "Dive Bar",
+    "description": "Spilled beer, old wood, and the ghost of a thousand cigarettes",
+    "compounds": [
+      "ethanol",
+      "guaiacol",
+      "diacetyl",
+      "limonene",
+      "acetic acid",
+      "isoamyl acetate"
+    ]
+  },
+  "subway-station": {
+    "name": "Subway Station",
+    "description": "Underground metal and grease, warm stale air with a crackle of ozone",
+    "compounds": [
+      "iron",
+      "toluene",
+      "isoprene",
+      "ozone",
+      "phenol",
+      "acetic acid",
+      "styrene"
+    ]
+  },
+  "gas-station": {
+    "name": "Gas Station",
+    "description": "Gasoline fumes, hot rubber, and exhaust hanging in the air",
+    "compounds": [
+      "toluene",
+      "benzene",
+      "isoprene",
+      "octanal",
+      "styrene",
+      "ethanol"
+    ]
+  },
+  "rainy-street": {
+    "name": "Rainy Street",
+    "description": "Petrichor rising from wet asphalt, with distant car exhaust",
+    "compounds": [
+      "geosmin",
+      "ozone",
+      "toluene",
+      "limonene",
+      "benzene",
+      "acetaldehyde"
+    ]
+  },
+  "barbershop": {
+    "name": "Barbershop",
+    "description": "Bay rum aftershave, talcum powder, and the warm hum of electric clippers",
+    "compounds": [
+      "eugenol",
+      "linalool",
+      "vanillin",
+      "cinnamaldehyde",
+      "muscone",
+      "methyl salicylate",
+      "menthol"
+    ]
+  },
+  "old-bookshop": {
+    "name": "Old Bookshop",
+    "description": "Aged paper, leather bindings, dust motes, and wood polish",
+    "compounds": [
+      "vanillin",
+      "furfural",
+      "benzaldehyde",
+      "cedarwood",
+      "citronellol",
+      "guaiacol",
+      "linalool"
+    ],
+    "walk": {
+      "positions": [
+        {"name": "the front stoop", "emphasis": ["cedarwood", "guaiacol"], "ambient": false},
+        {"name": "the new arrivals table", "emphasis": ["vanillin", "linalool"], "ambient": false},
+        {"name": "the narrow aisles", "emphasis": ["furfural", "vanillin", "cedarwood"], "ambient": true},
+        {"name": "the rare books alcove", "emphasis": ["benzaldehyde", "citronellol", "guaiacol"], "ambient": true},
+        {"name": "the reading nook by the window", "emphasis": ["vanillin", "linalool", "cedarwood"], "ambient": false}
+      ]
+    }
+  },
+  "hospital": {
+    "name": "Hospital",
+    "description": "Sharp antiseptic, latex gloves, and sterile corridor air",
+    "compounds": [
+      "ethanol",
+      "phenol",
+      "eucalyptol",
+      "menthol",
+      "styrene",
+      "formaldehyde",
+      "camphor"
+    ]
+  },
+  "gym": {
+    "name": "Gym",
+    "description": "Sweat, rubber mats, and a sharp note of disinfectant",
+    "compounds": [
+      "isovaleric acid",
+      "butyric acid",
+      "isoprene",
+      "phenol",
+      "limonene",
+      "menthol",
+      "ethanol"
+    ]
+  },
+  "movie-theater": {
+    "name": "Movie Theater",
+    "description": "Buttery popcorn, soda syrup, and the dusty hush of velvet seats",
+    "compounds": [
+      "diacetyl",
+      "acetylpyrazine",
+      "vanillin",
+      "furaneol",
+      "maltol",
+      "ethyl butyrate",
+      "limonene"
+    ]
+  },
+  "library": {
+    "name": "Library",
+    "description": "Old books, polished wood, and the quiet dust of accumulated knowledge",
+    "compounds": [
+      "vanillin",
+      "furfural",
+      "benzaldehyde",
+      "cedarwood",
+      "guaiacol",
+      "linalool"
+    ]
+  },
+  "sushi-restaurant": {
+    "name": "Sushi Restaurant",
+    "description": "Rice vinegar, briny nori, the sharp hit of wasabi, and fresh fish",
+    "compounds": [
+      "acetic acid",
+      "dimethyl sulfide",
+      "allyl isothiocyanate",
+      "trimethylamine",
+      "hexanal",
+      "cis-3-hexenol"
+    ],
+    "walk": {
+      "positions": [
+        {"name": "the entrance curtain", "emphasis": ["acetic acid", "cis-3-hexenol"], "ambient": false},
+        {"name": "the sushi bar", "emphasis": ["trimethylamine", "dimethyl sulfide", "acetic acid"], "ambient": false},
+        {"name": "your seat at the counter", "emphasis": ["allyl isothiocyanate", "acetic acid"], "ambient": true},
+        {"name": "near the kitchen pass", "emphasis": ["hexanal", "dimethyl sulfide", "trimethylamine"], "ambient": true}
+      ]
+    }
+  },
+  "pizza-place": {
+    "name": "Pizza Place",
+    "description": "Tomato sauce, oregano, baking dough, and melted mozzarella",
+    "compounds": [
+      "dimethyl sulfide",
+      "thymol",
+      "furfural",
+      "diacetyl",
+      "butyric acid",
+      "vanillin",
+      "eugenol"
+    ]
+  },
+  "breakfast-kitchen": {
+    "name": "Breakfast Kitchen",
+    "description": "Sizzling bacon, buttered toast, scrambled eggs, and fresh-brewed coffee",
+    "compounds": [
+      "pyrazine",
+      "furfural",
+      "diacetyl",
+      "methional",
+      "acetylpyrazine",
+      "coffee",
+      "guaiacol",
+      "vanillin"
+    ]
+  },
+  "thai-restaurant": {
+    "name": "Thai Restaurant",
+    "description": "Lemongrass and coconut, fresh basil, and the slow burn of chili",
+    "compounds": [
+      "citral",
+      "citronellal",
+      "gamma-nonalactone",
+      "estragole",
+      "linalool",
+      "capsaicin",
+      "eugenol",
+      "coconut"
+    ]
+  },
+  "wine-cellar": {
+    "name": "Wine Cellar",
+    "description": "Oak barrels, tannin-stained stone, damp earth, and the warmth of aged alcohol",
+    "compounds": [
+      "whiskey lactone",
+      "ethanol",
+      "vanillin",
+      "eugenol",
+      "geosmin",
+      "acetic acid",
+      "isoamyl acetate",
+      "guaiacol"
+    ],
+    "walk": {
+      "positions": [
+        {"name": "the top of the stone stairs", "emphasis": ["geosmin", "ethanol"], "ambient": false},
+        {"name": "the first row of barrels", "emphasis": ["whiskey lactone", "vanillin", "guaiacol"], "ambient": false},
+        {"name": "the tasting alcove", "emphasis": ["ethanol", "isoamyl acetate", "acetic acid"], "ambient": true},
+        {"name": "the oldest vintages, deep in the cellar", "emphasis": ["eugenol", "vanillin", "geosmin", "guaiacol"], "ambient": true}
+      ]
+    }
+  },
+  "thunderstorm": {
+    "name": "Thunderstorm",
+    "description": "Ozone crackles in the air as rain hammers wet earth and everything smells electric",
+    "compounds": [
+      "ozone",
+      "geosmin",
+      "pinene",
+      "acetaldehyde",
+      "limonene",
+      "cis-3-hexenol"
+    ]
+  },
+  "desert": {
+    "name": "Desert",
+    "description": "Bone-dry heat, sagebrush, and ancient dust baking under an open sky",
+    "compounds": [
+      "thujone",
+      "camphor",
+      "eucalyptol",
+      "pinene",
+      "cineole"
+    ]
+  },
+  "autumn-leaves": {
+    "name": "Autumn Leaves",
+    "description": "Decaying leaves, damp earth, crisp cold air, and the last of the harvest",
+    "compounds": [
+      "geosmin",
+      "trans-2-hexenal",
+      "cis-3-hexenol",
+      "hexanal",
+      "guaiacol",
+      "eugenol",
+      "furfural"
+    ]
+  },
+  "tropical-beach": {
+    "name": "Tropical Beach",
+    "description": "Coconut sunscreen, salt spray, warm sand, and frangipani on the breeze",
+    "compounds": [
+      "gamma-nonalactone",
+      "dimethyl sulfide",
+      "linalool",
+      "benzyl acetate",
+      "decanal",
+      "vanillin",
+      "coconut"
+    ]
+  },
+  "baby-nursery": {
+    "name": "Baby Nursery",
+    "description": "Baby powder, warm milk, and fresh laundry in a quiet, clean room",
+    "compounds": [
+      "muscone",
+      "linalool",
+      "vanillin",
+      "delta-decalactone",
+      "gamma-decalactone",
+      "limonene",
+      "soap"
+    ]
+  },
+  "workshop": {
+    "name": "Workshop",
+    "description": "Fresh sawdust, machine oil, and the metallic tang of shaved steel",
+    "compounds": [
+      "furfural",
+      "guaiacol",
+      "cedarwood",
+      "pinene",
+      "nonanal",
+      "iron",
+      "phenol"
+    ]
+  },
+  "night-market": {
+    "name": "Night Market",
+    "description": "Satay smoke, charcoal grills, jasmine garlands, and diesel generators humming nearby",
+    "compounds": [
+      "guaiacol",
+      "pyrazine",
+      "eugenol",
+      "benzyl acetate",
+      "indole",
+      "toluene",
+      "piperine",
+      "coconut",
+      "linalool"
+    ],
+    "walk": {
+      "positions": [
+        {"name": "the street approach", "emphasis": ["guaiacol", "toluene"], "ambient": false},
+        {"name": "the satay stalls", "emphasis": ["pyrazine", "guaiacol", "piperine", "coconut"], "ambient": false},
+        {"name": "the jasmine garland vendor", "emphasis": ["benzyl acetate", "indole", "linalool"], "ambient": false},
+        {"name": "the spice row", "emphasis": ["eugenol", "piperine"], "ambient": true},
+        {"name": "deep in the market, where the smoke settles", "emphasis": ["guaiacol", "pyrazine", "toluene", "coconut"], "ambient": true}
+      ]
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "tropical-rainstorm",
+  "name": "Tropical Rainstorm",
+  "description": "A full-force tropical downpour on a Caribbean coast — warm rain falling in sheets, thunder that vibrates your organs, petrichor erupting from baked earth, and the jungle responding to water like a congregation to gospel.",
+  "smell": {
+    "scene_id": "tropical-rainstorm",
+    "compounds": ["petrichor", "geosmin", "ozone", "wet-vegetation", "frangipani", "decaying-fruit", "sea-salt", "humus", "rain-on-hot-asphalt"]
+  },
+  "sight": {
+    "scene_id": "tropical-rainstorm"
+  },
+  "sound": {
+    "scene_id": "tropical-rainstorm"
+  },
+  "environment": {
+    "temperature_c": 28,
+    "humidity_pct": 99,
+    "wind_speed_kmh": 40,
+    "time_of_day": "afternoon",
+    "weather": "thunderstorm",
+    "indoor": false,
+    "touch": {
+      "surface_textures": ["warm rain drumming on bare skin like liquid percussion", "rough weathered wooden porch railing vibrating in the wind", "corrugated tin roof transmitting thunder as physical vibration", "slick red mud sliding under boots", "broad wet banana leaf smooth as plastic", "hot asphalt steaming under the first drops"],
+      "air_feel": "At 28°C and 99% humidity, the air is essentially warm water vapor. Your skin is permanently damp — the distinction between rain and sweat is meaningless. The 40 km/h wind drives rain horizontally, turning every exposed surface into a percussion target. The temperature drops 5°C in thirty seconds when the squall hits, and the pressure change pops your ears.",
+      "thermal_notes": "Tropical rain is warm — roughly 22-25°C — which is why standing in it is exhilarating rather than miserable. The water conducts heat 25x faster than air, but because the rain's temperature is close to skin temperature (33°C), the cooling effect is moderate. Hot asphalt (~55°C from afternoon sun) creates explosive evaporation when rain hits — each drop becomes a tiny steam event, which is why petrichor is so intense in the tropics. The wind chill at 40 km/h and 28°C is negligible, but the constant evaporation-rewetting cycle keeps your skin at a stable wet-warm.",
+      "key_tactile_moments": [
+        "The first gust hitting your face — wind-driven rain at 40 km/h turning water into tiny warm projectiles that sting and thrill",
+        "Thunder vibrating through the corrugated tin roof and into your feet — not a sound but a physical event, the sky shaking the building",
+        "Standing in the full downpour and feeling the rain's weight on your scalp, shoulders, upturned palms — thousands of warm impacts per second rewriting every nerve ending",
+        "The aftermath steam rising from your own shoulders as the sun hits wet skin — your body becoming a thermal event"
+      ]
+    }
+  },
+  "cross_sensory_bridges": [
+    "The rain is everything at once — you see it as a curtain of silver, hear it as a roar that drowns thought, feel it as warm percussion on every inch of exposed skin, and smell the earth it liberates.",
+    "Lightning and thunder split the senses and then reunite them — the flash is silent, the sound is blind, and the ozone they produce is the chemical proof that both happened.",
+    "Warm rain on hot ground is a smell-machine: every impact liberates trapped volatiles, and the rising steam carries them to nose-height in a continuous olfactory broadcast."
+  ],
+  "mood": ["overwhelming", "primal", "ecstatic", "violent", "cleansing"],
+  "prose": "The storm doesn't arrive. It detonates.\n\nOne moment the sky is a bruise — purple-black cumulus stacked to forty thousand feet, the undersides lit green by their own internal chemistry. Palm trees have gone still, their fronds hanging limp in the vacuum of wind that precedes the front. The light is wrong: yellow-grey, shadowless, the sun reduced to a diffuse glow behind a wall of water vapor. Then the first gust hits and the palms bend sideways and loose leaves and flowers become horizontal projectiles. The sky fractures — lightning in a branching white river from cloud to sea — and the thunder arrives not as sound but as physical compression, a pressure wave you feel in your chest cavity before your ears recover from the flash.\n\nThen the rain. Not drops but volume — sheets of warm water descending with a weight that turns the air into a vertical river. It hits the baked earth and the asphalt and the broad leaves of the banana plants and each surface produces a different percussion: the bass drum of soil, the snare of tin roofing, the cymbal-splash of puddles forming in real time. Within seconds the sound is a wall — a white noise so total that shouting is lip-reading. Gutters overflow. Red earth runs in rivers. The sea, fifty meters away, disappears behind a curtain of falling water that turns the world into a room with no walls and no ceiling, only rain.\n\nAnd the smell — the smell is the storm's masterpiece. Petrichor erupts from the baked ground in a wave so intense it's almost narcotic: geosmin and plant oils trapped in dry soil for weeks, liberated in a single chemical gasp. Ozone rides the lightning — sharp, electric, the smell of split oxygen molecules. Frangipani blossoms, knocked from their branches by the force of the rain, release their sweetness into the warm wet air in a perfume that shouldn't survive this violence but does. The sea salt arrives sideways on gusting wind. And underneath it all, the green, breathing, rotting, growing smell of a tropical forest drinking deeply for the first time in days.\n\nYou are soaked in four seconds. You don't care. The storm is using all of your senses at once and it isn't asking permission.",
+  "positions": [
+    {
+      "name": "the porch, watching it approach",
+      "prose": "You see the rain before it reaches you — a grey wall advancing across the bay like a curtain being drawn, swallowing boats and headlands and then the near shore in sequence. The wind arrives first, carrying the ozone and the first scattered drops that hit the wooden porch railing with the sound of fingers tapping impatiently. The temperature drops five degrees in thirty seconds and the air pressure change makes your ears pop. You smell the sea suddenly, violently — salt and iodine whipped off the water's surface by the advancing squall line. The porch creaks in the wind. A frangipani blossom lands at your feet, torn loose by a gust, and its sweetness is heartbreakingly delicate against the oncoming violence.",
+      "smell_emphasis": ["ozone", "sea-salt", "frangipani"],
+      "cross_sensory": "The approaching wall of rain is visible sound — you can see the roar coming before you hear it, and the wind carries the storm's smell like an advance guard.",
+      "touch_notes": "The first gust hits and your shirt flattens against your chest. The temperature drops in a wave — five degrees in thirty seconds, and you feel the cold front pass over your skin like a line being drawn. The porch railing is warm wood vibrating in the wind. Scattered advance drops hit your forearm — fat, warm, surprisingly forceful. The pressure change pops your ears and the air feels suddenly heavier."
+    },
+    {
+      "name": "under the corrugated tin awning",
+      "prose": "The rain hits the tin roof above you and the sound is annihilating — a continuous metallic roar that vibrates through the poles and into your feet and turns conversation into pantomime. Water sheets off the awning's edge in a solid curtain an arm's length from your face, close enough to feel the spray on your skin — warm, each droplet carrying the smell of the hot metal it just struck. Petrichor is exploding from the dirt road beyond the curtain of runoff, the most intense you've ever smelled it — geosmin released in concentrations that make the earth itself seem to be exhaling with relief. Lightning illuminates the rain-curtain from behind and for one strobe-lit second every individual drop is visible, frozen, a billion silver needles suspended in air.",
+      "smell_emphasis": ["petrichor", "geosmin", "rain-on-hot-asphalt", "ozone"],
+      "cross_sensory": "The tin roof turns rain into pure percussion while the petrichor turns rain into pure smell — one event, experienced simultaneously as deafening sound and intoxicating scent.",
+      "touch_notes": "The tin roof vibrates so intensely you feel it through the support poles and into the soles of your feet. The spray from the runoff curtain reaches you — warm, each droplet carrying the heat of the metal it just bounced off. Lightning triggers a thunder crack that compresses your chest cavity before you hear it. The wooden bench you're sitting on trembles with each sustained thunderclap. The air is so thick with water you're wet without stepping into the rain."
+    },
+    {
+      "name": "standing in the downpour",
+      "prose": "You step into it and the rain is warm and total and it rewrites every nerve ending simultaneously. Each drop is a small warm impact on your scalp, your shoulders, your upturned face — not painful but insistent, thousands of tiny declarations per second that you are a surface the sky is using. The sound changes from outside observation to inside experience: the rain on your own body is a softer percussion than the rain on the ground, intimate, skeletal. You can't see more than ten feet — the world has dissolved into silver-grey motion. You taste the rain: clean, faintly mineral, with a ghost of the ozone that charged it in the cloud. The smell is everything — wet earth beneath your feet releasing its hoarded volatiles, crushed vegetation where your steps break fallen leaves, and your own skin chemistry mixing with warm rainwater into something new.",
+      "smell_emphasis": ["petrichor", "wet-vegetation", "geosmin", "humus"],
+      "cross_sensory": "In the rain, the boundary between your body and the storm dissolves — you are a surface, a percussion instrument, a nose breathing the earth's relief.",
+      "touch_notes": "The rain is warm and total — every nerve ending firing simultaneously under the assault of thousands of drops per second. Your scalp is the loudest surface, each impact transmitted through your skull. The ground is red mud that sucks at your boots. Your clothing is irrelevant — soaked through in four seconds, it becomes a second skin. The rain's weight on your upturned face is measurable, a gentle but insistent downward pressure. You can't see, can barely hear, and your skin has become your primary sensory organ."
+    },
+    {
+      "name": "the jungle edge",
+      "prose": "The canopy amplifies everything. Rain hits the high leaves first and what reaches you is secondary — filtered through fifty feet of foliage into fat, irregular drops that carry the green tang of every leaf they've touched. The sound under the canopy is different: less roar, more individual percussion, each drip striking a different broad leaf with a hollow tok that multiplies into a polyrhythmic cascade. The smell is overwhelming: humus and decaying fruit and wet bark and the fungal musk of the forest floor activated by water like a dormant creature waking up. A fallen mango has split in the rain and its fermented sweetness rises through the general green to find your nose with startling specificity. Everything is dripping, streaming, flowing — the jungle is redistributing the sky through ten thousand channels.",
+      "smell_emphasis": ["humus", "decaying-fruit", "wet-vegetation", "geosmin"],
+      "cross_sensory": "The canopy is a translator — it receives the storm's violence and converts it to music and scent, each leaf a mediator between sky and earth.",
+      "touch_notes": "Under the canopy, the rain changes character — filtered through fifty feet of foliage, it arrives as fat, irregular drops that land on your head and shoulders with heavy, spaced impacts. The banana leaves overhead sag with collected water and dump their load suddenly when the weight exceeds their strength. The jungle floor is spongy with saturated humus, each step sinking an inch. Everything you brush against is streaming with water — vines, bark, broad leaves that dump their collected rain onto you as you pass."
+    },
+    {
+      "name": "the aftermath, first sun",
+      "prose": "The rain stops like a switch thrown and the silence is shocking — not true silence, but the sudden absence of the roar, leaving behind dripping and birdsong and the rush of newly born streams cutting through red earth. Steam rises from every surface the sun touches: the road, the rocks, the corrugated roofing, your own shoulders. The air is scrubbed clean and saturated, and what you smell now is the aftermath: concentrated petrichor still releasing from cooling ground, the sharp green of vegetation that's been washed and battered and is already recovering, frangipani intensified by humidity to a sweetness that borders on obscene. The light has a post-storm clarity — gold and sharp-edged, every color turned up, every surface polished by water into its most vivid version. Puddles reflect a sky that's already forgetting what it just did.",
+      "smell_emphasis": ["petrichor", "frangipani", "wet-vegetation", "ozone"],
+      "cross_sensory": "The aftermath is all release — steam is smell made visible, birdsong is silence recovering its voice, and the golden light is the world rebooting in high definition.",
+      "touch_notes": "The rain stops and the silence is tactile — the sudden absence of percussion on your skin is as noticeable as the rain itself was. Steam rises from your own shoulders and arms where the sun hits, and you feel the warmth of evaporation cooling your skin. Everything drips. The air is still saturated but calmer, and the sun's heat on your wet face is a gentle, golden pressure. The ground squelches and streams around your feet."
+    }
+  ]
+}

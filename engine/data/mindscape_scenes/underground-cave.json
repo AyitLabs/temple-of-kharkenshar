@@ -1,0 +1,146 @@
+{
+    "id": "underground-cave",
+    "name": "Underground Cave",
+    "description": "A deep limestone cave system \u2014 absolute darkness beyond your lamp, formations built over millennia by patient water, air that hasn't seen the surface in centuries, and a silence that predates human hearing.",
+    "smell": {
+        "scene_id": "underground-cave",
+        "compounds": [
+            "calcium-carbonate",
+            "wet-limestone",
+            "clay",
+            "bat-guano",
+            "mineral-water",
+            "iron-rich-earth",
+            "sulfur-trace",
+            "fungal-musk"
+        ]
+    },
+    "sight": {
+        "scene_id": "underground-cave"
+    },
+    "sound": {
+        "rt60_seconds": 3.2,
+        "ambient_dba": 18,
+        "layers": [
+            {
+                "source": "water dripping",
+                "frequency_hz": "2000-6000",
+                "interval": "irregular, 0.5-3s gaps between clusters",
+                "note": "each drop: 0.05 mL, falling 1-3 meters, hitting stone at 4-7 m/s. The sound is a sharp 'plink' with a 3.2-second reverb tail. In this space, a single drop creates its own echo cloud."
+            },
+            {
+                "source": "your footsteps",
+                "frequency_hz": "200-2000",
+                "note": "the cave returns your footsteps 3.2 seconds later, softened. You are always walking with your own ghost, two steps behind."
+            },
+            {
+                "source": "geological settling",
+                "frequency_hz": "1-5",
+                "note": "infrasound \u2014 below hearing, above feeling. The rock shifts micrometers per year. You won't hear it. Your anxiety might."
+            }
+        ]
+    },
+    "environment": {
+        "temperature_c": 13,
+        "humidity_pct": 98,
+        "wind_speed_kmh": 0,
+        "time_of_day": "none",
+        "weather": "none",
+        "indoor": true,
+        "touch": {
+            "surface_textures": [
+                "slick wet limestone walls",
+                "gritty clay underfoot",
+                "sharp calcite crystal edges",
+                "soft deep guano",
+                "ice-cold underground river water",
+                "smooth flowstone curtain"
+            ],
+            "air_feel": "Saturated \u2014 98% humidity means the air is almost water. It sits on your skin like a cool damp cloth. No movement at all. Your exhaled breath hangs visible in your lamp beam. Condensation forms on any metal you carry within minutes.",
+            "thermal_notes": "The cave is a constant 13\u00b0C, and at 98% humidity evaporative cooling is nil \u2014 you feel the full 13 degrees without wind chill. Limestone has moderate thermal conductivity: it feels cold on contact but not as aggressively as metal. Prolonged contact with wet rock draws heat steadily from your body. The underground river is colder still \u2014 perhaps 8-10\u00b0C \u2014 and immersing a hand produces an immediate aching cold that reaches bone in seconds.",
+            "key_tactile_moments": [
+                "The squeeze passage \u2014 limestone pressing against both shoulders through your jacket, cold and wet and unyielding, the rock measuring your body",
+                "Touching a stalactite and feeling the thin film of mineral-saturated water, slightly slippery, still depositing calcite atom by atom",
+                "Your boots sinking into guano in the bat chamber \u2014 soft, warm compared to stone, disturbingly organic",
+                "Dipping a hand into the underground river \u2014 the cold is instant, absolute, and clarifying"
+            ]
+        }
+    },
+    "cross_sensory_bridges": [
+        "Water is the cave's only artist \u2014 it carved the space you hear echoing, built the formations you see glistening, and saturates the air you smell with dissolved limestone.",
+        "Turn off your lamp and the darkness is so complete it becomes tactile \u2014 it has weight, temperature, texture. Your eyes stop mattering and your ears and nose take over.",
+        "The cave's temperature is constant because it has no memory of seasons \u2014 and the smell is constant for the same reason, a single chord held for geological time."
+    ],
+    "mood": [
+        "primordial",
+        "sacred",
+        "still",
+        "alien",
+        "timeless"
+    ],
+    "prose": "The cave doesn't care that you're here. It was here before you had a species.\n\nYour headlamp cuts a cone of white into darkness so complete it seems to have substance \u2014 not an absence of light but a presence of dark, thick and patient, closing behind your beam like water behind a boat. The limestone walls glisten with a permanent film of moisture, and where the light catches calcite crystals they throw back tiny stars. Stalactites descend from the ceiling like the cave is reaching toward itself, each one a record of ten thousand years of mineral patience. A flowstone curtain hangs from an overhang, translucent where it's thin, and your lamp turns it amber from behind \u2014 a frozen waterfall lit from within.\n\nThe silence is older than silence has any right to be. No wind. No weather. No biological sound except what you bring. Your breath is deafening here, each exhale a small weather system that echoes off surfaces you can't see. Water drips \u2014 the cave's one sound, its one activity \u2014 and each drop rings out with a clarity that surface ears have never experienced. The drip that built that stalactite is the same drip you're hearing now, separated from its predecessors by nothing but time.\n\nThe smell is the earth's interior. Wet limestone \u2014 alkaline, mineral, ancient \u2014 is the base note of everything. Calcium carbonate dissolved in water, the cave breathing its own geology at you. Clay from the passage walls adds an earthy, almost fermented undertone. In certain chambers, a faint sulfurous whisper rises from deep water, the exhalation of rock processes that operate on timescales your brain can't hold. Bat guano, where colonies roost, introduces a sharp ammonia bite that's almost welcome for its biological familiarity in this mineral world.\n\nThe temperature is 13 degrees. It was 13 degrees when your grandparents were born. It will be 13 degrees when your language is forgotten.",
+    "positions": [
+        {
+            "name": "the cave mouth",
+            "prose": "The transition happens over twenty feet. Daylight collapses from flood to trickle to memory. The air cools and the humidity spikes and you feel the cave's breath on your face \u2014 a constant exhalation of 13-degree air that smells of wet stone and deep time. The walls narrow and the sounds of the outside world \u2014 wind, birds, the rustle of forest \u2014 are swallowed syllable by syllable until only the dripping remains. Your lamp flickers on and the walls jump into existence: limestone stained with iron oxides in rust and ochre, slick with condensation that reflects your light back in long wet streaks. The cave mouth is a threshold between two worlds, and by the time you've crossed it, the sun feels like a rumor.",
+            "smell_emphasis": [
+                "wet-limestone",
+                "iron-rich-earth",
+                "mineral-water"
+            ],
+            "cross_sensory": "Every step inward trades one sense-world for another \u2014 light for dark, wind for stillness, the complex surface smell for the cave's single ancient mineral chord.",
+            "touch_notes": "The cave's breath is the first tactile signal \u2014 a steady 13\u00b0C exhalation against your face, damp enough to feel on your lips. The walls are slick with condensation, cold under your palm, and the rock's roughness varies \u2014 smooth where water has polished it for centuries, jagged where it hasn't."
+        },
+        {
+            "name": "the squeeze passage",
+            "prose": "The ceiling drops to shoulder height, then chest height, and the walls press in until the limestone is touching both shoulders simultaneously. The rock is wet and cold against your jacket and the sound of your breathing fills the passage completely \u2014 reflected back from surfaces inches away, so intimate you're breathing with the cave, not in it. You smell clay here, pushed from the walls by your own body's pressure, and the iron-rich earth behind it \u2014 an almost bloody mineral tang that tastes like pennies on the back of your tongue. Your lamp illuminates only the rock directly ahead, and the passage curves so you can see neither where you came from nor where you're going. The claustrophobia isn't psychological; it's physical \u2014 the cave measuring you, deciding whether to let you through.",
+            "smell_emphasis": [
+                "clay",
+                "iron-rich-earth",
+                "wet-limestone"
+            ],
+            "cross_sensory": "Touch becomes the dominant sense \u2014 the rock against your body, the cold through your clothes, the clay under your fingers \u2014 and smell becomes intimate, pressed as close as the walls.",
+            "touch_notes": "The rock presses against both shoulders \u2014 cold, wet, unyielding. Clay smears under your fingers where you grip for purchase. The passage is so tight that your body heat warms the stone you're touching, and when you move on, the cold rushes back. You feel the cave's geometry with your body, not your eyes."
+        },
+        {
+            "name": "the cathedral chamber",
+            "prose": "The passage opens without warning into a space so vast your lamp can't find the far wall. You know the room by its echo \u2014 clap your hands and the sound returns three times, each fainter, each from a different direction, mapping a geometry too large and too dark to see. Stalactites and stalagmites meet in columns that your lamp reveals one at a time, each one a different mineral color: cream, rust, obsidian-dark where manganese has stained the calcite. The air is perfectly still and carries a faint sulfurous trace from the underground lake somewhere below \u2014 ancient water that smells of dissolved time. A single drip falls from a height you can't determine and strikes the surface of an unseen pool with a note so pure and so amplified by the chamber's acoustics that it sounds like the cave singing a single sustained tone.",
+            "smell_emphasis": [
+                "calcium-carbonate",
+                "sulfur-trace",
+                "mineral-water"
+            ],
+            "cross_sensory": "The echo maps what the light can't reach \u2014 sound drawing the architecture that darkness hides, while the sulfur-tinged air whispers of depths below even this deep place.",
+            "touch_notes": "The air is perfectly still on your skin \u2014 no convection, no drafts, just the uniform 13\u00b0C pressing in from all directions. Touch a stalagmite and it's smooth as glass where water has polished it, cold enough that your fingertip leaves a brief warm print that fades in seconds. The scale of the chamber registers as absence of touch \u2014 nothing close enough to feel."
+        },
+        {
+            "name": "the bat colony chamber",
+            "prose": "You smell them before you hear them and hear them before you see them. The ammonia hits first \u2014 sharp, biological, almost aggressive after the mineral purity of the rest of the cave. Then the chittering: thousands of tiny voices producing a collective sound like static, like rain on a tin roof heard from inside, a wall of high-frequency communication your ears can only partially decode. Your lamp finds them last: a ceiling carpeted in fur and leather, hundreds of small bodies hanging in clusters, their eyes catching your light in orange pinpoints. The guano underfoot is deep and soft and your boots sink into it, releasing fresh waves of ammonia and a darker, fungal musk. The warmth of the colony raises this chamber's temperature by two degrees \u2014 the only warm-blooded thing in a world of cold stone.",
+            "smell_emphasis": [
+                "bat-guano",
+                "fungal-musk",
+                "clay"
+            ],
+            "cross_sensory": "The bats are the cave's one concession to the living world \u2014 their warmth, their noise, and their sharp biological scent are almost shocking after the mineral silence everywhere else.",
+            "touch_notes": "The guano is soft and warm underfoot \u2014 disturbingly so after miles of cold stone. Your boots sink an inch. The air is two degrees warmer from the colony's body heat, and you feel it on your face like entering a room with a fire. If a bat passes close, the wingbeat displaces air against your cheek \u2014 a tiny cold puff."
+        },
+        {
+            "name": "the underground river",
+            "prose": "You hear the river long before you reach it \u2014 a low, continuous murmur that grows into a rush, the sound of water that has never seen sky moving with purpose through stone it has carved over epochs. Your lamp finds the surface and the water is impossibly clear, moving fast over a bed of pale limestone cobbles that seem to glow from within. The air here is cooler, saturated, and the smell is pure mineral water \u2014 no organic notes, no soil, just the clean alkaline scent of calcium carbonate dissolved and redeposited over timescales that make human history look like a sneeze. Mist rises where the current hits a boulder, and in your lamplight the droplets hang suspended like tiny planets. The sound fills the passage and your chest vibrates with it \u2014 not loud, but omnipresent, the way a heartbeat is omnipresent when you finally notice it.",
+            "smell_emphasis": [
+                "mineral-water",
+                "calcium-carbonate",
+                "wet-limestone"
+            ],
+            "cross_sensory": "The river is the cave's circulatory system \u2014 you hear its pulse, smell its mineral blood, and feel its cold breath on your face, all from water that left the surface as rain a thousand years ago.",
+            "touch_notes": "Mist from the rapids settles on your face and hands \u2014 fine, cold, mineral-tasting if it reaches your lips. Dip a hand in the river and the cold is immediate and absolute, 8\u00b0C water pulling heat from your skin so fast it aches. The wet cobbles underfoot are treacherously smooth \u2014 limestone polished by millennia of current."
+        }
+    ],
+    "light": {
+        "lux": 0,
+        "lamp_lux": 30,
+        "lamp_beam_angle_degrees": 40,
+        "note": "0 lux ambient. Your lamp creates a 40-degree cone of 30 lux \u2014 enough to see 5 meters ahead, enough to miss everything outside the cone. The cave is larger than your light. You know this because the echo tells you."
+    },
+    "impossible_detail": "The cave maintains 13\u00b0C year-round. Outside, temperatures swing from -5\u00b0C to 35\u00b0C across seasons \u2014 a 40-degree range. In here, the thermal mass of millions of tons of limestone absorbs and buffers everything. The cave doesn't know what season it is. It has been 13\u00b0C since before your species evolved."
+}

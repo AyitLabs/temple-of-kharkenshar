@@ -1,0 +1,103 @@
+{
+    "id": "storm-ledge",
+    "name": "The Ledge Below the Storm",
+    "description": "A natural rock ledge halfway down the mountain, sheltered by an overhang. The storm rages above \u2014 lightning, wind, the crack of thunder transmitted through the rock itself. But here, in this pocket of calm, the last golden light of sunset breaks through a gap in the clouds and paints the valley below.",
+    "smell": {
+        "scene_id": "storm-ledge",
+        "compounds": [
+            "ozone",
+            "wet-granite",
+            "rain-on-hot-stone",
+            "alpine-herb",
+            "lichen"
+        ]
+    },
+    "sight": {
+        "scene_id": "storm-ledge"
+    },
+    "sound": {
+        "rt60_seconds": 0.3,
+        "ambient_dba": 75,
+        "layers": [
+            {
+                "source": "thunder",
+                "frequency_hz": "20-200",
+                "note": "arrives through rock at 3,500 m/s (P-wave), then through air at 340 m/s. You feel it in your spine 10x faster than you hear it in your ears. Close strikes: 120 dBA. Your ears ring."
+            },
+            {
+                "source": "rain curtain",
+                "frequency_hz": "500-8000",
+                "note": "broadband white noise from billions of drops hitting stone. The sound is a wall two feet from your face."
+            },
+            {
+                "source": "updraft whistle",
+                "frequency_hz": "200-800",
+                "note": "warm valley air being compressed through the gap between overhang and cliff face. A natural wind instrument."
+            }
+        ]
+    },
+    "environment": {
+        "temperature_c": 8,
+        "humidity_pct": 88,
+        "wind_speed_kmh": 5,
+        "wind_direction": "updraft from the valley \u2014 warm air rising past the ledge",
+        "time_of_day": "golden-hour",
+        "weather": "thunderstorm above, clear below",
+        "indoor": false,
+        "touch": {
+            "surface_textures": [
+                "dry rock under the overhang \u2014 warm compared to everything else, rough granite with mica flecks that catch the light",
+                "rain spray from the edge \u2014 intermittent, cold, carried inward by gusts, each drop a tiny shock",
+                "lichen on the rock wall behind you \u2014 soft, dry, crumbling at the edges, centuries of slow growth",
+                "the rock vibrates with thunder \u2014 sub-bass you feel through your hands and spine before you hear it"
+            ],
+            "air_feel": "Two air masses meet at this ledge. Cold rain-soaked air from above pushes down. Warm valley air rises from below. You're sitting in the boundary layer \u2014 your face is cool and damp, your chest feels the warm updraft. The air tastes electric. Ozone from lightning saturates everything.",
+            "thermal_notes": "8\u00b0C ambient but the overhang has been absorbing thermal radiation all day \u2014 the rock at your back is warmer than the air, maybe 14\u00b0C, and it radiates that heat into your shoulders. The updraft from the valley carries warmth from sun-baked meadows below. The cold comes from above, with the rain. You are warm from behind and below, cold from above and ahead.",
+            "key_tactile_moments": [
+                "The rock vibrating under your palms during a close lightning strike \u2014 thunder arriving through stone faster than through air, the mountain conducting the storm's energy directly into your body",
+                "The warm updraft hitting your face between gusts \u2014 a sudden breath of meadow-temperature air carrying the smell of grass and wildflowers from a thousand feet below",
+                "Rain spray on your forearm when the wind gusts \u2014 cold, sharp, individual drops you can count"
+            ]
+        }
+    },
+    "cross_sensory_bridges": [
+        "Lightning and thunder are the same event experienced differently \u2014 the flash arrives at light speed, the crack arrives at sound speed (340 m/s), and the vibration through the rock arrives somewhere in between. Three senses, one bolt, three timings.",
+        "The ozone you smell is the lightning's chemical signature \u2014 oxygen molecules split and reformed by the electrical discharge. You're smelling electricity.",
+        "The golden light breaking through the clouds and the warm updraft are both coming from the same place \u2014 the sunlit valley below, sending its heat and its light upward to reach you on this ledge."
+    ],
+    "mood": [
+        "sublime",
+        "sheltered",
+        "earned",
+        "panoramic",
+        "powerful"
+    ],
+    "prose": "The storm is above you. The valley is below. You are between them, on a ledge that shouldn't be this calm.\n\nThe overhang shelters you from the worst of it \u2014 rain falls past the ledge's edge like a curtain, close enough to touch, and beyond it the world is grey and electric and violent. Lightning cracks across the belly of the clouds and for an instant everything is white \u2014 the valley, the rain, the rock \u2014 and then the thunder arrives, not through your ears first but through your hands and spine, the granite conducting the shockwave faster than air can carry it. The mountain shakes. You feel it in your teeth.\n\nBut here, under the overhang, you are dry. The rock at your back has stored the day's warmth and it radiates into your shoulders like a slow fire. An updraft from the valley carries warm air past the ledge's edge \u2014 you feel it when the wind shifts, a sudden breath of meadow temperature that smells of grass and distance and sunlight-on-earth. The cold pushes down from above. The warm pushes up from below. You sit at the boundary.\n\nAnd then the light comes. A gap in the stormclouds, low on the western horizon, and golden-hour sunlight pours through it like something being poured. The valley below ignites \u2014 green and gold, rivers of light finding every contour, every ridge throwing a long shadow. The rain becomes visible as individual streaks, each one lit from behind. The world is being painted in front of you by a light that shouldn't exist inside a storm.\n\nA hawk rides the updraft at the storm's edge. Wings spread, not flapping \u2014 just balanced on the thermal boundary between warm and cold air, hanging in the turbulence like it was designed for exactly this. It turns once, catching the golden light on its underwings, and then the clouds close and the light is gone and the hawk is a silhouette against grey.\n\nYou are warm. You are dry. The storm is not yours to worry about. You already came down the hard way. This \u2014 this is what you earned.",
+    "positions": [
+        {
+            "name": "the sheltered ledge",
+            "prose": "The ledge is wide enough to sit comfortably, deep enough under the overhang to stay dry. Granite under you, granite behind you, the storm beyond the edge. The rain curtain is two feet away. You could reach out and touch it \u2014 your hand would come back cold and wet and electric with ozone. But you don't have to. You can just sit here and watch the valley turn gold and then grey and then gold again as the clouds break and reform.",
+            "smell_emphasis": [
+                "ozone",
+                "wet-granite",
+                "alpine-herb"
+            ],
+            "cross_sensory": "The thunder vibrating through the rock and the golden light through the clouds are both the storm giving you something \u2014 one through touch, one through sight. The storm is terrible and beautiful and you are safe from it.",
+            "touch_notes": "Warm rock behind you. Cool air on your face. The boundary between them runs across your body \u2014 back warm, front cool. Rain spray when the wind gusts. Thunder in your fingertips."
+        }
+    ],
+    "light": {
+        "lux_range": {
+            "storm_dark": 200,
+            "lightning_flash": 1000000,
+            "golden_break": 40000
+        },
+        "color_temp_k_range": {
+            "storm": 6500,
+            "lightning": 30000,
+            "golden_hour": 3000
+        },
+        "note": "Lightning: 30,000K color temperature \u2014 bluer than any natural light source on Earth. The flash lasts 0.2 seconds but your retina holds the afterimage for 3-5 seconds. The golden light through the cloud break is 3000K \u2014 warm, directional, ten million times dimmer than the lightning but infinitely more beautiful."
+    },
+    "impossible_detail": "Lightning superheats the air channel to 30,000\u00b0C \u2014 five times hotter than the surface of the sun. The air expands at supersonic speed, creating a shockwave that decays into the sound we call thunder. The rumble that goes on for seconds is the bolt's entire length (2-5 km) arriving at your ears incrementally \u2014 the nearest point first, the farthest point last. Thunder is a bolt of lightning, unfolded in time."
+}

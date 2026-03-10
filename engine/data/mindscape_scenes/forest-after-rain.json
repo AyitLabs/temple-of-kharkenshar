@@ -1,0 +1,89 @@
+{
+  "id": "forest-after-rain",
+  "name": "Forest After Rain",
+  "description": "A temperate forest immediately after a rainstorm — dripping canopy, petrichor, birdsong resuming, shafts of light through breaking clouds.",
+  "smell": {
+    "scene_id": "forest-after-rain",
+    "compounds": ["geosmin", "pinene", "limonene", "linalool", "eucalyptol", "cedarwood", "camphor", "moss", "terpinene", "2-MIB"]
+  },
+  "sight": {
+    "scene_id": "foggy_forest_morning"
+  },
+  "sound": {
+    "scene_id": "forest_dawn_chorus"
+  },
+  "environment": {
+    "temperature_c": 16,
+    "humidity_pct": 95,
+    "wind_speed_kmh": 3,
+    "time_of_day": "morning",
+    "weather": "clear",
+    "indoor": false,
+    "touch": {
+      "surface_textures": ["slick wet bark", "spongy moss underfoot", "cold wet leaf against skin", "rough lichen on stone", "squelching mud between trail grooves"],
+      "air_feel": "Heavy, saturated, almost liquid against exposed skin. The humidity is so high the air has texture — a coolness that wraps rather than blows. Every breath feels like drinking.",
+      "thermal_notes": "At 95% humidity, evaporative cooling from skin is nearly impossible — you feel warmer than the 16°C suggests. Wet surfaces conduct heat rapidly: touching wet bark chills fingertips fast. The forest floor radiates a faint warmth as rain-cooled topsoil meets warmer earth below, producing the visible mist.",
+      "key_tactile_moments": [
+        "A cold drop from a high branch hitting the back of your neck — startling, precise",
+        "The give of saturated moss under your boot, water welling up around the sole",
+        "Brushing a fern frond and releasing a shower of collected drops",
+        "The slick surface of a wet log you steady yourself on — bark has lost all friction"
+      ]
+    }
+  },
+  "cross_sensory_bridges": [
+    "Water is everywhere — dripping from leaves you can see, splashing in puddles you can hear, releasing geosmin you can smell. Three senses, one substance, one cause: the rain that just ended is still finishing its work through every sensory channel.",
+    "The green of the foliage and the green of the pine scent feel like the same word in different languages — and they share a chemical root: terpenes are responsible for both the color-associated freshness and the actual smell of pine.",
+    "The mist rising from the forest floor is visible humidity — the same water vapor that carries scent molecules to your nose is catching light in silver columns. What you see hovering is the medium through which you smell.",
+    "Birdsong resuming after rain is acoustically enabled by the wet surfaces — water on leaves and bark increases surface absorption at high frequencies, making the forest quieter overall and allowing bird calls to carry further with less competition."
+  ],
+  "mood": ["renewal", "quiet", "alive", "clean", "primordial"],
+  "prose": "The rain stopped seven minutes ago. The forest hasn't noticed yet.\n\nEvery surface is still releasing water — not raining, but finishing. Drops fall from high canopy to mid-canopy to understory to ground, each transfer adding a new note to a percussion that will take twenty minutes to fully stop. The canopy is a layered architecture of saturated greens: the dark blue-green of pine needles heavy with water, the bright yellow-green of maple leaves catching what light breaks through, the silver flash of birch leaves turning to show their wet undersides. Everything gleams. Every surface has become a mirror, and the diffused light from the brightening sky bounces between wet leaves until the entire forest is lit from within, soft and shadowless.\n\nThe sound is all water in various stages of falling. Drops from high branches striking lower leaves — a sharp, irregular patter. The heavier drip of collected water running off a curved leaf in a steady pulse. A stream nearby, swollen to twice its normal volume, rushing over rocks with a deeper, more urgent voice than it had yesterday. And silence underneath all of it: the padded, absorbed quiet of a forest where every surface is wet and soft and refusing to reflect sound. Then a bird — a robin — begins a phrase, tentative, testing whether the storm is truly done. Another answers from further away. The dawn chorus, interrupted by weather, is restarting.\n\nAnd the smell. The smell is what the rain did to the earth. Geosmin — produced by Streptomyces bacteria in the soil, released when rain impacts dry earth, carried upward by the splash aerosol — is the defining note: petrichor, the ancient smell of rain on ground, the scent humans can detect at concentrations as low as five parts per trillion. Behind it: alpha-pinene and beta-pinene from rain-washed pine needles, their waxy cuticles disrupted by impact, releasing stored terpenes in a burst. Limonene from broken twigs. Eucalyptol from the undergrowth, sharp and medicinal. Camphor from bruised ferns. Moss — not a single compound but a constellation of terpenoids and aldehydes from the bryophytes coating every stone and fallen log. The 95% humidity holds it all at nose height. Nothing rises, nothing dissipates. You are walking through a cloud of the forest's chemistry.\n\nA shaft of light breaks through the cloud cover, hits the rising mist, and for a moment the air itself glows silver. You breathe deep and taste green.",
+  "positions": [
+    {
+      "name": "the forest edge",
+      "prose": "The trail begins at the tree line, where the open field's light gives way to the canopy's filtered dimness. The transition is immediate — temperature drops two degrees in three steps as you pass under the first overhanging branches, and the humidity climbs from the field's 80% to the forest's 95%, wrapping your skin in a damp coolness that feels less like air than like the ghost of the rain that just passed. The canopy overhead is a multi-layered ceiling of saturated greens, each species at a different height, each leaf holding its own lens of water. Drops fall from the highest reaches in a slow, irregular percussion — each one a small event, a branch releasing its collected weight. The stream nearby has swollen with runoff and its voice has changed from a murmur to an insistent rush. And the smell: geosmin arrives in a wave so intense it has spatial presence, as if you walked into a wall of petrichor. Behind it, the clean bite of alpha-pinene, and the deeper cedarwood note of rain-soaked bark. You breathe and taste the entire water cycle.",
+      "smell_emphasis": ["geosmin", "pinene", "cedarwood"],
+      "cross_sensory": "Water connects everything at this threshold — what drips visually is what you hear landing, and what released the geosmin you're breathing. One substance, every sense.",
+      "touch_notes": "The field grass was dry underfoot; the forest floor is immediately softer, wetter, giving. A branch brushed against your arm leaves a cold wet line. The air itself feels thicker — tangible against your face."
+    },
+    {
+      "name": "under the canopy",
+      "prose": "Deeper in, the light transforms. Shafts of silver pierce the canopy where the clouds are thinning, and each shaft is made visible by the mist rising from the warm forest floor — columns of illuminated moisture hanging in still air like something solid you could lean against. The atmosphere is cathedral-like: pillars of light between pillars of trees. The sound dampens significantly — the canopy absorbs high frequencies, wet earth muffles footsteps, and the overall effect is a padded quiet that makes every small sound intimate. A bird — the first since the rain — starts a tentative three-note phrase, testing the acoustic space. The song carries remarkably far in the wet air, the humidity actually helping propagation at those frequencies. Underfoot, every step releases a new pocket of scent from the saturated ground: eucalyptol from crushed wild mint, camphor-sharp and medicinal; moss, which smells like cold stone and green shade; linalool from herbs your boot has bruised. The 2-MIB from actinobacteria adds its earthy, almost muddy undertone. You are walking through layered micro-climates of scent, each step a new composition.",
+      "smell_emphasis": ["eucalyptol", "camphor", "moss", "linalool", "2-MIB"],
+      "cross_sensory": "The mist you see is the humidity you smell through — the same water, experienced two ways. Light makes the medium visible; scent makes it chemical.",
+      "touch_notes": "Moss underfoot compresses with a spongy give, water welling up around your boot print. A fern brushed aside releases a cold shower of collected drops across your forearm. The bark of a pine is rough and wet, resinous sap sticky under your fingertips."
+    },
+    {
+      "name": "beside the swollen stream",
+      "prose": "The stream commands this space. Swollen by the storm's runoff, it's no longer the gentle trickle the trail markers describe — it's a brown, urgent rush of water finding its fastest path downhill, tumbling over rocks and fallen branches, foam collecting in eddies where the current slows. The sound is dominant and multi-layered: the continuous rush of the main flow, the higher-pitched splash where water hits a rock, the bass note of deeper pools being agitated, the occasional crack of a branch carried downstream hitting stone. Spray throws fine mist into the air, and with it a mineral, almost metallic freshness — river-smell, distinct from forest-smell, the dissolved calcium and iron of exposed rock carried as aerosol. The geosmin fades here, replaced by the clean cold of moving water and the ozone-adjacent sharpness of water molecules being mechanically disrupted into charged fragments. Light reflects off the rushing surface in broken, shifting patterns that project onto the undersides of overhanging branches — caustic networks of light that dance and never repeat. A kingfisher — an electric blue flash — dives from an overhanging branch and is gone before the splash sound reaches you, the speed differential between light and sound made visible by the bird's precision.",
+      "smell_emphasis": ["geosmin", "pinene"],
+      "cross_sensory": "The stream is pure kinetic energy translated into every sense: moving light on the surface, rushing sound from the turbulence, thrown spray carrying its own mineral chemistry. All of it powered by gravity acting on accumulated rainfall.",
+      "touch_notes": "Spray lands cold on your face — individual droplets, each a tiny shock. The rocks near the bank are slick with algae and water film; footing is treacherous. If you dip a hand in, the current is startlingly strong and cold — the water temperature is several degrees below air, runoff from higher elevations."
+    },
+    {
+      "name": "a mossy clearing",
+      "prose": "The trees open into a small clearing, and suddenly the sky is above you — grey breaking to blue, clouds pulling apart like raw cotton, each gap a different shade of brightness. The light is diffuse and soft, unfiltered by canopy, making the moss on every surface glow an improbable, saturated green that looks almost backlit. It's quieter here. The stream is behind you, muted by distance and the sound-absorbing buffer of wet trees. The dripping has slowed to an occasional punctuation. Birdsong is building in earnest now — a robin's melodic phrase, then a wren's machine-gun trill, then something you can't identify, a clear descending whistle, each voice staking its territorial claim in the post-rain acoustic space that the wet forest has made remarkably clear. The clearing has its own smell: warm wet moss releasing its complex of terpenoids and green aldehydes, the faint sweetness of decomposing leaf litter where fungi are breaking cellulose into sugars, and a floral linalool note from wild herbs the rain bruised as it fell. The mist is thinnest here where the clearing's openness lets it disperse, but the scent is strongest — concentrated by the clearing's bowl-like shape and held by the still, humid air. The sky brightens another notch. You breathe deep and every breath tastes like the color green has a flavor.",
+      "smell_emphasis": ["moss", "linalool", "geosmin", "terpinene"],
+      "cross_sensory": "Green is everywhere — in the light, in the scent, even in the taste of the air. The clearing is a single idea expressed through every sense at once, and the idea is: alive.",
+      "touch_notes": "The moss in the clearing is a carpet — spongy, cold, and extraordinarily soft underfoot. Sitting on a fallen log, the bark is wet through your clothing. The air on your face feels lighter here than under the canopy, the first hint of the breeze that will eventually dry everything."
+    }
+  ],
+  "why_chains": {
+    "petrichor_mechanism": "Geosmin (trans-1,10-dimethyl-trans-9-decalol) is produced by Streptomyces bacteria and cyanobacteria in soil as a metabolic byproduct. During dry periods it accumulates in the soil. Raindrops impacting soil at terminal velocity (~9 m/s) trap tiny air bubbles that burst upward as aerosols, carrying geosmin and other soil compounds into the air. This is the mechanical basis of petrichor — it requires impact, not just moisture.",
+    "terpene_release": "Conifer needles store terpenes (alpha-pinene, beta-pinene, limonene) in resin ducts beneath a waxy cuticle. Rain physically disrupts this cuticle through impact and surface tension changes, releasing stored terpenes in a burst. This is why forests smell most intensely of pine immediately after rain — the mechanical barrier has been breached.",
+    "mist_formation": "The visible mist rising from the forest floor is radiation fog forming as the rain-cooled ground surface begins warming from geothermal heat below. The saturated air above the soil reaches its dew point and water vapor condenses on forest aerosols (pollen, terpene particles, dust). The mist makes scent molecules visible by condensing on the same particles that carry them.",
+    "birdsong_acoustics": "Wet surfaces absorb more sound energy than dry ones, particularly at higher frequencies. After rain, the forest's ambient noise floor drops, and bird calls — which are optimized for forest transmission at 2-8 kHz — can propagate further with less masking. Birds resume singing partly because their signals are suddenly more effective.",
+    "humidity_and_scent": "At 95% relative humidity, scent molecules dissolve readily in the water-vapor-saturated air but evaporate slowly from surfaces. This creates a paradox: more molecules are released (rain disrupts surfaces) but they travel shorter distances (heavy air, no wind). The result is intense, localized scent — you must walk through micro-climates rather than smelling them from afar."
+  },
+  "sensory_archaeology": {
+    "smell_sources": "Every scent here traces to the interaction between rain and living surfaces. Geosmin from soil bacteria aerosolized by raindrop impact. Terpenes from needles whose waxy cuticles were disrupted. Linalool from herbs physically bruised by falling water. Eucalyptol from leaves whose stomata opened in the humidity. The rain is the universal cause; the diversity of scent is the diversity of what it touched.",
+    "sound_shaping": "The forest after rain is acoustically unique. Wet surfaces absorb sound more efficiently than dry ones (water increases the impedance match between air and porous materials), lowering the noise floor. But water dripping from leaves creates a new, irregular percussion. The net effect: quieter background, more distinct foreground events. Each drip, each bird call, each footstep is more audible against the deepened silence.",
+    "light_behavior": "Water on every surface transforms the forest into a hall of mirrors. Wet leaves reflect more light (specular reflection off the water film increases reflectance by 10-30%), which is why the forest appears to glow after rain. Meanwhile, mist scatters light via Mie scattering, creating the volumetric silver shafts. The same water that darkened the bark has brightened the air."
+  },
+  "reconciliation": {
+    "shared_cause_water": "Water is the sole unifying cause. The rain that fell is now dripping (sound), reflecting light off wet surfaces (sight), aerosolizing soil compounds (smell), saturating the air you feel on your skin (touch), and rising as mist (sight again). Every sensory experience in this scene traces back to H₂O interacting with the forest's surfaces. Remove the water, and you have a completely different scene.",
+    "shared_cause_disruption": "Rain is a mechanical disruptor. It broke open resin ducts (releasing terpenes), splashed soil bacteria into aerosols (releasing geosmin), bruised herb leaves (releasing linalool), coated surfaces in a reflective film (changing light behavior), and filled depressions (creating new sound sources). The forest after rain is the forest after being gently shaken, and everything that was stored or contained is now briefly released.",
+    "shared_cause_humidity": "95% humidity is the medium through which every sense operates. It carries scent molecules, it condenses into visible mist, it absorbs high-frequency sound, it coats your skin in a perceptible coolness, and it drives the evaporative processes that produce the forest's post-rain warmth from the ground. The humidity isn't background — it is the experience."
+  }
+}

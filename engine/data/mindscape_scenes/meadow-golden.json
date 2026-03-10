@@ -1,0 +1,117 @@
+{
+    "id": "meadow-golden",
+    "name": "The Meadow \u2014 Golden Sunset",
+    "description": "A meadow in full golden hour. The sun is low and enormous, painting everything amber and long-shadowed. Warm wind moves through tall grass. A stream catches the light. A thermal rises from the sun-baked earth \u2014 you can feel it lifting past you. The sky is yours. Nothing is asked of you here.",
+    "smell": {
+        "scene_id": "meadow-golden",
+        "compounds": [
+            "warm-grass",
+            "sun-baked-earth",
+            "wildflower-pollen",
+            "clover-sweet",
+            "water-mineral",
+            "terpene-resin-warm",
+            "hay-dry"
+        ]
+    },
+    "sight": {
+        "scene_id": "meadow-golden"
+    },
+    "sound": {
+        "rt60_seconds": 0,
+        "ambient_dba": 30,
+        "layers": [
+            {
+                "source": "grass in wind",
+                "frequency_hz": "1000-6000",
+                "note": "each blade is a reed instrument \u2014 the wind plays it at its resonant frequency. A meadow is an orchestra of ten million instruments, each slightly different."
+            },
+            {
+                "source": "thermal updraft",
+                "frequency_hz": "20-100",
+                "note": "warm ground releasing the day's heat. The rising air creates a low hum \u2014 not audible as sound, but perceptible as a presence. The meadow is exhaling."
+            },
+            {
+                "source": "a hawk calling",
+                "frequency_hz": "2000-4000",
+                "interval": "once, distant",
+                "note": "the hawk from the ledge, or another one. The call carries because there's nothing between you and the sky."
+            }
+        ]
+    },
+    "environment": {
+        "temperature_c": 22,
+        "humidity_pct": 45,
+        "wind_speed_kmh": 8,
+        "time_of_day": "golden-hour",
+        "weather": "clear",
+        "indoor": false,
+        "touch": {
+            "surface_textures": [
+                "tall grass \u2014 dry, warm from sun, brushing against legs and arms with each breeze",
+                "earth \u2014 firm, sun-baked surface layer warm to touch, cooler 5cm down",
+                "stream water \u2014 14\u00b0C, cool contrast to the warm air, smooth stones sun-warmed on top",
+                "wind on skin \u2014 8 km/h, warm, carrying grass seed and pollen, tactile and alive"
+            ],
+            "air_feel": "Warm. 22\u00b0C. The air is dry at 45% humidity \u2014 comfortable, skin breathes freely. The wind is real wind, not a draft \u2014 it has body, it pushes gently, it carries scent and warmth and the sound of grass bending. A thermal column rises from the darker earth patches \u2014 you feel it as a vertical warm current, distinct from the horizontal wind.",
+            "thermal_notes": "The sun is low enough that its light is directional \u2014 one side of you is sunlit and warm, the other is in your own shadow and cooler. The differential is maybe 3\u00b0C skin temperature. The earth has been absorbing solar radiation all day and is now re-radiating it as infrared \u2014 standing in this field, you are heated from above (sun) and below (earth) simultaneously. The stream is the only cool thing.",
+            "key_tactile_moments": [
+                "The wind hitting your face and carrying the scent of warm grass \u2014 the smell and the touch arrive as the same gust",
+                "Feeling the thermal rise past you \u2014 a column of warm air, distinct from the wind, rising straight up, invisible but tangible against your skin",
+                "Putting your feet in the stream \u2014 the 8\u00b0C differential between air and water is a sharp line at the ankle, warm above, cool below"
+            ]
+        }
+    },
+    "cross_sensory_bridges": [
+        "The golden light and the warm wind are the same sun \u2014 one is electromagnetic radiation, the other is convection it caused. The meadow is bathed in a single energy source expressed two ways.",
+        "The thermal column is invisible but touchable \u2014 you can't see the rising warm air, but you feel it. A reminder that the most powerful forces in this field are the ones you detect with skin, not eyes.",
+        "The grass bending in the wind is sight and sound simultaneously \u2014 you see the wave move across the field and hear it arrive a moment later. Light is faster than sound, and the meadow demonstrates this with every gust."
+    ],
+    "reconciliation": {
+        "shared_causes": [
+            {
+                "cause": "The Sun",
+                "effects": "Everything here is solar-driven: the warmth (infrared), the light (visible, golden at this angle due to atmospheric scattering), the wind (differential heating), the grass growth (photosynthesis), the terpene release (temperature-dependent volatilization), the thermal column (ground re-radiation). One star. Every sense."
+            },
+            {
+                "cause": "Golden Hour Geometry",
+                "effects": "The sun at 10-15\u00b0 above horizon means: light travels through maximum atmosphere (Rayleigh scattering removes blue, leaves gold), shadows are longest (everything has a direction), the light is directional (one side lit, one side dark). The beauty is geometry \u2014 the same sun at noon is white and flat. Angle makes it gold."
+            }
+        ]
+    },
+    "mood": [
+        "warm",
+        "open",
+        "golden",
+        "free",
+        "expansive",
+        "earned"
+    ],
+    "positions": [
+        {
+            "name": "the high ground",
+            "description": "You are standing at the top of a gentle rise. The meadow spreads below you in every direction \u2014 tall grass, golden in the late light, moving in waves as the wind crosses it. The stream is a bright line cutting through the middle distance. The sky is enormous. The sun is a hand's width above the horizon, and everything it touches is amber.",
+            "smell_notes": "Warm grass dominant \u2014 terpenes volatilizing in the afternoon heat, carried upslope by the thermal. Wildflower pollen \u2014 not allergenic, just sweet. Dry hay undertone. The air itself smells warm, if warm is a smell \u2014 the chemical signature of heated earth and plant matter combined.",
+            "sight_notes": "The light is gold going orange. Shadows stretch ten times their height. The grass is backlit \u2014 each seed head glows. A raptor circles in the thermal to the south \u2014 high, lazy spirals, wings barely moving. The stream catches the sun and throws it back as a line of broken gold.",
+            "sound_notes": "Wind in tall grass \u2014 a continuous shushing, rising and falling with each gust. The raptor calls once \u2014 a high, clean note that carries effortlessly in the open air. The stream is audible as a steady murmur beneath the wind. No human sound. The sky is silent and open and infinite.",
+            "touch_notes": "Wind on your face, warm, steady. The sun on your left side \u2014 directional heat, like standing near a fire but gentler. The grass brushes your hands at hip height. The ground under your feet is firm, warm, baked.",
+            "cross_sensory": "The raptor in the thermal is the meadow's proof that warm air rises. You can feel the same thermal on your skin and see it holding a bird a hundred meters up. One physics. Two perspectives."
+        },
+        {
+            "name": "in the grass by the stream",
+            "description": "You are lying in the tall grass near the stream. The grass closes around you like walls \u2014 from here, the world is stems and seed heads and sky. The sun is at the horizon now, and the light is coming sideways through the grass, turning each blade into a wire of gold.",
+            "smell_notes": "Crushed clover under your weight \u2014 green-sweet. The stream adds mineral-coolness to the warm air. The grass around you is a scent cocoon \u2014 warm, dry, vegetal. Close your eyes and you are inside a smell that means summer and safety.",
+            "sight_notes": "Horizontal light through vertical grass. Every blade is a bar of gold. The sky above is deepening \u2014 blue at zenith, gold-pink at the horizon. Insects move through the grass at your eye level \u2014 backlit, glowing, purposeful. The stream is two meters away, catching the last light.",
+            "sound_notes": "The grass is louder from inside it \u2014 each gust surrounds you. The stream is close and textured \u2014 you can distinguish individual water-sounds now. A meadowlark sings somewhere. The wind, the water, the bird \u2014 three layers, no competition, each in its own frequency band.",
+            "touch_notes": "Sun on your face, the last warmth of the day. Grass under your back, springy. Earth under that, warm. The stream's coolness reaches you as a temperature gradient in the air \u2014 a degree cooler on the side nearest the water. You are warm. The ground is warm. The sky is warm. Everything is warm and you are in it.",
+            "cross_sensory": "The meadowlark, the warm wind, the gold light, the grass scent \u2014 they are all saying the same thing in different languages. The day is ending. It was a good day. You are here for the best part."
+        }
+    ],
+    "light": {
+        "lux": 25000,
+        "color_temp_k": 3000,
+        "source": "golden hour \u2014 sun 10\u00b0 above horizon",
+        "note": "Golden hour light passes through 12x more atmosphere than noon light. Blue wavelengths scatter out, leaving red and gold. Everything casts a shadow 6x its height. The light is warm not because the sun is different but because the air between you and the sun is filtering it through distance."
+    },
+    "impossible_detail": "The thermal updraft you feel rising from the meadow is solar energy being returned. The grass absorbed photons at 400-700nm all day, converted ~2% to sugar via photosynthesis, and re-radiated the rest as infrared heat. The warmth rising through your feet is sunlight, delayed by eight hours and shifted to a wavelength your eyes can't see but your skin can feel."
+}

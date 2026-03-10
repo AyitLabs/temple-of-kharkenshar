@@ -1,0 +1,113 @@
+{
+    "id": "underground-pool",
+    "name": "The Underground Pool",
+    "description": "A still chamber deep in the cave. The ceiling opens into a dome and the floor drops into black water. Something glows \u2014 bioluminescent bacteria or mineral deposits catching your lamp in ways stone shouldn't. The air is perfectly still. The water is a mirror that shows you the ceiling, and the ceiling has a crack of moonlight.",
+    "smell": {
+        "scene_id": "underground-pool",
+        "compounds": [
+            "mineral-water",
+            "wet-limestone",
+            "calcium-carbonate",
+            "ozone-trace",
+            "clay"
+        ]
+    },
+    "sight": {
+        "scene_id": "underground-pool"
+    },
+    "sound": {
+        "rt60_seconds": 4.5,
+        "ambient_dba": 8,
+        "layers": [
+            {
+                "source": "nothing",
+                "note": "8 dBA is below the threshold of comfortable human hearing. The quietest concert hall on Earth is 15 dBA. This room is quieter than silence feels."
+            },
+            {
+                "source": "your heartbeat",
+                "frequency_hz": "20-40",
+                "note": "at 8 dBA ambient, you can hear your own pulse. ~70 bpm, a wet thud transmitted through bone conduction."
+            },
+            {
+                "source": "a single drip",
+                "frequency_hz": "3000-5000",
+                "interval": "once every 8-12 seconds",
+                "note": "the drip that built this room. Each one deposits 0.00003 mg of calcium carbonate. This stalactite grows 1cm per century."
+            }
+        ]
+    },
+    "environment": {
+        "temperature_c": 12,
+        "humidity_pct": 99,
+        "wind_speed_kmh": 0,
+        "time_of_day": "none",
+        "weather": "none",
+        "indoor": true,
+        "touch": {
+            "surface_textures": [
+                "smooth flowstone shelf at the pool's edge \u2014 polished by water over millennia, cool under your palms",
+                "water surface \u2014 glass-still, 10\u00b0C, the cold enters through your fingertips like electricity",
+                "damp cave air on your face \u2014 so saturated it's almost mist, you're breathing water vapor",
+                "calcite crystals along the wall \u2014 tiny sharp edges embedded in smooth stone, like stars frozen in rock"
+            ],
+            "air_feel": "Utterly still. No movement at all. The humidity is at 99% \u2014 the air is holding as much water as it can without becoming rain. Your breath hangs visible in front of you. Condensation forms on your eyelashes. The air feels less like atmosphere and more like a medium you're moving through.",
+            "thermal_notes": "12\u00b0C and no wind means the cold is gentle but persistent. It doesn't assault you \u2014 it absorbs you. The flowstone shelf conducts heat slowly, and after a minute your palms warm it to body temperature where you're sitting. The water is colder: 10\u00b0C. Dipping a hand in produces immediate clarity \u2014 the cold is a thought made physical.",
+            "key_tactile_moments": [
+                "Sitting on the flowstone shelf and feeling it slowly warm under you \u2014 the first thing in this cave that takes your temperature instead of imposing its own",
+                "Touching the water surface with one fingertip and watching the ripple expand across the entire pool in silence \u2014 you just disrupted something that had been still for years",
+                "Finding the crack of moonlight by touch \u2014 the air is fractionally warmer there, and drier, and the stone around it has a different texture from centuries of thermal cycling"
+            ]
+        }
+    },
+    "cross_sensory_bridges": [
+        "The pool is a mirror \u2014 it shows the ceiling, which shows the crack of moonlight. Light that traveled 384,000 km from the moon enters through a fissure no wider than your hand and arrives at the water, which doubles it. The cave uses the pool to see the sky.",
+        "The glow in the water isn't light in the normal sense \u2014 it's bioluminescence, chemistry becoming visible, living things turning food into photons. The same process that makes fireflies. The pool is alive in the only way it can show you: by shining.",
+        "The silence and the stillness are the same phenomenon \u2014 no air movement means no sound transport beyond the immediate. What you hear is only what's within arm's reach. The pool has made a room-sized sensory cocoon."
+    ],
+    "mood": [
+        "contemplative",
+        "sacred",
+        "still",
+        "luminous",
+        "hidden"
+    ],
+    "prose": "The cave opens into something it has been keeping secret.\n\nThe ceiling lifts \u2014 you feel it before you see it, the acoustic signature widening, your footsteps suddenly returning from farther away. Your lamp finds the dome and the light scatters upward across smooth limestone stained with mineral watercolors: iron orange, copper green, calcite white. Stalactites descend like the cave reaching toward the water below.\n\nThe pool is black and absolutely still. Not dark water \u2014 black water, water that has never been stirred by wind or current, water that has been sitting in this chamber accumulating minerals until it became something between liquid and stone. Your lamp reflects off its surface and you see the ceiling again, doubled, inverted, perfect. And in the reflection \u2014 a crack of silver. Moonlight. Coming through a fissure in the dome you hadn't noticed, a line of pale light no wider than a finger that has traveled from the sky through solid rock to reach this hidden pool.\n\nSomething glows in the water. Faintly \u2014 you'd miss it if your lamp were brighter. Blue-green points of light, scattered across the pool floor like a star field, bioluminescent bacteria living in mineral deposits and converting chemistry into the only light this chamber has ever known besides the moon.\n\nThe silence here is complete. Not the absence of sound \u2014 the presence of stillness. The pool has absorbed everything. Your breath is the loudest thing. The drip that built these formations over ten thousand years has paused, or is happening on a timescale your ears can't resolve.\n\nSit down. The flowstone shelf at the pool's edge is smooth and cool and it will hold you. There is nothing here that needs you to do anything. The pool was here before you arrived. It will be here after. For now, it is showing you the moon.",
+    "positions": [
+        {
+            "name": "the pool's edge",
+            "prose": "The flowstone shelf is a natural seat \u2014 smoothed by the same water that carved the pool, curved like something designed for sitting though it was designed by nothing at all. You sit and the stone is cold, then less cold, then the temperature of you. Below your feet, the pool begins. The glow is clearer from here \u2014 scattered blue-green points that pulse so slowly you're not sure they're pulsing at all. The crack of moonlight falls across the water three feet out, a silver line on a black mirror.",
+            "smell_emphasis": [
+                "mineral-water",
+                "calcium-carbonate"
+            ],
+            "cross_sensory": "The glow and the moonlight are both light, but from opposite sources \u2014 one from 384,000 km away passing through rock, one from bacteria inches below the surface. Both are the pool showing you that it's not dead. It's patient.",
+            "touch_notes": "The shelf warms where you sit. The air is so humid your skin is damp without being wet. If you reach down and touch the water, the cold is a shock \u2014 clear, clean, immediate. The water has been 10\u00b0C for longer than you've been alive."
+        }
+    ],
+    "light": {
+        "lux": 0.001,
+        "color_temp_k": 4500,
+        "sources": {
+            "moonlight_crack": {
+                "lux": 0.0008,
+                "color_temp_k": 4100,
+                "note": "moonlight is reflected sunlight \u2014 same spectrum but 500,000x dimmer. It traveled 384,400 km to enter through a crack 3cm wide."
+            },
+            "bioluminescence": {
+                "lux": 0.0002,
+                "color_temp_k": 9000,
+                "wavelength_nm": 490,
+                "note": "bacterial luciferin oxidation. Peak emission at 490nm \u2014 blue-green, the wavelength that travels furthest through water. Evolution optimized the glow for visibility, not beauty. Beauty was a side effect."
+            }
+        }
+    },
+    "impossible_detail": "The water is 10\u00b0C. It has been 10\u00b0C for approximately 11,000 years \u2014 since the last glacial retreat opened the aquifer that feeds this pool. The water entering today fell as rain 800 years ago and has been filtering through limestone ever since, dissolving 300mg/L of calcium carbonate. Touch it and the cold that enters your fingertip is 11 millennia of thermal equilibrium.",
+    "material_properties": {
+        "flowstone_shelf": {
+            "material": "calcium carbonate (calcite)",
+            "thermal_conductivity_w_mk": 3.3,
+            "specific_heat_j_kgk": 840,
+            "note": "higher conductivity than limestone because it's crystalline, not porous. Your palm warms it to skin temperature in about 45 seconds \u2014 the calcite absorbs your heat efficiently but has enough thermal mass to hold it."
+        }
+    }
+}

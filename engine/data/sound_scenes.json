@@ -1,0 +1,432 @@
+[
+  {
+    "id": "rainy_night_indoors",
+    "name": "Rainy Night Indoors",
+    "environment": "bedroom",
+    "time": "night",
+    "layers": [
+      {"source": "rain_heavy", "distance": "mid", "role": "ambient", "note": "outside, muffled by walls and glass"},
+      {"source": "rain_window", "distance": "near", "role": "foreground", "note": "individual drops tapping the windowpane"},
+      {"source": "fridge_hum", "distance": "mid", "role": "background", "note": "from the kitchen, barely audible"},
+      {"source": "clock_ticking", "distance": "near", "role": "foreground", "note": "on the nightstand"}
+    ],
+    "prose": "The rain is a wall of sound outside — a broadband roar muffled by brick and glass into something soft, something that wraps. Against the window, individual drops tap an irregular morse code, each one bright and distinct against the pane. From the kitchen, the fridge hum provides the apartment's baseline drone — so constant you only notice it in the pauses between thoughts. And the clock ticks. Tick. Tock. Measuring out the night in small portions while the rain does its best to erase everything else. You are dry. You are warm. The sounds say so.",
+    "mood": ["cozy", "contemplative", "safe"],
+    "walk": [
+      {"position": "lying in bed", "prose": "From here, the rain is the primary sound — a soft, continuous roar filtered through walls. The window-drops are closest, tapping just above your head. The clock ticks at arm's reach. The fridge is a distant, felt drone. The pillow adds its own muffling — press one ear into it and the world halves."},
+      {"position": "standing at the window", "prose": "Press close to the glass and the rain sharpens — the patter becomes louder, more detailed, each drop distinct. You can hear the different surfaces: the glass (bright taps), the sill (duller thuds), the gutter (a constant liquid rush). Pull back and it blurs again into collective rain-sound."},
+      {"position": "in the kitchen doorway", "prose": "The fridge hum is louder here — a steady, low vibration with a slight rattle. The rain is behind you now, still present but further from consciousness. The clock is faint. The kitchen adds its own sounds: the drip of the tap (not quite closed), the creak of the house settling. Different room, different mix."}
+    ]
+  },
+  {
+    "id": "coffee_shop_morning",
+    "name": "Coffee Shop Morning",
+    "environment": "small_room",
+    "time": "morning",
+    "layers": [
+      {"source": "espresso_machine", "distance": "mid", "role": "foreground", "note": "behind the counter, hissing and gurgling periodically"},
+      {"source": "crowd_murmur", "distance": "near", "role": "ambient", "note": "a dozen conversations blended into a warm wash"},
+      {"source": "spoon_stirring", "distance": "near", "role": "foreground", "note": "at your table, ceramic and metal"},
+      {"source": "typing_keyboard", "distance": "mid", "role": "background", "note": "someone working at a laptop two tables over"},
+      {"source": "glass_clink", "distance": "mid", "role": "background", "note": "cups being gathered, dishes cleared"},
+      {"source": "traffic_ambient", "distance": "far", "role": "ambient", "note": "outside, muffled by the window"}
+    ],
+    "prose": "The espresso machine is the heartbeat of this place — its periodic hiss and gurgle punctuating a warm wash of conversation. A dozen people talking, none of them to you, their voices blending into a comfortable, anonymous murmur that wraps around the room like a blanket. At your table, a spoon circles a cup — clink, swirl, clink — the smallest and most intimate sound in the room. Someone two tables over types in bursts, the plastic clatter of keys revealing their rhythm of thought. Cups clink as the barista clears a table. And underneath everything, through the window, the city hums — traffic reduced to a soft, muffled wash, the outside world held at bay by a pane of glass and the smell of coffee.",
+    "mood": ["warm", "social", "productive"],
+    "walk": [
+      {"position": "at your table by the window", "prose": "From here the scene is layered perfectly: your spoon's ceramic clink is closest, the murmur wraps around at arm's length, the espresso machine punctuates from across the room, and the traffic provides a soft floor of outside-sound through the glass. You're in the center of a carefully accidental acoustic."},
+      {"position": "at the counter", "prose": "The espresso machine dominates now — its hiss is sharp, the steam wand screams, the portafilter knocks against the knock box with a definitive thud. Conversations are louder here too — orders being placed, brief exchanges, the clink of cups being stacked. The cash register beeps. This is the engine room."},
+      {"position": "in the back corner", "prose": "The murmur is general here, softer. The espresso machine is a distant hiss. The laptop typer is closer — you can hear individual keystrokes. The traffic has disappeared entirely. This is the quietest seat in the house, the acoustic equivalent of a window seat on a train. Background noise at its most useful."}
+    ]
+  },
+  {
+    "id": "forest_dawn_chorus",
+    "name": "Forest Dawn Chorus",
+    "environment": "forest",
+    "time": "dawn",
+    "layers": [
+      {"source": "birdsong_dawn", "distance": "near", "role": "foreground", "note": "dozens of species, layered and competing"},
+      {"source": "flowing_water", "distance": "mid", "role": "background", "note": "a small stream somewhere below the ridge"},
+      {"source": "rustling_leaves", "distance": "near", "role": "ambient", "note": "a light morning breeze stirring the canopy"},
+      {"source": "wind_through_trees", "distance": "mid", "role": "ambient", "note": "pine wind in the upper canopy"},
+      {"source": "owl_hooting", "distance": "far", "role": "background", "note": "the last owl, giving up the night"}
+    ],
+    "prose": "It begins in the dark. One bird — a robin, maybe — throws a single phrase into the pre-dawn silence like a pebble into still water. The ripples spread. Another voice joins, then three more, then a dozen, and within minutes the forest is a cathedral of birdsong, each voice occupying its own frequency, its own rhythm, its own perch in the three-dimensional space of the canopy. Below, a stream mutters its liquid monologue over stones. A breeze stirs the leaves into a papery whisper, and higher up, the pines sigh their deeper, rushing note. And there — fading — the last owl of the night hoots once, twice, then concedes the sky to the choir of the dawn.",
+    "mood": ["alive", "awakening", "pristine"],
+    "walk": [
+      {"position": "under the canopy, standing still", "prose": "The birdsong is everywhere — above, around, impossible to localize in the absorptive forest acoustic. Each call is direct sound only; the trees eat all echoes. The stream is a constant, low murmur to the east. Leaves rustle overhead. You are standing in the middle of a living soundscape that existed before you arrived and will continue after you leave."},
+      {"position": "by the stream", "prose": "The water dominates now — close up, it's not one sound but dozens. A gurgle here, a splash there, the rush over a small rock, the deeper note of a pool. The birdsong is still present but pushed back — the water fills the foreground. Moss and soft earth muffle your footsteps. A kingfisher calls — sharp, piercing — from a branch above the water."},
+      {"position": "at the forest edge, looking out", "prose": "Here the forest acoustic meets the open field. Behind you: the dense, absorptive sound-world of trees, birdsong close and dry. Ahead: the open air, where sound carries farther but with no reverb, no canopy to bounce off. The birds sound different at the edge — their songs escape into the openness, less intimate, more broadcast. A lark rises from the field, singing as it climbs."}
+    ]
+  },
+  {
+    "id": "busy_intersection",
+    "name": "Busy Intersection",
+    "environment": "busy_street",
+    "time": "midday",
+    "layers": [
+      {"source": "traffic_ambient", "distance": "near", "role": "ambient", "note": "constant flow of vehicles"},
+      {"source": "siren", "distance": "mid", "role": "foreground", "note": "an ambulance approaching from the west"},
+      {"source": "footsteps_concrete", "distance": "near", "role": "foreground", "note": "pedestrians crossing"},
+      {"source": "construction", "distance": "mid", "role": "background", "note": "jackhammer two blocks away"},
+      {"source": "dog_barking", "distance": "mid", "role": "background", "note": "a dog tied outside a shop"}
+    ],
+    "prose": "The intersection roars. Traffic is a constant broadband wash — engines, tires on asphalt, the whoosh of displacement as each vehicle passes. A siren approaches from the west, its wail bouncing off building facades, arriving from multiple directions at once, growing. Pedestrians cross in a brief choreography of footsteps on concrete — heels clicking, sneakers scuffing, the irregular rhythm of a crowd moving in the same direction for eight seconds before the light changes. Two blocks away, a jackhammer adds its staccato complaint. A dog barks — three sharp reports — then subsides. The walk signal chirps. The light changes. The intersection breathes, resets, and does it all again.",
+    "mood": ["chaotic", "urban", "energetic"],
+    "walk": [
+      {"position": "on the corner, waiting for the light", "prose": "Traffic rushes past at arm's length — the whoosh of each car displacing air, the diesel grumble of a bus, tires hissing on asphalt. The walk signal clicks its impatient countdown. The siren is growing, somewhere west, bouncing between buildings so it seems to come from everywhere. The jackhammer is a distant, rhythmic assault. Your body tenses with each near-pass of a vehicle."},
+      {"position": "in the crosswalk", "prose": "The traffic has paused and the footsteps take over — a brief, shuffling percussion of dozens of shoes on painted asphalt. Someone's heels click a sharp rhythm. A bike messenger whooshes past, too close. The siren is louder now, the ambulance visible, the sound acquiring a Doppler shift as it passes. For eight seconds, the pedestrians own the space. Then the light changes."},
+      {"position": "across the street, in a doorway", "prose": "The doorway creates a pocket of relative calm. The traffic is still loud but the building blocks the worst of it. The jackhammer is clearer from this angle. The dog has stopped barking. Someone's phone rings — a sharp, digital chirp that cuts through the urban wash. The intersection is a machine, and from here you can hear its cycle: traffic, pause, footsteps, traffic, pause, footsteps."}
+    ]
+  },
+  {
+    "id": "cathedral_organ",
+    "name": "Cathedral Organ",
+    "environment": "cathedral",
+    "time": "afternoon",
+    "layers": [
+      {"source": "church_organ", "distance": "mid", "role": "foreground", "note": "a full organ playing Bach, the building vibrating"},
+      {"source": "footsteps_echoing", "distance": "far", "role": "background", "note": "a late arrival walking the nave"},
+      {"source": "breathing_quiet", "distance": "near", "role": "background", "note": "your own breathing, suddenly audible between chords"}
+    ],
+    "prose": "The organ fills the cathedral the way water fills a basin — completely, with no space left over. The bass notes are felt more than heard, the stone floor and columns vibrating in sympathy, your chest resonating with frequencies too low for the ear to fully process. The mid-range carries the melody, each note trailing a five-second reverb tail that blurs one phrase into the next, the cathedral adding its own harmony. The highest pipes cut through — bright, piercing, somehow both far away and inside your head. Between movements, a silence so profound it has texture. Then footsteps — someone walking the nave, each step returning from every wall in a cascading echo. Your own breathing, suddenly audible. Then the organ breathes in, and the room fills again.",
+    "mood": ["transcendent", "overwhelming", "sacred"],
+    "walk": [
+      {"position": "in the front pew", "prose": "The organ is above and behind — the pipes towering over the nave, the sound pouring down. At this distance the bass is physical, a pressure in the chest. The melody arrives from everywhere at once, the five-second reverb turning the cathedral into one enormous resonating instrument. The stone bench vibrates under you. Between chords, the silence rings."},
+      {"position": "midway down the nave", "prose": "Here the balance shifts. The direct sound from the pipes and the reflected sound from the walls reach you at nearly equal strength, creating a shimmering, spacious effect. The melody is clearer — less overwhelmed by bass. Footsteps from a side aisle echo in counterpoint. The reverb tail of each chord hangs in the air like incense."},
+      {"position": "at the entrance, by the great door", "prose": "The organ is distant now, the sound arriving late, softened and blurred by the full length of the nave. The bass has lost its physical impact but gained a warm, rounded quality. The highest notes have been absorbed by distance. What reaches you is the room's interpretation of the music — architecture as instrument. Outside, through the heavy door, the city murmurs, oblivious."}
+    ]
+  },
+  {
+    "id": "ocean_beach",
+    "name": "Ocean Beach",
+    "environment": "open_field",
+    "time": "afternoon",
+    "layers": [
+      {"source": "waves_ocean", "distance": "near", "role": "foreground", "note": "waves crashing and retreating on sand"},
+      {"source": "wind_gusty", "distance": "near", "role": "ambient", "note": "onshore wind, salty and constant"},
+      {"source": "birdsong_single", "distance": "mid", "role": "background", "note": "gulls calling overhead"},
+      {"source": "children_playing", "distance": "far", "role": "background", "note": "down the beach, carried on the wind"}
+    ],
+    "prose": "The waves are the clock here — crash, hiss, pause, crash, hiss, pause — each cycle slightly different in force and timing, the ocean incapable of exact repetition. The wind is constant, an onshore rush that fills the ears with broadband noise and carries with it the far-off shrieks of children playing, their voices arriving in fragments, torn and scattered by the gusts. Gulls wheel and call — sharp, descending cries that cut through the wind and wave noise like white through grey. The sand muffles everything at ground level. The sky amplifies nothing. You're in the most open acoustic on Earth — no walls, no ceiling, just the endless negotiation between water and shore.",
+    "mood": ["vast", "rhythmic", "elemental"],
+    "walk": [
+      {"position": "at the waterline", "prose": "The waves are immediate — the crash is loud, percussive, followed by the hiss of foam rushing up the sand toward your feet. The retreating water makes a sucking, gravelly sound as it pulls pebbles seaward. The wind is in your face, filling your ears with its constant broadband rush. Gulls cry overhead. Each wave rewrites the soundscape."},
+      {"position": "halfway up the beach", "prose": "The waves have softened — still rhythmic, still dominant, but the crash has lost its percussive edge. The wind is the primary sound now, hissing through the dune grass behind you. The children's voices are clearer from here, carried in fragments on the breeze. A dog barks somewhere. The sand under your feet makes no sound at all."},
+      {"position": "in the dunes, sheltered", "prose": "The dune grass whispers and hisses in the wind, creating a close, rustling texture that the open beach lacked. The waves are a rhythmic murmur now — background rather than foreground. The wind gusts overhead but the hollow of the dune offers shelter, a pocket of relative calm. An insect buzzes past. The ocean is still the heartbeat, but from here it sounds patient rather than urgent."}
+    ]
+  },
+  {
+    "id": "thunderstorm",
+    "name": "Thunderstorm",
+    "environment": "small_room",
+    "time": "night",
+    "layers": [
+      {"source": "rain_heavy", "distance": "mid", "role": "ambient", "note": "torrential rain outside"},
+      {"source": "thunder_close", "distance": "mid", "role": "foreground", "note": "strikes every few minutes, shaking the house"},
+      {"source": "thunder_distant", "distance": "far", "role": "background", "note": "rolling thunder from the retreating front"},
+      {"source": "rain_window", "distance": "near", "role": "foreground", "note": "rain hammering the window"},
+      {"source": "wind_gusty", "distance": "mid", "role": "ambient", "note": "gusts rattling the panes"}
+    ],
+    "prose": "The storm is a symphony in three movements. First: the rain — a torrential, relentless roar that turns the world outside into white noise. Against the window, it's more personal — each gust throws a handful of drops against the glass like gravel. Second: the wind, surging and retreating, finding every gap in the house and whistling through it, rattling the window frames, making the walls feel thinner than they are. Third: the thunder. A crack so close the house flinches — the flash and the boom nearly simultaneous — then the long, rolling aftermath, bass rumbling away toward the horizon where the storm has already passed. In the silence between strikes, you hear the house creaking, the rain streaming, your own heart. Then the sky splits again.",
+    "mood": ["dramatic", "primal", "sheltered"],
+    "walk": [
+      {"position": "in the center of the room", "prose": "The storm is balanced around you — rain equal on all walls, wind direction shifting. The thunder arrives as a full-body event, the bass shaking the floor. The window rattles to your left. A gutter overflows somewhere, adding a rushing water sound. Between strikes, the rain fills every frequency, a warm wall of white noise. The house groans softly."},
+      {"position": "at the window", "prose": "Here the rain is violent and personal — each gust spatters the glass inches from your face, bright impacts on the pane. Lightning illuminates the room and the thunder follows almost instantly, a crack that makes you flinch. The wind finds the window seam and whistles a thin, high note. Outside, the streetlight illuminates silver sheets of rain. The glass vibrates under your fingertips."},
+      {"position": "under the covers in bed", "prose": "Everything is muffled and distant now — the rain reduced to a soft, continuous roar, the thunder arriving as a deep rumble felt more than heard. The wind is a faraway moan. The blankets and pillow add their own absorption, halving the world's volume. The storm continues but from here it's a lullaby, all its violence converted to comfort by the simple physics of walls, glass, and fabric."}
+    ]
+  },
+  {
+    "id": "old_library",
+    "name": "Old Library",
+    "environment": "library",
+    "time": "afternoon",
+    "layers": [
+      {"source": "clock_ticking", "distance": "mid", "role": "foreground", "note": "a wall clock marking time"},
+      {"source": "paper_rustling", "distance": "near", "role": "foreground", "note": "pages turning at your table"},
+      {"source": "creaking_floorboard", "distance": "mid", "role": "background", "note": "someone moving between shelves"},
+      {"source": "breathing_quiet", "distance": "near", "role": "background", "note": "the sound of focused attention"},
+      {"source": "fluorescent_buzz", "distance": "mid", "role": "ambient", "note": "overhead lights humming softly"}
+    ],
+    "prose": "The library's silence is not silence — it's a curated quiet where small sounds become events. The wall clock ticks with the authority of the only permitted percussion. A page turns — a crisp, dry whisper that seems louder than it has any right to be. Somewhere between the shelves, a floorboard creaks and someone freezes, apologetic. The fluorescent lights maintain their thin, electrical hum — the baseline drone of institutional spaces everywhere. And underneath it all, the sound of breathing — your own, suddenly audible, suddenly self-conscious in a room where every sound feels borrowed from the silence.",
+    "mood": ["hushed", "studious", "timeless"],
+    "walk": [
+      {"position": "at a reading table", "prose": "Your page turns sound enormous in the quiet. The clock ticks from the far wall — steady, unhurried, the room's only permitted rhythm. Your chair creaks when you shift. The fluorescent hum is constant, just above the threshold of noticing. Someone coughs two aisles over and it sounds like a gunshot. Silence rushes back in to fill the gap."},
+      {"position": "between the shelves", "prose": "The shelves create narrow corridors that absorb and muffle. Your footsteps on the wooden floor are unavoidable — each one a small announcement of your presence. Books pack the walls like acoustic treatment, absorbing high frequencies and leaving only the low hum of the lights. Running a finger along the spines produces a soft, rhythmic tapping. The clock is quieter here, filtered through rows of paper and cloth."},
+      {"position": "by the window in the reading alcove", "prose": "The alcove is its own acoustic pocket — the heavy curtains absorb everything, the window adds a faint draft that you hear as the thinnest whisper. The clock is distant. The main room's sounds arrive muffled and late. Traffic outside is a ghost — you see it through the glass but barely hear it. This is the library's quietest corner, where concentration comes easiest and time feels thickest."}
+    ]
+  },
+  {
+    "id": "subway_ride",
+    "name": "Subway Ride",
+    "environment": "car_interior",
+    "time": "evening",
+    "layers": [
+      {"source": "train_on_tracks", "distance": "near", "role": "foreground", "note": "wheels on rails, the rhythmic clacking"},
+      {"source": "subway_train", "distance": "near", "role": "ambient", "note": "the general roar of the car in the tunnel"},
+      {"source": "crowd_murmur", "distance": "near", "role": "background", "note": "passengers talking, mostly drowned out"},
+      {"source": "phone_ringing", "distance": "mid", "role": "background", "note": "someone's phone, tinny and intrusive"}
+    ],
+    "prose": "The subway car is a tube of noise. The dominant sound is mechanical — wheels on rails, clack-clack, clack-clack, the rhythm of the joints measuring distance in regular intervals. Over this, the roar of the car through the tunnel, a broadband rush of displaced air and vibrating metal that makes conversation a shouting match. Passengers have given up or leaned close — their murmur is a layer beneath the machine noise, occasionally punctuated by a tinny phone ringtone that nobody answers quickly enough. The train slows — the pitch drops, the clacking stretches — and the doors open onto a platform that sounds, by comparison, like a cathedral of relative quiet. People shuffle in and out. The doors close. The noise rebuilds.",
+    "mood": ["rhythmic", "urban", "enclosed"],
+    "walk": [
+      {"position": "standing by the door", "prose": "The door is the loudest spot — the seal lets in a thin scream of tunnel air, and the mechanical clatter of the wheels is sharpest here, unfiltered by the car's body. The door rattles in its frame. When the train stops, the doors open with a pneumatic hiss and the platform rushes in — voices, a busker's guitar, the recorded announcement. Then they close and the tunnel swallows you again."},
+      {"position": "in a middle seat", "prose": "Seated, the clacking becomes rhythmic and almost soothing. The car's vibration travels up through the seat into your body. Conversations are possible here — leaning close, voices raised. The roar is steady, a constant backdrop. Someone's headphones leak a tinny beat that weaves through the mechanical noise. The car sways and the handrails ring softly with each curve."},
+      {"position": "between cars", "prose": "The connecting passage is a wall of sound — the tunnel roar unfiltered, the rails screaming beneath the gap in the floor. Wind tears through, loud enough to make your eyes water. The clacking is deafening, raw, without the car's insulation to tame it. No one lingers here. You pass through quickly, from one sealed noise-chamber to the next, the brief crossing a reminder of the violence the car walls are protecting you from."}
+    ]
+  },
+  {
+    "id": "campfire_at_night",
+    "name": "Campfire at Night",
+    "environment": "open_field",
+    "time": "night",
+    "layers": [
+      {"source": "fire_crackling", "distance": "near", "role": "foreground", "note": "the fire pops and crackles at arm's reach"},
+      {"source": "crickets", "distance": "mid", "role": "ambient", "note": "the night chorus pulsing in the dark"},
+      {"source": "owl_hooting", "distance": "far", "role": "background", "note": "an owl in the tree line"},
+      {"source": "wind_gentle", "distance": "near", "role": "ambient", "note": "a light breeze stirring the embers"}
+    ],
+    "prose": "The fire is the center of the world. It crackles and pops, each sound a small surprise — a pocket of sap bursting, a log shifting, an ember launched upward into the dark. The light and the sound define the same circle: inside it, warmth and visibility; outside, the dark and the night sounds. Crickets pulse in the blackness beyond the fire's reach, their rhythm steady and hypnotic. An owl hoots from the tree line — two low notes, then silence. The breeze stirs the embers and they glow brighter, hissing softly. Someone pokes the fire and it responds with a shower of sparks and a fresh burst of crackling. The night presses in from all sides, and the fire holds it back with light and sound.",
+    "mood": ["primal", "communal", "warm"],
+    "walk": [
+      {"position": "sitting close to the fire", "prose": "The crackling is intimate and immediate — pops and snaps at arm's length, the heat on your face matched by the sound's warmth. Sparks spiral upward, each one a tiny hiss. The crickets are a distant pulse beyond the firelight. Your own shifting on the log — the creak of bark, the rustle of a jacket — these are the only human sounds. The fire speaks for everyone."},
+      {"position": "standing at the edge of the firelight", "prose": "Here the fire's sound competes with the night. The crackling is still audible but softer, and the crickets are louder, their pulse more insistent. The owl is clearer from this distance — you can place it now, somewhere in the oaks to the north. The breeze is cool on your back. You stand at the border between two acoustic worlds: fire-warm and night-cool."},
+      {"position": "walking into the dark beyond", "prose": "The fire is behind you now — a fading crackle, a glow in peripheral vision. The night sounds take over completely. Crickets surround you, their pulsing so even it becomes a texture rather than a rhythm. Your footsteps on grass and leaves are suddenly the loudest thing. The owl hoots again, closer. The dark has its own sound — a vast, breathing quiet that the fire had been holding at bay."}
+    ]
+  },
+  {
+    "id": "winter_silence",
+    "name": "Winter Silence",
+    "environment": "open_field",
+    "time": "morning",
+    "layers": [
+      {"source": "snow_falling", "distance": "near", "role": "ambient", "note": "the anti-sound — snow absorbing everything"},
+      {"source": "wind_gentle", "distance": "far", "role": "background", "note": "the faintest movement of cold air"},
+      {"source": "breathing_quiet", "distance": "near", "role": "foreground", "note": "your own breath, visible and audible in the cold"},
+      {"source": "ice_cracking", "distance": "far", "role": "background", "note": "a frozen pond adjusting to the temperature"}
+    ],
+    "prose": "This is the quietest the world gets. Snow has fallen and is still falling, and each flake adds another fraction of a decibel to the silence — absorbing footsteps, muffling distance, erasing the usual background of wind and traffic and life. Your breathing is the loudest thing for a hundred meters — each exhale a small white cloud with a sound. In the distance, a frozen pond cracks — a single, sharp report that carries impossibly far in the still air, followed by a singing tone that fades over seconds. Then silence again. Real silence. The kind that has weight and presence, that feels like a substance filling the white, padded world.",
+    "mood": ["hushed", "pristine", "vast"],
+    "walk": [
+      {"position": "standing in the open field", "prose": "Your breathing is the only sound — a soft, rhythmic rasp in the frozen air. Snow falls silently, impossibly silently, accumulating on your shoulders. The field stretches white in every direction. Sound has nowhere to go and nothing to bounce off. When the pond cracks, the report arrives clean and sharp across the still air, then the singing overtone, then nothing. Silence so complete you can hear your own pulse."},
+      {"position": "under a snow-laden tree", "prose": "The tree creates a pocket — snow on the branches acts as acoustic insulation above, the trunk blocks the faintest breeze. It's even quieter here, if that's possible. A clump of snow slides from a branch and lands with a soft whump — the loudest thing in minutes. A bird — a single, unseen bird — chips once from somewhere in the frozen canopy. Then silence reclaims everything."},
+      {"position": "by the frozen pond", "prose": "The ice groans beneath the snow — a deep, structural sound, the pond contracting in the cold. It cracks again, and this time you feel the vibration through your boots. The sound travels across the ice in both directions, a singing tone that fades into the white distance. Under the snow, under the ice, water moves — you can't hear it but you sense it. The cold tightens everything, including sound itself."}
+    ]
+  },
+  {
+    "id": "restaurant_kitchen",
+    "name": "Restaurant Kitchen",
+    "environment": "kitchen",
+    "time": "evening",
+    "layers": [
+      {"source": "fire_crackling", "distance": "near", "role": "foreground", "note": "gas burners roaring, pans sizzling"},
+      {"source": "glass_clink", "distance": "near", "role": "foreground", "note": "plates and glasses being moved at speed"},
+      {"source": "crowd_murmur", "distance": "mid", "role": "background", "note": "the dining room through the pass"},
+      {"source": "fan_ceiling", "distance": "mid", "role": "ambient", "note": "exhaust fans running at full blast"}
+    ],
+    "prose": "The kitchen is a controlled emergency of sound. Gas burners roar — blue-flame jets under sauté pans that hiss and spit as food hits hot oil. Metal on metal: spatulas scraping, pans clanging onto grates, the percussive knock of a chef's knife on the board. 'Behind!' someone shouts. 'Heard!' comes the reply — the call-and-response of a kitchen in full service. Plates clink as they're stacked for the pass. The exhaust fans roar overhead, pulling steam and smoke upward. Through the pass window, the murmur of the dining room — a different world of soft conversation and clinking wine glasses, entirely unaware of the beautiful chaos producing their meals.",
+    "mood": ["intense", "rhythmic", "professional"],
+    "walk": [
+      {"position": "at the stove line", "prose": "The gas burners roar at waist level — a constant, rushing flame-sound punctuated by the violent hiss of food hitting oil. Pans clang. The hood vent sucks air upward in a steady, powerful draft you can feel and hear. A chef calls an order. Another responds. The knife hits the board — thock, thock, thock — with mechanical precision. Heat and sound are the same thing here."},
+      {"position": "at the pass window", "prose": "The pass is where two worlds meet. Behind you: the kitchen's controlled violence, all fire and steel and shouting. Through the window: the dining room's murmur, soft and civilized, wine glasses chiming, laughter rising. Plates slide across the pass with a ceramic whisper. The expeditor calls the table number. Servers collect plates with practiced silence. You stand at the border between production and performance."},
+      {"position": "in the walk-in cooler", "prose": "The door closes and the kitchen vanishes — replaced by the compressor's deep, mechanical hum and a profound, insulated quiet. The cold has a sound: the fan circulating frigid air, the occasional drip of condensation. Shelves of ingredients absorb what little noise there is. Through the heavy door, the kitchen is a muffled roar, like a party happening next door. You can hear yourself think. Then the door opens and the wall of sound hits you again."}
+    ]
+  },
+  {
+    "id": "jazz_club",
+    "name": "Jazz Club",
+    "environment": "small_room",
+    "time": "night",
+    "layers": [
+      {"source": "piano", "distance": "mid", "role": "foreground", "note": "a piano trio — the keys leading"},
+      {"source": "drums", "distance": "mid", "role": "foreground", "note": "brushes on snare, light ride cymbal"},
+      {"source": "crowd_murmur", "distance": "near", "role": "background", "note": "quiet conversation, respectful of the music"},
+      {"source": "glass_clink", "distance": "near", "role": "background", "note": "cocktail glasses, ice, bottles"}
+    ],
+    "prose": "The piano leads — each note placed with the casual precision of a player who has forgotten more jazz than most people know. The left hand walks a bass line; the right improvises, finds intervals that shouldn't work but do, resolves them before you can name the tension. Brushes whisper on the snare — a papery, rhythmic shush that holds the time loosely, like a suggestion rather than a demand. The ride cymbal adds its golden shimmer. The room murmurs beneath the music — quiet conversations, the clink of ice in glasses, the occasional soft laugh. It's a small room. The music fills it without effort. The players look at each other, nod, and the tenor comes in — warm, breathy, saying something that doesn't need words.",
+    "mood": ["intimate", "cool", "nocturnal"],
+    "walk": [
+      {"position": "at a table near the stage", "prose": "The piano is right there — you can see the hammers move, hear the mechanism as well as the music. The brushes whisper on the snare with a papery intimacy. The bassist's fingers land on the strings with a woody thunk before the note blooms. This close, jazz is physical — you hear the effort, the breath, the small sounds between the music. Someone at the next table whispers, and ice shifts in a glass."},
+      {"position": "at the bar in the back", "prose": "The music reaches you whole, blended by the room into a unified sound. The piano's attack is softer, the brushes a distant shimmer. The bar adds its own percussion — bottles set down, ice shaken, the espresso machine's occasional hiss. Conversations are louder here, less reverent. The bartender's movements create a rhythm of their own. The music is the room's heartbeat, felt more than analyzed."},
+      {"position": "stepping outside for air", "prose": "The door opens and the music escapes in a warm rush, then muffles as it closes behind you. The street is jarring — traffic, a distant horn, the cold air carrying different sounds entirely. Through the door, the bass comes through clearest, a felt pulse. The piano is reduced to a tinkling suggestion. You can still hear the rhythm but not the melody. Two worlds, separated by a single door."}
+    ]
+  },
+  {
+    "id": "hospital_ward",
+    "name": "Hospital Ward",
+    "environment": "large_hall",
+    "time": "night",
+    "layers": [
+      {"source": "fluorescent_buzz", "distance": "near", "role": "ambient", "note": "overhead lights never off, always humming"},
+      {"source": "breathing_quiet", "distance": "near", "role": "foreground", "note": "patients sleeping, the rhythm of monitored rest"},
+      {"source": "footsteps_echoing", "distance": "mid", "role": "background", "note": "nurses moving with practiced quiet"},
+      {"source": "microwave_beep", "distance": "far", "role": "background", "note": "machines beeping at regular intervals — monitors, IV pumps"}
+    ],
+    "prose": "The ward at night is a landscape of electronic patience. Machines beep at different intervals — heart monitors in steady rhythm, IV pumps with their periodic chirp, the ventilator's mechanical breath. The fluorescent lights hum their constant, thin note. Nurses move through in soft shoes, their footsteps muted but still audible in the late-night quiet — a rustle of fabric, the squeak of a rubber sole on linoleum. Someone breathes — the slow, deep breathing of medicated sleep. A cough from behind a curtain. The beep changes pitch on a monitor and a nurse's shoes quicken. Then it stabilizes. The ward exhales. The machines resume their patient, electronic vigil.",
+    "mood": ["clinical", "watchful", "nocturnal"],
+    "walk": [
+      {"position": "at the bedside", "prose": "The heart monitor is closest — its steady beep marking time in biological rhythm. The IV pump clicks and whirs on its programmed schedule. The patient breathes slowly, each exhale a soft rasp. The fluorescent hum is constant overhead. From the corridor, muffled footsteps and the distant chime of another monitor. The curtain around the bed creates a thin acoustic barrier — a pretense of privacy that sound ignores completely."},
+      {"position": "in the corridor", "prose": "The corridor amplifies everything — the linoleum floor reflecting footsteps, the hard walls bouncing every beep and murmur. Monitors create a polyrhythmic chorus from behind curtains, each one beeping at its own interval. A nurse's station glows at the end of the hall, a phone ringing softly. Somewhere, a patient calls out. The overhead lights buzz louder here, the long tubes aging differently. The corridor is where all the ward's sounds collect and mix."},
+      {"position": "in the waiting area", "prose": "The vending machine hums — a lower, rougher note than the fluorescents. A television mounted high on the wall mutters at minimum volume, captions scrolling. The ward's sounds are distant here, filtered through doors and distance into a general, low murmur of beeps and ventilation. Someone shifts in a plastic chair, the seat creaking. A coffee cup is set down on a laminate table. Time moves differently in waiting rooms, and sound marks its passage poorly."}
+    ]
+  },
+  {
+    "id": "train_journey",
+    "name": "Train Journey",
+    "environment": "car_interior",
+    "time": "afternoon",
+    "layers": [
+      {"source": "train_on_tracks", "distance": "near", "role": "foreground", "note": "the rhythmic clacking of rail joints"},
+      {"source": "wind_gusty", "distance": "mid", "role": "ambient", "note": "wind rushing past the windows at speed"},
+      {"source": "crowd_murmur", "distance": "near", "role": "background", "note": "the quiet conversation of passengers"},
+      {"source": "typing_keyboard", "distance": "mid", "role": "background", "note": "a commuter working on a laptop"}
+    ],
+    "prose": "Clack-clack. Clack-clack. The rail joints measure out the journey in a steady, hypnotic rhythm that becomes the train's heartbeat. The wind rushes past the windows — a constant, high hiss that rises in the tunnels and drops in the open. The car sways gently, and with it the quiet landscape of passenger sounds: a murmured conversation, the tap of a laptop keyboard, the rustle of a newspaper (someone still reads newspapers on trains). A phone buzzes. Someone sleeps — you can hear it in their breathing, slow and deep, surrendered to the rhythm. The train leans into a curve and the pitch changes — the wheels singing a different note on the bent rail. Then straight again, and the clacking resumes its patient, metronomic count of distance.",
+    "mood": ["hypnotic", "transient", "contemplative"],
+    "walk": [
+      {"position": "in your seat by the window", "prose": "The clacking is steady and close, transmitted through the seat frame into your body. The window hisses with wind. Leaning your head against the glass, you feel the vibration — the train's pulse conducted through bone. The passenger across the aisle turns a page. The laptop two rows up taps in bursts. The announcement system crackles, says something about the next stop, and falls silent. The rhythm reclaims the car."},
+      {"position": "in the vestibule between cars", "prose": "The vestibule is louder, rawer — the coupling between cars flexes and groans, the tracks are closer, the insulation thinner. The wind howls through the rubber gaskets. The clacking is sharper here, less musical, more mechanical. The doors to either car muffle and release the passenger sounds as people pass through. You feel the train's speed here more than anywhere — the sound tells you how fast you're going."},
+      {"position": "in the quiet car", "prose": "The quiet car earns its name — conversation is forbidden and the absence is palpable. The clacking remains, softer, a lullaby. Breathing is audible. The rustle of a coat. A pen on paper. Someone's headphones leak the faintest treble. The silence is enforced and fragile — when a phone vibrates, everyone hears it, and the owner fumbles to silence it with the urgency of someone defusing a bomb. The train's rhythm is purest here, undisturbed."}
+    ]
+  },
+  {
+    "id": "deli_counter",
+    "name": "Deli Counter",
+    "environment": "small_room",
+    "time": "midday",
+    "layers": [
+      {"source": "crowd_murmur", "distance": "near", "role": "ambient", "note": "the lunch rush, everyone talking at once"},
+      {"source": "glass_clink", "distance": "near", "role": "foreground", "note": "plates, cutlery, the deli case sliding open"},
+      {"source": "fridge_hum", "distance": "mid", "role": "background", "note": "the refrigerated display case"},
+      {"source": "traffic_ambient", "distance": "far", "role": "background", "note": "the street outside, door propped open"},
+      {"source": "espresso_machine", "distance": "mid", "role": "foreground", "note": "the coffee station working overtime"}
+    ],
+    "prose": "The lunch rush has its own music. A slicer whines through pastrami — a high, buzzing note that rises under load and drops between cuts. 'Number forty-seven!' The counterman shouts over the crowd, his voice carrying the practiced projection of someone who does this two hundred times a day. The deli case slides open and closed on its track, a glass-on-metal whisper punctuating each order. Conversations layer over each other — a dozen languages, the shared vocabulary of hunger and impatience. The espresso machine screams from the corner. Paper bags rustle as orders are packed. The register beeps and the cash drawer slides out with a mechanical ding that hasn't changed in fifty years. From outside, through the propped-open door, the street honks and murmurs its way through its own lunchtime.",
+    "mood": ["bustling", "aromatic", "communal"],
+    "walk": [
+      {"position": "in line at the counter", "prose": "The slicer is right there — its high whine starting and stopping as the counterman works through an order. Behind the glass, the refrigeration unit hums its steady low note. People press close, body heat and voice competing. 'Who's next?' The question carries over the din. You can hear the crinkle of butcher paper, the wet slap of cold cuts being stacked. Someone behind you sighs audibly. The number dispenser clicks."},
+      {"position": "at a small table by the window", "prose": "The counter's chaos recedes to a manageable wash of sound. The espresso machine punctuates from the middle distance. Cutlery clinks on plates — the percussive soundtrack of people eating fast. Through the window, a bus air-brakes to a stop, loud enough to interrupt a sentence. The door opens and the street sound rushes in, then muffles as it swings shut. A chair scrapes. Your sandwich wrapper crinkles. The conversation at the next table is in Spanish, rapid and warm."},
+      {"position": "outside on the sidewalk, eating", "prose": "The deli's sound escapes through the open door in warm bursts — laughter, the slicer's whine, a shout. The street takes over: traffic is steady and close, shoes on concrete, a bike courier's bell. Someone's car stereo thumps bass from a stopped taxi. But the pastrami is still warm in your hands, and the sound of your own chewing is the most immediate thing — crunching through rye bread, the wet crunch of a pickle. The deli murmurs behind you. The city roars ahead."}
+    ]
+  },
+  {
+    "id": "night_market",
+    "name": "Night Market",
+    "environment": "busy_street",
+    "time": "night",
+    "layers": [
+      {"source": "crowd_murmur", "distance": "near", "role": "ambient", "note": "hundreds of people browsing, eating, bargaining"},
+      {"source": "fire_crackling", "distance": "near", "role": "foreground", "note": "woks over open flames, oil sizzling"},
+      {"source": "laughter", "distance": "mid", "role": "background", "note": "groups of friends, the loose energy of night"},
+      {"source": "fan_ceiling", "distance": "mid", "role": "background", "note": "industrial fans pulling smoke from food stalls"},
+      {"source": "engine_idling", "distance": "far", "role": "background", "note": "generators powering the stall lights"}
+    ],
+    "prose": "The night market is a corridor of sound and heat. Woks clang on iron burners, the oil screaming as noodles hit the surface — a sharp, violent sizzle that carries the promise of something delicious. Vendors call out in competing cadences, their pitches overlapping into a musical chaos. The crowd moves slowly, pressed together, and their collective murmur is a river of sound at waist level — conversation, laughter, the occasional delighted shriek of a child. Somewhere a radio plays pop music, tinny and distorted, competing with the industrial fans that pull columns of smoke and steam upward into the humid night air. Generators hum from behind the stalls, powering the strings of bare bulbs that make the market glow. Every few steps the soundscape shifts — from the crack of a cleaver on a chopping block to the gentle hiss of tea being poured to the sizzle of satay dripping onto charcoal.",
+    "mood": ["vibrant", "chaotic", "sensory"],
+    "walk": [
+      {"position": "at a noodle stall", "prose": "The wok is the loudest thing in the world — oil screaming, the chef's ladle scraping metal on metal in a rhythmic clatter, flames roaring under the blackened pan. Steam hisses upward. The chef shouts something to an assistant over the noise. At your elbow, the crowd presses past, their conversations a continuous murmur. The smell and the sound are inseparable — every sizzle carries flavor. A stack of plates clinks as your order is served."},
+      {"position": "in the middle of the crowd", "prose": "Here you're inside the sound. Hundreds of voices merge into a single, warm wall of human noise. Stalls compete from both sides — a cleaver's rhythmic thock to the left, the hiss of a steamer to the right. Music drifts from somewhere, its melody lost in the general roar. Someone bumps past, laughing. A phone rings and is answered in a shout. The generators provide a bass drone underneath everything, felt through the feet on the warm asphalt."},
+      {"position": "at the quiet end, near the fruit sellers", "prose": "The chaos thins here. The fruit sellers don't shout — they wait. The crowd has thinned too, the sound dropping to a manageable hum. A knife cuts through a mango with a wet, clean sound. Plastic bags rustle. The market's roar is behind you now, a warm glow of sound and light receding. Crickets are audible at the edges, where the market meets the dark street. A motorcycle passes, its engine fading. The night market exhales its last customers into the warm dark."}
+    ]
+  },
+  {
+    "id": "old_bookshop",
+    "name": "Old Bookshop",
+    "environment": "small_room",
+    "time": "afternoon",
+    "layers": [
+      {"source": "creaking_floorboard", "distance": "near", "role": "foreground", "note": "old wooden floors protesting every step"},
+      {"source": "clock_ticking", "distance": "mid", "role": "ambient", "note": "a grandfather clock in the back"},
+      {"source": "paper_rustling", "distance": "near", "role": "foreground", "note": "pages being turned, books being pulled from shelves"},
+      {"source": "cat_purring", "distance": "near", "role": "background", "note": "the shop cat, asleep on a stack of first editions"},
+      {"source": "traffic_ambient", "distance": "far", "role": "background", "note": "the street outside, filtered through thick walls"}
+    ],
+    "prose": "The bookshop creaks. Every step on the old wooden floor announces you — a groan here, a squeak there, the boards remembering the weight of decades of browsers. A grandfather clock in the back marks time with a heavy, deliberate tick that gives the silence its pulse. Books line every surface, floor to ceiling, and their paper mass absorbs sound the way they absorb attention — completely, quietly, without asking. You pull a volume from a shelf and the spine protests with a soft crack; the pages whisper as you fan them, releasing the particular dry perfume of old paper. The shop cat purrs on a stack of first editions, its vibration so low and steady it's almost subsonic. From outside, the street is a distant murmur — the thick stone walls and small windows keeping the century at bay. The shopkeeper turns a page at the register. The clock ticks. Nothing hurries here.",
+    "mood": ["timeless", "dusty", "contemplative"],
+    "walk": [
+      {"position": "just inside the door", "prose": "The door's bell — a real brass bell on a spring — jangles as you enter and then the shop's quiet wraps around you like a blanket. The floorboard under the threshold groans. The clock is audible immediately, its tick establishing the room's tempo. The street sound cuts off sharply as the heavy door swings shut. The shopkeeper looks up. The cat doesn't. You are in a different century's acoustic now."},
+      {"position": "deep in the stacks", "prose": "The shelves create narrow corridors that dampen everything. The clock is muffled here, felt more than heard. Your own breathing and the floorboards are the primary sounds. Pull a book from the shelf and the neighboring volumes shift with a papery sigh. The cat's purr is a distant rumble from somewhere near the window. Dust motes float in a shaft of light, and the silence has the texture of old paper — dry, layered, patient."},
+      {"position": "in the back room, by the clock", "prose": "The grandfather clock is loud here — its tick has authority, its mechanism visible through the glass case, the pendulum swinging with a faint metallic whisper. The back room is the shop's quietest corner: fewer windows, more books, thicker walls. A radiator ticks as it cools. The cat has followed you, jumping onto a chair with a soft thud, settling into a new purr. Through the doorway, the front room is a distant creak and rustle. Time is thick here. The clock agrees."}
+    ]
+  },
+  {
+    "id": "subway_station",
+    "name": "Subway Station",
+    "environment": "large_hall",
+    "time": "evening",
+    "layers": [
+      {"source": "crowd_murmur", "distance": "near", "role": "ambient", "note": "commuters waiting, the hum of rush hour"},
+      {"source": "subway_train", "distance": "mid", "role": "foreground", "note": "a train arriving, brakes screaming"},
+      {"source": "footsteps_echoing", "distance": "near", "role": "foreground", "note": "shoes on tile, multiplied by the vaulted ceiling"},
+      {"source": "fluorescent_buzz", "distance": "mid", "role": "background", "note": "station lights humming"},
+      {"source": "wind_gusty", "distance": "mid", "role": "ambient", "note": "the piston wind pushed ahead of the train"}
+    ],
+    "prose": "The station is a cathedral of transit. The vaulted ceiling takes every sound and returns it, multiplied — footsteps become a marching army, a cough echoes three times, a shout carries the full length of the platform. Commuters murmur at a level calibrated to this acoustic: just loud enough to be heard by the person beside you, no louder. Then the wind comes first — a warm gust pushed ahead of the approaching train like a bow wave, carrying tunnel air and the smell of brakes and electricity. The train arrives screaming, brakes protesting, metal on metal in a descending shriek that makes everyone lean back slightly. The doors open with a pneumatic sigh. People pour out and in. The doors close. The train leaves, and the platform's own sounds reassert themselves — footsteps, murmur, the fluorescent hum, the distant rumble of another train on another line, the station breathing between arrivals.",
+    "mood": ["echoing", "transient", "urban"],
+    "walk": [
+      {"position": "at the platform edge", "prose": "The tunnel is a dark mouth to your left, and from it comes a constant, low draft of warm air that carries the sound of distant trains — a metallic rumble that never fully stops. The tracks click and hum with approaching current. When the train comes, you feel the wind first, then the sound: a growing roar that fills the tunnel and explodes onto the platform. The brakes scream. The doors hiss open. For thirty seconds, the platform belongs to the train. Then it's gone, and the tunnel breathes its warm, electrical breath."},
+      {"position": "on the mezzanine above", "prose": "From above, the platform's sounds arrive with a reverberant smear — the turnstiles click and clatter, footsteps on the tiled stairs create a cascading rhythm, and the train's arrival is a muffled roar from below. The MetroCard reader beeps its approval or rejection. A busker plays saxophone somewhere in the corridor, the notes bouncing off tile walls into a warm, echoey bloom. The station's acoustics were designed for function, not music, but the saxophone doesn't care."},
+      {"position": "in the connecting tunnel", "prose": "The tunnel between platforms is its own acoustic world — long, tiled, and reverberant. Footsteps echo in a rhythmic cascade. A busker's music follows you, growing thinner. The rumble of trains comes from below, from above, from ahead — the underground is a maze of tunnels and each one conducts sound differently. Water drips somewhere, a single steady note. The air smells of concrete and ozone. At the far end, a different platform's sounds emerge — a different line, a different crowd, the same fluorescent hum."}
+    ]
+  },
+  {
+    "id": "wine_cellar",
+    "name": "Wine Cellar",
+    "environment": "cathedral",
+    "time": "evening",
+    "layers": [
+      {"source": "dripping_water", "distance": "mid", "role": "ambient", "note": "condensation dripping from the stone ceiling"},
+      {"source": "footsteps_echoing", "distance": "near", "role": "foreground", "note": "shoes on stone, each step returning from the vaulted ceiling"},
+      {"source": "glass_clink", "distance": "near", "role": "foreground", "note": "wine glasses being set down, bottles handled"},
+      {"source": "breathing_quiet", "distance": "near", "role": "background", "note": "the hushed reverence of a tasting"},
+      {"source": "ac_hum", "distance": "mid", "role": "background", "note": "the climate control system, keeping everything at 55 degrees"}
+    ],
+    "prose": "The cellar imposes its hush the way churches do — through architecture. The vaulted stone ceiling catches every sound and holds it, a brief reverb that lends weight to the smallest gesture. Your footsteps on the flagstone floor echo once, twice, then are swallowed by the dark. Water drips somewhere — a metronomic plip from condensation on the ceiling, marking time in geological patience. The sommelier draws a cork and the sound is almost ceremonial — a slow, squeaking pull followed by a soft, satisfying pop that the cellar amplifies into an event. Wine meets glass with a liquid whisper. Someone swirls, sniffs, sips. The tasting notes are spoken in low voices, as if the wine might overhear. The climate control hums its steady, cool note from behind the racks, the room's mechanical heartbeat keeping everything at the temperature the bottles demand.",
+    "mood": ["reverent", "cool", "intimate"],
+    "walk": [
+      {"position": "at the tasting table", "prose": "The table is the social center — glasses clink softly, wine is poured with a liquid murmur, and conversation is kept low. The stone walls return every sound with a brief, flattering reverb. A cork is drawn. Someone swirls their glass and the wine makes a tiny, circular rushing sound. Your own swallow is audible in the hush. The dripping water marks time somewhere in the darkness beyond the candlelight."},
+      {"position": "in the barrel room", "prose": "The barrels change the acoustic — their curved wooden surfaces scatter sound in unpredictable ways. Your footsteps on the stone are quieter here, absorbed by the mass of aging wine. A barrel creaks — the wood expanding, contracting, breathing with the temperature. The dripping is louder, closer, a single drop falling from a stone arch into a shallow puddle. The climate control hums from behind the wall. The air smells of oak and time, and the sound matches: old, patient, unhurried."},
+      {"position": "at the far end, by the oldest vintages", "prose": "The deepest part of the cellar is the quietest. The climate control is distant. The dripping has stopped or can't be heard this far in. Your breathing is the loudest sound, amplified by the close stone walls. The bottles rest in their cradles, dust-covered and silent. When you speak, the cellar gives your voice back to you with a long, cool reverb that makes even a whisper sound significant. This is where sound goes to age alongside the wine."}
+    ]
+  },
+  {
+    "id": "gym",
+    "name": "Gym",
+    "environment": "large_hall",
+    "time": "morning",
+    "layers": [
+      {"source": "crowd_murmur", "distance": "mid", "role": "ambient", "note": "grunts, breathing, scattered conversation"},
+      {"source": "glass_clink", "distance": "near", "role": "foreground", "note": "weights clanking — dumbbells dropped, plates loaded"},
+      {"source": "fan_ceiling", "distance": "mid", "role": "background", "note": "industrial ventilation running hard"},
+      {"source": "heartbeat", "distance": "near", "role": "foreground", "note": "your own pulse, elevated, audible in your ears"},
+      {"source": "typing_keyboard", "distance": "far", "role": "background", "note": "the front desk computer, distant clicks"}
+    ],
+    "prose": "The gym is a factory of effort. Metal meets metal in a rhythmic percussion — weight plates clanking onto bars, dumbbells thudding back into racks, the cable machine's stack rising and falling with a mechanical whisper and sharp clack at the top. Grunts punctuate the air — involuntary, unselfconscious, the sound of bodies working at their limit. A treadmill whirs at a steady pitch, shoes slapping the belt in a metronomic rhythm. Music plays from overhead speakers — something with a beat, loud enough to set a tempo but not loud enough to hear the lyrics. The ventilation fans roar their constant note, moving air that smells of rubber mats and effort. And underneath it all, if you're working hard enough: the sound of your own breathing, ragged and loud in your ears, your heartbeat pounding a bass note that nobody else can hear.",
+    "mood": ["energetic", "percussive", "physical"],
+    "walk": [
+      {"position": "on the weight floor", "prose": "The weight floor is percussive chaos. Plates clang and thud — someone deadlifts and the bar crashes down with a room-shaking boom. A dumbbell rack rattles in sympathy. Grunts and exhales layer over each other. The rubber floor absorbs impact but not sound. Your own set begins and the world narrows to the weight's sound: the scrape of the bar leaving the rack, the clink of the collars, your breath forced out in controlled bursts. Between sets, the gym's general roar rushes back in."},
+      {"position": "on a treadmill, running", "prose": "The belt whirs beneath your feet — a steady, motorized hum punctuated by the rhythmic slap of your shoes. Your breathing dominates: in through the nose, out through the mouth, each exhale louder as the pace increases. Your pulse thuds in your ears. The weight floor's clanking is distant from here, filtered through the cardio section's own noise: other treadmills, an elliptical's mechanical whisper, someone's headphones leaking bass. A fan blows directly on your face, its rushing note mixing with your own exertion."},
+      {"position": "in the stretching area", "prose": "The stretching area is the gym's decompression zone. The weight floor's percussion is muffled by distance. Your breathing is slowing, and with each calmer breath the gym's broader soundscape fills in: the music is more audible here, the ventilation fans hum, someone rolls a foam roller with a crackling, popping sound as fascia releases. A water fountain gurgles nearby. Two people chat in low voices about their sets. Your heart rate drops, and with it the volume of your own internal percussion."}
+    ]
+  },
+  {
+    "id": "barbershop",
+    "name": "Barbershop",
+    "environment": "small_room",
+    "time": "afternoon",
+    "layers": [
+      {"source": "ac_hum", "distance": "near", "role": "foreground", "note": "electric clippers, their pitch changing with resistance"},
+      {"source": "crowd_murmur", "distance": "mid", "role": "ambient", "note": "conversation, laughter, the social hum of regulars"},
+      {"source": "fan_ceiling", "distance": "mid", "role": "background", "note": "a ceiling fan turning slowly"},
+      {"source": "traffic_ambient", "distance": "far", "role": "background", "note": "the street outside through an open door"},
+      {"source": "laughter", "distance": "near", "role": "foreground", "note": "someone reacting to a story"}
+    ],
+    "prose": "The clippers set the tone — a buzzing drone that rises and falls as the barber works, the pitch climbing when the blades meet resistance and dropping as they glide through clear air. It's the shop's signature sound, as defining as the striped pole outside. Underneath, the hum of conversation: regulars debating sports, the barber offering opinions with the authority of someone who holds a blade to your neck, laughter erupting in bursts. Scissors snip — quick, precise, rhythmic — a lighter sound than the clippers, almost musical. A hot towel is shaken out with a sharp snap. The ceiling fan turns with a lazy whup-whup-whup, stirring air that smells of talcum powder and aftershave. Through the open door, the street contributes its murmur of traffic and footsteps. A bell jingles as someone enters. 'Take a seat, be right with you.' The clippers resume their drone. The conversation never stopped.",
+    "mood": ["social", "rhythmic", "nostalgic"],
+    "walk": [
+      {"position": "in the barber's chair", "prose": "The clippers are intimate — their buzz conducted through your skull as much as through the air, a vibration you feel in your teeth. The barber's hands guide them with practiced movements, the pitch shifting as the blades meet different densities of hair. Scissors snip close to your ear — a precise, metallic whisper. The barber talks, his voice close and warm, projected to the room but delivered to you. The cape rustles when you shift. Hair falls in small, silent drifts."},
+      {"position": "waiting on the bench", "prose": "From the bench, the shop is a show. Three barbers work simultaneously, their clippers buzzing at slightly different pitches, creating an accidental chord. Conversations overlap — one chair discusses politics, another tells a joke, the third is quiet, the customer's eyes closed. Magazines rustle. The TV on the wall murmurs a game at low volume. The door opens, the bell jingles, the street rushes in for a moment. Someone sweeps hair across the floor — a soft, bristly whisper."},
+      {"position": "outside, just leaving", "prose": "The door closes and the shop's sound collapses into a muffled buzz through the glass. The street reasserts itself — traffic, a jackhammer in the distance, someone on a phone. But your neck is cool where the clippers were, and the faintest buzz still rings in your ears, a ghost of the vibration. The aftershave stings in the breeze. You can still hear the laughter through the door — the barbershop carries on, as it always does, regardless of who's in the chair."}
+    ]
+  }
+]

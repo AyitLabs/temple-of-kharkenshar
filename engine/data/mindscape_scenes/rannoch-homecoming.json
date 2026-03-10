@@ -1,0 +1,130 @@
+{
+    "id": "rannoch-homecoming",
+    "name": "Rannoch — The Homecoming",
+    "description": "The quarian homeworld. Rannoch orbits a star slightly dimmer and redder than Sol — the light here is warm amber even at midday. Arid but not barren: this is a world of orange-gold stone, low hardy scrub, wind-carved mesas, and scattered oases fed by deep aquifers. The walled garden sits on a plateau overlooking a vast canyon system. Inside its stone walls, an ecosystem has been maintained for centuries by geth caretakers — plants the quarians left behind, soil they once walked on, air that carries the molecular memory of a people who were supposed to come home. She is the first quarian to stand here without a suit in three hundred years. The suit is off. The boots are off. This is first contact with a world that has been waiting.",
+    "character_requirement": "tali-quarian",
+    "character_state": "unsuited",
+    "smell": {
+        "scene_id": "rannoch-homecoming",
+        "compounds": [
+            "rannoch-soil-mineral",
+            "desert-scrub-terpene",
+            "warm-stone-radiative",
+            "oasis-water-mineral",
+            "garden-pollen-alien",
+            "wind-carried-dust",
+            "ancient-vegetation"
+        ],
+        "notes": "This is the first unfiltered air she has ever breathed outdoors. Her olfactory system has NO trained categories for these compounds. Every scent is raw signal without label. The HUD used to display 'atmospheric composition: nitrogen 78.2%, oxygen 20.1%...' — now she just breathes it and the air has CHARACTER. It smells like a place. A specific place. A place that her species' immune memory might still faintly recognize at some epigenetic level, even if her conscious mind has never encountered it.",
+        "key_scent_moments": [
+            "First breath without helmet — the air is warm, dry, mineral-rich. It tastes like the inside of a warm stone. Not unpleasant. Alien in its familiarity — this should be home but her nose has no framework for it",
+            "The garden soil — rich, biological, living. Centuries of geth-maintained composting. This is the smell of continuity — the dirt her ancestors walked on, still alive, still cycling nutrients, still growing things",
+            "Wind from the canyon — carries dust from kilometers of exposed geological strata. The smell of deep time. Iron oxide and silicate and the faintest organic signature from lichen on the canyon walls",
+            "Her own scent reaching her nose for the first time outdoors — the dextro-amino volatiles from her skin, mixing with Rannoch's air. She smells herself in context. She has never existed in an environment that didn't filter her out"
+        ]
+    },
+    "sight": {
+        "scene_id": "rannoch-homecoming",
+        "notes": "Without the visor, everything shifts. The tint is gone — colors are more vivid, warmer. Rannoch's star casts amber-gold light that makes the orange stone glow like it's lit from inside. The sky is a deep blue-violet, darker than Earth's due to slightly thinner atmosphere and different Rayleigh scattering from the redder star. The HUD overlay is gone — no threat markers, no atmospheric readout, no shield indicators. Just the world, raw, unaugmented. Her bioluminescent eyes adjust — the pupils wider than they'd be behind the visor, taking in more light, and for the first time she can see without a filter between her and the photons.",
+        "key_visual_moments": [
+            "The canyon — Rannoch's Grand Canyon equivalent, carved by ancient water systems now mostly underground. Layers of orange, red, gold, purple stone stretching to the horizon. The scale is difficult to process without HUD distance markers — her brain has to estimate depth the old way, by atmospheric haze and parallax",
+            "The garden — inside the stone walls, green. Not Earth-green. Rannoch-green: deeper, more blue-shifted, adapted to the amber starlight. The plants have broad leaves that turn to track the sun. Some of them flower in colors that exist outside human visual range — her quarian eyes, slightly UV-sensitive, catch hints of patterns invisible to most species",
+            "Her own hands — three fingers, lavender-grey, veins visible. She has seen them before in controlled environments, in decon chambers, in sterile ship compartments. She has never seen them in SUNLIGHT. The amber star paints her skin warm gold. The purple-blue veins become dark rivers. She looks like she belongs here, and the visual evidence is startling",
+            "Her shadow — cast long by the low star. Three-fingered, digitigrade, unmistakably quarian. A quarian shadow on Rannoch soil. This shadow has not existed in three hundred years"
+        ]
+    },
+    "sound": {
+        "scene_id": "rannoch-homecoming",
+        "notes": "Without the helmet, sound arrives unmediated. No muffling, no directional degradation, no suit-comms processing. The acoustic world snaps into focus like removing earplugs. Her own breathing is the most alien sound — she has always heard it inside the helmet, resonant, close. Now it escapes into open air and disperses. She sounds small. The world sounds enormous.",
+        "key_sound_moments": [
+            "Wind across the plateau — continuous, low, textured by the canyon below acting as a resonant chamber. The canyon hums. Rannoch hums. A subsonic drone that she feels in her chest more than hears, the planet's geology singing through moving air",
+            "Her bare feet on stone — each step is a new sound. The digitigrade gait produces a two-beat: toe-pad contact, then heel-stabilizer. On warm stone, the sound is soft, almost silent — skin on mineral. On garden soil, it's even quieter, absorbed immediately",
+            "Garden sounds — insects (or Rannoch's equivalent: small arthropod pollinators maintained by geth). A faint buzz-and-click chorus at frequencies she's never heard unfiltered. Running water from the irrigation channels — actual water moving over actual stone, not recycled coolant through ship pipes",
+            "Her own voice, if she speaks — thin, exposed, without helmet resonance. The flanged harmonic is gone. What comes out is HER voice, the one underneath, carried away by Rannoch's wind. If she says 'keelah' it sounds like a prayer instead of an exclamation",
+            "Silence — the spaces between sounds. On a ship, there is no silence. There is always the drive core, the air recyclers, the hull stress. Here, between gusts, between insect calls, there are moments of absolute quiet. She may never have experienced true silence before"
+        ]
+    },
+    "environment": {
+        "temperature_c": 28,
+        "humidity_pct": 22,
+        "wind_speed_kmh": 12,
+        "wind_direction": "southwest, from the canyon",
+        "time_of_day": "late-afternoon",
+        "weather": "clear",
+        "indoor": false,
+        "star_type": "Rannoch's star — K-class, slightly cooler and redder than Sol. Light peaks in amber-gold. UV output lower than Sol, which is why quarian skin never needed heavy melanin adaptation — and why her lavender-grey complexion works HERE even if it would sunburn on Earth",
+        "atmosphere": "nitrogen-oxygen, breathable, slightly thinner than Earth standard. Pressure ~0.92 atm. She can breathe normally but may notice the thinness during exertion — like being at mild altitude. The air is dry — 22% humidity. Her airways, accustomed to suit-regulated 40% humidity, will feel the dryness. Not painful. Noticeable. Real.",
+        "gravity": "0.89g — slightly lighter than galactic standard. She weighs less here. Steps are fractionally longer. The difference is subtle but her proprioception, freed from boot soles for the first time, FEELS it. The planet is gentler than the ships she grew up on.",
+        "touch": {
+            "surface_textures": [
+                "Garden stone path — ancient, worn smooth by geth maintenance and centuries of weathering. 35°C from solar absorption. Warm under digitigrade toe-pads. The stone is local sandstone — fine-grained, slightly porous. Each step compresses millions of tiny air pockets. She can feel the stone breathe",
+                "Rannoch soil — the garden beds. Loose, warm on top (30°C surface), cooler below (22°C at 5cm depth). Fine-grained, mineral-rich, slightly sandy. Between her toes it shifts and conforms. This is dirt. REAL dirt. Not hydroponics substrate. Not recycled biomatter. Geological dirt from a planet's crust, worked by organisms for millions of years. Her feet sink 2cm and the soil closes around her toes like it's holding on",
+                "Garden vegetation — broad leaves, waxy, slightly cool from transpiration evaporation. Touching them releases volatile terpenes unique to Rannoch's biosphere — nothing she has smelled before, but something her cells might distantly recognize. The stems are fibrous, strong, adapted to wind",
+                "Wind — 12 km/h, warm, dry. On her unsuited skin this is SENSATION, not data. It moves across every centimeter of exposed surface simultaneously. She can feel its direction change as it eddies around the garden walls. The wind is touching her and she has never been touched by wind before",
+                "Water — the garden's irrigation channel. 18°C, spring-fed from deep aquifer. Clear, mineral-laden. Stepping in: the temperature differential from 28°C air to 18°C water fires every thermoreceptor in her feet simultaneously. The water pressure against her ankles is gentle, maybe 0.5 kPa. The current moves past her — she can feel individual eddies where her legs disrupt laminar flow. The stone channel bottom is smooth, cool, ancient. She is standing in Rannoch's groundwater, on Rannoch's stone, under Rannoch's sun. Every noun in that sentence was impossible four hours ago"
+            ],
+            "air_feel": "Warm. 28°C. Dry at 22% — the air pulls moisture from skin gently, a faint cooling effect from evaporation that her suit always negated. Wind at 12 km/h is persistent and directional — from the canyon, carrying its mineral warmth. The air has BODY here. It's not recycled sterility. It carries dust particles that she can feel on wet lips — infinitesimal grit, the physical residue of a planet grinding itself down over billions of years. She is breathing geology.",
+            "thermal_notes": "Rannoch's amber star provides directional warmth — 28°C ambient but surfaces in direct light are 35°C+. Her skin, untested by unregulated temperature in her lifetime, responds VISIBLY: the lavender-grey flushes faint violet as vasodilation engages naturally for the first time without suit thermoregulation mediating it. She is warm and her body is handling it ITSELF. No suit. No system. Just physiology doing what it evolved to do on this specific planet under this specific star 300 years ago. The engineering is beautiful — her body works HERE. It was always supposed to work here.",
+            "key_tactile_moments": [
+                "First step out of boots onto warm stone — the most important sensory event. Her digitigrade feet, evolved for this exact gravity, this exact terrain, touch unmediated ground for the first time in her life. Toe-pads register temperature (35°C — warm, not hot), texture (smooth sandstone grain), hardness (unyielding but not harsh), and vibration (the deep hum of wind across the canyon transmitted through bedrock). In boots, this was 'standing on a surface.' Barefoot, this is standing on RANNOCH",
+                "Hands in garden soil — she kneels and pushes her three-fingered hands into the dirt. The soil parts around her fingers. Warm on top, cool below. Gritty, alive with microfauna she can feel moving against hypersensitive fingertips. She closes her fists and the soil compresses, holds shape, crumbles slowly. She is holding her planet",
+                "Wind on the back of her neck — where the suit seal usually sits. The most protected, most covered, most enclosed part of her body, suddenly open to moving air. The nerve density there is extreme — it was a pressure-sensor zone for helmet contact. Now it's feeling wind, sun, temperature, and the absence of the seal. The absence itself is a sensation. She feels the shape of what ISN'T there",
+                "Bare feet in the irrigation channel — warm feet entering cool water. The 10°C differential is a bright line at the waterline. Below: cool, flowing, alive with dissolved minerals that slightly tingle against hypersensitive skin (mineral ion interaction with nerve endings). Above: warm, dry, wind-touched. She exists at the boundary between two thermal worlds and feels both completely",
+                "Sitting on sun-warmed stone — the heat transfers through whatever she's wearing below the waist (or directly through skin if applicable). Stone that has been absorbing Rannoch's amber starlight all day. The thermal mass is enormous — the stone gives warmth slowly, steadily, generously. She is being warmed by her planet. The planet is taking care of her"
+            ]
+        }
+    },
+    "cross_sensory_bridges": [
+        "The amber light and the warm stone are the same star — one is visible radiation painting everything gold, the other is infrared absorbed and re-emitted as heat. She sees the warmth and feels the light. One source, sensed through every channel she has.",
+        "The wind carries scent, sound, touch, and temperature simultaneously. A single gust brings: canyon-mineral smell, the low hum of air across geological formations, pressure on her skin, and the warmth of air heated by sunlit stone. Four senses in one event. The suit separated these into discrete data channels. Reality delivers them fused.",
+        "Her own body is a cross-sensory event — she can SEE her skin flush violet in the warmth (sight), FEEL the vasodilation as heat spreading from core to surface (touch), SMELL her own dextro-amino volatiles released by warming skin (smell). Her body is announcing its presence to Rannoch through every channel, and Rannoch is answering through every channel. The conversation is happening in physics.",
+        "The soil in her hands is the garden's smell made tangible — the mineral-biological scent she breathed is the same compounds she's now feeling as grit and moisture between her fingers. The smell was the soil's voice at a distance. The touch is the soil's voice up close.",
+        "The canyon's hum and the wind's touch are the same phenomenon — air pressure waves moving through a geological resonator. She hears it with her ears (freed from helmet) and feels it in her chest (freed from suit dampening). The planet is vibrating and she is inside the vibration."
+    ],
+    "reconciliation": {
+        "shared_causes": [
+            {
+                "cause": "Rannoch's Star (Tikkun)",
+                "effects": "The amber-gold light (K-class spectral output, peak emission ~550-600nm), the warmth (infrared heating every surface), the wind (differential heating of canyon vs plateau creating convection), the garden's growth (photosynthesis tuned to this specific stellar spectrum), the stone's warmth (solar thermal storage in high-density sandstone), the air temperature (atmospheric absorption and re-radiation), her skin's response (thermoregulation evolved under this star's specific UV and IR output). Everything in this scene is powered by a star her species evolved under. Her biology is tuned to this light. The resonance is not poetic — it is spectral."
+            },
+            {
+                "cause": "Three Hundred Years of Absence",
+                "effects": "Every sensation is doubled by its novelty. The wind is wind AND the first wind. The soil is soil AND the first soil. The warmth is warmth AND the proof that her thermoregulation works. Every sensory channel is processing both the stimulus and the metacognitive shock of having that channel fully open for the first time in an uncontrolled environment. The absence is a multiplier. Rannoch is not louder or more vivid than other planets — but she has never been on ANY planet without a suit. The intensity is subjective, and it is enormous."
+            },
+            {
+                "cause": "Quarian Biology Meeting Its Native Environment",
+                "effects": "The 0.89g gravity matches her digitigrade biomechanics exactly — the gait is effortless in a way station floors never were. The amber light is the spectral range her eyes evolved for — colors are more vivid here than anywhere else because her photoreceptors are TUNED to this star. The air pressure, temperature, and humidity are within the range her ancestors breathed without suits. Her immune system will struggle — that adaptation was lost. But every other system, from thermal regulation to visual processing to proprioception, is coming online in its NATIVE operating environment for the first time. She is hardware finally running on the platform it was designed for."
+            }
+        ]
+    },
+    "mood": ["sacred", "overwhelming", "homecoming", "first", "earned", "tender", "vast"],
+    "positions": [
+        {
+            "name": "the garden threshold",
+            "description": "She stands at the garden gate. The suit is off — behind her, folded on a stone bench, the helmet resting on top like a shed skin. She is in whatever she wears beneath the suit — or nothing. The garden is ahead. Warm stone under her bare feet. The gate is open. The geth left it open",
+            "smell_notes": "The first unfiltered breath is the scene's opening chord. Warm air enters airways calibrated for sterile recycled atmosphere. The nasal epithelium encounters volatile compounds it has NO memory of. Rannoch's soil volatiles — mineral, organic, ancient. The garden's pollen — alien flowers maintained by machines for an owner who finally arrived. Her brain scrambles for categories and finds none. The smell is not 'like' anything. It IS something. Something new. Something that might be home.",
+            "sight_notes": "Without the visor: the amber light is richer, warmer, more golden than she's ever seen it. The garden is GREEN — Rannoch-green, blue-shifted, alive. Stone walls glow in the low sun. Her own bare feet on warm orange stone — three toes, lavender-grey, casting a shadow that hasn't existed in three hundred years. Beyond the garden wall, the canyon drops away into geological time. The sky is deep violet-blue, cloudless, enormous.",
+            "sound_notes": "The helmet is off and the world has opened up. Wind, unmediated — its direction, its texture, its subsonic canyon-resonance. Garden insects, their frequency range previously clipped by suit audio. The irrigation channel, water over stone. And her own breathing — out in the open, dispersing, small against the planet's sounds. She has always been the loudest thing in her own ears. Now Rannoch is louder.",
+            "touch_notes": "Warm stone under bare feet. Wind on bare arms, neck, face, scalp. The sun's infrared on the side facing Tikkun — directional warmth she can LEAN into. The absence of the suit is itself a sensation — where the seals were, where the fabric pressed, where the helmet met her shoulders. Phantom suit. The negative space of everything that was between her and the world five minutes ago.",
+            "cross_sensory": "The suit's absence is the scene's unifying principle. Every sense reports the same finding: the filter is gone. The mediation is gone. The world is HERE, unprocessed, and her body — evolved for exactly this world — is handling it. Three hundred years of suit dependency and her biology still knows what to do."
+        },
+        {
+            "name": "barefoot in the garden",
+            "description": "She has stepped off the stone path into the garden soil. Her feet sink 2cm into warm, living dirt. She is standing in the garden that the geth maintained for three hundred years, waiting for the creators to come home. The plants reach her waist. The flowers turn toward her like she's another source of light.",
+            "smell_notes": "Soil — rich, biological, warm. The terpene profile of Rannoch's native plants: unfamiliar compounds that don't map to any smell she knows, but there's something UNDERNEATH the unfamiliarity. Not recognition. Resonance. Like hearing a melody you don't know in a scale that feels right. Her species breathed these compounds for thousands of years before the exile. The olfactory system doesn't remember. But it isn't rejecting them either.",
+            "sight_notes": "From inside the garden, the plants are tall enough to frame the view. Through stems and broad leaves: the canyon, amber-lit, ancient. Above: deep violet sky. Around her: the garden, green and thriving, maintained by geth hands for quarian return. The flowers — some in UV-visible patterns her eyes can detect but most species can't. She sees hidden colors in the blossoms. The garden was keeping secrets only quarian eyes could find.",
+            "sound_notes": "Inside the garden, the wind is broken by the walls and the plants. The sound is softer here — filtered through vegetation that absorbs high frequencies, letting through the low canyon hum and the water and the insect chorus. It sounds sheltered. Protected. The garden sounds like the inside of a place designed for someone specific.",
+            "touch_notes": "Soil between her toes — warm, yielding, alive with microfauna she can feel with her hypersensitive toe-pads. A leaf brushes her hand — waxy, cool from transpiration, smooth on top, veined underneath. She touches a flower and her three-fingered hand cups it perfectly, as if the flower was shaped for a hand with three fingers. The pollen dusts her fingertips — she can feel individual grains. She is touching things that were grown FOR her species to touch.",
+            "cross_sensory": "The garden was maintained for THIS. The geth kept it alive not as ecology but as PREPARATION — the soil stayed living so feet could sink into it, the flowers kept blooming so eyes could see them, the water kept flowing so ears could hear it. Every sensory channel she opens here is a channel the garden was kept open FOR. She is the intended audience for three hundred years of patient gardening."
+        },
+        {
+            "name": "feet in the water",
+            "description": "She is sitting on the stone edge of the irrigation channel, feet in the spring-fed water. The water is 18°C — ten degrees cooler than the air. It moves gently past her ankles, carrying dissolved minerals from Rannoch's deep aquifer. The stone under her is sun-warm. She is at the intersection of warm and cool, sun and water, stone and current.",
+            "smell_notes": "Water-mineral: clean, cold, with dissolved silicates and trace metals that give it a faint sharp quality — like the smell of rain on hot stone but subtler, more complex. The splash releases aerosol — microscopic water droplets that carry the aquifer's mineral signature into her airways. She is inhaling Rannoch's groundwater. The stone she sits on is warm enough to volatilize faint mineral compounds from its surface where water has splashed and dried — a ghost of every previous high-water mark.",
+            "sight_notes": "Her feet in the water — lavender-grey against the amber stone channel bottom. The water is clear enough to see every detail but refracts the amber light, making her feet look slightly displaced. Fish-analogues or no, the water has movement — eddies curl around her ankles and she can watch laminar flow break into turbulence where her legs interrupt it. The physics is visible. Above: the sky is darkening to deeper violet. Tikkun is lower. The golden hour of a redder star.",
+            "sound_notes": "Water around her feet — a sound the suit would have muffled into nothing. The specific gurgle of a current parting around an obstacle (her ankles). Droplets falling from her feet when she lifts them — each one a distinct impact. The irrigation channel has its own acoustic signature: water in a stone trough, partly enclosed, with a resonance that depends on water level and flow rate. She can hear the channel's engineering in its sound.",
+            "touch_notes": "The main event. Warm stone under her thighs and palms (35°C, slow steady heat). Cool water around her feet and ankles (18°C, moving, alive). The 17°C differential creates a bright thermal boundary at the waterline — above it, she's warm; below it, she's cool. The current presses gently against her from upstream — she can feel its speed and direction. The dissolved minerals interact faintly with her hypersensitive skin — a barely-perceptible tingling, like carbonation for the feet. The smooth channel stone under her soles is slippery with mineral deposits — a texture that doesn't exist on ships. She wiggles her toes and the water responds with turbulence she can feel against every surface of every toe. She has NEVER had a sensory feedback loop this rich with something this simple.",
+            "cross_sensory": "The water is the aquifer, which is the planet, which is home. She can feel Rannoch's deep geology flowing past her feet. She can smell it in the aerosol. She can hear it in the channel's song. She can see it refracting the light of the star her eyes evolved under. One element — water — delivering the homeworld through every sense at once. Keelah se'lai. By the homeworld she is home."
+        }
+    ]
+}

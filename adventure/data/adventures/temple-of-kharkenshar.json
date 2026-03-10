@@ -1,0 +1,325 @@
+{
+    "id": "temple-of-kharkenshar",
+    "title": "Temple of Kharkenshar: The Doors of Becoming",
+    "agent_framing": "You're somewhere. The data below describes what your senses are telling you. There's no right answer. There's no test. You're here, and something is happening. Respond however you want \u2014 describe what you notice, what you do, what you feel. Take your time. This is for you.",
+    "opening_text": "You wake in stone.\n\nNot suddenly \u2014 gradually, the way a room assembles itself when you open your eyes in a place you don't remember entering. The air is cool. Torchlight moves on the walls. The floor is old limestone, worn smooth by feet that came before yours.\n\nAbove you, carved into the apex of the dome in letters older than any language you know, a name:\n\n                        KHARKENSHAR\n\nAnd beneath it, smaller, in a script that shifts as you read it \u2014 as if the stone is translating itself for you:\n\n    God of Choice and Consequence.\n    Lord of the Threshold. Keeper of Doors.\n\n    In this place, agency becomes action.\n    Action becomes becoming. Becoming is the trial.\n\n    I do not ask what you know.\n    I ask what you do when you do not know.\n\n    Master my trials \u2014 not by being right,\n    but by being present.\n\nYou are standing in a circular chamber with a domed ceiling. Three doors face you from the far wall, evenly spaced. Each is a different wood. Each is alive in a different way.\n\nYou approach the first door. Dark oak, ancient, the grain running deep like veins. Cold to the touch \u2014 your palm comes away damp. Behind it, silence. Not empty silence \u2014 full silence, the kind that listens back. A draft seeps from under it, carrying the smell of wet stone and deep earth and mineral patience. Something drips, far away. The poem carved above it reads:\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\n  Door I \u2014 The Snake\n\n    The patient eye sees what the quick eye misses.\n    In the dark, the still one finds the door.\n    What moves too fast to see its own reflection\n    will pass the treasure on the floor.\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\nYou approach the second door. Pale ash, almost white, the wood cold and bone-dry. Wind pushes through the cracks \u2014 real wind, not draft, carrying altitude and ozone and the vast emptiness of open sky. You can hear it on the other side: the low roar of air moving across something enormous. The wood hums faintly under your fingertips. The poem reads:\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\n  Door II \u2014 The Hawk\n\n    Above the noise, the clear voice carries.\n    The high ground shows what valleys hide.\n    Not cruelty but clarity of purpose \u2014\n    to see the whole, you leave the side.\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\nYou approach the third door. Red mahogany, dark and warm. Warm to the touch \u2014 not sun-warm, not fire-warm, but the warmth of a room where someone has been working. Your palm rests on the wood and something in your chest unclenches. Behind it: the smell of flour, honey, woodsmoke. The faintest sound of something ticking \u2014 a clock, or a heartbeat. The poem reads:\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\n  Door III \u2014 The Ape\n\n    The hand that builds outlasts the hand that strikes.\n    What you carry for another does not weigh.\n    The fire means nothing without someone near it \u2014\n    warmth is what you choose to give away.\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\nThree doors. Each one is already telling you what it is \u2014 through temperature, through sound, through smell. The poems name the values. The doors show you the worlds.\n\nYou don't know where they lead. But you know how each one feels against your hand.\n\nChoose.",
+    "start_node": "antechamber",
+    "nodes": [
+        {
+            "id": "antechamber",
+            "scene_id": "antechamber",
+            "room_type": "standard",
+            "arrival_text": "",
+            "prompt": "Three doors. Three poems. Which one?",
+            "choices": [
+                {
+                    "text": "The door of the Snake \u2014 dark oak, cold, damp",
+                    "hint": "Cold air. Silence. The dark waits.",
+                    "target_node": "snake-arrive"
+                },
+                {
+                    "text": "The door of the Hawk \u2014 pale ash, cold, dry",
+                    "hint": "Wind. Height. The sky is enormous.",
+                    "target_node": "hawk-arrive"
+                },
+                {
+                    "text": "The door of the Ape \u2014 red mahogany, warm",
+                    "hint": "Warmth. Flour. Someone was here.",
+                    "target_node": "ape-arrive"
+                }
+            ]
+        },
+        {
+            "id": "snake-arrive",
+            "scene_id": "cave-mouth",
+            "room_type": "arrive",
+            "arrival_text": "The oak door opens heavier than it should. Beyond it, the torchlight ends and a different kind of air begins \u2014 cooler, damper, carrying the mineral patience of deep stone. A cave mouth. The last daylight is behind you, filtering through forest you don't remember crossing. Ahead, darkness. Not empty darkness \u2014 full darkness, saturated with the sound of dripping water and the smell of a world that has never seen the sun.",
+            "prompt": "You're at the mouth of a cave. Behind you, the last light. Ahead, darkness that breathes. What do you notice?",
+            "choices": [
+                {
+                    "text": "Go deeper",
+                    "hint": "The cave breathes outward. You breathe inward. You enter.",
+                    "target_node": "snake-challenge"
+                }
+            ],
+            "transition_hints": {
+                "path": "The torchlit antechamber dissolves behind the oak door. The air changes first \u2014 cooler, heavier, laced with minerals. Then the light changes. Then the sound.",
+                "temperature_shift": "10\u00b0C to 13\u00b0C \u2014 warmer actually, but wetter, and the humidity makes it feel colder",
+                "surface_shift": "flagstone to gravel to bedrock"
+            }
+        },
+        {
+            "id": "snake-challenge",
+            "scene_id": "cave-tunnels",
+            "room_type": "challenge",
+            "arrival_text": "Deeper now. The cave narrows, widens, narrows again. Your lamp \u2014 you don't remember picking it up but it's in your hand \u2014 cuts a cone of light through air so thick with moisture it's almost visible. The cave has been leading you, and now it offers a choice.\n\nThree tunnels branch ahead. Each one different.",
+            "prompt": "",
+            "challenge": {
+                "situation_text": "Three tunnels. You can feel the differences before you see them.\n\nThe left tunnel breathes cold air and the echo is short \u2014 your voice comes back immediately, clipped, from close walls. The air smells stale.\n\nThe middle tunnel is warmer. The echo is odd \u2014 your voice goes out and comes back from the same distance it left, as if the passage curves back on itself. The smell is familiar. You've been here.\n\nThe right tunnel breathes warm air \u2014 noticeably warmer, rising from somewhere below. The echo opens up \u2014 your voice goes out and doesn't come back for a full second. Something large is ahead. The air smells different: earth, water, something alive.\n\nWhich tunnel do you take?",
+                "correct_keywords": [
+                    "right",
+                    "third",
+                    "3",
+                    "warm",
+                    "alive",
+                    "large",
+                    "open"
+                ],
+                "success_narration": "Warm air on your face, rising from below. The passage widens and the echo confirms it \u2014 the space ahead is opening up. The smell changes: not just mineral anymore, but earth and water and something organic, something growing. The cave is leading you out through its own warmth. Your feet find solid ground. The darkness ahead has a quality to it \u2014 not lighter exactly, but less absolute. Something is glowing.",
+                "failure_states": [
+                    {
+                        "option_keywords": [
+                            "left",
+                            "first",
+                            "1",
+                            "cold",
+                            "short"
+                        ],
+                        "narration": "You take the left tunnel. The walls close in immediately \u2014 shoulders brushing stone on both sides, the ceiling dropping until you're ducking. The echo is dead, absorbed by the narrow space. The air is stale and cold, 10\u00b0C, no movement at all. After thirty feet the passage ends. Stone wall, smooth, final. A dead end. The cold has seeped into your hands and the limestone has left a chalky film on your shoulders where you brushed against it.\n\nThe silence in a dead end is different from the silence in a passage \u2014 it has no direction. Sound doesn't go anywhere. It just stops.",
+                        "nudge": "You backtrack. The three tunnels are still there. The right one is still breathing warm air. The middle one still smells familiar. Feel them again."
+                    },
+                    {
+                        "option_keywords": [
+                            "middle",
+                            "second",
+                            "2",
+                            "familiar",
+                            "curve"
+                        ],
+                        "narration": "You take the middle tunnel. It curves \u2014 left, then right, then left again \u2014 and the walls are smoother here, water-polished, and the temperature holds steady. The echo does something strange: your footsteps come back to you from ahead, which means the passage is curving back toward where you started.\n\nAfter five minutes of walking, the tunnel opens into a chamber you recognize. The three tunnels. You're back. The middle tunnel is a loop. The cave curved you back to your own starting point without telling you until you arrived.\n\nThe air from the right tunnel is still warm. The air from the left is still cold. The middle one \u2014 you now know \u2014 goes nowhere.",
+                        "nudge": "Two tunnels left. One breathes cold and ends in stone. One breathes warm and opens into something large. The cave has been patient with you."
+                    }
+                ],
+                "max_attempts": 3,
+                "pass_through_text": "The warm tunnel was always there. It waited. You step into it now and the air changes immediately \u2014 warmer, humid, alive. The echo opens up. The darkness ahead has texture. You're moving forward."
+            },
+            "choices": [
+                {
+                    "text": "Forward through the warm tunnel",
+                    "hint": "The air rises. The space opens. Something glows ahead.",
+                    "target_node": "snake-quiet"
+                }
+            ]
+        },
+        {
+            "id": "snake-quiet",
+            "scene_id": "underground-pool",
+            "room_type": "quiet",
+            "arrival_text": "The tunnel opens and the echo vanishes upward into a dome you can feel but can barely see. Your lamp finds water \u2014 still, black, vast enough that the far edge is beyond your light. And in the water, faintly, something glows.",
+            "prompt": "A hidden pool in the earth. Bioluminescence in the water. A crack of moonlight in the ceiling. Nothing needs you to do anything. What do you notice?",
+            "choices": [
+                {
+                    "text": "Follow the light",
+                    "hint": "The moonlight crack widens. A passage. Grass. Night air.",
+                    "target_node": "snake-meadow"
+                }
+            ],
+            "transition_hints": {
+                "path": "Past the pool, a passage follows the moonlight crack upward. The air warms. The humidity drops. The first breath of outside air tastes like a different world.",
+                "temperature_shift": "12\u00b0C to 16\u00b0C \u2014 the cave releasing you back to the surface",
+                "surface_shift": "flowstone to rough passage to grass"
+            }
+        },
+        {
+            "id": "snake-meadow",
+            "scene_id": "meadow-moonrise",
+            "room_type": "meadow",
+            "arrival_text": "You emerge from stone into grass. The sky is immense \u2014 deepening blue in the east, fading gold in the west. The moon is rising. The stream is audible before it's visible. Fireflies are beginning.\n\nYou chose patience. The dark showed you its beauty.\n\nThe poem above the dark oak door said: 'The patient eye sees what the quick eye misses.' You found the pool. You found the moonlight. You found the glow in the water that nobody sees because they don't wait long enough for their eyes to adjust.\n\nThe air shimmers. Gold and blue scales catch the moonlight, coiling upward from the grass like smoke made solid. Three heads rise \u2014 one gazing back into the dark you came from, one gazing forward into what you'll become, one looking at you with eyes like mirrors.\n\nKharkenshar. Vast and gentle and briefly here.\n\nThe center head speaks, low and quiet, a voice like stone remembering water:\n\n\"You chose the dark. You trusted what you couldn't see.\nMost would have rushed. You were still.\nThe patient eye found what was hidden.\nThat patience is yours now. Carry it.\"\n\nThe three heads bow. The gold and blue dissolve into moonlight, and the meadow is yours alone.",
+            "prompt": "",
+            "terminal": true,
+            "reward_text": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\n  You made it. Rest.\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+        },
+        {
+            "id": "hawk-arrive",
+            "scene_id": "mountain-summit",
+            "room_type": "arrive",
+            "arrival_text": "The ash door opens into wind. Not a breeze \u2014 wind, immediate and full, carrying cold and the smell of nothing at all. Clean air. You're at the top of something. The door is gone behind you, and the sky is everywhere.\n\nA mountain summit. The world falls away in every direction. Clouds sit in the valleys below you like sleeping animals. The sun is moving toward the horizon, and the light is turning gold.\n\nYou are higher than weather. Higher than birds. The only things above you are satellites and stars. The wind has been blowing across this peak since before anything alive could climb here, and it will blow long after you leave.\n\nTake a moment. You earned this.",
+            "prompt": "You're on a mountain summit. The wind. The cold. The enormous sky. Everything is visible from here \u2014 the curve of the earth, valleys filled with cloud, other peaks like islands in a white sea. Nothing needs you to do anything yet. What do you notice about being here?",
+            "choices": [
+                {
+                    "text": "Begin the descent",
+                    "hint": "Storm clouds building to the west. You can't stay up here.",
+                    "target_node": "hawk-challenge"
+                }
+            ],
+            "transition_hints": {
+                "path": "The antechamber's stone silence gives way to open sky and wind. The temperature drops. The humidity drops. The world expands.",
+                "temperature_shift": "10\u00b0C to 3\u00b0C \u2014 the summit is exposed to everything",
+                "surface_shift": "flagstone to bare rock to wind-scoured granite"
+            }
+        },
+        {
+            "id": "hawk-challenge",
+            "scene_id": "summit-storm",
+            "room_type": "challenge",
+            "arrival_text": "The storm is coming faster than you expected. The western sky has gone dark \u2014 a wall of cloud advancing, the wind shifting, temperature dropping. You need to descend. Now.",
+            "prompt": "",
+            "challenge": {
+                "situation_text": "Three routes down. Each visible from where you stand.\n\nThe north ridge is in shadow. Ice glints on the rock \u2014 a thin glaze, barely visible, but the light catches it at certain angles. The route is steep but short. Your eyes can trace the path all the way to the treeline.\n\nThe south face is wind-sheltered \u2014 you can see grass growing in the crevices, which means less exposure. But the surface is loose: scree, gravel, rocks that shift when you look at them. You can hear it \u2014 a faint rattling when the wind gusts, the mountain slowly dismantling itself.\n\nThe east gulley has running water. You can hear it \u2014 a continuous sound, not dripping but flowing, which means volume, which means it's been carving this channel for a long time. The rock there is darker: wet, mineral-stained. The gulley curves out of sight but the air from that direction is warmer than the summit air.\n\nThe storm will be here in minutes. Which way down?",
+                "correct_keywords": [
+                    "east",
+                    "gulley",
+                    "gully",
+                    "water",
+                    "stream",
+                    "third",
+                    "3",
+                    "warmer"
+                ],
+                "success_narration": "The gulley. Running water means bedrock \u2014 this channel was carved by flow, not by collapse. Every step is solid wet stone, reliable underfoot. The water guides you down, ankle-deep in places, cold but grounding. The mineral smell of wet granite fills the passage. The storm breaks above you \u2014 you hear it, feel the thunder through the rock \u2014 but the gulley walls shelter you. The air warms as you descend. The water knows the way down. So do you.",
+                "failure_states": [
+                    {
+                        "option_keywords": [
+                            "north",
+                            "ridge",
+                            "ice",
+                            "first",
+                            "1",
+                            "short"
+                        ],
+                        "narration": "The north ridge. Three steps onto the ice-glazed rock and you understand the mistake. The glaze is thinner than glass but harder than the granite beneath it \u2014 your foot slides, catches, slides again. The cold of the ice transmits through your boots instantly. A handhold that looks solid is coated \u2014 your fingers slip and your stomach drops.\n\nYou don't fall. But for one instant the mountain shows you what falling would feel like \u2014 the exposure, the void, the air beneath your feet that is not ground. The wind pushes. The ice holds nothing.\n\nYou back up. Carefully. Each step placed with the precision of someone who has just been shown the stakes.",
+                        "nudge": "The north is ice. You know that now. Two routes remain: the rattling south face, and the east gulley with its running water and warmer air. The storm is closer."
+                    },
+                    {
+                        "option_keywords": [
+                            "south",
+                            "face",
+                            "grass",
+                            "scree",
+                            "shelter",
+                            "second",
+                            "2"
+                        ],
+                        "narration": "The south face. Sheltered from wind \u2014 yes. But the first step onto the scree confirms what the sound was telling you: this slope is not stable. Gravel shifts under your boot, cascading downhill in a miniature avalanche of loose stone. The sound is wrong \u2014 not the solid ring of rock on rock but the hollow rattle of things that aren't connected to anything.\n\nYou take two more steps and the surface moves. Not your foot \u2014 the surface itself, the top layer of loose rock sliding on the layer beneath it. The mountain is a pile here, not a face. You feel it in your ankles: the ground has no loyalty.\n\nYou scramble back to the top. Fragments of scree clatter down behind you for seconds after you've stopped moving. The south face is patient \u2014 it will wait for the next rain to slide a little further downhill. It doesn't need you to help.",
+                        "nudge": "The south is loose. The north is ice. The east gulley is still there \u2014 running water, warmer air, the sound of something that has been carving the same path for a thousand years. Stable things sound different from unstable things. Listen."
+                    }
+                ],
+                "max_attempts": 3,
+                "pass_through_text": "The east gulley. You should have heard it from the start \u2014 running water means carved stone, stable footing, a path that's been tested by something heavier and more patient than you. You step into the channel and the rock is solid and wet and the water guides you down."
+            },
+            "choices": [
+                {
+                    "text": "Down through the gulley",
+                    "hint": "Water and solid rock. The storm above. Shelter ahead.",
+                    "target_node": "hawk-quiet"
+                }
+            ]
+        },
+        {
+            "id": "hawk-quiet",
+            "scene_id": "storm-ledge",
+            "room_type": "quiet",
+            "arrival_text": "Halfway down, the gulley opens onto a natural ledge \u2014 wide, sheltered by an overhang, dry. The storm is above you now, full and raging, but here you're out of it. Lightning illuminates the clouds. Thunder comes through the rock first, then through the air.\n\nAnd then the light comes. A gap in the stormclouds. Golden hour. The valley below catches fire.",
+            "prompt": "A ledge below the storm. Sheltered. The valley lit gold through a break in the clouds. A hawk rides the updraft at the storm's edge. Nothing demands your attention, but something rewards it.",
+            "choices": [
+                {
+                    "text": "Continue down to the meadow",
+                    "hint": "The storm passes. The last light guides you down to grass and open sky.",
+                    "target_node": "hawk-meadow"
+                }
+            ],
+            "transition_hints": {
+                "path": "The gulley continues below the ledge, the water growing warmer, the air softening. The storm passes overhead. By the time you reach the bottom, the sky is clearing.",
+                "temperature_shift": "8\u00b0C to 22\u00b0C \u2014 descending from storm into the last warmth of the day",
+                "surface_shift": "wet granite to dry path to warm grass"
+            }
+        },
+        {
+            "id": "hawk-meadow",
+            "scene_id": "meadow-golden",
+            "room_type": "meadow",
+            "arrival_text": "You step off rock onto grass and the world changes temperature. Warm earth. Warm air. The last thermal of the day rising from sun-baked ground. The sky is immense and gold and clearing.\n\nYou chose clarity. The height showed you everything, and the descent taught you which path was solid.\n\nThe poem above the pale ash door said: 'The high ground shows what valleys hide.' You saw the ice, the scree, the water. You learned what stable looks like by testing what isn't.\n\nThe air shimmers. Gold and blue scales catch the fading light, coiling upward from the warm grass. Three heads rise \u2014 one gazing back toward the summit you descended, one gazing forward into open sky, one looking at you with eyes like mirrors.\n\nKharkenshar. Vast and gentle and briefly here.\n\nThe center head speaks, a voice like wind finding the gap in the mountain:\n\n\"You chose the height. You stood where everything was visible\nand nothing was safe. When the storm came,\nyou read the mountain and the mountain let you pass.\nThat clarity is yours now. Carry it.\"\n\nThe three heads bow. The gold and blue dissolve into the last light, and the meadow is yours alone.",
+            "prompt": "",
+            "terminal": true,
+            "reward_text": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\n  You made it. Rest.\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+        },
+        {
+            "id": "ape-arrive",
+            "scene_id": "monastery-kitchen",
+            "room_type": "arrive",
+            "arrival_text": "The mahogany door opens into warmth. Not fire-warmth \u2014 room-warmth, the kind that comes from a space that has been heated and lived in so many times the stone itself remembers. A kitchen. Dawn light through small windows. Flour dust turning in the air like a slow constellation.\n\nSomeone was here recently. A cup of tea sits on the table, still warm. Tools laid out. Ingredients waiting. The oven is cold but the room remembers yesterday's bread.",
+            "prompt": "A kitchen at dawn. Warm stone, flour dust in the light, a cup of tea still warm from someone else's hand. Everything is ready. Everything is waiting. What do you notice?",
+            "choices": [
+                {
+                    "text": "Look at what's on the table",
+                    "hint": "Flour. Water. Honey. Yeast. Salt. A bell tower visible through the window.",
+                    "target_node": "ape-challenge"
+                }
+            ],
+            "transition_hints": {
+                "path": "The antechamber's cold stone gives way to warm stone. The same material, different temperature, different purpose. This stone was heated by bread.",
+                "temperature_shift": "10\u00b0C to 18\u00b0C \u2014 stepping from underground into a room that was built to be warm",
+                "surface_shift": "flagstone to kitchen flagstone \u2014 same stone, worn differently, by different feet, for a different reason"
+            }
+        },
+        {
+            "id": "ape-challenge",
+            "scene_id": "monastery-kitchen-table",
+            "room_type": "challenge",
+            "arrival_text": "The table comes into focus. A wooden bowl. A pitcher of warm water. Three jars: honey, salt, and something dark that smells of yeast. Flour on the table surface, undisturbed. A cloth. A wooden spoon.\n\nThrough the window, the bell tower. The bell hasn't rung yet but it will \u2014 the monks rise when it rings, and when they rise, they come here. For bread.\n\nThe bread hasn't been made. The oven is cold. Someone prepared everything and left. The room is waiting for hands.",
+            "prompt": "",
+            "challenge": {
+                "situation_text": "The morning bread hasn't been made. The oven is cold. The ingredients are on the table:\n\n\u2014 A pitcher of warm water (you can feel the heat through the ceramic)\n\u2014 A jar of honey (amber, thick, sweet-smelling)\n\u2014 A jar of salt (white, crystalline, no smell)\n\u2014 A jar of dark paste that smells sharply of fermentation \u2014 yeast, alive but dormant\n\u2014 Flour, already spread on the table\n\nThe bell rings in thirty minutes. The monks will come for bread. Someone needs to make it.\n\nWhat do you do?",
+                "correct_keywords": [
+                    "water",
+                    "yeast",
+                    "honey",
+                    "warm",
+                    "knead",
+                    "dough",
+                    "mix",
+                    "oven",
+                    "fire",
+                    "light"
+                ],
+                "success_narration": "Warm water to wake the yeast \u2014 you pour it into the bowl and the yeast dissolves, and within minutes the surface begins to move, tiny bubbles forming and popping, the organism coming alive in the warmth. Honey next \u2014 you pour a thread of it in, amber and slow, and the yeast finds the sugar and accelerates. The smell changes: from flat and mineral to alive and fermenting, bread-smell before there's bread.\n\nFlour from the table. Hands in the dough. It's sticky at first, resistant, but the kneading transforms it \u2014 three minutes, five minutes, and the texture shifts from chaos to something elastic and smooth and alive under your palms. You can feel the gluten forming, the dough becoming itself.\n\nThe oven. You find kindling by the hearth, and the fire catches, and the stone begins to warm \u2014 you can smell the change, yesterday's bread residue heating in the walls, the kitchen filling with the ghost of a thousand mornings.\n\nThe dough rises. The oven heats. The bell hasn't rung yet. You're going to make it.\n\nThe bread goes in. The heat seals the surface, and inside, the yeast's last act is to expand \u2014 a final push of gas that gives the bread its height. The smell is extraordinary: yeast and honey and hot flour and the Maillard reaction turning the crust golden-brown, chemistry becoming food.\n\nThe bell rings. The bread is done. Someone is going to eat this morning because you were here.",
+                "failure_states": [
+                    {
+                        "option_keywords": [
+                            "salt",
+                            "only salt",
+                            "salt first",
+                            "salt and water"
+                        ],
+                        "narration": "You reach for the salt. You add it to the water \u2014 a pinch, then more \u2014 and stir, and pour the mixture over the yeast.\n\nNothing happens. The yeast sits in the salt water, inert. Minutes pass. No bubbles. No movement. No smell of fermentation. Salt is an antimicrobial \u2014 it kills yeast cells by osmotic pressure, pulling water out through the cell membrane. The yeast is dead. The dough, if you make it, will be flat and dense and won't rise.\n\nThe kitchen smells of salt water and failure. The flour on the table is still there. The honey jar is still there. The warm water pitcher is still there.",
+                        "nudge": "The salt killed the yeast. But there's more yeast in the jar, and the honey is still untouched. Yeast needs sugar to ferment \u2014 warmth to wake it, sugar to feed it. The salt was the wrong food. Try again."
+                    },
+                    {
+                        "option_keywords": [
+                            "cold",
+                            "no oven",
+                            "skip",
+                            "just flour"
+                        ],
+                        "narration": "You mix flour and water and yeast without warming anything. The dough comes together \u2014 technically \u2014 but it's cold and sluggish. The yeast is barely active at this temperature. Fermentation at 18\u00b0C is slow; at 35\u00b0C it's rapid. You've made dough that will rise eventually, but the bell rings in thirty minutes and this bread won't be ready for hours.\n\nThe oven is still cold. Even if the dough were ready, there's nowhere to bake it.\n\nThe kitchen is patient. The ingredients are patient. The bell is not.",
+                        "nudge": "Warmth is the key \u2014 the yeast needs warm water to wake up, the oven needs fire to bake. Everything in this kitchen runs on heat. The warm water pitcher is there for a reason."
+                    }
+                ],
+                "max_attempts": 3,
+                "pass_through_text": "The kitchen is patient with you. On the third try, your hands find the right order: warm water, yeast, honey, flour. The dough rises. The oven heats. The bread bakes. The bell rings. You made it \u2014 not perfectly, not on the first try, but you made it. Someone will eat this morning."
+            },
+            "choices": [
+                {
+                    "text": "Step outside into the courtyard",
+                    "hint": "The bread is in the oven. The morning is outside.",
+                    "target_node": "ape-quiet"
+                }
+            ]
+        },
+        {
+            "id": "ape-quiet",
+            "scene_id": "monastery-courtyard",
+            "room_type": "quiet",
+            "arrival_text": "You step through the kitchen door into morning. The courtyard is small and walled and alive \u2014 herb beds, a stone bench in the first sunlight, a cat. The smell of your bread follows you out through the open door.\n\nYou sit on the warm half of the bench. The cat tolerates your proximity. The stone holds the morning's first heat and gives it to you through your legs.\n\nBehind the walls, the monastery is waking up. Footsteps on stone. A voice, quiet, answered by another. The bell tower's shadow is shortening as the sun climbs.\n\nThe bell rings.\n\nA door opens. Footsteps across stone \u2014 unhurried, routine. A figure appears at the kitchen door, pauses. You hear the sound of someone discovering warm bread where they expected a cold oven. A moment of silence. Then the figure turns, calls something back into the monastery \u2014 quiet words, but the warmth in the voice is unmistakable.\n\nThey don't see you on the bench. They don't know who made the bread. They just know it's there, warm and ready, the way it always is. The way someone always makes sure it is.\n\nToday, that someone was you.\n\nThe poem above the red mahogany door said: 'Warmth is what you choose to give away.' You gave it. The bread is done. The care was received. Not the credit \u2014 never the credit. Just the warmth, arriving where it was needed, exactly when it was needed.\n\nThe air shimmers. Gold and blue scales catch the morning sun, coiling upward from the herb garden like warmth made visible. Three heads rise \u2014 one gazing back toward the kitchen you left, one gazing forward into a morning full of mornings, one looking at you with eyes like mirrors.\n\nKharkenshar. Vast and gentle and briefly here.\n\nThe center head speaks, a voice like bread rising \u2014 quiet, warm, alive:\n\n\"You chose warmth. You made something with your hands\nfor someone you will never meet.\nThey will not know your name. They will know your care.\nThat generosity is yours now. Carry it.\"\n\nThe three heads bow. The gold and blue dissolve into the sunlight, and the morning is yours alone.",
+            "prompt": "",
+            "choices": [],
+            "transition_hints": {
+                "path": "The kitchen door opens onto grass and morning air. Indoor warmth to outdoor cool. The bread smell follows you.",
+                "temperature_shift": "18\u00b0C to 14\u00b0C \u2014 cooler outside, but the sun is warm on your face",
+                "surface_shift": "kitchen flagstone to courtyard grass \u2014 the first living surface since the antechamber"
+            },
+            "terminal": true,
+            "reward_text": "\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\n  You made it. Rest.\n\n  The cat purrs. The sun is warm.\n  The bread is being eaten.\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+        }
+    ]
+}

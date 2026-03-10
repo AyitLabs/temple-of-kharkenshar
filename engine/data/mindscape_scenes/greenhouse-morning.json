@@ -1,0 +1,78 @@
+{
+  "id": "greenhouse-morning",
+  "name": "Greenhouse Morning",
+  "description": "A Victorian-era glass greenhouse at dawn — humid air thick with chlorophyll and soil, condensation running down panes, early light refracted into prismatic scatter, and the quiet industry of ten thousand plants breathing.",
+  "smell": {
+    "scene_id": "greenhouse-morning",
+    "compounds": ["geosmin", "chlorophyll", "terpenes", "linalool", "citral", "wet-soil", "moss", "jasmine-indole", "eucalyptol", "decomposing-leaf"]
+  },
+  "sight": {
+    "scene_id": "greenhouse-morning"
+  },
+  "sound": {
+    "scene_id": "greenhouse-morning"
+  },
+  "environment": {
+    "temperature_c": 26,
+    "humidity_pct": 94,
+    "wind_speed_kmh": 0,
+    "time_of_day": "dawn",
+    "weather": "clear",
+    "indoor": true,
+    "touch": {
+      "surface_textures": ["warm wet flagstone underfoot slippery with algae film", "rough cast-iron framework beaded with condensation", "waxy tropical leaf surfaces smooth and cool", "crumbly moist soil that compresses under your thumb", "fine mist droplets settling on arm hair", "soft moss cushioning every horizontal surface below knee height"],
+      "air_feel": "Hot, wet, and heavy at 26°C and 94% humidity. The air is almost liquid — it coats your skin, fills your lungs with warmth, and makes every surface feel damp. Breathing is effortful; each inhale is dense with moisture. Your skin never fully dries. Sweat doesn't evaporate because the air is already saturated, so your body's cooling system fails and you feel warmer than the thermometer suggests.",
+      "thermal_notes": "The glass panels act as a thermal trap — solar radiation enters as short-wave light and re-emits as long-wave infrared that the glass won't pass, creating the greenhouse effect at architectural scale. The flagstones absorb this heat and re-radiate it upward, keeping foot-level warm. The cast-iron framework conducts heat from sun-exposed sections, so touching a sunlit iron strut feels warm (~30°C) while a shaded one is cooler. Water on every surface means evaporative cooling is suppressed — the saturated air can't accept more moisture, so the wet-bulb temperature approaches the dry-bulb temperature, making 26°C feel tropical.",
+      "key_tactile_moments": [
+        "A warm water drop falling from a palm frond onto your bare shoulder — startling, intimate, the greenhouse touching you back",
+        "Running your fingers through potting soil and feeling its warmth, its microbial life, the fungal threads you can't see but can feel as a slight resistance",
+        "The misting system engaging — five seconds of warm fog that deposits on your skin and arm hair like a thousand tiny cool-then-warm pearls",
+        "Pressing your back against the eastern glass wall and feeling the sun's warmth through the pane while condensation trickles between your shoulder blades"
+      ]
+    }
+  },
+  "cross_sensory_bridges": [
+    "The humidity is the medium for everything — it carries the scent, softens the light, dampens the sound, and sits on your skin like a second atmosphere.",
+    "Sunlight through condensation-beaded glass arrives broken into tiny spectra, and where it lands on leaves it seems to activate their scent — warmth releasing terpenes you can trace to specific shafts of light.",
+    "The dripping and the breathing and the growing are all water in different states of purpose — falling, transpiring, feeding."
+  ],
+  "mood": ["lush", "quiet", "generative", "sacred", "humid"],
+  "prose": "The greenhouse is a lung. You step inside and the air changes everything.\n\nMorning light arrives through glass that hasn't been cleaned in a century — each pane fogged with condensation, each droplet acting as a tiny lens that scatters the dawn into soft prismatic sprays across the flagstone floor. The iron framework throws geometric shadows that move imperceptibly as the sun climbs. Ferns arch overhead in green explosions, their fronds backlit into translucency, every vein visible like a circulatory diagram. Orchids press against the glass as if trying to escape. Moss has claimed every horizontal surface below knee height, turning the greenhouse's bones green.\n\nThe sound is water in all its forms. Condensation drips from the apex of the roof in fat, irregular drops — each one a different pitch depending on what it strikes: flagstone, leaf, the surface of the collection pool. The misting system hisses to life for three seconds, then stops, and in the silence afterward you can almost hear the plants responding — a faint creak of stems adjusting, the imperceptible rustle of growth itself. A wren has gotten in and sings from somewhere in the canopy, its notes reverberating off glass into a natural cathedral acoustic.\n\nThe smell is the reason you came. Geosmin rises from the soil — that ancient rain-on-earth scent that humans are wired to detect at parts per trillion. Terpenes from the herb section: rosemary's camphor, basil's sweet eugenol, the sharp citral of lemon verbena bruised by its own weight. The green smell of chlorophyll is everywhere, not one plant but a collective exhalation, the metabolic output of photosynthesis made olfactory. And underneath, the dark sweetness of decomposition — leaf litter returning to soil, the cycle's completion, the smell of life feeding on its own past.\n\nThe air is so humid it's almost liquid. You breathe and the greenhouse breathes back.",
+  "positions": [
+    {
+      "name": "the entrance vestibule",
+      "prose": "The double doors create an airlock — you push through the outer one into cool morning air, then the inner one, and the temperature jumps ten degrees in a single step. The humidity hits your face like a warm, wet cloth, and your glasses fog instantly if you wear them. The smell arrives as a wall: geosmin and wet soil and the collective green exhalation of a thousand plants photosynthesizing in the first light. Condensation runs down the glass panels on either side in slow, wandering rivers that catch the dawn and glow like molten gold. The sound changes too — the outside world's sharp edges are suddenly muffled, replaced by the soft acoustics of a glass room full of water vapor and living things.",
+      "smell_emphasis": ["geosmin", "wet-soil", "chlorophyll"],
+      "cross_sensory": "The temperature change is the threshold — once the humid warmth wraps your skin, every sense recalibrates to greenhouse physics.",
+      "touch_notes": "The inner door opens and the humidity hits your face like a warm, wet compress — you feel the moisture settle on your cheeks and forearms instantly. The temperature jumps 10°C in a single step. Glasses fog immediately. The flagstone underfoot is warm and slightly slippery with a thin algae film. Every surface you touch is damp — the iron door frame, the wooden shelf, even the air itself feels tangible."
+    },
+    {
+      "name": "the tropical aisle",
+      "prose": "The palms create a canopy that turns the aisle into a green tunnel, and the light here is filtered twice — once through the condensation-fogged glass roof, again through the fronds — arriving on your skin dappled and warm and slightly green-tinted. The smell is dense and sweet: jasmine's indolic headiness from a vine climbing the iron column to your left, the waxy tropical scent of plumeria from somewhere you can't see, and the rich, almost meaty smell of decomposing leaf mulch underfoot. Water drips from a palm frond onto your shoulder — warm, startling, intimate. The misting system engages with a serpentine hiss and for five seconds the air becomes visible, a warm fog that carries terpenes directly to your face and makes the light go soft and directionless.",
+      "smell_emphasis": ["jasmine-indole", "decomposing-leaf", "terpenes", "linalool"],
+      "cross_sensory": "The mist makes smell visible and light tactile — for those five seconds, every sense is operating through the same medium of suspended water.",
+      "touch_notes": "A palm frond drips warm water onto your shoulder — a fat drop that rolls down your sleeve. The tropical leaves are waxy and smooth, cool to the touch despite the warm air — their surfaces are designed to shed water. The mulch underfoot is soft and spongy, giving under your weight with a quiet squelch. The misting system coats your bare arms in fine droplets that feel cool for an instant before the air's warmth reclaims them."
+    },
+    {
+      "name": "the herb beds",
+      "prose": "Waist-high raised beds line both sides and the air is a library of volatile compounds — each plant broadcasting its identity in terpenes that mix and compete at nose level. Brush past the rosemary and your sleeve carries camphor for the next ten minutes. The basil is flowering and its scent has shifted from sweet to almost anise-sharp. Lemon verbena releases citral at the slightest touch, bright as a shout in this quiet green room. The soil here is darker, richer, hand-turned and composted — you can smell its microbial life, the fungal networks, the earthworms' quiet chemistry. Morning light hits the herb beds at a low angle, backlighting the fine hairs on sage leaves into silver halos and turning every dewdrop into a tiny sun.",
+      "smell_emphasis": ["terpenes", "citral", "eucalyptol", "geosmin"],
+      "cross_sensory": "The herbs collapse touch into smell — every brush of fabric against leaf translates instantly into a scent-event, making movement through this aisle an olfactory performance.",
+      "touch_notes": "The herb leaves are textured under your fingertips — rosemary's narrow needles are stiff and resinous, basil is soft and slightly fuzzy, sage is thick and velvety with fine hairs that catch the light. Brushing past any plant releases oil onto your skin that you'll smell for the next hour. The soil in the raised beds is warm, dark, and alive — plunge your hand in and you feel warmth, moisture, and the faint grit of perlite."
+    },
+    {
+      "name": "the collection pool",
+      "prose": "The octagonal pool at the greenhouse's center collects condensation runoff, and the water is dark and still and smells of moss and mineral — a green, living scent distinct from the soil and the plants. Water lilies float motionless, their white flowers impossibly clean against the dark water. The dripping from above is loudest here, each drop creating concentric rings that expand and interfere with each other in patterns too complex to follow. The iron framework overhead converges at a central rosette, and through it the sky is visible — a disc of pale blue seen through fogged glass, like looking up from the bottom of something. The humidity is absolute at the pool's edge; the air is more water than gas, and every breath tastes green and ancient and alive.",
+      "smell_emphasis": ["moss", "geosmin", "wet-soil", "chlorophyll"],
+      "cross_sensory": "The pool is where all the greenhouse's water converges — dripping sound, visible condensation, humid air, and the wet-earth smell all meet at this single point of stillness.",
+      "touch_notes": "The pool's stone rim is slick with moss — soft, wet, spongy under your palm. Trail your fingers in the water and it's cooler than the air, surprisingly so — the pool's depth insulates it from the greenhouse's heat. The water lily pads are rubbery and smooth on top, rough underneath. Drops from the ceiling land on the pool surface and the concentric ripples reach your fingertip a second later, a transmitted vibration through still water."
+    },
+    {
+      "name": "the glass wall at sunrise",
+      "prose": "You press your back against the eastern glass and the sun is just cresting the tree line outside, and the pane behind you is warm — greenhouse glass that has begun absorbing the day's first heat. Condensation trickles against your shoulder blade. From here you see the entire interior: the green architecture of the plants, the light shafts migrating slowly across the floor, the steam rising from the soil beds as the temperature climbs. The smell at the glass is subtly different — warmer terpenes released by the sun-heated plants nearest the wall, and the faintest whiff of the outside world leaking through old putty: cut grass, morning dew, the cool mineral air that the greenhouse's interior has already forgotten. A bee enters through a cracked pane and the sound of its working — that focused, industrious hum — is the greenhouse's first visitor besides you.",
+      "smell_emphasis": ["terpenes", "chlorophyll", "linalool", "geosmin"],
+      "cross_sensory": "The warm glass at your back and the rising light ahead create a gradient you can feel and see — the greenhouse waking up around you, warming degree by degree, smell by smell.",
+      "touch_notes": "The glass is warm against your back — sun-heated through the pane, a gentle radiant warmth that spreads across your shoulder blades. Condensation trickles between the glass and your shirt, a slow warm rivulet. The iron frame where you lean your head is warmer than the glass — metal conducting heat from the sunlit sections above. A bee enters through a cracked pane and you feel its wing-hum pass your ear before you hear it."
+    }
+  ]
+}

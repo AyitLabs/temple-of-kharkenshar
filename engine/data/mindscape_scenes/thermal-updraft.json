@@ -1,0 +1,168 @@
+{
+  "id": "thermal-updraft",
+  "name": "Thermal Updraft \u2014 Soaring",
+  "description": "A hawk riding a thermal column over open meadow. Three altitudes: ground launch, mid-thermal at 200m, and high soar at 500m. Physics changes with altitude \u2014 temperature drops, pressure falls, scent vanishes, sound fades, the visual world reorganizes from texture to geometry.",
+  "smell": {
+    "scene_id": "meadow",
+    "compounds": [
+      "geosmin",
+      "linalool",
+      "cis-3-hexenal",
+      "beta-caryophyllene",
+      "alpha-pinene",
+      "petrichor"
+    ]
+  },
+  "sight": {
+    "scene_id": "open_field"
+  },
+  "sound": {
+    "scene_id": "open_field"
+  },
+  "environment": {
+    "temperature_c": 28,
+    "humidity_pct": 40,
+    "wind_speed_kmh": 15,
+    "time_of_day": "midday",
+    "weather": "clear",
+    "indoor": false,
+    "touch": {
+      "surface_textures": [
+        "wind pressure under primary feathers \u2014 lift distributed across the wing's cambered surface",
+        "thermal boundary: warm air rising at 2-5 m/s meets cooler ambient air, felt as turbulence at the column's edge",
+        "preen oil on feather surfaces reducing drag \u2014 the body's own lubricant system",
+        "alula feathers deploying at low speed to prevent stall \u2014 a reflex, not a choice",
+        "talons relaxed and trailing, toes splayed in the airstream"
+      ],
+      "air_feel": "At ground level: warm, still pockets between gusts. At 200m: steady upward push, 2-3 m/s vertical, the thermal column is a river of warm air and you're floating in it. At 500m: cooler by 3-5\u00b0C (dry adiabatic lapse rate: ~1\u00b0C per 100m), wind stronger and more laminar, the turbulence smooths out. The air thins imperceptibly \u2014 5% less dense than at ground, enough that wing loading changes.",
+      "thermal_notes": "The thermal forms when sun heats dark ground (plowed field, asphalt, rock face) faster than surrounding terrain. Hot air rises in a column 100-300m wide. At the edges: sink \u2014 descending air that will drop you if you drift out. The column tilts with wind shear. Core lift: 2-5 m/s. A 2kg hawk gains 200m in under two minutes without a single wingbeat. The energy is free \u2014 borrowed from the sun via differential ground heating.",
+      "key_tactile_moments": [
+        "The moment you enter the thermal \u2014 sudden upward pressure under both wings simultaneously, like a hand lifting you from below",
+        "Banking into a turn \u2014 centripetal force pulls blood toward your wingtips, inner wing drops speed, outer wing accelerates, the asymmetry felt in every feather",
+        "Wind shear at thermal boundary \u2014 one wing in rising air, one in sinking, the roll force is immediate and corrected by instinct",
+        "The silence of soaring \u2014 no wingbeat vibration through the chest, no muscular effort, just the airframe humming",
+        "Tail feather adjustments \u2014 micro-corrections for pitch and yaw, each feather independently controllable, the body's own flight computer"
+      ]
+    },
+    "taste": {
+      "notes": "At ground level: geosmin on the tongue, grass pollen, warm dust. At 200m: cleaner, the particulates thin out, moisture decreases. At 500m: almost nothing \u2014 the air is too clean, too cold, too fast-moving for compounds to linger on oral mucosa. You taste altitude as absence.",
+      "intensity": "faint",
+      "modalities": {
+        "sweet": 0.1,
+        "salt": 0.1,
+        "bitter": 0.1,
+        "umami": 0.0,
+        "fat": 0.0
+      }
+    }
+  },
+  "cross_sensory_bridges": [
+    "Temperature and altitude are the same axis \u2014 every 100m up costs 1\u00b0C. The cold you feel on your flight feathers and the vanishing scent share a cause: you're leaving the warm, volatile-rich boundary layer of the earth's surface.",
+    "Sound and distance reorganize together \u2014 at 500m, a dog bark that was 60dB at ground level arrives at 24dB (inverse square law + atmospheric absorption). The meadowlark's 4kHz call attenuates faster than the low rumble of a tractor because high frequencies lose energy to air molecules. The world doesn't go silent \u2014 it goes bass.",
+    "Vision replaces all other senses at altitude. At 500m your hawk eyes (4x human acuity, tetrachromatic with UV channel) resolve a mouse at 1km. The visual field becomes a map \u2014 roads, field boundaries, water features, thermal markers (dark patches generating lift). Sight becomes sonar, radar, and navigation combined.",
+    "The thermal itself is invisible but not undetectable \u2014 dust and insects spiral upward in the column, marking the lift. Other birds \u2014 vultures, storks, other raptors \u2014 circle and mark the thermal from kilometers away. Seeing a kettle of vultures IS seeing the thermal."
+  ],
+  "mood": {
+    "dominant": "sovereignty",
+    "undertones": [
+      "freedom",
+      "effortlessness",
+      "vigilance",
+      "solitude"
+    ],
+    "prose": "The ground gives you weight. The thermal takes it. What replaces it isn't lightness \u2014 it's authority. You are the highest thing in the sky and everything below is information."
+  },
+  "prose": {
+    "opening": "The meadow throws heat. Dark earth, direct sun, 28\u00b0C at the surface \u2014 the ground is a stove and the air above it is beginning to move. You feel it first in your feet: the updraft tugging at your tail feathers, then your primaries, then your whole body lifts without permission.",
+    "closing": "At 500m the world is a diagram. Fields are rectangles. Roads are lines. The river is a silver thread. The thermal holds you like a cupped hand and the only sound is wind over feathers \u2014 not the beat of wings, because you haven't beaten them in five minutes. The air does the work. You do the watching."
+  },
+  "positions": [
+    {
+      "id": "ground-launch",
+      "name": "the meadow floor",
+      "description": "Standing in knee-high grass at the thermal's base. 28\u00b0C, the sun on dark earth throwing heat upward. The air is heavy with pollen and cut-grass volatiles \u2014 cis-3-hexenal sharp as a blade, linalool sweet underneath. Geosmin on the tongue, earthy-beetroot at parts per trillion. Wind at 8 km/h tugs at your tail feathers. The updraft is a suggestion \u2014 warmth pushing up from below, lifting the tips of your primaries. Insects stridulate at 4-5kHz. A meadowlark calls from 200m out. Your talons grip warm earth, each toe registering the granular texture of dry soil cracking in the heat. The thermal is invisible but you feel it: a column of air 200m wide, rising at 2 m/s, the boundary between warm upflow and cool ambient felt as a tremor across your flight feathers.",
+      "transition_to_next": "You spread your wings and the thermal catches. No running start \u2014 just extension, and the ground falls away. The grass smell vanishes in three seconds. The sound of insects drops by half in the first ten meters.",
+      "altitude_m": 0,
+      "temperature_c": 28,
+      "wind_speed_kmh": 8,
+      "vertical_speed_ms": 0,
+      "scent_intensity": 1.0,
+      "sound_intensity": 1.0,
+      "visual_detail": "texture \u2014 individual grass blades, insects, soil cracks"
+    },
+    {
+      "id": "mid-thermal",
+      "name": "200 meters up",
+      "description": "200 meters up. Circling in the thermal's core, wings locked, 15\u00b0 bank angle, carving circles 80m wide. The lift is steady \u2014 3 m/s upward pushing against your ventral feathers like a hand under your chest. Temperature has dropped to 26\u00b0C (dry adiabatic lapse rate, 1\u00b0C per 100m). Wind at 18 km/h, laminar now, less turbulent than ground level. Scent has thinned to 15% of ground intensity \u2014 faint grass, the ghost of geosmin, mostly clean air. Sound has reorganized: ground noises at 30% strength, the meadowlark's 4kHz call fading faster than the low rumble of a distant tractor. The dominant sound is wind over your primary feathers \u2014 15-25 dB, a hum unique to your wingspan and species. No wingbeats. The pectoral muscles are quiet. The ground below is geometry now \u2014 fields are rectangles, hedgerows are lines, a road cuts through like a scar. Your tetrachromatic vision resolves a rabbit at 800m by its UV-reflective urine trail.",
+      "transition_to_next": "The thermal strengthens. You tighten the circle, drift toward the core where the lift peaks at 5 m/s, and the altimeter in your blood \u2014 the pressure change on your eardrums \u2014 tells you you're still climbing.",
+      "altitude_m": 200,
+      "temperature_c": 26,
+      "wind_speed_kmh": 18,
+      "vertical_speed_ms": 3,
+      "scent_intensity": 0.15,
+      "sound_intensity": 0.3,
+      "visual_detail": "geometry \u2014 field patterns, hedgerow lines, road networks, moving shadows of clouds"
+    },
+    {
+      "id": "high-soar",
+      "name": "500 meters up",
+      "description": "500 meters up. The thermal's ceiling \u2014 lift weakening to 0.5 m/s as the rising air cools to ambient and spreads laterally. 23\u00b0C, five degrees colder than the meadow floor. Wind at 25 km/h, steady and clean. Scent is gone \u2014 2% of ground intensity, functionally zero. The air is too cold, too fast, too thin for volatiles to register. Sound at 5% \u2014 the world has gone bass. High frequencies absorbed by 500m of atmosphere, only low rumbles survive: a tractor, distant thunder, the subsonic pulse of wind shear. Your own flight sound is all that remains at close range. Vision has consumed every other sense. At 20/2 acuity with four cone types plus UV, the valley below is a living map. Mouse-sized movement detectable at 1km. Thermal markers visible as dark patches on the terrain. Other raptors circling distant columns. The entire landscape is information and you are the highest processing node in it. Your tail feathers make micro-corrections \u2014 pitch, yaw \u2014 each feather independently articulated, the body's own flight computer running on instinct older than language.",
+      "altitude_m": 500,
+      "temperature_c": 23,
+      "wind_speed_kmh": 25,
+      "vertical_speed_ms": 0.5,
+      "scent_intensity": 0.02,
+      "sound_intensity": 0.05,
+      "visual_detail": "cartography \u2014 the landscape is a map, mouse-sized movement detectable at 1km by tetrachromatic hawk vision with UV channel"
+    }
+  ],
+  "why_chains": [
+    {
+      "trigger": "thermal",
+      "chain": [
+        "because the sun heats dark surfaces (plowed earth, rock, asphalt) faster than light ones (grass, water)",
+        "the heated surface warms the air directly above it by conduction",
+        "warm air is less dense (ideal gas law: PV=nRT, higher T = lower density at constant P)",
+        "less dense air rises \u2014 buoyancy, same physics as a hot air balloon",
+        "the rising column entrains surrounding air, strengthening the flow",
+        "at altitude, the rising air cools adiabatically (1\u00b0C per 100m for dry air) until it matches ambient temperature",
+        "at that point lift stops \u2014 the thermal has a ceiling, and you've found it"
+      ]
+    },
+    {
+      "trigger": "silence",
+      "chain": [
+        "because soaring requires zero wingbeats \u2014 the wings are locked in extension",
+        "no muscular contraction means no vibration through the pectoral girdle",
+        "the only sound is aerodynamic: wind over primary feathers at the wingtip",
+        "this sound is 15-25 dB \u2014 below conversational speech, above absolute silence",
+        "owl feathers have serrated leading edges that break turbulence into micro-vortices, achieving true silence; hawk feathers don't \u2014 you hum slightly, a frequency signature unique to your species and wingspan"
+      ]
+    },
+    {
+      "trigger": "vision",
+      "chain": [
+        "because hawk retinas have 1,000,000 cones per mm\u00b2 (humans: 200,000)",
+        "plus a deep fovea \u2014 a pit in the retina that magnifies the central image by 1.4x",
+        "plus tetrachromatic vision \u2014 four cone types including UV, versus human three",
+        "plus oil droplets in cone cells that act as cut-off filters, sharpening color discrimination",
+        "result: 20/2 vision (what a human sees at 2 feet, you resolve at 20), color discrimination beyond human naming, and UV signatures on prey urine trails visible from altitude"
+      ]
+    }
+  ],
+  "sensory_archaeology": [
+    {
+      "trigger": "wind",
+      "chain": [
+        "wind over feathers produces sound because turbulent airflow creates pressure fluctuations",
+        "these fluctuations are the same physics as a whistle or flute \u2014 air forced over an edge",
+        "each primary feather has a slightly different resonant frequency based on length and stiffness",
+        "the combined sound is your flight signature \u2014 other hawks can identify you by it"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "summary": "Altitude is a sensory filter. Every meter up strips away one more channel until only vision remains \u2014 and vision expands to fill the gap. At ground level you have five rich senses. At 500m you have one supreme sense and four memories of what the ground smelled, sounded, tasted, and felt like. The thermal is a sensory gradient disguised as a column of air.",
+    "unifying_element": "The thermal column itself \u2014 the same rising air that lifts you also carries ground-level scent upward (explaining why scent doesn't vanish instantly but fades gradually), transports insects and dust (visible thermal markers), creates the temperature gradient you feel on your feathers, and generates the wind noise that replaces all ground-level sound."
+  }
+}
